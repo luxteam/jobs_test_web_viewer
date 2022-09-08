@@ -1,0 +1,9 @@
+[
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_001",
+        "status": "active",
+        "function_name": "test_003",
+        "script_info": ["Opening \"Scene index\" tab"],
+        "scene": "animation.usd"
+    }
+]

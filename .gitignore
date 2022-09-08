@@ -1,0 +1,7 @@
+venv/
+env/
+.venv/
+.idea/
+__pycache__
+Work/Results
+scripts/launcher.engine.log
