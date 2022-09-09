@@ -20,15 +20,15 @@ streamer_process = None
 
 def pre_action(case, mode):
     if mode == "desktop":
-        driver = driver_init_desktop()
-        driver.switch_to.window(driver_init.window_handles[0])
+        driver = driver_desktop()
+        driver.switch_to.window(driver.window_handles[0])
     else
-        driver = driver_init_web()
+        driver = driver_web()
 
     return driver
 
 
-def driver_init_desktop():
+def driver_desktop():
     global streamer_process
     streamer_process = Popen(["C:\\Program Files\\AMD\\AMD RenderStudio\\services\\WebUsdStreamServer\\Run.bat", "--webrtc-port", "10000", "--rest-port", "10001"], creationflags=CREATE_NEW_CONSOLE)
     sleep(2)
@@ -45,7 +45,7 @@ def driver_init_desktop():
     return driver
 
 
-def driver_init_web():
+def driver_web():
     options = webdriver.ChromeOptions()
     for flag in conf['chromeArguments']:
         options.add_argument(flag)
@@ -85,15 +85,15 @@ def is_case_skipped(case, render_platform, is_inventor=None):
     return sum([render_platform & set(x) == set(x) for x in case.get('skip_on', '')])
 
 
-def find_by_xpath(xpath, driver_init, many=False, wait=10):
+def find_by_xpath(xpath, driver, many=False, wait=10):
     if not many:
-        element = WebDriverWait(driver_init, wait).until(
+        element = WebDriverWait(driver, wait).until(
             lambda d: d.find_element(By.XPATH, xpath)
         )
         return element
     else:
         try:
-            elements = WebDriverWait(driver_init, wait).until(
+            elements = WebDriverWait(driver, wait).until(
                 lambda d: d.find_elements(By.XPATH, xpath)
             )
             return elements
@@ -101,15 +101,15 @@ def find_by_xpath(xpath, driver_init, many=False, wait=10):
             return []
 
 
-def find_by_class(class_name, driver_init, many=False, wait=10):
+def find_by_class(class_name, driver, many=False, wait=10):
     if not many:
-        element = WebDriverWait(driver_init, wait).until(
+        element = WebDriverWait(driver, wait).until(
             lambda d: d.find_element(By.CLASS_NAME, class_name)
         )
         return element
     else:
         try:
-            elements = WebDriverWait(driver_init, wait).until(
+            elements = WebDriverWait(driver, wait).until(
                 lambda d: d.find_elements(By.CLASS_NAME, class_name)
             )
             return elements
@@ -117,15 +117,15 @@ def find_by_class(class_name, driver_init, many=False, wait=10):
             return []
 
 
-def find_by_tag(tag_name, driver_init, many=False, wait=10):
+def find_by_tag(tag_name, driver, many=False, wait=10):
     if not many:
-        element = WebDriverWait(driver_init, wait).until(
+        element = WebDriverWait(driver, wait).until(
             lambda d: d.find_element(By.TAG_NAME, tag_name)
         )
         return element
     else:
         try:
-            elements = WebDriverWait(driver_init, wait).until(
+            elements = WebDriverWait(driver, wait).until(
                 lambda d: d.find_elements(By.TAG_NAME, tag_name)
             )
             return elements
@@ -133,14 +133,20 @@ def find_by_tag(tag_name, driver_init, many=False, wait=10):
             return []
 
 
-def load_scene(path, open_time, driver_init):
-    find_by_class("p-2", driver_init=driver_init).click()
-    sleep(1)
-    pyautogui.typewrite(path)
-    pyautogui.press("enter")
+def load_scene(args, case, driver):
+    if args.mode == "desktop"
+        find_by_class("p-2", driver=driver).click()
+        sleep(1)
+        scene_path = os.path.join(args.res_path, case["scene"])
+        pyautogui.typewrite(scene_path)
+        pyautogui.press("enter")
+    else:
+        find_by_xpath(f"//div[ @class = 'project-card-text' ]//div[ text() = '{args.scene_name}' ]", driver=driver).click()
+
+    # TODO check window state instead of sleep if it's possible
     sleep(open_time)
 
 
-def switch_window(driver_init):
-    driver_init.switch_to.window(driver_init.window_handles[1])
+def switch_window(driver):
+    driver.switch_to.window(driver.window_handles[1])
     sleep(1)

@@ -1,20 +1,11 @@
 [
     {
-        "case": "WUV_DESKTOP_VIEWPORT_001",
+        "case": "WUV_DESKTOP_VIEWPORT_003",
         "status": "active",
         "function_name": "test_003",
-        "functions": [
-            "utils.open_usdviewer_tab(args, case, current_try, \"lighting\", screens_path)",
-            "utils.set_lighting(args, case, current_try, \"Kloppenheim\", screens_path)",
-            "utils.open_usdviewer_tab(args, case, current_try, \"render\", screens_path)",
-            "utils.do_usd_viewer_action(args, case, current_try, \"ground\", screens_path)",
-            "utils.do_usd_viewer_action(args, case, current_try, \"turntable\", screens_path)",
-            "sleep(40)",
-            "getattr(group_module, \"test_003\")(args, case, current_try, screens_path, 95)",
-            "utils.render(args, case, current_try, screens_path)",
-            "utils.save_image(args, case, current_try, image_path, screens_path)"
-        ],
         "script_info": ["Opening \"Scene index\" tab"],
-        "scene": "animation.usd"
+        "scene_name": "Kitchen_set",
+        "open_time": 15,
+        "image_required": false
     }
 ]

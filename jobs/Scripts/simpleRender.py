@@ -166,8 +166,7 @@ def save_results(args, case, cases, test_case_status, render_time = 0.0, executi
         else:
             test_case_report["message"] = list(error_messages)
 
-        if test_case_status == "passed" or test_case_status == "error" or test_case_status == "observed":
-            test_case_report["group_timeout_exceeded"] = False
+        test_case_report["group_timeout_exceeded"] = False
 
     with open(os.path.join(args.output, case["case"] + CASE_REPORT_SUFFIX), "w") as file:
         json.dump([test_case_report], file, indent=4)
@@ -235,7 +234,7 @@ def execute_tests(args, current_conf):
 
                 if error_message:
                     error_messages.append(error_message)
-                    save_results(args, case, cases, "error", execution_time = execution_time, error_messages = error_messages)
+                    save_results(args, case, cases, "failed", execution_time = execution_time, error_messages = error_messages)
                 elif case["status"] == "active":
                     save_results(args, case, cases, "passed", render_time = render_time, execution_time = execution_time)
                 else:

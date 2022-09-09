@@ -15,7 +15,7 @@ import utils
 
 
 def test_003(args, case, driver, current_try, image_path):
-    utils.load_scene("C:\\Users\\user\\Documents\\RSLambo\\RSLambo\\Sphere\\SphereRS.usda", 20, driver)
+    utils.load_scene(args, case, driver)
     utils.find_by_xpath("//./button/div[ text() = 'Scene Index' ]", driver).click()
     sleep(2)
     assert utils.find_by_xpath("//h3[ text() = 'Scene Index' ]", driver, True) != [], "Opened \"Scene index\" tab not found"
