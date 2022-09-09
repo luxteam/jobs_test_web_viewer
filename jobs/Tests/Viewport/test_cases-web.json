@@ -1,11 +1,29 @@
 [
     {
+        "case": "WUV_DESKTOP_VIEWPORT_001",
+        "status": "active",
+        "function_name": "test_001",
+        "script_info": ["Wait for scene to load"],
+        "scene_name": "Kitchen_set",
+        "open_time": 20,
+        "image_required": true
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_002",
+        "status": "active",
+        "function_name": "test_002",
+        "script_info": ["Opening \"Scene index\" tab"],
+        "scene_name": "Kitchen_set",
+        "open_time": 0,
+        "image_required": false
+    },
+    {
         "case": "WUV_DESKTOP_VIEWPORT_003",
         "status": "active",
         "function_name": "test_003",
-        "script_info": ["Opening \"Scene index\" tab"],
+        "script_info": ["Measure scene loading time"],
         "scene_name": "Kitchen_set",
-        "open_time": 15,
+        "open_time": 20,
         "image_required": false
     }
 ]

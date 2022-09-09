@@ -1,11 +1,219 @@
 [
     {
+        "case": "WUV_DESKTOP_VIEWPORT_001",
+        "status": "active",
+        "function_name": "test_001",
+        "script_info": ["Wait for scene to load"],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": true
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_002",
+        "status": "active",
+        "function_name": "test_002",
+        "script_info": ["Opening \"Scene index\" tab"],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 0,
+        "image_required": false
+    },
+    {
         "case": "WUV_DESKTOP_VIEWPORT_003",
         "status": "active",
         "function_name": "test_003",
-        "script_info": ["Opening \"Scene index\" tab"],
-        "scene_path": "Sphere\\SphereRS.usd",
-        "open_time": 15,
+        "script_info": ["Measure scene loading time"],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": false
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_004",
+        "status": "active",
+        "function_name": "test_004",
+        "script_info": [
+            "Opening \"Scene index\" tab",
+            "Opening \"Scene index\" tab again"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": true
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_005",
+        "status": "active",
+        "function_name": "test_005",
+        "script_info": [
+            "Opening \"Scene index\" tab",
+            "Type \"Sphere\" in search bar"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": false
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_006",
+        "status": "active",
+        "function_name": "test_006",
+        "script_info": [
+            "Opening \"Scene index\" tab",
+            "Type \"abc\" in search bar",
+            "Click clear button on the right side of the search bar"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": false
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_007",
+        "status": "active",
+        "function_name": "test_007",
+        "script_info": [
+            "Opening \"Scene index\" tab",
+            "Click \"plus\" button on parent node in the list"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": false
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_008",
+        "status": "active",
+        "function_name": "test_008",
+        "script_info": [
+            "Opening \"Scene index\" tab",
+            "Click \"minus\" button on parent node in the list"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": false
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_009",
+        "status": "active",
+        "function_name": "test_009",
+        "script_info": [
+            "Opening \"Scene index\" tab",
+            "Select \"Sphere\" object in the list"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": true
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_010",
+        "status": "active",
+        "function_name": "test_010",
+        "script_info": [
+            "Opening \"Scene index\" tab",
+            "Press hide button of \"Sphere\" object in the list"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": true
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_011",
+        "status": "active",
+        "function_name": "test_011",
+        "script_info": [
+            "Opening \"Scene index\" tab",
+            "Press hide button of the \"Sphere\" object in the list",
+            "Press show button of the same object"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": true
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_012",
+        "status": "skipped",
+        "function_name": "test_012",
+        "script_info": [
+            "Opening \"Scene index\" tab",
+            "Press deleted button of the \"Sphere\" object in the list"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": true
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_016",
+        "status": "active",
+        "function_name": "test_016",
+        "script_info": [
+            "Click \"Timeline\" button"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": false
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_017",
+        "status": "active",
+        "function_name": "test_017",
+        "script_info": [
+            "Click \"Timeline\" button",
+            "Click \"Timeline\" button again"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": false
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_018",
+        "status": "active",
+        "function_name": "test_018",
+        "script_info": [
+            "Click \"Comments\" button"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": false
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_019",
+        "status": "active",
+        "function_name": "test_019",
+        "script_info": [
+            "Click \"Comments\" button",
+            "Click \"Comments\" button again"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": false
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_020",
+        "status": "active",
+        "function_name": "test_020",
+        "script_info": [
+            "Click \"Settings\" button"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": false
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_021",
+        "status": "active",
+        "function_name": "test_021",
+        "script_info": [
+            "Click Scene menu button in top left corner"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
+        "image_required": false
+    },
+    {
+        "case": "WUV_DESKTOP_VIEWPORT_022",
+        "status": "active",
+        "function_name": "test_022",
+        "script_info": [
+            "Click Scene menu button in top left corner",
+            "Click outside of opened menu"
+        ],
+        "scene_path": "Sphere\\SphereRS.usda",
+        "open_time": 10,
         "image_required": false
     }
 ]

@@ -6,10 +6,10 @@
     <execute command='python "{ResourcesDir}/simpleRender.py"' timeout="1500">
         <argument>--mode "{Mode}"</argument>
         <argument>--output "{OutputDir}"</argument>
-        <argument>--test_group Animation</argument>
-        <argument>--res_path "{ScenesDir}"/Smoke</argument>
+        <argument>--test_group Viewport</argument>
+        <argument>--res_path "{ScenesDir}"</argument>
         <argument>--test_cases "{TestCases}"</argument>
-        <argument>--retries {retries}</argument>
+        <argument>--retries {Retries}</argument>
         <argument>--update_refs "{UpdateRefs}"</argument>
     </execute>
 

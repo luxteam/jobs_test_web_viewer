@@ -1,21 +1,15 @@
 import argparse
 import os
-from psutil import Popen, process_iter
-from subprocess import PIPE
 import json
 import platform
 from datetime import datetime
-from shutil import copyfile, rmtree
-import utils
+from shutil import copyfile
 import sys
 import traceback
-import win32gui
 import win32api
-import win32con
-from time import sleep, time
-import re
 import importlib.util
-from glob import glob
+from time import time
+import utils
 
 sys.path.append(os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
@@ -65,12 +59,8 @@ def copy_baselines(args, case, baseline_path, baseline_path_tr):
 def prepare_empty_reports(args, current_conf):
     main_logger.info('Create empty report files')
 
-    if args.is_inventor:
-        baseline_path_tr = os.path.join(
-            'c:/TestResources/web_viewer_autotests_baselines', args.test_group)
-    else:
-        baseline_path_tr = os.path.join(
-            'c:/TestResources/web_viewer_autotests_baselines', args.test_group)
+    baseline_path_tr = os.path.join(
+        'c:/TestResources/web_viewer_autotests_baselines', args.test_group)
 
     baseline_path = os.path.join(
         args.output, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.test_group)
@@ -86,7 +76,7 @@ def prepare_empty_reports(args, current_conf):
         cases = json.load(json_file)
 
     for case in cases:
-        if utils.is_case_skipped(case, current_conf, args.is_inventor):
+        if utils.is_case_skipped(case, current_conf):
             case['status'] = 'skipped'
 
         if case['status'] != 'done' and case['status'] != 'error':
@@ -122,7 +112,7 @@ def prepare_empty_reports(args, current_conf):
                         copyfile(os.path.join(args.output, '..', '..', '..', '..', 'jobs_launcher', 
                             'common', 'img', 'skipped.jpg'), skipped_case_image_path)
                 except OSError or FileNotFoundError as err:
-                    main_logger.error(f"Can't create img stub: {str(err)}".)
+                    main_logger.error(f"Can't create img stub: {str(err)}")
             else:
                 test_case_report['test_status'] = 'error'
                 test_case_report['file_name'] = 'failed.jpg'
@@ -164,6 +154,11 @@ def save_results(args, case, cases, test_case_status, render_time = 0.0, executi
             test_case_report["render_color_path"] = os.path.join("Color", test_case_report["file_name"])
             test_case_report["render_log"] = os.path.join("render_tool_logs", case["case"] + ".log")
         else:
+            stub_image_path = os.path.join(args.output, 'Color', test_case_report['file_name'])
+            if not os.path.exists(stub_image_path):
+                copyfile(os.path.join(args.output, '..', '..', '..', '..', 'jobs_launcher', 
+                    'common', 'img', 'error.jpg'), stub_image_path)
+
             test_case_report["message"] = list(error_messages)
 
         test_case_report["group_timeout_exceeded"] = False
@@ -191,17 +186,16 @@ def execute_tests(args, current_conf):
     for case in [x for x in cases if not utils.is_case_skipped(x, current_conf)]:
         case_start_time = time()
 
-        if not os.path.exists(screens_path):
-            os.makedirs(screens_path)
-
         current_try = 0
 
         log_path = os.path.join(args.output, "execution_logs")
-        create_case_logger(case, log_path)
+        utils.create_case_logger(case, log_path)
 
         error_messages = set()
 
         case_done = False
+
+        driver = None
 
         while current_try < args.retries:
             try:
@@ -216,15 +210,19 @@ def execute_tests(args, current_conf):
                     utils.case_logger.info("Image isn't required in the current test case. Use stub instead")
 
                 # existing image can affect retry of case
-                if os.path.exists(image_path):
-                    os.remove(image_path)
+                existing_image_path = os.path.abspath(os.path.join(args.output, "Color", case["case"]) + ".jpg")
+                if os.path.exists(existing_image_path):
+                    os.remove(existing_image_path)
 
-                utils.pre_action(case, args.mode, os.path.join(args.output, "execution_logs"))
+                driver = utils.pre_action(case, args.mode)
 
                 error_message = None
+ 
+                if "scene_path" in case or "scene_name" in case:
+                    utils.load_scene(args, case, driver)
 
-                try
-                    error_message = getattr(group_module, utils.function_name)(args, case, driver, current_try, image_path)
+                try:
+                    error_message = getattr(group_module, case["function_name"])(args, case, driver, current_try, image_path)
                 except AssertionError as e:
                     error_message = str(e)
 
@@ -233,7 +231,7 @@ def execute_tests(args, current_conf):
                 render_time = 0.0
 
                 if error_message:
-                    error_messages.append(error_message)
+                    error_messages.add(error_message)
                     save_results(args, case, cases, "failed", execution_time = execution_time, error_messages = error_messages)
                 elif case["status"] == "active":
                     save_results(args, case, cases, "passed", render_time = render_time, execution_time = execution_time)
@@ -253,7 +251,11 @@ def execute_tests(args, current_conf):
                 utils.case_logger.error(f"Traceback: {traceback.format_exc()}")
             finally:
                 # TODO: copy render logs if they exist
+                current_try += 1
+
                 utils.post_action(case, args.mode, driver)
+
+                utils.case_logger.info("Post actions finished")
         else:
             utils.case_logger.error(f"Failed to execute case \"{case['case']}\" at all")
             rc = -1
@@ -301,6 +303,6 @@ if __name__ == "__main__":
         prepare_empty_reports(args, current_conf)
         exit(execute_tests(args, current_conf))
     except Exception as e:
-        main_logger.error(f"Failed during script execution. Exception: {str(e)}".)
-        main_logger.error(f"Traceback: {traceback.format_exc()}".)
+        main_logger.error(f"Failed during script execution. Exception: {str(e)}")
+        main_logger.error(f"Traceback: {traceback.format_exc()}")
         exit(-1)
