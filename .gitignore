@@ -3,5 +3,6 @@ env/
 .venv/
 .idea/
 __pycache__
+test_cases.json
 Work/Results
 scripts/launcher.engine.log

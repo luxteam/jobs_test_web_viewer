@@ -87,6 +87,7 @@ def prepare_empty_reports(args, current_conf):
 
             test_case_report = RENDER_REPORT_BASE.copy()
             test_case_report['render_time'] = 0.0
+            test_case_report['load_scene_time'] = 0.0
             test_case_report['test_case'] = case['case']
             test_case_report['render_device'] = get_gpu()
             test_case_report['script_info'] = case['script_info']
@@ -133,12 +134,13 @@ def prepare_empty_reports(args, current_conf):
         json.dump(cases, f, indent=4)
 
 
-def save_results(args, case, cases, test_case_status, render_time = 0.0, execution_time = 0.0, error_messages = []):
+def save_results(args, case, cases, test_case_status, render_time = 0.0, execution_time = 0.0, load_scene_time = 0.0, error_messages = []):
     with open(os.path.join(args.output, case["case"] + CASE_REPORT_SUFFIX), "r") as file:
         test_case_report = json.loads(file.read())[0]
         test_case_report["file_name"] = case["case"] + case.get("extension", '.jpg')
         test_case_report["test_status"] = test_case_status
         test_case_report["render_time"] = render_time
+        test_case_report["load_scene_time"] = load_scene_time
         test_case_report["execution_time"] = execution_time
         test_case_report["execution_log"] = os.path.join("execution_logs", case["case"] + ".log")
         test_case_report["testing_start"] = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
@@ -198,45 +200,45 @@ def execute_tests(args, current_conf):
         driver = None
 
         while current_try < args.retries:
+            execution_time = 0.0
+            load_scene_time = 0.0
+
             try:
                 utils.case_logger.info(f"Start \"{case['case']}\" (try #{current_try})")
                 utils.case_logger.info(f"Screen resolution: width = {win32api.GetSystemMetrics(0)}, height = {win32api.GetSystemMetrics(1)}")
 
-                if "image_required" in case and case["image_required"]:
-                    image_path = os.path.abspath(os.path.join(args.output, "Color", case["case"]))
-                    utils.case_logger.info(f"Image path: {image_path}")
-                else:
-                    image_path = ""
-                    utils.case_logger.info("Image isn't required in the current test case. Use stub instead")
+                image_path = os.path.abspath(os.path.join(args.output, "Color", case["case"]))
+                utils.case_logger.info(f"Image path: {image_path}")
 
                 # existing image can affect retry of case
-                existing_image_path = os.path.abspath(os.path.join(args.output, "Color", case["case"]) + ".jpg")
-                if os.path.exists(existing_image_path):
-                    os.remove(existing_image_path)
+                if os.path.exists(image_path):
+                    os.remove(image_path)
 
                 driver = utils.pre_action(case, args.mode)
 
                 error_message = None
  
                 if "scene_path" in case or "scene_name" in case:
-                    utils.load_scene(args, case, driver)
+                    load_scene_time = utils.load_scene(args, case, driver)
 
                 try:
-                    error_message = getattr(group_module, case["function_name"])(args, case, driver, current_try, image_path)
+                    error_message = getattr(group_module, case["function_name"])(args, case, driver, current_try)
                 except AssertionError as e:
                     error_message = str(e)
 
                 execution_time = time() - case_start_time
 
+                utils.save_screen(image_path, driver)
+
                 render_time = 0.0
 
                 if error_message:
                     error_messages.add(error_message)
-                    save_results(args, case, cases, "failed", execution_time = execution_time, error_messages = error_messages)
+                    save_results(args, case, cases, "failed", execution_time = execution_time, load_scene_time = load_scene_time, error_messages = error_messages)
                 elif case["status"] == "active":
-                    save_results(args, case, cases, "passed", render_time = render_time, execution_time = execution_time)
+                    save_results(args, case, cases, "passed", render_time = render_time, load_scene_time = load_scene_time, execution_time = execution_time)
                 else:
-                    save_results(args, case, cases, "observed", render_time = render_time, execution_time = execution_time)
+                    save_results(args, case, cases, "observed", render_time = render_time, load_scene_time = load_scene_time, execution_time = execution_time)
 
                 utils.case_logger.info(f"Case \"{case['case']}\" finished")
 
@@ -245,7 +247,7 @@ def execute_tests(args, current_conf):
                 break
             except Exception as e:
                 execution_time = time() - case_start_time
-                save_results(args, case, cases, "error", execution_time = execution_time, error_messages = error_messages)
+                save_results(args, case, cases, "error", execution_time = execution_time, load_scene_time = load_scene_time, error_messages = error_messages)
                 error_messages.add(str(e))
                 utils.case_logger.error(f"Failed to execute test case (try #{current_try}): {str(e)}")
                 utils.case_logger.error(f"Traceback: {traceback.format_exc()}")
