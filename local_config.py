@@ -7,4 +7,4 @@ show_performance_tab = False
 show_time_taken = False
 show_render_time = False
 update_baselines_feature_supported = True
-domain = 'https://dev.webusd.stvcis.com'
+domain = '<domain_name>'
