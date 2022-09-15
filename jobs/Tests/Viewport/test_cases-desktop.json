@@ -1,6 +1,6 @@
 [
     {
-        "case": "WUV_DESKTOP_VIEWPORT_001",
+        "case": "RS_DESKTOP_VIEWPORT_001",
         "status": "active",
         "function_name": "test_001",
         "script_info": ["Wait for scene to load"],
@@ -8,7 +8,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_002",
+        "case": "RS_DESKTOP_VIEWPORT_002",
         "status": "active",
         "function_name": "test_002",
         "script_info": ["Measure scene loading time"],
@@ -16,7 +16,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_003",
+        "case": "RS_DESKTOP_VIEWPORT_003",
         "status": "active",
         "function_name": "test_003",
         "script_info": [
@@ -27,7 +27,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_004",
+        "case": "RS_DESKTOP_VIEWPORT_004",
         "status": "active",
         "function_name": "test_004",
         "script_info": [
@@ -38,7 +38,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_005",
+        "case": "RS_DESKTOP_VIEWPORT_005",
         "status": "active",
         "function_name": "test_005",
         "script_info": [
@@ -50,7 +50,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_006",
+        "case": "RS_DESKTOP_VIEWPORT_006",
         "status": "active",
         "function_name": "test_006",
         "script_info": [
@@ -61,7 +61,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_007",
+        "case": "RS_DESKTOP_VIEWPORT_007",
         "status": "active",
         "function_name": "test_007",
         "script_info": [
@@ -72,7 +72,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_008",
+        "case": "RS_DESKTOP_VIEWPORT_008",
         "status": "active",
         "function_name": "test_008",
         "script_info": [
@@ -83,7 +83,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_009",
+        "case": "RS_DESKTOP_VIEWPORT_009",
         "status": "active",
         "function_name": "test_009",
         "script_info": [
@@ -94,7 +94,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_010",
+        "case": "RS_DESKTOP_VIEWPORT_010",
         "status": "active",
         "function_name": "test_010",
         "script_info": [
@@ -106,7 +106,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_014",
+        "case": "RS_DESKTOP_VIEWPORT_014",
         "status": "active",
         "function_name": "test_014",
         "script_info": [
@@ -116,7 +116,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_015",
+        "case": "RS_DESKTOP_VIEWPORT_015",
         "status": "active",
         "function_name": "test_015",
         "script_info": [
@@ -127,7 +127,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_016",
+        "case": "RS_DESKTOP_VIEWPORT_016",
         "status": "active",
         "function_name": "test_016",
         "script_info": [
@@ -137,7 +137,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_017",
+        "case": "RS_DESKTOP_VIEWPORT_017",
         "status": "active",
         "function_name": "test_017",
         "script_info": [
@@ -148,7 +148,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_018",
+        "case": "RS_DESKTOP_VIEWPORT_018",
         "status": "active",
         "function_name": "test_018",
         "script_info": [
@@ -158,7 +158,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_019",
+        "case": "RS_DESKTOP_VIEWPORT_019",
         "status": "active",
         "function_name": "test_019",
         "script_info": [
@@ -168,7 +168,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "WUV_DESKTOP_VIEWPORT_020",
+        "case": "RS_DESKTOP_VIEWPORT_020",
         "status": "active",
         "function_name": "test_020",
         "script_info": [
