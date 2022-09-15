@@ -60,7 +60,7 @@ def prepare_empty_reports(args, current_conf):
     main_logger.info('Create empty report files')
 
     baseline_path_tr = os.path.join(
-        'c:/TestResources/web_viewer_autotests_baselines', args.test_group)
+        'c:/TestResources/render_studio_autotests_baselines', args.test_group)
 
     baseline_path = os.path.join(
         args.output, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.test_group)

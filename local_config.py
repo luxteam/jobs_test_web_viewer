@@ -1,4 +1,4 @@
-tool_name = 'web_viewer'
+tool_name = 'render_studio'
 report_type = 'default'
 groupped_tracked_metrics = {}
 show_skipped_groups = True
