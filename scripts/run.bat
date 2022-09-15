@@ -11,4 +11,5 @@ if not defined UPDATE_REFS set UPDATE_REFS="No"
 python prepare_test_cases.py --mode_name %MODE%
 
 python -m pip install -r ..\jobs_launcher\install\requirements.txt
+python -m pip install -r requirements.txt
 python ..\jobs_launcher\executeTests.py --test_filter %TESTS_FILTER% --file_filter %FILE_FILTER% --tests_root ..\jobs --work_root ..\Work\Results --work_dir WebViewer --cmd_variables Tool "C:\Program Files\AMD\AMD RenderStudio\AMD RenderStudio.exe" ResPath "C:\TestResources\render_studio_autotests_assets" Mode %MODE% Retries %RETRIES% UpdateRefs %UPDATE_REFS%
