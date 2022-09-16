@@ -6,5 +6,5 @@ show_execution_time = True
 show_performance_tab = False
 show_time_taken = False
 show_render_time = False
-update_baselines_feature_supported = True
+update_baselines_feature_supported = False
 domain = '<domain_name>'
