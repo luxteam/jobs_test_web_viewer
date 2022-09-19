@@ -98,12 +98,16 @@ def driver_web():
 
 
 def post_action(case, mode, driver):
-    if mode == "desktop":   
+    try:
+        if mode == "desktop":   
 
-        close_process(streamer_process)
+            close_process(streamer_process)
 
-    if driver:
-        driver.close()
+        if driver:
+            driver.close()
+    except Exception as e:
+        case_logger.error(f"Failed to do post actions: {str(e)}")
+        case_logger.error(f"Traceback: {traceback.format_exc()}")
 
 
 def create_case_logger(case, log_path):

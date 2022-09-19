@@ -1,10 +1,11 @@
 tool_name = 'render_studio'
-report_type = 'default'
+report_type = 'render_studio'
 groupped_tracked_metrics = {}
 show_skipped_groups = True
 show_execution_time = True
 show_performance_tab = False
 show_time_taken = False
 show_render_time = False
+show_render_log = False
 update_baselines_feature_supported = False
 domain = '<domain_name>'
