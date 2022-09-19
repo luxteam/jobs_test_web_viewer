@@ -154,7 +154,6 @@ def save_results(args, case, cases, test_case_status, render_time = 0.0, executi
                     'common', 'img', 'passed.jpg'), stub_image_path)
 
             test_case_report["render_color_path"] = os.path.join("Color", test_case_report["file_name"])
-            test_case_report["render_log"] = os.path.join("render_tool_logs", case["case"] + ".log")
         else:
             stub_image_path = os.path.join(args.output, 'Color', test_case_report['file_name'])
             if not os.path.exists(stub_image_path):
@@ -248,7 +247,6 @@ def execute_tests(args, current_conf):
             except Exception as e:
                 execution_time = time() - case_start_time
                 save_results(args, case, cases, "error", execution_time = execution_time, load_scene_time = load_scene_time, error_messages = error_messages)
-                error_messages.add(str(e))
                 utils.case_logger.error(f"Failed to execute test case (try #{current_try}): {str(e)}")
                 utils.case_logger.error(f"Traceback: {traceback.format_exc()}")
             finally:
