@@ -1,5 +1,5 @@
 tool_name = 'render_studio'
-report_type = 'render_studio'
+report_type = 'default'
 groupped_tracked_metrics = {}
 show_skipped_groups = True
 show_execution_time = True
