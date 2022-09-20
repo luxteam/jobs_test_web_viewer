@@ -54,18 +54,6 @@ def close_process(process):
 def pre_action(case, mode):
     if mode == "desktop":
         driver = driver_desktop()
-
-        window_hwnd = None
-
-        for window in pyautogui.getAllWindows():
-            if "Web USD Viewer" in window.title:
-                window_hwnd = window._hWnd
-                break
-
-        if not window_hwnd:
-            raise Exception("Render Studio window not found")
-
-        win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
     else:
         driver = driver_web()
         driver.get(local_config.domain)
@@ -195,6 +183,20 @@ def load_scene(args, case, driver):
     loading_element = find_by_xpath("//div[ text() = 'Loading' ]", driver)
 
     for i in range(60):
+        if i == 5:
+            # Ducktape: sometimes scene is loading endlessly. It can be solved by resizing of window
+            window_hwnd = None
+
+            for window in pyautogui.getAllWindows():
+                if "Web USD Viewer" in window.title:
+                    window_hwnd = window._hWnd
+                    break
+
+            if not window_hwnd:
+                raise Exception("Render Studio window not found")
+
+            win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
+
         try:
             loading_element= find_by_xpath("//div[ text() = 'Loading' ]", driver, False, 0)
             time.sleep(1)
