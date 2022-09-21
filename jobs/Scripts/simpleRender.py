@@ -146,7 +146,7 @@ def save_results(args, case, cases, test_case_status, render_time = 0.0, executi
         test_case_report["testing_start"] = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
         test_case_report["number_of_tries"] += 1
 
-        if test_case_status == "passed" or test_case_status == "observed":
+        if test_case_status != "error":
             # if case is passed and there is no image in this case - save a stub
             stub_image_path = os.path.join(args.output, 'Color', test_case_report['file_name'])
             if not os.path.exists(stub_image_path):
