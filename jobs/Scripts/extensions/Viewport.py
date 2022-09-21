@@ -20,7 +20,7 @@ def test_001(args, case, driver, current_try):
 
 def test_002(args, case, driver, current_try):
     utils.find_by_xpath("//./button/div[ text() = 'Scene Index' ]", driver).click()
-    sleep(2)
+    sleep(3)
     assert utils.find_by_xpath("//h3[ text() = 'Scene Index' ]", driver, True) != [], "Opened \"Scene index\" tab not found"
 
 
@@ -28,7 +28,7 @@ def test_003(args, case, driver, current_try):
     utils.find_by_xpath("//./button/div[ text() = 'Scene Index' ]", driver).click()
     sleep(2)
     utils.find_by_xpath("//./button/div[ text() = 'Scene Index' ]", driver).click()
-    sleep(2)
+    sleep(3)
     assert utils.find_by_xpath("//h3[ text() = 'Scene Index' ]", driver, True, 2) == [], "Opened \"Scene index\" tab found"
 
 
@@ -39,7 +39,7 @@ def test_004(args, case, driver, current_try):
     search.click()
     sleep(2)
     search.send_keys("Kitchen_set")
-    sleep(2)
+    sleep(3)
     assert utils.find_by_class("bg-yellow-700", driver, True) != [], "Object with corresponding name isn't highlighted in list"
 
 
@@ -52,7 +52,7 @@ def test_005(args, case, driver, current_try):
     search.send_keys("abc")
     sleep(2)
     utils.find_by_xpath("//div[ contains(@class, 'pl-2') ]//button", driver).click()
-    sleep(2)
+    sleep(3)
     assert search.get_attribute('value') == "", "Search bar input isn't cleared"
 
 
@@ -60,7 +60,7 @@ def test_006(args, case, driver, current_try):
     utils.find_by_xpath("//./button/div[ text() = 'Scene Index' ]", driver).click()
     sleep(2)
     utils.find_by_class("scene-index-prim-button-expand", driver).click()
-    sleep(2)
+    sleep(3)
     assert utils.find_by_xpath("//div[ @id='scene-index-prim-0' ]//div[ @class='py-1' ]", driver).is_displayed() == True, "Parent tree is closed"
 
 
@@ -70,7 +70,7 @@ def test_007(args, case, driver, current_try):
     utils.find_by_class("scene-index-prim-button-expand", driver).click()
     sleep(2)
     utils.find_by_class("scene-index-prim-button-expand", driver, True)[0].click()
-    sleep(2)
+    sleep(3)
     assert utils.find_by_xpath("//div[ @id='scene-index-prim-0' ]//div[ @class='py-1' ]", driver).is_displayed() == False, "Parent tree is opened"
 
 
@@ -116,7 +116,7 @@ def test_015(args, case, driver, current_try):
     button.click()
     sleep(2)
     button.click()
-    sleep(2)
+    sleep(3)
     assert utils.find_by_xpath("//div[ text() = ' Timeline view ' ]", driver, True, 2) == [], "Timeline bar is opened"
 
 
@@ -132,19 +132,19 @@ def test_017(args, case, driver, current_try):
     button.click()
     sleep(2)
     button.click()
-    sleep(2)
+    sleep(3)
     assert utils.find_by_xpath("//div[ text() = ' Comment 1' ]", driver, True) == [], "Comments bar is opened"
 
 
 def test_018(args, case, driver, current_try):
     utils.find_by_xpath("//div[ contains(@class, 'app-header-center') ]//div[ contains(@class, 'menu-left') ]//button", driver).click()
-    sleep(2)
+    sleep(3)
     assert utils.find_by_xpath("//h3[ text() = 'Selection viewport' ]", driver, True) != [], "Settings window is hidden"
 
 
 def test_019(args, case, driver, current_try):
     utils.find_by_xpath("//button[ @class = 'button-iconed' ]", driver, True)[0].click()
-    sleep(2)
+    sleep(3)
     assert utils.find_by_xpath("//button[ @class = 'menu-item' ]", driver, True) != [], "Scene menu is closed"
 
 
@@ -154,5 +154,5 @@ def test_020(args, case, driver, current_try):
     button.click()
     sleep(2)
     button.click()
-    sleep(2)
+    sleep(3)
     assert utils.find_by_xpath("//button[ @class = 'menu-item' ]", driver).is_displayed() == False, "Scene menu is opened"
