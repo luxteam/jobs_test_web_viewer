@@ -96,8 +96,7 @@ def prepare_empty_reports(args, current_conf):
             test_case_report['execution_time'] = 0.0
             test_case_report['date_time'] = datetime.now().strftime(
                 '%m/%d/%Y %H:%M:%S')
-            # TODO get tool version
-            # test_case_report['render_version'] = os.getenv('TOOL_VERSION', default='')
+            test_case_report['render_version'] = os.getenv('TOOL_VERSION', default='')
             if 'jira_issue' in case:
                 test_case_report['jira_issue'] = case['jira_issue']
 
