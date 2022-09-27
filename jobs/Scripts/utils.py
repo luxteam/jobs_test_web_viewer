@@ -82,7 +82,7 @@ def driver_desktop():
     options.binary_location = "C:\\Program Files\\AMD\\AMD RenderStudio\\AMD RenderStudio.exe"
     options.add_argument("--url-streamer=ws://localhost:10000")
     options.add_argument("--url-rest-streamer=http://localhost:10001")
-    driver = webdriver.Chrome('..\\driver\\chromedriver.exe', options=options)
+    driver = webdriver.Chrome('C:\\Users\\user\\Desktop\\jobs_test_web_viewer\\jobs\\driver\\100\\chromedriver.exe', options=options)
     time.sleep(1)
     driver.switch_to.window(driver.window_handles[0])
 
@@ -92,7 +92,7 @@ def driver_desktop():
 def driver_web():
     options = webdriver.ChromeOptions()
     options.add_argument('--start-maximized')
-    driver = webdriver.Chrome('..\\driver\\chromedriver.exe', options=options)
+    driver = webdriver.Chrome('C:\\Users\\user\\Desktop\\jobs_test_web_viewer\\jobs\\driver\\105\\chromedriver.exe', options=options)
     
     return driver
 
@@ -130,10 +130,13 @@ def is_case_skipped(case, render_platform):
 
 def find_by_xpath(xpath, driver, many=False, wait=10):
     if not many:
-        element = WebDriverWait(driver, wait).until(
-            lambda d: d.find_element(By.XPATH, xpath)
-        )
-        return element
+        try:
+            element = WebDriverWait(driver, wait).until(
+                lambda d: d.find_element(By.XPATH, xpath)
+            )
+            return element
+        except TimeoutException:
+            return None
     else:
         try:
             elements = WebDriverWait(driver, wait).until(
@@ -146,10 +149,13 @@ def find_by_xpath(xpath, driver, many=False, wait=10):
 
 def find_by_class(class_name, driver, many=False, wait=10):
     if not many:
-        element = WebDriverWait(driver, wait).until(
-            lambda d: d.find_element(By.CLASS_NAME, class_name)
-        )
-        return element
+        try:
+            element = WebDriverWait(driver, wait).until(
+                lambda d: d.find_element(By.CLASS_NAME, class_name)
+            )
+            return element
+        except TimeoutException:
+            return None
     else:
         try:
             elements = WebDriverWait(driver, wait).until(
@@ -162,10 +168,13 @@ def find_by_class(class_name, driver, many=False, wait=10):
 
 def find_by_tag(tag_name, driver, many=False, wait=10):
     if not many:
-        element = WebDriverWait(driver, wait).until(
-            lambda d: d.find_element(By.TAG_NAME, tag_name)
-        )
-        return element
+        try:
+            element = WebDriverWait(driver, wait).until(
+                lambda d: d.find_element(By.TAG_NAME, tag_name)
+            )
+            return element
+        except TimeoutException:
+            return None
     else:
         try:
             elements = WebDriverWait(driver, wait).until(
@@ -215,3 +224,21 @@ def switch_window(driver):
 
 def save_screen(screen_path, driver, extension = "jpg"):
     driver.save_screenshot(f"{screen_path}.{extension}")
+
+
+def choose_material(material_name, driver):
+    search = find_by_xpath("//input[ @placeholder='Search' ]", driver)
+    search.click()
+    time.sleep(2)
+    search.send_keys(material_name)
+
+    material_cards = find_by_class("material-card", driver, True)
+
+    for card in material_cards:
+        found_name = card.find_element(By.TAG_NAME, "h2").text
+
+        if found_name == material_name:
+            card.click()
+            break
+    else:
+        assert False

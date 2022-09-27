@@ -1,7 +1,7 @@
 [
     {
         "case": "RS_DESKTOP_LIBRARY_001",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_001",
         "script_info": ["Opening \"Library\" tab"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -9,7 +9,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_002",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_002",
         "script_info": ["Closing \"Library\" tab"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -17,7 +17,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_003",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_003",
         "script_info": ["Applying material to an object by mouse click"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -33,7 +33,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_005",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_005",
         "script_info": ["Reapplying material to an object"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -41,7 +41,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_006",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_006",
         "script_info": ["Searching for a material in search bar"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",

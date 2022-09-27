@@ -27,7 +27,8 @@ def test_002(args, case, driver, current_try):
     button.click()
     sleep(1)
     button.click()
-    sleep(8)
+    sleep(2)
+    assert utils.find_by_xpath("//h3[ text() = 'Materials' ]", driver, 3) == None
 
 
 def test_003(args, case, driver, current_try):
@@ -126,23 +127,19 @@ def test_007(args, case, driver, current_try):
 
 
 def test_008(args, case, driver, current_try):
-    library = utils.find_by_xpath("//./button/div[ text() = 'Library' ]", driver)
-    library.click()
+    utils.find_by_xpath("//./button/div[ text() = 'Library' ]", driver).click()
     sleep(2)
-    elements = utils.find_by_xpath("//div[ @class='materials-table-content' ]//h2", driver, True)
-    materials_python = []
-    for element in elements:
-        if element.text != None:
-            materials_python.append(element.text)
-    materials_python.sort()
-    sleep(1)
     utils.find_by_xpath("/html/body/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[3]/button", driver).click()
     sleep(1)
     utils.find_by_xpath("/html/body/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[2]//div//*[ text()='Title' ]", driver).click()
-    sleep(1)
-    materials_rs = utils.find_by_xpath("//div[ @class='materials-table-content' ]//h2", driver, True)
-    assert materials_python[:9] == materials_rs[:9], "Materials are displayed in the wrong order"
-
+    sleep(2)
+    materials = utils.find_by_xpath("//div[ @class='materials-table-content' ]//h2", driver, True)
+    materials_text = []
+    for material in materials:
+        if material.text != None:
+            materials_text.append(material.text)
+    materials_sorted = materials_text.sort()
+    assert materials_sorted[:9] == materials_text[:9], "Materials are displayed in the wrong order"
 
 def test_009(args, case, driver, current_try):
     library = utils.find_by_xpath("//./button/div[ text() = 'Library' ]", driver)

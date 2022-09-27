@@ -1,0 +1,74 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_BARK_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [""],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Bark Smooth"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BARK_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [""],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Bark Brown"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BARK_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [""],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Old Bark Brown"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BARK_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [""],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Tree Bark"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BARK_005",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [""],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Bark Pine"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BARK_006",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [""],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Bark Oak"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BARK_007",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [""],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Bark Beech"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BARK_008",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [""],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Bark Base"
+    }
+]
