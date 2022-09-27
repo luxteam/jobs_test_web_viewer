@@ -1,6 +1,7 @@
 {
     "split": true,
     "groups": {
-        "Viewport": ""
+        "Viewport": "",
+        "FinalRender": ""
     }
 }
