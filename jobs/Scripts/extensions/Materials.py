@@ -1,15 +1,6 @@
-from selenium import webdriver
-import time
 from time import sleep
 import sys
 import os
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver import ActionChains
-from pyautogui import typewrite, press
-import pytest
-import pyautogui
-import inspect
 
 sys.path.append(os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir)))
@@ -35,4 +26,4 @@ def test_material(args, case, driver, current_try):
     utils.choose_material(case["material_name"], driver)
     sleep(3)
     library.click()
-    sleep(8)
+    sleep(12)

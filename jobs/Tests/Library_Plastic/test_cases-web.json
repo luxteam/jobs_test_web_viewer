@@ -1,0 +1,24 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_PLASTIC_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Carbon biColor Coat\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Carbon biColor Coat"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_PLASTIC_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Patterned Resin Floor\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Patterned Resin Floor"
+    }
+]

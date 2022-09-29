@@ -6,7 +6,7 @@
     <execute command='python "{ResourcesDir}/simpleRender.py"' timeout="1500">
         <argument>--mode "{Mode}"</argument>
         <argument>--output "{OutputDir}"</argument>
-        <argument>--test_group Library_Bark</argument>
+        <argument>--test_group Library_Roofing</argument>
         <argument>--res_path "{ScenesDir}"</argument>
         <argument>--test_cases "{TestCases}"</argument>
         <argument>--retries {Retries}</argument>

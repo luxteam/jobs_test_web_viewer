@@ -1,0 +1,134 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Black Upholstery\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Black Upholstery"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Book Pattern\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Book Pattern"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Brown Leather\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Brown Leather"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Blue Denim Fabric\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Blue Denim Fabric"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_005",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Denim Fabric\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Denim Fabric"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_006",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Brown Fabric Leather\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Brown Fabric Leather"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_007",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Fabric Leather\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Fabric Leather"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_008",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Tablecloth Fabric Pattern\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Tablecloth Fabric Pattern"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_009",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Red Fabric Pattern\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Red Fabric Pattern"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_010",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Red Large Leather\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Red Large Leather"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_011",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Red Leather\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Red Leather"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_012",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Leather White\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Leather White"
+    }
+]
