@@ -200,25 +200,26 @@ def load_scene(args, case, driver):
         scene_name = case['scene_name']
         find_by_xpath(f"//div[ @class = 'project-card-text' ]//div[ text() = '{scene_name}' ]", driver=driver).click()
 
-    start_time = time.time()
-    loading_element = find_by_xpath("//div[ text() = 'Loading' ]", driver)
+    #start_time = time.time()
+    #loading_element = find_by_xpath("//div[ text() = 'Loading' ]", driver)
 
-    for i in range(60):
-        try:
-            loading_element= find_by_xpath("//div[ text() = 'Loading' ]", driver, False, 0)
-            time.sleep(1)
-        except:
-            loading_element = None
-            break
+    #for i in range(60):
+    #    try:
+    #        loading_element= find_by_xpath("//div[ text() = 'Loading' ]", driver, False, 0)
+    #        time.sleep(1)
+    #    except:
+    #        loading_element = None
+    #        break
 
-    if loading_element is not None:
-        raise Exception("Can't detect scene loading")
+    #if loading_element is not None:
+    #    raise Exception("Can't detect scene loading")
 
-    load_scene_time = time.time() - start_time
+    #load_scene_time = time.time() - start_time
 
     time.sleep(case["viewport_render_delay"])
 
-    return load_scene_time
+    #return load_scene_time
+    return 0
 
 
 def switch_window(driver):
