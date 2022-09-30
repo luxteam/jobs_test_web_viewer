@@ -246,7 +246,7 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Beige  Marble Tiles\""
+            "Applying material \"TH: Beige Marble Tiles\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 25,
