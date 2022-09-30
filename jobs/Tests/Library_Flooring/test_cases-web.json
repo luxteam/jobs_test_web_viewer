@@ -154,6 +154,17 @@
         "material_name": "Cornwall Oak Wood Flooring"
     },
     {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_015",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Cornwall Toned Wood Flooring\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Cornwall Toned Wood Flooring"
+    },
+    {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_020",
         "status": "active",
         "function_name": "test_material",
