@@ -178,10 +178,16 @@ def execute_tests(args, current_conf):
     with open(os.path.join(os.path.abspath(args.output), "test_cases.json"), "r") as json_file:
         cases = json.load(json_file)
 
-    spec = importlib.util.find_spec("extensions." + args.test_group)
-    group_module = importlib.util.module_from_spec(spec)
-    sys.modules["group_module"] = group_module
-    spec.loader.exec_module(group_module)
+    if not str(args.test_group).startswith("Library_"):
+        spec = importlib.util.find_spec("extensions." + args.test_group)
+        group_module = importlib.util.module_from_spec(spec)
+        sys.modules["group_module"] = group_module
+        spec.loader.exec_module(group_module)
+    else:
+        spec = importlib.util.find_spec("extensions." + "Materials")
+        group_module = importlib.util.module_from_spec(spec)
+        sys.modules["group_module"] = group_module
+        spec.loader.exec_module(group_module)
 
     for case in [x for x in cases if not utils.is_case_skipped(x, current_conf)]:
         case_start_time = time()

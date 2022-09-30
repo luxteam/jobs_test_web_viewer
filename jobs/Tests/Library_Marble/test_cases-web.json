@@ -1,0 +1,244 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Marble Variable Color\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Marble Variable Color"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Marble Light Gray\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Marble Light Gray"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Marble Brown\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Marble Brown"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Cream Onyx\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Cream Onyx"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_005",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Granite\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Granite"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_006",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Marble Orange Streaks\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Marble Orange Streaks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_007",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Marble Light Red\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Marble Light Red"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_008",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Marble Yellow\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Marble Yellow"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_009",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Marble Red\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Marble Red"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_010",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Simple Marble light blue\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Simple Marble light blue"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_011",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Onyx Gray Streaked\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Onyx Gray Streaked"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_012",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Blue Emperador Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Blue Emperador Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_013",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Oasis Green Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Oasis Green Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_014",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Oasis Blue Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Oasis Blue Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_015",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Rosso Verona Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Rosso Verona Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_016",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Arabescato Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Arabescato Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_017",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Travertine Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Travertine Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_018",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Sicilian Beige Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Sicilian Beige Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_019",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Portoro Green Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Portoro Green Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_020",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Milan Polished Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Milan Polished Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_021",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Blue Dune Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Blue Dune Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_022",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Verde Alpi Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Verde Alpi Marble"
+    }
+]

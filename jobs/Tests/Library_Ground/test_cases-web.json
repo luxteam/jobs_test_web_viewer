@@ -1,0 +1,200 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Various Rocks Ground\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Various Rocks Ground"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Ground Leaves Cover\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Ground Leaves Cover"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Moss Ground\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Moss Ground"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Rocky Ground\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Rocky Ground"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_005",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Ground River Bottom\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Ground River Bottom"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_006",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Ground Soil\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Ground Soil"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_007",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Moss Mountain Ground\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Moss Mountain Ground"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_008",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Coral Gravel\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Coral Gravel"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_009",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Coral Rocky Ground\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Coral Rocky Ground"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_010",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Rocks Dirt Ground\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Rocks Dirt Ground"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_011",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Light Rocks Ground\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Light Rocks Ground"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_012",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Rocks Ground\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Rocks Ground"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_013",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Mountain Rocks Ground\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH: Mountain Rocks Ground"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_014",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Pebbles Sand\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Pebbles Sand"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_015",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Smooth Beach Sand\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Smooth Beach Sand"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_016",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Shells Pebble Sand\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Shells Pebble Sand"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_017",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Shells Beach Sand\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Shells Beach Sand"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_GROUND_018",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Starfish Beach Sand\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Starfish Beach Sand"
+    }
+]

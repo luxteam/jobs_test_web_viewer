@@ -1,0 +1,255 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Bricks Concrete Wall\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Bricks Concrete Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Concrete Plain\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Concrete Plain"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Concrete Planks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Concrete Planks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Concrete Tiles\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Concrete Tiles"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_005",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH Dirty Concrete\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH Dirty Concrete"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_006",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Rubble Concrete Floor\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Rubble Concrete Floor"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_007",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Concrete Floor\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Concrete Floor"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_008",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Concrete Old Floor\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Concrete Old Floor"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_009",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Concrete Wall\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Concrete Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_010",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Smooth Concrete\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Smooth Concrete"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_011",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Gray Ramshorn Shells Wall\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Gray Ramshorn Shells Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_012",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Ramshorn Shells Wall\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Ramshorn Shells Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_013",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Detailed Ramshorn Shells Wall\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Detailed Ramshorn Shells Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_014",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"White Stone Wall\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "White Stone Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_015",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Red Stone Wall\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Red Stone Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_016",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Stone Wall Combination\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Stone Wall Combination"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_017",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Stone Wall\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Stone Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_018",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Wall of Shells\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Wall of Shells"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_019",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Cement Wall with Starfish\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Cement Wall with Starfish"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_020",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Gray Cement Shells Wall\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Gray Cement Shells Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_021",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Cement Wall with Shells\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Cement Wall with Shells"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_022",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Cement Shells Wall\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Cement Shells Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_CONCRETE_023",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Concrete Floor Worn\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Concrete Floor Worn"
+    }
+]

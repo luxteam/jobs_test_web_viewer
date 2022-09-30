@@ -1,0 +1,299 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Rose Beige Cambridge Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Rose Beige Cambridge Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Cambridge Colored Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Cambridge Colored Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Dark Cedar Herringbone Parquet\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Dark Cedar Herringbone Parquet"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Old Hamogany Chevron\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Old Hamogany Chevron"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_005",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Umber Classic Chevron\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Umber Classic Chevron"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_006",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Wheat Classic Chevron\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Wheat Classic Chevron"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_007",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Hamogany Chevron Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Hamogany Chevron Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_008",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Umber Chevron Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Umber Chevron Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_009",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Pale Oak Chevron Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Pale Oak Chevron Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_010",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Buensalido Concrete Wood Floor\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Buensalido Concrete Wood Floor"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_011",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Crystal Matrix Wooden Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Crystal Matrix Wooden Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_012",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Diamond Matrix Wooden Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Diamond Matrix Wooden Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_013",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Mansion Weave Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Mansion Weave Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_014",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Cornwall Oak Wood Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Cornwall Oak Wood Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_015",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Cornwall Toned Wood Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Cornwall Toned Wood Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_016",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Yale Tinted Wooden Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Yale Tinted Wooden Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_017",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Angora Tinted Wooden Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Angora Tinted Wooden Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_018",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Old Painted Wood Planks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Old Painted Wood Planks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_019",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Diamond Accent Parquet\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Diamond Accent Parquet"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_020",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Blue Beech Hut Painted Wood\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Blue Beech Hut Painted Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_021",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Solid Natural Wooden Planks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Solid Natural Wooden Planks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_022",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Yale Blue Ethnic Wooden Floor\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Yale Blue Ethnic Wooden Floor"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_023",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Yale Blue Geo Wooden Floor\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Yale Blue Geo Wooden Floor"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_024",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Yale Blue Mosaic Wooden Floor\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Yale Blue Mosaic Wooden Floor"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_025",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"La Roche Chateau Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "La Roche Chateau Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_026",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Diamond Wooden Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Diamond Wooden Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_027",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Herringbone Brown Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Herringbone Brown Flooring"
+    }
+]

@@ -1,0 +1,255 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Gold\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Gold"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Aluminium\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Aluminium"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Aluminum Brushed\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Aluminum Brushed"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Aluminum Corrugated\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Aluminum Corrugated"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_005",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Aluminum Matte\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Aluminum Matte"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_006",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Brass Brushed\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Brass Brushed"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_007",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Brass Satin\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Brass Satin"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_008",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Chrome\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Chrome"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_009",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Copper Brushed\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Copper Brushed"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_010",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Copper Old\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Copper Old"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_011",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Galvanized Metal\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Galvanized Metal"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_012",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Gun Metal\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Gun Metal"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_013",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Cast Iron Damaged\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Cast Iron Damaged"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_014",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Bronze Oxydized\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Bronze Oxydized"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_015",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Iron Hammered\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Iron Hammered"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_016",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Stainless Steel Brushed\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Stainless Steel Brushed"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_017",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH Factory Wall\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH Factory Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_018",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH Green Metal Rust\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH Green Metal Rust"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_019",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH Metal Plate\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH Metal Plate"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_020",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH Rusty Metallic Profile\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH Rusty Metallic Profile"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_021",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH Rusty Metal\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "TH Rusty Metal"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_022",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Gold Foil\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Gold Foil"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_METAL_023",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Copper Satin\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 25,
+        "material_name": "Copper Satin"
+    }
+]

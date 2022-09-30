@@ -1,0 +1,277 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Blue Portuguese Ceramic Tile\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Blue Portuguese Ceramic Tile"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Brown Portuguese Ceramic Tile\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Brown Portuguese Ceramic Tile"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Blue Mosaic Tiles with Gold\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Blue Mosaic Tiles with Gold"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Porcelain Vitrified Tiles\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Porcelain Vitrified Tiles"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_005",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Bardiglio Gray Marble Tiles\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Bardiglio Gray Marble Tiles"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_006",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Arabescato Blue Marble Tiles\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Arabescato Blue Marble Tiles"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_007",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Verde Guatemala Slatted Marble\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Verde Guatemala Slatted Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_008",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Weave Pattern Marble Tiles\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Weave Pattern Marble Tiles"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_009",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Pinwheel Pattern Marble Tiles\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Pinwheel Pattern Marble Tiles"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_010",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Bianco Statuario Marble Tiles\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Bianco Statuario Marble Tiles"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_011",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Imperial Jade Marble Tiles\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Imperial Jade Marble Tiles"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_012",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Dark-Green Marble Rhombus Tile\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Dark-Green Marble Rhombus Tile"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_013",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Iberian Calcite Marble Tiles\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Iberian Calcite Marble Tiles"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_014",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Circle Marble Pattern\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Circle Marble Pattern"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_015",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Mosaic Marble Pattern\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Mosaic Marble Pattern"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_016",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Marble Tiles\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Marble Tiles"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_017",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Classical Marble Pattern\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Classical Marble Pattern"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_018",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Marble Green Pattern\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Marble Green Pattern"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_019",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Tiles Black Long Variative\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Tiles Black Long Variative"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_020",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Marble Floor Tiles\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Marble Floor Tiles"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_021",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Bardiglio Marble\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Bardiglio Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_022",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Picasso Black Marble\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Picasso Black Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_023",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Beige  Marble Tiles\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Beige Marble Tiles"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_024",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Guatemala Blue Marble\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Guatemala Blue Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_025",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Cremo Marble\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Cremo Marble"
+    }
+]

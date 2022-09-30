@@ -1,0 +1,310 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Crumbling Sandstone Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Crumbling Sandstone Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Brick Irregular\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Brick Irregular"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Bricks Basic\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Bricks Basic"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_005",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Burnt Brick Wall\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Burnt Brick Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_006",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Brick Wall\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Brick Wall"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_007",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Light Brown Brick\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Light Brown Brick"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_008",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Old Castle Brick\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Old Castle Brick"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_009",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Castle Brown Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Castle Brown Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_010",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Castle White Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Castle White Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_011",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Castle Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Castle Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_012",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Castle Brick Broken\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Castle Brick Broken"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_013",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Church Red Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Church Red Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_014",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Church Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Church Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_015",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Factory Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Factory Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_016",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Large Red Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Large Red Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_017",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Plaster Brick\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Plaster Brick"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_018",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Wall Bricks Plaster\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Wall Bricks Plaster"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_019",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Red Brick Wall Weathered\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Red Brick Wall Weathered"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_020",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Random Bricks Thick\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Random Bricks Thick"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_021",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Red Brick\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Red Brick"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_022",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Red Brick Plastered\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Red Brick Plastered"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_023",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Red Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Red Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_024",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Old White Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Old White Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_025",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: White Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: White Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_026",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: White Sandstone Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: White Sandstone Bricks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_027",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Joint Yellow Brick\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Joint Yellow Brick"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_028",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"TH: Yellow Bricks\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "TH: Yellow Bricks"
+    }
+]

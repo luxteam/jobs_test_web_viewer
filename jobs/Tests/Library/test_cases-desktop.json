@@ -1,0 +1,82 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_001",
+        "status": "skipped",
+        "function_name": "test_001",
+        "script_info": ["Opening \"Library\" tab"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_002",
+        "status": "skipped",
+        "function_name": "test_002",
+        "script_info": ["Closing \"Library\" tab"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_003",
+        "status": "skipped",
+        "function_name": "test_003",
+        "script_info": ["Applying material to an object by mouse click"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_004",
+        "status": "skipped",
+        "function_name": "test_004",
+        "script_info": ["Applying material to an object by drag'n'drop"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_005",
+        "status": "skipped",
+        "function_name": "test_005",
+        "script_info": ["Reapplying material to an object"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_006",
+        "status": "skipped",
+        "function_name": "test_006",
+        "script_info": ["Searching for a material in search bar"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_007",
+        "status": "skipped",
+        "function_name": "test_007",
+        "script_info": ["Sorting materials by publish date"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_008",
+        "status": "active",
+        "function_name": "test_008",
+        "script_info": ["Sorting materials by title"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_009",
+        "status": "skipped",
+        "function_name": "test_009",
+        "script_info": ["Sorting materials by author"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_010",
+        "status": "skipped",
+        "function_name": "test_010",
+        "script_info": ["Sorting materials in in descending order"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    }
+]
