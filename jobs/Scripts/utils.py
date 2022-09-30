@@ -246,4 +246,4 @@ def choose_material(material_name, driver):
             card.click()
             break
     else:
-        assert False
+        raise Exception("Material not found")
