@@ -7,7 +7,7 @@
             "Applying material \"TH: Broken Wall\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Broken Wall"
     },
     {
@@ -18,7 +18,7 @@
             "Applying material \"TH: Castle Wall Slates\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Castle Wall Slates"
     },
     {
@@ -29,7 +29,7 @@
             "Applying material \"TH: Castle Wall Variation\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Castle Wall Variation"
     },
     {
@@ -40,7 +40,7 @@
             "Applying material \"TH: Old Defense Wall\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Old Defense Wall"
     },
     {
@@ -51,7 +51,7 @@
             "Applying material \"TH: Defense Wall\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Defense Wall"
     },
     {
@@ -62,7 +62,7 @@
             "Applying material \"TH: Red Medieval Blocks\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Red Medieval Blocks"
     },
     {
@@ -73,7 +73,7 @@
             "Applying material \"TH: Medieval Blocks\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Medieval Blocks"
     },
     {
@@ -84,7 +84,7 @@
             "Applying material \"TH: Crude Medieval Blocks\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Crude Medieval Blocks"
     },
     {
@@ -95,7 +95,7 @@
             "Applying material \"TH: Large Sandstone Blocks\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Large Sandstone Blocks"
     },
     {
@@ -106,7 +106,7 @@
             "Applying material \"TH: Crafted Medieval Blocks\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Crafted Medieval Blocks"
     },
     {
@@ -117,7 +117,7 @@
             "Applying material \"TH: Rough Block Wall\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Rough Block Wall"
     },
     {
@@ -128,7 +128,7 @@
             "Applying material \"TH: Sandstone Blocks\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Sandstone Blocks"
     }
 ]

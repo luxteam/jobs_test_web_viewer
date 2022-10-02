@@ -7,7 +7,7 @@
             "Applying material \"Carbon biColor Coat\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Carbon biColor Coat"
     },
     {
@@ -18,7 +18,7 @@
             "Applying material \"Patterned Resin Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Patterned Resin Floor"
     }
 ]

@@ -7,7 +7,7 @@
             "Applying material \"TH: Various Rocks Ground\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Various Rocks Ground"
     },
     {
@@ -18,7 +18,7 @@
             "Applying material \"Ground Leaves Cover\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Ground Leaves Cover"
     },
     {
@@ -29,7 +29,7 @@
             "Applying material \"Moss Ground\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Moss Ground"
     },
     {
@@ -40,7 +40,7 @@
             "Applying material \"Rocky Ground\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Rocky Ground"
     },
     {
@@ -51,7 +51,7 @@
             "Applying material \"Ground River Bottom\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Ground River Bottom"
     },
     {
@@ -62,7 +62,7 @@
             "Applying material \"Ground Soil\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Ground Soil"
     },
     {
@@ -73,7 +73,7 @@
             "Applying material \"TH: Moss Mountain Ground\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Moss Mountain Ground"
     },
     {
@@ -84,7 +84,7 @@
             "Applying material \"TH: Coral Gravel\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Coral Gravel"
     },
     {
@@ -95,7 +95,7 @@
             "Applying material \"TH: Coral Rocky Ground\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Coral Rocky Ground"
     },
     {
@@ -106,7 +106,7 @@
             "Applying material \"TH: Rocks Dirt Ground\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Rocks Dirt Ground"
     },
     {
@@ -117,7 +117,7 @@
             "Applying material \"TH: Light Rocks Ground\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Light Rocks Ground"
     },
     {
@@ -128,7 +128,7 @@
             "Applying material \"TH: Rocks Ground\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Rocks Ground"
     },
     {
@@ -139,7 +139,7 @@
             "Applying material \"TH: Mountain Rocks Ground\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Mountain Rocks Ground"
     },
     {
@@ -150,7 +150,7 @@
             "Applying material \"Pebbles Sand\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Pebbles Sand"
     },
     {
@@ -161,7 +161,7 @@
             "Applying material \"Smooth Beach Sand\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Smooth Beach Sand"
     },
     {
@@ -172,7 +172,7 @@
             "Applying material \"Shells Pebble Sand\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Shells Pebble Sand"
     },
     {
@@ -183,7 +183,7 @@
             "Applying material \"Shells Beach Sand\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Shells Beach Sand"
     },
     {
@@ -194,7 +194,7 @@
             "Applying material \"Starfish Beach Sand\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Starfish Beach Sand"
     }
 ]
