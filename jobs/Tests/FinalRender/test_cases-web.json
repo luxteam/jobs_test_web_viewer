@@ -9,7 +9,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_002",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_002",
         "script_info": ["Final render default png"],
         "scene_name": "Kitchen_set",
@@ -17,7 +17,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_003",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_003",
         "script_info": ["Max resolution final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -25,7 +25,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_004",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_004",
         "script_info": ["Max resolution final render PNG"],
         "scene_name": "Kitchen_set",
@@ -33,7 +33,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_005",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_005",
         "script_info": ["2K final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -41,7 +41,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_006",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_006",
         "script_info": ["2K final render PNG"],
         "scene_name": "Kitchen_set",
@@ -49,7 +49,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_007",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_007",
         "script_info": ["4K final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -57,7 +57,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_008",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_008",
         "script_info": ["4K final render PNG"],
         "scene_name": "Kitchen_set",
@@ -65,7 +65,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_009",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_009",
         "script_info": ["Scene is rendered after default resolution final render"],
         "scene_name": "Kitchen_set",
@@ -73,7 +73,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_010",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_010",
         "script_info": ["Scene is rendered after max resolution final render"],
         "scene_name": "Kitchen_set",
@@ -81,7 +81,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_011",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_011",
         "script_info": ["HD final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -89,7 +89,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_012",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_010",
         "script_info": ["HD final render PNG"],
         "scene_name": "Kitchen_set",
@@ -97,7 +97,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_013",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_013",
         "script_info": ["1135х625 final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -105,7 +105,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_014",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_014",
         "script_info": ["1135х625 final render PNG"],
         "scene_name": "Kitchen_set",
@@ -113,7 +113,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_015",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_015",
         "script_info": ["9999 samples default final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -121,7 +121,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_016",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_016",
         "script_info": ["9999 samples default final render PNG"],
         "scene_name": "Kitchen_set",
@@ -129,7 +129,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_017",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_017",
         "script_info": ["1 sample default final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -137,7 +137,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_018",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_018",
         "script_info": ["1 sample default final render PNG"],
         "scene_name": "Kitchen_set",
@@ -145,7 +145,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_019",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_019",
         "script_info": ["1024 sample default final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -153,7 +153,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_020",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_020",
         "script_info": ["1024 sample default final render PNG"],
         "scene_name": "Kitchen_set",
@@ -161,7 +161,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_021",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_021",
         "script_info": ["9999 samples 2048x1080 final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -169,7 +169,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_022",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_022",
         "script_info": ["9999 samples 2048x1080 final render PNG"],
         "scene_name": "Kitchen_set",
@@ -177,7 +177,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_023",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_023",
         "script_info": ["1 sample 2048x1080 final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -185,7 +185,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_024",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_024",
         "script_info": ["1 sample 2048x1080 final render PNG"],
         "scene_name": "Kitchen_set",
@@ -193,7 +193,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_025",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_025",
         "script_info": ["1024 sample 2048x1080 final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -201,7 +201,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_026",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_026",
         "script_info": ["1024 sample 2048x1080 final render PNG"],
         "scene_name": "Kitchen_set",
