@@ -1,0 +1,33 @@
+class ViewportLocators(object):
+    FINAL_RENDER = '//*[local-name() = "path" and @d="M4,4H7L9,2H15L17,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20H4A2,2 0 0,1 2,18V6A2,2 0 0,1 4,4M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9Z"]'
+    SCENE_INDEX_TAB = '//./button/div[ text() = "Scene Index" ]'
+    SCENE_INDEX_TEXT = '//h3[ text() = "Scene Index" ]'
+    SCENE_SEARCH = '//input[ @placeholder="Search Scene" ]'
+    PARENT_TREE = '//div[ @id="scene-index-prim-0" ]//div[ @class="py-1" ]'
+    TIMELINE_BAR = '//./button/div[ text() = "Timeline" ]'
+    TIMELINE_VIEW = '//div[ text() = " Timeline view " ]'
+    COMMENTS_BAR = '//./button/div[ text() = "Comments" ]'
+    COMMENT = '//div[ text() = " Comment 1" ]'
+    SETTINGS_WINDOW = '//div[ contains(@class, "app-header-center") ]//div[ contains(@class, "menu-left") ]//button'
+    SETTINGS_TEXT = '//h3[ text() = "Selection viewport" ]'
+    SCENE_MENU = '//button[ @class = "button-iconed" ]'
+    MENU_ITEM = '//button[ @class = "menu-item" ]'
+
+class FinalRenderLocators(object):
+    OUTPUT = '//*[text()="Output"]'
+    FORMAT = '(//input[@class="containered-input select-text cursor-pointer"])[1]'
+    PNG_FORMAT = '(//div[@class="relative"])[1]//button[contains(text(), "PNG")]'
+    BEGIN_RENDER = '//div[text()[contains(., "Begin Render")]]'
+    WIDTH = '(//*[@maxlength])[1]'
+    HEIGHT = '(//*[@maxlength])[2]'
+    BACK_BUTTON ='(//div[@class="icon"])[3]'
+
+class LibraryLocators(object):
+    LIBRARY_TAB = '//./button/div[ text() = "Library" ]'
+    MATERIALS_TEXT = '//h3[ text() = "Materials" ]'
+    SCENE_INDEX_TAB = '//./button/div[ text() = "Scene Index" ]'
+    SCENE_SEARCH = '//input[ @placeholder="Search Scene" ]'
+    MATERIAL = '//./div[ @class="click-area" ]//h2[ text()=\"'
+    SORTING_BY = '/html/body/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[3]/button'
+    SORTING_KEY = '/html/body/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[2]//div//*[ text()=\"'
+    MATERIAL_CARD = '//div[ contains(@class, "materials-table-content") ]//h2'
