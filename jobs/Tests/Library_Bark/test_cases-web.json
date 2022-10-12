@@ -7,7 +7,7 @@
             "Applying material \"Bark Base\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Bark Base"
     },
     {
@@ -18,7 +18,7 @@
             "Applying material \"Bark Beech\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Bark Beech"
     },
     {
@@ -29,7 +29,7 @@
             "Applying material \"Bark Oak\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Bark Oak"
     },
     {
@@ -40,7 +40,7 @@
             "Applying material \"Bark Pine\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Bark Pine"
     },
     {
@@ -51,7 +51,7 @@
             "Applying material \"Bark Smooth\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Bark Smooth"
     },
     {
@@ -62,7 +62,7 @@
             "Applying material \"TH: Bark Brown\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Bark Brown"
     },
     {
@@ -73,7 +73,7 @@
             "Applying material \"TH: Old Bark Brown\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Old Bark Brown"
     },
     {
@@ -84,7 +84,7 @@
             "Applying material \"TH: Tree Bark\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Tree Bark"
     }
 ]

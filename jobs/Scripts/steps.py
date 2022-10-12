@@ -113,3 +113,4 @@ class ViewportSteps:
 
     def click_scene(driver):
         utils.find_by_class("bg-yellow-700", driver, True)[0].click()
+        sleep(5)

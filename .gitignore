@@ -4,5 +4,6 @@ env/
 .idea/
 __pycache__
 test_cases.json
-Work/Results
+Work
+driver
 scripts/launcher.engine.log

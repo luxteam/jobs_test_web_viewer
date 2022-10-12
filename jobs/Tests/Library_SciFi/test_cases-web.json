@@ -7,7 +7,7 @@
             "Applying material \"Aluminium Hexagon\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Aluminium Hexagon"
     },
     {
@@ -18,7 +18,7 @@
             "Applying material \"Chains\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Chains"
     },
     {
@@ -29,7 +29,7 @@
             "Applying material \"Perforated Metal\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Perforated Metal"
     },
     {
@@ -40,7 +40,7 @@
             "Applying material \"SciFi Brick\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "SciFi Brick"
     }
 ]
