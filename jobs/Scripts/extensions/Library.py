@@ -132,14 +132,16 @@ def test_008(args, case, driver, current_try):
     utils.find_by_xpath("/html/body/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[3]/button", driver).click()
     sleep(1)
     utils.find_by_xpath("/html/body/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[2]//div//*[ text()='Title' ]", driver).click()
-    sleep(2)
-    materials = utils.find_by_xpath("//div[ @class='materials-table-content' ]//h2", driver, True)
+    sleep(5)
+    materials = utils.find_by_xpath("//div[ contains(@class, 'materials-table-content') ]//h2", driver, True)
     materials_text = []
     for material in materials:
         if material.text != None:
             materials_text.append(material.text)
-    materials_sorted = materials_text.sort()
+    materials_sorted = materials_text.copy()
+    materials_sorted.sort()
     assert materials_sorted[:9] == materials_text[:9], "Materials are displayed in the wrong order"
+
 
 def test_009(args, case, driver, current_try):
     library = utils.find_by_xpath("//./button/div[ text() = 'Library' ]", driver)
