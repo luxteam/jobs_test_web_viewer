@@ -7,7 +7,7 @@
             "Applying material \"Old Paint\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Old Paint"
     },
     {
@@ -18,7 +18,7 @@
             "Applying material \"Car Paint\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Car Paint"
     }
 ]

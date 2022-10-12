@@ -1,0 +1,82 @@
+[
+    {
+        "case": "RS_WEB_FINALRENDER_001",
+        "status": "active",
+        "function_name": "test_001",
+        "script_info": ["Final render default jpeg"],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_WEB_FINALRENDER_002",
+        "status": "active",
+        "function_name": "test_002",
+        "script_info": ["Final render default png"],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_WEB_FINALRENDER_003",
+        "status": "active",
+        "function_name": "test_003",
+        "script_info": ["Max resolution final render JPEG"],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_WEB_FINALRENDER_004",
+        "status": "active",
+        "function_name": "test_004",
+        "script_info": ["Max resolution final render PNG"],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_WEB_FINALRENDER_005",
+        "status": "active",
+        "function_name": "test_005",
+        "script_info": ["2K final render JPEG"],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_WEB_FINALRENDER_006",
+        "status": "active",
+        "function_name": "test_006",
+        "script_info": ["2K final render PNG"],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_WEB_FINALRENDER_007",
+        "status": "active",
+        "function_name": "test_007",
+        "script_info": ["4K final render JPEG"],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_WEB_FINALRENDER_008",
+        "status": "active",
+        "function_name": "test_008",
+        "script_info": ["4K final render PNG"],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_WEB_FINALRENDER_009",
+        "status": "active",
+        "function_name": "test_009",
+        "script_info": ["Scene is rendered after default resolution final render"],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_WEB_FINALRENDER_010",
+        "status": "active",
+        "function_name": "test_010",
+        "script_info": ["Scene is rendered after max resolution final render"],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8
+    }
+]

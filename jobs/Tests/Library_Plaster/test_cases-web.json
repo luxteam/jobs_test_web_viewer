@@ -7,7 +7,7 @@
             "Applying material \"TH: Crumbling Rough Plaster\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Crumbling Rough Plaster"
     },
     {
@@ -18,7 +18,7 @@
             "Applying material \"TH: Clay Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Clay Floor"
     },
     {
@@ -29,7 +29,7 @@
             "Applying material \"TH: Medieval Wall\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Medieval Wall"
     },
     {
@@ -40,7 +40,7 @@
             "Applying material \"TH: Gray Plaster\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Gray Plaster"
     },
     {
@@ -51,7 +51,7 @@
             "Applying material \"TH: Old Rough Plaster\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Old Rough Plaster"
     },
     {
@@ -62,7 +62,7 @@
             "Applying material \"TH: Rough Plaster Broken\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Rough Plaster Broken"
     },
     {
@@ -73,7 +73,7 @@
             "Applying material \"TH: Rough Plasterbrick\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Rough Plasterbrick"
     },
     {
@@ -84,7 +84,7 @@
             "Applying material \"TH: Clean Plaster\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Clean Plaster"
     },
     {
@@ -95,7 +95,7 @@
             "Applying material \"TH: Dirt Plaster Rough\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Dirt Plaster Rough"
     },
     {
@@ -106,7 +106,7 @@
             "Applying material \"TH: Moss Plaster Rough\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Moss Plaster Rough"
     },
     {
@@ -117,7 +117,7 @@
             "Applying material \"TH: White Rough Plaster\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: White Rough Plaster"
     },
     {
@@ -128,7 +128,7 @@
             "Applying material \"TH: Old Yellow Plaster\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Old Yellow Plaster"
     },
     {
@@ -139,7 +139,7 @@
             "Applying material \"TH: Rough Plaster Brick\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Rough Plaster Brick"
     },
     {
@@ -150,7 +150,7 @@
             "Applying material \"Plaster Scratched\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Plaster Scratched"
     },
     {
@@ -161,7 +161,7 @@
             "Applying material \"Simple plaster\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Simple plaster"
     },
     {
@@ -172,7 +172,7 @@
             "Applying material \"TH: Old Gray Plaster\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Old Gray Plaster"
     },
     {
@@ -183,7 +183,7 @@
             "Applying material \"TH: Yellow Plaster\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Yellow Plaster"
     },
     {
@@ -194,7 +194,7 @@
             "Applying material \"TH: Dirty Gray Plaster\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Dirty Gray Plaster"
     },
     {
@@ -205,7 +205,7 @@
             "Applying material \"TH: Sandstone Cracks\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Sandstone Cracks"
     }
 ]

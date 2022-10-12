@@ -7,7 +7,7 @@
             "Applying material \"Stylized Flagstones\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Stylized Flagstones"
     },
     {
@@ -18,7 +18,7 @@
             "Applying material \"TH: Brick Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Brick Floor"
     },
     {
@@ -29,7 +29,7 @@
             "Applying material \"TH: Diagonal Brick Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Diagonal Brick Floor"
     },
     {
@@ -40,7 +40,7 @@
             "Applying material \"TH: Brick Moss\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Brick Moss"
     },
     {
@@ -51,7 +51,7 @@
             "Applying material \"TH: Gray Floor Bricks\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Gray Floor Bricks"
     },
     {
@@ -62,7 +62,7 @@
             "Applying material \"TH: Old Floor Klinkers\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Old Floor Klinkers"
     },
     {
@@ -73,7 +73,7 @@
             "Applying material \"TH: Floor Klinkers\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Floor Klinkers"
     },
     {
@@ -84,7 +84,7 @@
             "Applying material \"TH: Sidewalk Brick Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Sidewalk Brick Floor"
     },
     {
@@ -95,7 +95,7 @@
             "Applying material \"TH: Aerial Asphalt\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Aerial Asphalt"
     },
     {
@@ -106,7 +106,7 @@
             "Applying material \"TH: Road Asphalt\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Road Asphalt"
     },
     {
@@ -117,7 +117,7 @@
             "Applying material \"TH: Cathedral Floor Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Cathedral Floor Tiles"
     },
     {
@@ -128,7 +128,7 @@
             "Applying material \"TH: Yellow Floor Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Yellow Floor Tiles"
     },
     {
@@ -139,7 +139,7 @@
             "Applying material \"TH: Floor Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Floor Tiles"
     },
     {
@@ -150,7 +150,7 @@
             "Applying material \"TH: Large Floor Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Large Floor Tiles"
     },
     {
@@ -161,7 +161,7 @@
             "Applying material \"TH: Large Grey Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Large Grey Tiles"
     },
     {
@@ -172,7 +172,7 @@
             "Applying material \"TH: Large Square Pattern\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Large Square Pattern"
     },
     {
@@ -183,7 +183,7 @@
             "Applying material \"TH: Pavement\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Pavement"
     },
     {
@@ -194,7 +194,7 @@
             "Applying material \"TH: Square Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Square Floor"
     },
     {
@@ -205,7 +205,7 @@
             "Applying material \"TH: Square Floor Patern\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Square Floor Patern"
     }
 ]
