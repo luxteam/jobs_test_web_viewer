@@ -6,6 +6,8 @@ class FinalRenderLocators(object):
     FORMAT = '(//input[@class="containered-input select-text cursor-pointer"])[1]'
     PNG_FORMAT = '(//div[@class="relative"])[1]//button[contains(text(), "PNG")]'
     BEGIN_RENDER = '//div[text()[contains(., "Begin Render")]]'
+    RENDER_SPINNER = '//*[contains(@class,"animate-spin")]'
     WIDTH = '(//*[@maxlength])[1]'
     HEIGHT = '(//*[@maxlength])[2]'
+    SAMPLES = '(//*[@maxlength])[3]'
     BACK_BUTTON ='(//div[@class="icon"])[3]'

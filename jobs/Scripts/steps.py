@@ -8,6 +8,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from pyautogui import typewrite, press
 import pyautogui
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from locators import *
 import utils
 
@@ -29,10 +31,23 @@ class FinalRenderSteps:
         utils.find_by_xpath(FinalRenderLocators.HEIGHT, driver).send_keys(Keys.CONTROL + "a")
         utils.find_by_xpath(FinalRenderLocators.HEIGHT, driver).send_keys(height)
 
+    def set_samples(driver, samples):
+        utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(Keys.CONTROL + "a")
+        utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(samples)
+
     def start_render(driver):
         utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
-        sleep(10)
+        WebDriverWait(driver, 500).until(
+                EC.presence_of_element_located((By.XPATH, FinalRenderLocators.RENDER_SPINNER))
+            )
+        WebDriverWait(driver, 500).until_not(
+                EC.presence_of_element_located((By.XPATH, FinalRenderLocators.RENDER_SPINNER))
+            )
+        sleep(5)
 
     def return_to_viewport(driver):
         utils.find_by_xpath(FinalRenderLocators.BACK_BUTTON, driver).click()
+        sleep(10)
+        pyautogui.moveTo(500,700)
+        pyautogui.dragTo(600, 700, 1, button='left')
         sleep(5)
