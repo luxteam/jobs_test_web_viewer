@@ -66,6 +66,8 @@ def pre_action(case, mode):
             raise Exception("Render Studio window not found")
 
         win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
+
+        sleep(1.5)
     else:
         driver = driver_web()
         driver.get(local_config.domain)
