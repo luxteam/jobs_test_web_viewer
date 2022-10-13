@@ -51,3 +51,59 @@ class FinalRenderSteps:
         pyautogui.moveTo(500,700)
         pyautogui.dragTo(600, 700, 1, button='left')
         sleep(5)
+
+class PropertiesSteps:
+    def select_object(driver):
+        utils.find_by_xpath(ViewportLocators.SCENE_INDEX, driver).click()
+        sleep(0.5)
+        utils.find_by_xpath(ViewportLocators.expand_node("Kitchen_set"), driver).click()
+        utils.find_by_xpath(ViewportLocators.expand_node("Props_grp"), driver).click()
+        utils.find_by_xpath(ViewportLocators.expand_node("North_grp"), driver).click()
+        utils.find_by_xpath(ViewportLocators.expand_node("FridgeArea_grp"), driver).click()
+        utils.find_by_xpath(ViewportLocators.expand_node("Refridgerator_1"), driver).click()
+        utils.find_by_xpath(ViewportLocators.expand_node("Geom"), driver).click()
+        utils.find_by_xpath(ViewportLocators.FRIDGE, driver).click()
+
+    def open_properties(driver):
+        utils.find_by_xpath(ViewportLocators.PROPERTIES, driver).click()
+        sleep(0.5)
+        utils.find_by_xpath(PropertiesLocators.MOVE, driver).click()
+        utils.find_by_xpath(PropertiesLocators.ROTATE, driver).click()
+        utils.find_by_xpath(PropertiesLocators.SCALE, driver).click()
+    
+    def close_properties(driver):
+        utils.find_by_xpath(ViewportLocators.PROPERTIES, driver).click()
+        sleep(0.5)
+
+    def lock(driver):
+        utils.find_by_xpath(PropertiesLocators.LOCK_BUTTON, driver).click()
+
+    def unlock(driver):
+        utils.find_by_xpath(PropertiesLocators.UNLOCK_BUTTON, driver).click()
+
+    def set(driver, action, axis, input):
+        if type(input) == int:
+            if input > 0:
+                for _ in range(input):
+                    utils.find_by_xpath(PropertiesLocators.properties_locators(action, axis)[2], driver).click()
+            else:
+                for _ in range(abs(input)):
+                    utils.find_by_xpath(PropertiesLocators.properties_locators(action, axis)[1], driver).click()
+        else:
+            utils.find_by_xpath(PropertiesLocators.properties_locators(action, axis)[0], driver).send_keys(Keys.CONTROL + "a")
+            utils.find_by_xpath(PropertiesLocators.properties_locators(action, axis)[0], driver).send_keys(input)
+        sleep(5)
+        
+    def open_options(driver):
+        utils.find_by_xpath(ViewportLocators.SETTING, driver).click()
+
+    def settings(driver, axis, value):
+        if axis == "move":
+            utils.find_by_xpath(SettingsLocators.MOVE_INPUT, driver).send_keys(Keys.CONTROL + "a")
+            utils.find_by_xpath(SettingsLocators.MOVE_INPUT, driver).send_keys(value)
+        elif axis == "rotate":
+            utils.find_by_xpath(SettingsLocators.ROTATE_INPUT, driver).send_keys(Keys.CONTROL + "a")
+            utils.find_by_xpath(SettingsLocators.ROTATE_INPUT, driver).send_keys(value)
+        elif axis == "scale":
+            utils.find_by_xpath(SettingsLocators.SCALE_INPUT, driver).send_keys(Keys.CONTROL + "a")
+            utils.find_by_xpath(SettingsLocators.SCALE_INPUT, driver).send_keys(value)
