@@ -15,11 +15,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Aluminium\""
+            "Applying material \"Aluminum\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Aluminium"
+        "material_name": "Aluminum"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_METAL_003",

@@ -95,7 +95,7 @@ def test_005(args, case, driver, current_try):
     sleep(1)
     utils.find_by_xpath("//./div[ @class='click-area' ]//h2[ text()='Gold' ]", driver).click()
     sleep(3)
-    utils.find_by_xpath("//./div[ @class='click-area' ]//h2[ text()='Aluminium' ]", driver).click()
+    utils.find_by_xpath("//./div[ @class='click-area' ]//h2[ text()='Aluminum' ]", driver).click()
     sleep(3)
     library.click()
     sleep(8)

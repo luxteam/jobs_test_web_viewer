@@ -4,11 +4,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Aluminium Hexagon\""
+            "Applying material \"Aluminum Hexagon\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Aluminium Hexagon"
+        "material_name": "Aluminum Hexagon"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_SCIFI_002",
