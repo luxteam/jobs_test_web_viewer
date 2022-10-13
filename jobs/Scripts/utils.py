@@ -67,7 +67,7 @@ def pre_action(case, mode):
 
         win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
 
-        sleep(1.5)
+        time.sleep(1.5)
     else:
         driver = driver_web()
         driver.get(local_config.domain)
