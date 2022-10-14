@@ -37,10 +37,10 @@ class FinalRenderSteps:
 
     def start_render(driver):
         utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
-        WebDriverWait(driver, 500).until(
+        WebDriverWait(driver, 600).until(
                 EC.presence_of_element_located((By.XPATH, FinalRenderLocators.RENDER_SPINNER))
             )
-        WebDriverWait(driver, 500).until_not(
+        WebDriverWait(driver, 600).until_not(
                 EC.presence_of_element_located((By.XPATH, FinalRenderLocators.RENDER_SPINNER))
             )
         sleep(5)
