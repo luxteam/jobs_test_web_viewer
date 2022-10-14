@@ -39,7 +39,7 @@ def test_004(args, case, driver, current_try):
 
 def test_005(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'scene index')
-    ViewportSteps.search_scene(driver, "abc")
+    ViewportSteps.search_scene_element(driver, "abc")
     ViewportSteps.clear_field(driver)
     assert utils.find_by_xpath(ViewportLocators.SCENE_SEARCH, driver).get_attribute('value') == "", "Search bar input isn't cleared"
 
