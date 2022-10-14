@@ -76,7 +76,7 @@ class LibrarySteps:
         assert materials_sorted[:9] == materials_text[:9], "Materials are displayed in the wrong order"
 
     def test_material(driver, name):
-        LibrarySteps.find_scene(driver)
+        LibrarySteps.select_refridgerator_element(driver)
         LibrarySteps.click_library_tab(driver, 1)
         utils.choose_material(name, driver)
         sleep(3)
