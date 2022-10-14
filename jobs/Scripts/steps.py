@@ -96,7 +96,7 @@ class ViewportSteps:
             utils.find_by_xpath(ViewportLocators.SCENE_MENU, driver).click()
         sleep(sec)
 
-    def search_scene(driver, text):
+    def search_scene_element(driver, text):
         search = utils.find_by_xpath(ViewportLocators.SCENE_SEARCH, driver)
         search.click()
         sleep(2)
