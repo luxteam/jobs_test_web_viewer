@@ -59,7 +59,7 @@ def test_007(args, case, driver, current_try):
 
 def test_008(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'scene index')
-    ViewportSteps.search_scene(driver, "Refridgerator_1")
+    ViewportSteps.search_scene_element(driver, "Refridgerator_1")
     ViewportSteps.click_scene(driver)
     sleep(8)
 
