@@ -42,7 +42,7 @@ class LibrarySteps:
         utils.find_by_xpath(LibraryLocators.LIBRARY_TAB, driver).click()
         sleep(sec)
 
-    def find_scene(driver):
+    def select_refridgerator_element(driver):
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
         sleep(2)
         search = utils.find_by_xpath(LibraryLocators.SCENE_SEARCH, driver)
