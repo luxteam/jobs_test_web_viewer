@@ -44,7 +44,7 @@ def test_005(args, case, driver, current_try):
     LibrarySteps.find_scene(driver)
     LibrarySteps.click_library_tab(driver, 1)
     LibrarySteps.select_material(driver, "gold")
-    LibrarySteps.select_material(driver, "aluminium")
+    LibrarySteps.select_material(driver, "aluminum")
     LibrarySteps.click_library_tab(driver, 8)
 
 

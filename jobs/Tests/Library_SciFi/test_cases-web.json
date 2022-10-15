@@ -4,11 +4,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Aluminium Hexagon\""
+            "Applying material \"Aluminum Hexagon\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
-        "material_name": "Aluminium Hexagon"
+        "viewport_render_delay": 8,
+        "material_name": "Aluminum Hexagon"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_SCIFI_002",
@@ -18,7 +18,7 @@
             "Applying material \"Chains\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Chains"
     },
     {
@@ -29,7 +29,7 @@
             "Applying material \"Perforated Metal\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Perforated Metal"
     },
     {
@@ -40,7 +40,7 @@
             "Applying material \"SciFi Brick\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "SciFi Brick"
     }
 ]

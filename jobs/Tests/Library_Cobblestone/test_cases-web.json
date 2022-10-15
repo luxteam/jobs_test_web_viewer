@@ -7,7 +7,7 @@
             "Applying material \"TH: Old Cobblestone\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Old Cobblestone"
     },
     {
@@ -18,7 +18,7 @@
             "Applying material \"TH: Light Cobblestone Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Light Cobblestone Floor"
     },
     {
@@ -29,7 +29,7 @@
             "Applying material \"TH: Medieval Cobblestone\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Medieval Cobblestone"
     },
     {
@@ -40,7 +40,7 @@
             "Applying material \"TH: Cobblestone Color\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Cobblestone Color"
     },
     {
@@ -51,7 +51,7 @@
             "Applying material \"TH: Old Medieval Cobblestone\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Old Medieval Cobblestone"
     },
     {
@@ -62,7 +62,7 @@
             "Applying material \"TH: Dark Cobblestone Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Dark Cobblestone Floor"
     },
     {
@@ -73,7 +73,7 @@
             "Applying material \"TH: Gray Cobblestone Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Gray Cobblestone Floor"
     },
     {
@@ -84,7 +84,7 @@
             "Applying material \"TH: Moss Cobblestone Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Moss Cobblestone Floor"
     },
     {
@@ -95,7 +95,7 @@
             "Applying material \"TH: Cobblestone Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Cobblestone Floor"
     },
     {
@@ -106,7 +106,7 @@
             "Applying material \"TH: Broken Cobblestone Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Broken Cobblestone Floor"
     },
     {
@@ -117,7 +117,7 @@
             "Applying material \"TH: Pink Cobblestone Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Pink Cobblestone Floor"
     },
     {
@@ -128,7 +128,7 @@
             "Applying material \"TH: Yellow Cobblestone Floor\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Yellow Cobblestone Floor"
     },
     {
@@ -139,7 +139,7 @@
             "Applying material \"TH: Cobblestone Large\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Cobblestone Large"
     },
     {
@@ -150,7 +150,7 @@
             "Applying material \"TH: Cobblestone Square\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Cobblestone Square"
     },
     {
@@ -161,7 +161,7 @@
             "Applying material \"TH: Old Floor Pattern\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Old Floor Pattern"
     },
     {
@@ -172,7 +172,7 @@
             "Applying material \"TH: Floor Pattern\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Floor Pattern"
     }
 ]

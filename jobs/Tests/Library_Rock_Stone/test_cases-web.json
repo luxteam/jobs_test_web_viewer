@@ -7,7 +7,7 @@
             "Applying material \"Sandstone\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Sandstone"
     },
     {
@@ -18,7 +18,7 @@
             "Applying material \"TH: Aerial Moss Rock\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Aerial Moss Rock"
     },
     {
@@ -29,7 +29,7 @@
             "Applying material \"TH: Aerial Mountain Rocks\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Aerial Mountain Rocks"
     },
     {
@@ -40,7 +40,7 @@
             "Applying material \"TH: Aerial Rocks\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Aerial Rocks"
     },
     {
@@ -51,7 +51,7 @@
             "Applying material \"TH: Mossy Rock\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Mossy Rock"
     },
     {
@@ -62,7 +62,7 @@
             "Applying material \"TH: Smooth Stone\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Smooth Stone"
     },
     {
@@ -73,7 +73,7 @@
             "Applying material \"TH: Ligth Rock\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Ligth Rock"
     },
     {
@@ -84,7 +84,7 @@
             "Applying material \"TH: Rock\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Rock"
     },
     {
@@ -95,7 +95,7 @@
             "Applying material \"TH: Light Brown Rock\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Light Brown Rock"
     },
     {
@@ -106,7 +106,7 @@
             "Applying material \"TH: Volcano Rock\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Volcano Rock"
     },
     {
@@ -117,7 +117,7 @@
             "Applying material \"TH: Red Rock\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Red Rock"
     },
     {
@@ -128,7 +128,7 @@
             "Applying material \"TH: Gray Rock\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Gray Rock"
     },
     {
@@ -139,7 +139,7 @@
             "Applying material \"TH: Gray Rocks\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Gray Rocks"
     },
     {
@@ -150,7 +150,7 @@
             "Applying material \"TH: Old Stone\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Old Stone"
     }
 ]

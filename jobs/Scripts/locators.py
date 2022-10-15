@@ -33,3 +33,8 @@ class LibraryLocators(object):
     MATERIAL_CARD = '//div[ contains(@class, "materials-table-content") ]//h2'
     SEARCH_MATERIAL_CARD = '//div[ @class="material-card" ]//h2'
     SEARCH_MATERIAL = '//input[ @placeholder="Search" ]'
+    RENDER_SPINNER = '//*[contains(@class,"animate-spin")]'
+    WIDTH = '(//*[@maxlength])[1]'
+    HEIGHT = '(//*[@maxlength])[2]'
+    SAMPLES = '(//*[@maxlength])[3]'
+    BACK_BUTTON ='(//div[@class="icon"])[3]'

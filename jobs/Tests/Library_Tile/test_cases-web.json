@@ -7,7 +7,7 @@
             "Applying material \"Gold Edged Leaf Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Gold Edged Leaf Tiles"
     },
     {
@@ -18,7 +18,7 @@
             "Applying material \"Iberian Blue Ceramic Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Iberian Blue Ceramic Tiles"
     },
     {
@@ -29,7 +29,7 @@
             "Applying material \"Iberian Beige Ceramic Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Iberian Beige Ceramic Tiles"
     },
     {
@@ -40,7 +40,7 @@
             "Applying material \"Jade Tiles Irregular Bond\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Jade Tiles Irregular Bond"
     },
     {
@@ -51,7 +51,7 @@
             "Applying material \"Wavy Colored Ceramic Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Wavy Colored Ceramic Tiles"
     },
     {
@@ -62,7 +62,7 @@
             "Applying material \"Mosaic Vines Ceramic Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Mosaic Vines Ceramic Tiles"
     },
     {
@@ -73,7 +73,7 @@
             "Applying material \"Sodalite Marble and Gold Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Sodalite Marble and Gold Tiles"
     },
     {
@@ -84,7 +84,7 @@
             "Applying material \"Glazed Cube Pattern Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Glazed Cube Pattern Tiles"
     },
     {
@@ -95,7 +95,7 @@
             "Applying material \"Retro-futuristic Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Retro-futuristic Tiles"
     },
     {
@@ -106,7 +106,7 @@
             "Applying material \"Glazed Cell Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Glazed Cell Tiles"
     },
     {
@@ -117,7 +117,7 @@
             "Applying material \"Gold-Black Checker tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Gold-Black Checker tiles"
     },
     {
@@ -128,7 +128,7 @@
             "Applying material \"Glazed Mosaic Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Glazed Mosaic Tiles"
     },
     {
@@ -139,7 +139,7 @@
             "Applying material \"Moroccan Hexagonal Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Moroccan Hexagonal Tiles"
     },
     {
@@ -150,7 +150,7 @@
             "Applying material \"Iberian Green Tiles\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Iberian Green Tiles"
     }
 ]

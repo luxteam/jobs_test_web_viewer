@@ -7,7 +7,7 @@
             "Applying material \"Black Upholstery\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "Black Upholstery"
     },
     {
@@ -18,7 +18,7 @@
             "Applying material \"TH: Book Pattern\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Book Pattern"
     },
     {
@@ -29,7 +29,7 @@
             "Applying material \"TH: Brown Leather\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Brown Leather"
     },
     {
@@ -40,7 +40,7 @@
             "Applying material \"TH: Blue Denim Fabric\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Blue Denim Fabric"
     },
     {
@@ -51,7 +51,7 @@
             "Applying material \"TH: Denim Fabric\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Denim Fabric"
     },
     {
@@ -62,7 +62,7 @@
             "Applying material \"TH: Brown Fabric Leather\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Brown Fabric Leather"
     },
     {
@@ -73,7 +73,7 @@
             "Applying material \"TH: Fabric Leather\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Fabric Leather"
     },
     {
@@ -84,7 +84,7 @@
             "Applying material \"TH: Tablecloth Fabric Pattern\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Tablecloth Fabric Pattern"
     },
     {
@@ -95,7 +95,7 @@
             "Applying material \"TH: Red Fabric Pattern\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Red Fabric Pattern"
     },
     {
@@ -106,7 +106,7 @@
             "Applying material \"TH: Red Large Leather\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Red Large Leather"
     },
     {
@@ -117,7 +117,7 @@
             "Applying material \"TH: Red Leather\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Red Leather"
     },
     {
@@ -128,7 +128,7 @@
             "Applying material \"TH: Leather White\""
         ],
         "scene_name": "Kitchen_set",
-        "viewport_render_delay": 25,
+        "viewport_render_delay": 8,
         "material_name": "TH: Leather White"
     }
 ]
