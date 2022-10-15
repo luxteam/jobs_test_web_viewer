@@ -13,6 +13,7 @@ from psutil import Popen, NoSuchProcess
 from subprocess import PIPE, CREATE_NEW_CONSOLE
 import sys
 import traceback
+from locators import *
 
 sys.path.append(os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
@@ -204,12 +205,14 @@ def load_scene(args, case, driver):
     loading_element = find_by_xpath("//div[ text() = 'Loading' ]", driver)
 
     for i in range(60):
-        try:
-            loading_element= find_by_xpath("//div[ text() = 'Loading' ]", driver, False, 0)
-            time.sleep(1)
-        except:
-            loading_element = None
+        case_logger.info(loading_element)
+
+        loading_element= find_by_xpath("//div[ text() = 'Loading' ]", driver, False, 0)
+
+        if loading_element == None:
             break
+        else:
+            time.sleep(1)
 
     if loading_element is not None:
         raise Exception("Can't detect scene loading")
@@ -231,7 +234,7 @@ def save_screen(screen_path, driver, extension = "jpg"):
 
 
 def choose_material(material_name, driver):
-    search = find_by_xpath("//input[ @placeholder='Search' ]", driver)
+    search = find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
     search.click()
     time.sleep(2)
     search.send_keys(material_name)
@@ -245,4 +248,4 @@ def choose_material(material_name, driver):
             card.click()
             break
     else:
-        assert False
+        raise Exception("Material not found")

@@ -50,16 +50,19 @@ def test_005(args, case, driver, current_try):
 
 def test_006(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)
-    pass
+    LibrarySteps.search_material(driver, "TH Green Metal Rust")
+
 
 def test_007(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)
     pass
 
+
 def test_008(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)
     LibrarySteps.set_sorting(driver, 'title')
     LibrarySteps.sorting_by_title(driver)
+
 
 def test_009(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)

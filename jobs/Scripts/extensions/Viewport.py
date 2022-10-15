@@ -34,7 +34,7 @@ def test_003(args, case, driver, current_try):
 def test_004(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'scene index')
     ViewportSteps.search_scene(driver, "Refridgerator_1")
-    assert utils.find_by_class("bg-yellow-700", driver, True) != [], "Object with corresponding name isn't highlighted in list"
+    assert utils.find_by_class("bg-yellow-700", driver) != None, "Object with corresponding name isn't highlighted in list"
 
 
 def test_005(args, case, driver, current_try):

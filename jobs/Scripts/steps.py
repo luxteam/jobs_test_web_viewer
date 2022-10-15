@@ -55,6 +55,16 @@ class LibrarySteps:
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
         sleep(1)
 
+    def search_material(driver, name):
+        search = utils.find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
+        search.click()
+        time.sleep(2)
+        search.send_keys(name)
+        sleep(4)
+        materials = utils.find_by_xpath(LibraryLocators.SEARCH_MATERIAL_CARD, driver, True)
+        sleep(2)
+        assert len(materials) == 2 and materials[1].text == "TH Green Metal Rust", "Materials are displayed in the wrong order"
+
     def select_material(driver, material):
         utils.find_by_xpath(LibraryLocators.MATERIAL + str(material).capitalize() + '\"]', driver).click()
         sleep(3)
