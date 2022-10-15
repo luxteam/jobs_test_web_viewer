@@ -44,7 +44,7 @@ class LibrarySteps:
         utils.find_by_xpath(LibraryLocators.LIBRARY_TAB, driver).click()
         sleep(sec)
 
-    def find_scene(driver):
+    def select_refridgerator_element(driver):
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
         sleep(2)
         search = utils.find_by_xpath(LibraryLocators.SCENE_SEARCH, driver)
@@ -88,7 +88,7 @@ class LibrarySteps:
         assert materials_sorted[:9] == materials_text[:9], "Materials are displayed in the wrong order"
 
     def test_material(driver, name):
-        LibrarySteps.find_scene(driver)
+        LibrarySteps.select_refridgerator_element(driver)
         LibrarySteps.click_library_tab(driver, 1)
         utils.choose_material(name, driver)
         sleep(3)
@@ -108,7 +108,7 @@ class ViewportSteps:
             utils.find_by_xpath(ViewportLocators.SCENE_MENU, driver).click()
         sleep(sec)
 
-    def search_scene(driver, text):
+    def search_scene_element(driver, text):
         search = utils.find_by_xpath(ViewportLocators.SCENE_SEARCH, driver)
         search.click()
         sleep(2)
@@ -125,6 +125,7 @@ class ViewportSteps:
 
     def click_scene(driver):
         utils.find_by_class("bg-yellow-700", driver, True)[0].click()
+<<<<<<< HEAD
     def set_samples(driver, samples):
         utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(Keys.CONTROL + "a")
         utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(samples)
@@ -144,4 +145,6 @@ class ViewportSteps:
         sleep(10)
         pyautogui.moveTo(500,700)
         pyautogui.dragTo(600, 700, 1, button='left')
+=======
+>>>>>>> 1c8c68241e7a8d54dead6f029d109cc0e7c282b9
         sleep(5)

@@ -30,7 +30,7 @@ def test_002(args, case, driver, current_try):
 
 
 def test_003(args, case, driver, current_try):
-    LibrarySteps.find_scene(driver)
+    LibrarySteps.select_refridgerator_element(driver)
     LibrarySteps.click_library_tab(driver, 1)
     LibrarySteps.select_material(driver, "gold")
     LibrarySteps.click_library_tab(driver, 8)
@@ -41,7 +41,7 @@ def test_004(args, case, driver, current_try):
 
 
 def test_005(args, case, driver, current_try):
-    LibrarySteps.find_scene(driver)
+    LibrarySteps.select_refridgerator_element(driver)
     LibrarySteps.click_library_tab(driver, 1)
     LibrarySteps.select_material(driver, "gold")
     LibrarySteps.select_material(driver, "aluminum")

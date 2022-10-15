@@ -30,6 +30,7 @@ class LibraryLocators(object):
     MATERIAL = '//./div[ @class="click-area" ]//h2[ text()=\"'
     SORTING_BY = '/html/body/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[3]/button'
     SORTING_KEY = '/html/body/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[2]//div//*[ text()=\"'
+<<<<<<< HEAD
     MATERIAL_CARD = '//div[ contains(@class, "materials-table-content") ]//h2'
     SEARCH_MATERIAL_CARD = '//div[ @class="material-card" ]//h2'
     SEARCH_MATERIAL = '//input[ @placeholder="Search" ]'
@@ -38,3 +39,6 @@ class LibraryLocators(object):
     HEIGHT = '(//*[@maxlength])[2]'
     SAMPLES = '(//*[@maxlength])[3]'
     BACK_BUTTON ='(//div[@class="icon"])[3]'
+=======
+    MATERIAL_CARD = '//div[ contains(@class, "materials-table-content") ]//h2'
+>>>>>>> 1c8c68241e7a8d54dead6f029d109cc0e7c282b9

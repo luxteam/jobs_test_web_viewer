@@ -33,13 +33,18 @@ def test_003(args, case, driver, current_try):
 
 def test_004(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'scene index')
+<<<<<<< HEAD
     ViewportSteps.search_scene(driver, "Refridgerator_1")
     assert utils.find_by_class("bg-yellow-700", driver) != None, "Object with corresponding name isn't highlighted in list"
+=======
+    ViewportSteps.search_scene_element(driver, "Refridgerator_1")
+    assert utils.find_by_class("bg-yellow-700", driver, True) != [], "Object with corresponding name isn't highlighted in list"
+>>>>>>> 1c8c68241e7a8d54dead6f029d109cc0e7c282b9
 
 
 def test_005(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'scene index')
-    ViewportSteps.search_scene(driver, "abc")
+    ViewportSteps.search_scene_element(driver, "abc")
     ViewportSteps.clear_field(driver)
     assert utils.find_by_xpath(ViewportLocators.SCENE_SEARCH, driver).get_attribute('value') == "", "Search bar input isn't cleared"
 
@@ -59,7 +64,7 @@ def test_007(args, case, driver, current_try):
 
 def test_008(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'scene index')
-    ViewportSteps.search_scene(driver, "Refridgerator_1")
+    ViewportSteps.search_scene_element(driver, "Refridgerator_1")
     ViewportSteps.click_scene(driver)
     sleep(8)
 
