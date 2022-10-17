@@ -125,7 +125,7 @@ class ViewportSteps:
 
     def click_scene(driver):
         utils.find_by_class("bg-yellow-700", driver, True)[0].click()
-<<<<<<< HEAD
+
     def set_samples(driver, samples):
         utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(Keys.CONTROL + "a")
         utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(samples)
@@ -145,6 +145,4 @@ class ViewportSteps:
         sleep(10)
         pyautogui.moveTo(500,700)
         pyautogui.dragTo(600, 700, 1, button='left')
-=======
->>>>>>> 1c8c68241e7a8d54dead6f029d109cc0e7c282b9
         sleep(5)
