@@ -97,7 +97,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_013",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_013",
         "script_info": ["9999 samples default final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -105,7 +105,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_014",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_014",
         "script_info": ["9999 samples default final render PNG"],
         "scene_name": "Kitchen_set",
@@ -145,7 +145,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_019",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_019",
         "script_info": ["9999 samples 2048x1080 final render JPEG"],
         "scene_name": "Kitchen_set",
@@ -153,7 +153,7 @@
     },
     {
         "case": "RS_WEB_FINALRENDER_020",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_020",
         "script_info": ["9999 samples 2048x1080 final render PNG"],
         "scene_name": "Kitchen_set",
