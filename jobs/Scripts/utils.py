@@ -66,9 +66,10 @@ def pre_action(case, mode):
         if not window_hwnd:
             raise Exception("Render Studio window not found")
 
+        pyautogui.hotkey("win", "m")
+        time.sleep(1)
         win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
-
-        time.sleep(1.5)
+        time.sleep(1)
     else:
         driver = driver_web()
         driver.get(local_config.domain)
