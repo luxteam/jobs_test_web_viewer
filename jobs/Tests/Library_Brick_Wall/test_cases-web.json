@@ -56,7 +56,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_006",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Brick Wall\""
