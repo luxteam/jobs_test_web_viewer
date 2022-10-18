@@ -1,7 +1,7 @@
 [
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_001",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Black Upholstery\""
@@ -12,7 +12,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_002",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Book Pattern\""
@@ -23,7 +23,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_003",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Brown Leather\""
@@ -34,7 +34,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_004",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Blue Denim Fabric\""
@@ -45,7 +45,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_005",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Denim Fabric\""
@@ -56,7 +56,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_006",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Brown Fabric Leather\""
@@ -67,7 +67,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_007",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Fabric Leather\""
@@ -78,7 +78,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_008",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Tablecloth Fabric Pattern\""
@@ -89,7 +89,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_009",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Red Fabric Pattern\""
@@ -100,7 +100,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_010",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Red Large Leather\""
@@ -111,7 +111,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_011",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Red Leather\""
@@ -122,7 +122,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_012",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Leather White\""
