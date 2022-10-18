@@ -314,7 +314,7 @@
         "script_info": [
             "Applying material \"Light Berry Painted Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Light Berry Painted Wood"
     },
@@ -325,7 +325,7 @@
         "script_info": [
             "Applying material \"Coffee Beech Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Coffee Beech Wood"
     },
@@ -336,7 +336,7 @@
         "script_info": [
             "Applying material \"Stone Blue Painted Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Stone Blue Painted Wood"
     },
@@ -347,7 +347,7 @@
         "script_info": [
             "Applying material \"Sage Satin Painted Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Sage Satin Painted Wood"
     },
@@ -358,7 +358,7 @@
         "script_info": [
             "Applying material \"Pickle green Painted Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Pickle green Painted Wood"
     },
@@ -369,7 +369,7 @@
         "script_info": [
             "Applying material \"Sacramento Green Painted Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Sacramento Green Painted Wood"
     },
@@ -380,7 +380,7 @@
         "script_info": [
             "Applying material \"Painted Wood Mermaid Boards\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Painted Wood Mermaid Boards"
     },
@@ -391,7 +391,7 @@
         "script_info": [
             "Applying material \"Harbour Oak Grey Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Harbour Oak Grey Wood"
     },
@@ -402,7 +402,7 @@
         "script_info": [
             "Applying material \"Canyon Maple Dark Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Canyon Maple Dark Wood"
     },
@@ -413,7 +413,7 @@
         "script_info": [
             "Applying material \"Mahogany Walnut Solid Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Mahogany Walnut Solid Wood"
     },
@@ -424,7 +424,7 @@
         "script_info": [
             "Applying material \"Ivory Walnut Solid Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Ivory Walnut Solid Wood"
     },
@@ -435,7 +435,7 @@
         "script_info": [
             "Applying material \"Gaize Dark Walnut Mosaic\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Gaize Dark Walnut Mosaic"
     },
@@ -446,7 +446,7 @@
         "script_info": [
             "Applying material \"Adelie Brown Luxury Flooring\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Adelie Brown Luxury Flooring"
     },
@@ -457,7 +457,7 @@
         "script_info": [
             "Applying material \"Mazzonetto Dimonds Parquet\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Mazzonetto Dimonds Parquet"
     },
@@ -468,7 +468,7 @@
         "script_info": [
             "Applying material \"Mazzonetto Dices Parquet\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Mazzonetto Dices Parquet"
     },
@@ -479,7 +479,7 @@
         "script_info": [
             "Applying material \"Oliana Blue Painted Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Oliana Blue Painted Wood"
     },
@@ -490,7 +490,7 @@
         "script_info": [
             "Applying material \"Dark Brown Ash Planks\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Dark Brown Ash Planks"
     },
@@ -501,7 +501,7 @@
         "script_info": [
             "Applying material \"Redwood Pine Planks\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Redwood Pine Planks"
     },
@@ -512,7 +512,7 @@
         "script_info": [
             "Applying material \"Wembley Chestnut Flooring\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Wembley Chestnut Flooring"
     },
@@ -523,7 +523,7 @@
         "script_info": [
             "Applying material \"Eoropean Beech Hardwood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Eoropean Beech Hardwood"
     },
@@ -534,7 +534,7 @@
         "script_info": [
             "Applying material \"Ash Brown Solid Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Ash Brown Solid Wood"
     },
@@ -545,7 +545,7 @@
         "script_info": [
             "Applying material \"Pale Oak Solid Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Pale Oak Solid Wood"
     },
@@ -556,7 +556,7 @@
         "script_info": [
             "Applying material \"Fresco Oak Flooring\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Fresco Oak Flooring"
     },
@@ -567,7 +567,7 @@
         "script_info": [
             "Applying material \"Galloway Brown Oak\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Galloway Brown Oak"
     },
@@ -578,7 +578,7 @@
         "script_info": [
             "Applying material \"Stack Bond Brown Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Stack Bond Brown Wood"
     },
@@ -589,7 +589,7 @@
         "script_info": [
             "Applying material \"Atlantis Beige Wood\""
         ],
-        "scene_path": "KitchenSet",
+        "scene_name": "KitchenSet",
         "viewport_render_delay": 8,
         "material_name": "Atlantis Beige Wood"
     }
