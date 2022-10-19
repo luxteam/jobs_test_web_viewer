@@ -8,4 +8,4 @@ show_time_taken = False
 show_render_time = False
 show_render_log = False
 update_baselines_feature_supported = True
-domain = 'https://dev.webusd.stvcis.com/main'
+domain = '<domain_name>'

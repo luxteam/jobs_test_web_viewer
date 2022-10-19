@@ -85,17 +85,17 @@ class PropertiesSteps:
     def unlock(driver):
         utils.find_by_xpath(PropertiesLocators.UNLOCK_BUTTON, driver).click()
 
-    def set(driver, action, axis, input):
+    def set(driver, index, axis, input):
         if type(input) == int:
             if input > 0:
                 for _ in range(input):
-                    utils.find_by_xpath(PropertiesLocators.properties_locators(action, axis)[2], driver).click()
+                    utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[2], driver).click()
             else:
                 for _ in range(abs(input)):
-                    utils.find_by_xpath(PropertiesLocators.properties_locators(action, axis)[1], driver).click()
+                    utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[1], driver).click()
         else:
-            utils.find_by_xpath(PropertiesLocators.properties_locators(action, axis)[0], driver).send_keys(Keys.CONTROL + "a")
-            utils.find_by_xpath(PropertiesLocators.properties_locators(action, axis)[0], driver).send_keys(input)
+            utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).send_keys(Keys.CONTROL + "a")
+            utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).send_keys(input)
         sleep(5)
         
     def open_options(driver):
@@ -112,7 +112,7 @@ class PropertiesSteps:
             utils.find_by_xpath(SettingsLocators.SCALE_INPUT, driver).send_keys(Keys.CONTROL + "a")
             utils.find_by_xpath(SettingsLocators.SCALE_INPUT, driver).send_keys(value)
 
-    def value(driver, action, axis, value):
-        if utils.find_by_xpath(PropertiesLocators.properties_locators(action, axis)[0], driver).get_attribute("value") == value:
+    def value(driver, index, axis, value):
+        if utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).get_attribute("value") == value:
             return True
         else: return False

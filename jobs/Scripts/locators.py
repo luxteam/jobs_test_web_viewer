@@ -38,11 +38,11 @@ class PropertiesLocators(object):
     UNLOCK_BUTTON = '//div[text()[contains(.,"Unlock")]]'
     NOT_A_NUMBER_TOOLTIP = '//li[text()[contains(.,"Need to be a number")]]'
 
-    def properties_locators(action, axis):
-        if action == "move":
-            a = "1"
-        elif action == "rotate":
-            a = "2"
-        elif action == "scale":
-            a = "3"
-        return ['(//h4[text()[contains(., "' + axis + '")]])[' + a + ']/../..//input', '((//h4[text()[contains(., "' + axis + '")]])[' + a + ']/../..//button)[1]', '((//h4[text()[contains(., "' + axis + '")]])[' + a + ']/../..//button)[2]']
+    def properties_locators(index, axis):
+        if index == "move":
+            i = "1"
+        elif index == "rotate":
+            i = "2"
+        elif index == "scale":
+            i = "3"
+        return ['(//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//input', '((//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//button)[1]', '((//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//button)[2]']
