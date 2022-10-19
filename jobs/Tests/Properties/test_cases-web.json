@@ -1,7 +1,7 @@
 [
     {
         "case": "RS_WEB_PROPERTIES_001",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_001",
         "script_info": ["Opening Properties tab"],
         "scene_name": "Kitchen_set",
@@ -9,7 +9,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_002",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_002",
         "script_info": ["Closing Properties tab"],
         "scene_name": "Kitchen_set",
@@ -17,7 +17,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_003",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_003",
         "script_info": ["Trying to change objects properties without locking it"],
         "scene_name": "Kitchen_set",
@@ -25,7 +25,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_004",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_004",
         "script_info": ["Locking object in the scene for editing"],
         "scene_name": "Kitchen_set",
@@ -33,7 +33,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_005",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_005",
         "script_info": ["Unlocking edited object in the scene"],
         "scene_name": "Kitchen_set",
@@ -41,7 +41,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_006",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_006",
         "script_info": ["Increasing Move x field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -49,7 +49,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_007",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_007",
         "script_info": ["Decreasing Move x field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -57,7 +57,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_008",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_008",
         "script_info": ["Increasing Move y field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -65,7 +65,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_009",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_009",
         "script_info": ["Scene is rendered after default resolution final render"],
         "scene_name": "Kitchen_set",
@@ -73,7 +73,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_010",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_010",
         "script_info": ["Decreasing Move y field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -81,7 +81,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_011",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_011",
         "script_info": ["Increasing Move z field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -89,7 +89,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_012",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_012",
         "script_info": ["Increasing Rotate x field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -97,7 +97,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_013",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_013",
         "script_info": ["Increasing Rotate y field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -105,7 +105,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_014",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_014",
         "script_info": ["Increasing Rotate y field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -113,7 +113,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_015",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_015",
         "script_info": ["Decreasing Rotate y field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -121,7 +121,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_016",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_016",
         "script_info": ["Increasing Rotate z field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -129,7 +129,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_017",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_017",
         "script_info": ["Decreasing Rotate z field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -137,7 +137,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_018",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_018",
         "script_info": ["Increasing Scale x field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -145,7 +145,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_019",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_019",
         "script_info": ["Decreasing Scale x field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -153,7 +153,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_020",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_020",
         "script_info": ["Increasing Scale y field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -161,7 +161,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_021",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_021",
         "script_info": ["Decreasing Scale y field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -169,7 +169,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_022",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_022",
         "script_info": ["Increasing Scale z field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -177,7 +177,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_023",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_023",
         "script_info": ["Decreasing Scale z field value by keyboard"],
         "scene_name": "Kitchen_set",
@@ -185,7 +185,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_024",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_024",
         "script_info": ["Increasing Move x field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -193,7 +193,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_025",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_025",
         "script_info": ["Decreasing Move x field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -201,7 +201,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_026",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_026",
         "script_info": ["Increasing Move y field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -209,7 +209,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_027",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_027",
         "script_info": ["Decreasing Move y field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -217,7 +217,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_028",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_028",
         "script_info": ["Increasing Move z field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -225,7 +225,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_029",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_029",
         "script_info": ["Decreasing Move z field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -233,7 +233,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_030",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_030",
         "script_info": ["Increasing Rotate x field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -241,7 +241,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_031",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_031",
         "script_info": ["Decreasing Rotate x field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -249,7 +249,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_032",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_032",
         "script_info": ["Increasing Rotate y field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -257,7 +257,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_033",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_033",
         "script_info": ["Decreasing Rotate y field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -265,7 +265,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_034",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_034",
         "script_info": ["Increasing Rotate z field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -273,7 +273,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_035",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_035",
         "script_info": ["Decreasing Rotate z field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -281,7 +281,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_036",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_036",
         "script_info": ["Increasing Scale x field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -289,7 +289,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_037",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_037",
         "script_info": ["Decreasing Scale x field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -297,7 +297,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_038",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_038",
         "script_info": ["Increasing Move y field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -305,7 +305,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_039",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_039",
         "script_info": ["Decreasing Scale y field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -313,7 +313,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_040",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_040",
         "script_info": ["Increasing Scale z field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -321,7 +321,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_041",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_041",
         "script_info": ["Decreasing Scale z field value by arrows"],
         "scene_name": "Kitchen_set",
@@ -337,7 +337,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_043",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_043",
         "script_info": ["Changing Properties step for Move Decreasing x value"],
         "scene_name": "Kitchen_set",
@@ -345,7 +345,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_044",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_044",
         "script_info": ["Changing Properties step for Move Increasing x value"],
         "scene_name": "Kitchen_set",
@@ -353,7 +353,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_045",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_045",
         "script_info": ["Changing Properties step for Move Decreasing y value"],
         "scene_name": "Kitchen_set",
@@ -361,7 +361,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_046",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_046",
         "script_info": ["Changing Properties step for Move Increasing y value"],
         "scene_name": "Kitchen_set",
@@ -369,7 +369,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_047",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_047",
         "script_info": ["Changing Properties step for Move Decreasing z value"],
         "scene_name": "Kitchen_set",
@@ -377,7 +377,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_048",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_048",
         "script_info": ["Changing Properties step for Move Increasing z value"],
         "scene_name": "Kitchen_set",
@@ -385,7 +385,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_049",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_049",
         "script_info": ["Changing Properties step for Rotate Decreasing x value"],
         "scene_name": "Kitchen_set",
@@ -393,7 +393,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_050",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_050",
         "script_info": ["Changing Properties step for Rotate Increasing x value"],
         "scene_name": "Kitchen_set",
@@ -401,7 +401,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_051",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_051",
         "script_info": ["Changing Properties step for Rotate Decreasing y value"],
         "scene_name": "Kitchen_set",
@@ -409,7 +409,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_052",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_052",
         "script_info": ["Changing Properties step for Rotate Increasing y value"],
         "scene_name": "Kitchen_set",
@@ -417,7 +417,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_053",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_053",
         "script_info": ["Changing Properties step for Rotate Decreasing z value"],
         "scene_name": "Kitchen_set",
@@ -425,7 +425,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_054",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_054",
         "script_info": ["Changing Properties step for Rotate Increasing z value"],
         "scene_name": "Kitchen_set",
@@ -433,7 +433,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_055",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_055",
         "script_info": ["Changing Properties step for Scale Decreasing x value"],
         "scene_name": "Kitchen_set",
@@ -441,7 +441,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_056",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_056",
         "script_info": ["Changing Properties step for Scale Increasing x value"],
         "scene_name": "Kitchen_set",
@@ -449,7 +449,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_057",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_057",
         "script_info": ["Changing Properties step for Scale Decreasing y value"],
         "scene_name": "Kitchen_set",
@@ -457,7 +457,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_058",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_058",
         "script_info": ["Changing Properties step for Scale Increasing y value"],
         "scene_name": "Kitchen_set",
@@ -465,7 +465,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_059",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_059",
         "script_info": ["Changing Properties step for Scale Decreasing z value"],
         "scene_name": "Kitchen_set",
@@ -473,7 +473,7 @@
     },
     {
         "case": "RS_WEB_PROPERTIES_060",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_060",
         "script_info": ["Changing Properties step for Scale Increasing z value"],
         "scene_name": "Kitchen_set",
