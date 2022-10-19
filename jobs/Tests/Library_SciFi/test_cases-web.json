@@ -1,0 +1,46 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_SCIFI_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Aluminum Hexagon\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Aluminum Hexagon"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_SCIFI_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Chains\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Chains"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_SCIFI_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Perforated Metal\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Perforated Metal"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_SCIFI_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"SciFi Brick\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "SciFi Brick"
+    }
+]

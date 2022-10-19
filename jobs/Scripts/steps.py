@@ -13,6 +13,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from locators import *
 import utils
 
+class CommonSteps:
+    def element_exists(driver, locator):
+        return utils.find_by_xpath(locator, driver).is_displayed()
+
 class FinalRenderSteps:
     def open_final_render(driver):
         utils.find_by_xpath(ViewportLocators.FINAL_RENDER, driver).click()
@@ -37,10 +41,10 @@ class FinalRenderSteps:
 
     def start_render(driver):
         utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
-        WebDriverWait(driver, 500).until(
+        WebDriverWait(driver, 600).until(
                 EC.presence_of_element_located((By.XPATH, FinalRenderLocators.RENDER_SPINNER))
             )
-        WebDriverWait(driver, 500).until_not(
+        WebDriverWait(driver, 600).until_not(
                 EC.presence_of_element_located((By.XPATH, FinalRenderLocators.RENDER_SPINNER))
             )
         sleep(5)
@@ -107,3 +111,8 @@ class PropertiesSteps:
         elif axis == "scale":
             utils.find_by_xpath(SettingsLocators.SCALE_INPUT, driver).send_keys(Keys.CONTROL + "a")
             utils.find_by_xpath(SettingsLocators.SCALE_INPUT, driver).send_keys(value)
+
+    def value(driver, action, axis, value):
+        if utils.find_by_xpath(PropertiesLocators.properties_locators(action, axis)[0], driver).get_attribute("value") == value:
+            return True
+        else: return False

@@ -1,0 +1,24 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_PAINT_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Old Paint\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Old Paint"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_PAINT_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Car Paint\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Car Paint"
+    }
+]

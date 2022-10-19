@@ -3,6 +3,26 @@
     "groups": {
         "Viewport": "",
         "FinalRender": "",
-        "Properties": ""
+        "Properties": "",
+        "Library_Bark": "",
+        "Library_Brick_Wall": "",
+        "Library_Cobblestone": "",
+        "Library_Concrete": "",
+        "Library_Fabrics": "",
+        "Library_Floor": "",
+        "Library_Flooring": "",
+        "Library_Ground": "",
+        "Library_Marble": "",
+        "Library_Marble_Tiles": "",
+        "Library_Metal": "",
+        "Library_Paint": "",
+        "Library_Plaster": "",
+        "Library_Plastic": "",
+        "Library_Rock_Stone": "",
+        "Library_Roofing": "",
+        "Library_SciFi": "",
+        "Library_Tile": "",
+        "Library_Wallpaper": "",
+        "Library_Wood": ""
     }
 }

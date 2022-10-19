@@ -36,6 +36,7 @@ class PropertiesLocators(object):
     SCALE = '//div[@class="expand-button-container"]//h3[text()[contains(., "Scale")]]'
     LOCK_BUTTON = '//div[text()[contains(.,"Lock")]]'
     UNLOCK_BUTTON = '//div[text()[contains(.,"Unlock")]]'
+    NOT_A_NUMBER_TOOLTIP = '//li[text()[contains(.,"Need to be a number")]]'
 
     def properties_locators(action, axis):
         if action == "move":
