@@ -4,6 +4,7 @@
         "Viewport": "",
         "FinalRender": "",
         "Properties": "",
+        "Library": "",
         "Library_Bark": "",
         "Library_Brick_Wall": "",
         "Library_Cobblestone": "",
@@ -22,6 +23,7 @@
         "Library_Roofing": "",
         "Library_SciFi": "",
         "Library_Tile": "",
+        "Library_Wall": "",
         "Library_Wallpaper": "",
         "Library_Wood": ""
     }

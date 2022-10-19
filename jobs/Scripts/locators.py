@@ -4,7 +4,19 @@ class ViewportLocators(object):
     PROPERTIES = '//button/div[contains(text(), "Properties")]'
     SCENE_INDEX = '//button/div[contains(text(), "Scene Index")]'
     FRIDGE = '//div[contains(text(), "Body")]'
-
+    SCENE_INDEX_TAB = '//./button/div[ text() = "Scene Index" ]'
+    SCENE_INDEX_TEXT = '//h3[ text() = "Scene Index" ]'
+    SCENE_SEARCH = '//input[ @placeholder="Search Scene" ]'
+    PARENT_TREE = '//div[ @id="scene-index-prim-0" ]//div[ @class="py-1" ]'
+    TIMELINE_BAR = '//./button/div[ text() = "Timeline" ]'
+    TIMELINE_VIEW = '//div[ text() = " Timeline view " ]'
+    COMMENTS_BAR = '//./button/div[ text() = "Comments" ]'
+    COMMENT = '//div[ text() = " Comment 1" ]'
+    SETTINGS_WINDOW = '//div[ contains(@class, "app-header-center") ]//div[ contains(@class, "menu-left") ]//button'
+    SETTINGS_TEXT = '//h3[ text() = "Selection viewport" ]'
+    SCENE_MENU = '//button[ @class = "button-iconed" ]'
+    MENU_ITEM = '//button[ @class = "menu-item" ]'
+    
     def expand_node(name):
         return '//div[contains(text(), "' + name +'")]/..//button[@class=\'scene-index-prim-button-expand\']'
 
@@ -24,6 +36,21 @@ class FinalRenderLocators(object):
     FORMAT = '(//input[@class="containered-input select-text cursor-pointer"])[1]'
     PNG_FORMAT = '(//div[@class="relative"])[1]//button[contains(text(), "PNG")]'
     BEGIN_RENDER = '//div[text()[contains(., "Begin Render")]]'
+    WIDTH = '(//*[@maxlength])[1]'
+    HEIGHT = '(//*[@maxlength])[2]'
+    BACK_BUTTON ='(//div[@class="icon"])[3]'
+
+class LibraryLocators(object):
+    LIBRARY_TAB = '//./button/div[ text() = "Library" ]'
+    MATERIALS_TEXT = '//h3[ text() = "Materials" ]'
+    SCENE_INDEX_TAB = '//./button/div[ text() = "Scene Index" ]'
+    SCENE_SEARCH = '//input[ @placeholder="Search Scene" ]'
+    MATERIAL = '//./div[ @class="click-area" ]//h2[ text()=\"'
+    SORTING_BY = '/html/body/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[3]/button'
+    SORTING_KEY = '/html/body/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[2]//div//*[ text()=\"'
+    MATERIAL_CARD = '//div[ contains(@class, "materials-table-content") ]//h2'
+    SEARCH_MATERIAL_CARD = '//div[ @class="material-card" ]//h2'
+    SEARCH_MATERIAL = '//input[ @placeholder="Search" ]'
     RENDER_SPINNER = '//*[contains(@class,"animate-spin")]'
     WIDTH = '(//*[@maxlength])[1]'
     HEIGHT = '(//*[@maxlength])[2]'
