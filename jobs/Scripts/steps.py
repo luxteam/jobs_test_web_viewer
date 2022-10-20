@@ -6,12 +6,14 @@ import os
 import inspect
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from pyautogui import typewrite, press
+from pyautogui import typewrite, press, move
 import pyautogui
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from locators import *
 import utils
+
+pyautogui.FAILSAFE = False
 
 class FinalRenderSteps:
     def open_final_render(driver):
@@ -19,6 +21,7 @@ class FinalRenderSteps:
         sleep(2)
         utils.find_by_xpath(FinalRenderLocators.OUTPUT, driver).click()
         sleep(1)
+        pyautogui.move(1, 1)
 
     def set_format_to_png(driver):
         utils.find_by_xpath(FinalRenderLocators.FORMAT, driver).click()
