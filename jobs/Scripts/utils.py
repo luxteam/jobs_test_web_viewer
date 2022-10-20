@@ -222,7 +222,8 @@ def load_scene(args, case, driver):
 
     load_scene_time = time.time() - start_time
 
-    time.sleep(case["viewport_render_delay"])
+    if "viewport_render_delay" in case:
+        time.sleep(case["viewport_render_delay"])
 
     return load_scene_time
 
@@ -232,8 +233,15 @@ def switch_window(driver):
     time.sleep(1)
 
 
-def save_screen(screen_path, driver, extension = "jpg"):
-    driver.save_screenshot(f"{screen_path}.{extension}")
+def save_screen(screen_path, driver, extension = "jpg", save_final_render_image = False):
+    if save_final_render_image:
+        find_by_xpath(FinalRenderLocators.DOWNLOAD_IMAGE, driver).click()
+        time.sleep(0.5)
+        pyautogui.typewrite(screen_path)
+        pyautogui.press("enter")
+        time.sleep(0.5)
+    else:
+        driver.save_screenshot(f"{screen_path}.{extension}")
 
 
 def choose_material(material_name, driver):

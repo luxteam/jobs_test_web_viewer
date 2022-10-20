@@ -232,7 +232,8 @@ def execute_tests(args, current_conf):
 
                 execution_time = time() - case_start_time
 
-                utils.save_screen(image_path, driver)
+                save_final_render_image = case["save_final_render_image"] if "save_final_render_image" in case else False
+                utils.save_screen(image_path, driver, save_final_render_image = save_final_render_image)
 
                 render_time = 0.0
 
