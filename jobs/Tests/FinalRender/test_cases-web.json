@@ -5,6 +5,7 @@
         "function_name": "test_001",
         "script_info": ["Final render default jpeg"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -13,6 +14,7 @@
         "function_name": "test_002",
         "script_info": ["Final render default png"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -21,6 +23,7 @@
         "function_name": "test_003",
         "script_info": ["Max resolution final render JPEG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -29,6 +32,7 @@
         "function_name": "test_004",
         "script_info": ["Max resolution final render PNG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -37,6 +41,7 @@
         "function_name": "test_005",
         "script_info": ["2K final render JPEG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -45,6 +50,7 @@
         "function_name": "test_006",
         "script_info": ["2K final render PNG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -69,6 +75,7 @@
         "function_name": "test_009",
         "script_info": ["HD final render JPEG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -77,6 +84,7 @@
         "function_name": "test_010",
         "script_info": ["HD final render PNG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -85,6 +93,7 @@
         "function_name": "test_011",
         "script_info": ["1135х625 final render JPEG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -93,6 +102,7 @@
         "function_name": "test_012",
         "script_info": ["1135х625 final render PNG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -101,6 +111,7 @@
         "function_name": "test_013",
         "script_info": ["9999 samples default final render JPEG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -109,6 +120,7 @@
         "function_name": "test_014",
         "script_info": ["9999 samples default final render PNG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -117,6 +129,7 @@
         "function_name": "test_015",
         "script_info": ["1 sample default final render JPEG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -125,6 +138,7 @@
         "function_name": "test_016",
         "script_info": ["1 sample default final render PNG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -133,6 +147,7 @@
         "function_name": "test_017",
         "script_info": ["1024 sample default final render JPEG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -141,6 +156,7 @@
         "function_name": "test_018",
         "script_info": ["1024 sample default final render PNG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -149,6 +165,7 @@
         "function_name": "test_019",
         "script_info": ["9999 samples 2048x1080 final render JPEG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -157,6 +174,7 @@
         "function_name": "test_020",
         "script_info": ["9999 samples 2048x1080 final render PNG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -165,6 +183,7 @@
         "function_name": "test_021",
         "script_info": ["1 sample 2048x1080 final render JPEG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -173,6 +192,7 @@
         "function_name": "test_022",
         "script_info": ["1 sample 2048x1080 final render PNG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -181,6 +201,7 @@
         "function_name": "test_023",
         "script_info": ["1024 sample 2048x1080 final render JPEG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
@@ -189,6 +210,7 @@
         "function_name": "test_024",
         "script_info": ["1024 sample 2048x1080 final render PNG"],
         "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
         "save_final_render_image": false
     },
     {
