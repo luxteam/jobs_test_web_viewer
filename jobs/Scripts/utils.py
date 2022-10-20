@@ -237,7 +237,7 @@ def save_screen(screen_path, driver, extension = "jpg", save_final_render_image 
     if save_final_render_image:
         find_by_xpath(FinalRenderLocators.DOWNLOAD_IMAGE, driver).click()
         time.sleep(0.5)
-        pyautogui.typewrite(screen_path)
+        pyautogui.typewrite(f"{screen_path}.{extension}")
         pyautogui.press("enter")
         time.sleep(0.5)
     else:
