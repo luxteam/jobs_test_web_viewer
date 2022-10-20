@@ -21,7 +21,6 @@ class FinalRenderSteps:
         sleep(2)
         utils.find_by_xpath(FinalRenderLocators.OUTPUT, driver).click()
         sleep(1)
-        pyautogui.move(1, 1)
 
     def set_format_to_png(driver):
         utils.find_by_xpath(FinalRenderLocators.FORMAT, driver).click()
@@ -67,6 +66,8 @@ class LibrarySteps:
     def click_library_tab(driver, sec):
         utils.find_by_xpath(LibraryLocators.LIBRARY_TAB, driver).click()
         sleep(sec)
+        ViewportSteps.click_tab(driver, 2, 'menu')
+        ViewportSteps.click_tab(driver, 2, 'menu')
 
     def select_refridgerator_element(driver):
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()

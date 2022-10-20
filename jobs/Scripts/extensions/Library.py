@@ -1,5 +1,4 @@
 from selenium import webdriver
-import time
 from time import sleep
 import sys
 import os
@@ -20,6 +19,7 @@ import utils
 
 def test_001(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)
+    sleep(10)
     assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver) != None, "Opened \"Library\" tab not found"
 
 
