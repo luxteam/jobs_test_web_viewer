@@ -215,8 +215,8 @@ def execute_tests(args, current_conf):
                 utils.case_logger.info(f"Image path: {image_path}")
 
                 # existing image can affect retry of case
-                if os.path.exists(image_path):
-                    os.remove(image_path)
+                if os.path.exists(f"{image_path}.jpg"):
+                    os.remove(f"{image_path}.jpg")
 
                 driver = utils.pre_action(case, args.mode)
 
