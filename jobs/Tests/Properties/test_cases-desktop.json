@@ -25,7 +25,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_004",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_004",
         "script_info": ["Locking object in the scene for editing"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -33,7 +33,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_005",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_005",
         "script_info": ["Unlocking edited object in the scene"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -41,7 +41,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_006",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_006",
         "script_info": ["Increasing Move x field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -49,7 +49,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_007",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_007",
         "script_info": ["Decreasing Move x field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -57,7 +57,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_008",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_008",
         "script_info": ["Increasing Move y field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -65,7 +65,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_009",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_009",
         "script_info": ["Scene is rendered after default resolution final render"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -73,7 +73,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_010",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_010",
         "script_info": ["Decreasing Move y field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -81,7 +81,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_011",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_011",
         "script_info": ["Increasing Move z field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -89,7 +89,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_012",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_012",
         "script_info": ["Increasing Rotate x field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -97,7 +97,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_013",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_013",
         "script_info": ["Increasing Rotate y field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -105,7 +105,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_014",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_014",
         "script_info": ["Increasing Rotate y field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -113,7 +113,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_015",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_015",
         "script_info": ["Decreasing Rotate y field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -121,7 +121,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_016",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_016",
         "script_info": ["Increasing Rotate z field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -129,7 +129,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_017",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_017",
         "script_info": ["Decreasing Rotate z field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -137,7 +137,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_018",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_018",
         "script_info": ["Increasing Scale x field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -145,7 +145,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_019",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_019",
         "script_info": ["Decreasing Scale x field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -153,7 +153,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_020",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_020",
         "script_info": ["Increasing Scale y field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -161,7 +161,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_021",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_021",
         "script_info": ["Decreasing Scale y field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -169,7 +169,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_022",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_022",
         "script_info": ["Increasing Scale z field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -177,7 +177,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_023",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_023",
         "script_info": ["Decreasing Scale z field value by keyboard"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -185,7 +185,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_024",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_024",
         "script_info": ["Increasing Move x field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -193,7 +193,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_025",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_025",
         "script_info": ["Decreasing Move x field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -201,7 +201,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_026",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_026",
         "script_info": ["Increasing Move y field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -209,7 +209,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_027",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_027",
         "script_info": ["Decreasing Move y field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -217,7 +217,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_028",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_028",
         "script_info": ["Increasing Move z field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -225,7 +225,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_029",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_029",
         "script_info": ["Decreasing Move z field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -233,7 +233,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_030",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_030",
         "script_info": ["Increasing Rotate x field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -241,7 +241,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_031",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_031",
         "script_info": ["Decreasing Rotate x field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -249,7 +249,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_032",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_032",
         "script_info": ["Increasing Rotate y field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -257,7 +257,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_033",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_033",
         "script_info": ["Decreasing Rotate y field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -265,7 +265,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_034",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_034",
         "script_info": ["Increasing Rotate z field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -273,7 +273,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_035",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_035",
         "script_info": ["Decreasing Rotate z field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -281,7 +281,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_036",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_036",
         "script_info": ["Increasing Scale x field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -289,7 +289,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_037",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_037",
         "script_info": ["Decreasing Scale x field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -297,7 +297,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_038",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_038",
         "script_info": ["Increasing Move y field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -305,7 +305,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_039",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_039",
         "script_info": ["Decreasing Scale y field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -313,7 +313,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_040",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_040",
         "script_info": ["Increasing Scale z field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -321,7 +321,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_041",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_041",
         "script_info": ["Decreasing Scale z field value by arrows"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -329,7 +329,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_042",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_042",
         "script_info": ["Incorrect Properties field input"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -337,7 +337,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_043",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_043",
         "script_info": ["Changing Properties step for Move Decreasing x value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -345,7 +345,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_044",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_044",
         "script_info": ["Changing Properties step for Move Increasing x value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -353,7 +353,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_045",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_045",
         "script_info": ["Changing Properties step for Move Decreasing y value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -361,7 +361,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_046",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_046",
         "script_info": ["Changing Properties step for Move Increasing y value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -369,7 +369,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_047",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_047",
         "script_info": ["Changing Properties step for Move Decreasing z value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -377,7 +377,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_048",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_048",
         "script_info": ["Changing Properties step for Move Increasing z value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -385,7 +385,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_049",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_049",
         "script_info": ["Changing Properties step for Rotate Decreasing x value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -393,7 +393,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_050",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_050",
         "script_info": ["Changing Properties step for Rotate Increasing x value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -401,7 +401,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_051",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_051",
         "script_info": ["Changing Properties step for Rotate Decreasing y value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -409,7 +409,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_052",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_052",
         "script_info": ["Changing Properties step for Rotate Increasing y value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -417,7 +417,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_053",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_053",
         "script_info": ["Changing Properties step for Rotate Decreasing z value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -425,7 +425,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_054",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_054",
         "script_info": ["Changing Properties step for Rotate Increasing z value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -433,7 +433,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_055",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_055",
         "script_info": ["Changing Properties step for Scale Decreasing x value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -441,7 +441,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_056",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_056",
         "script_info": ["Changing Properties step for Scale Increasing x value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -449,7 +449,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_057",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_057",
         "script_info": ["Changing Properties step for Scale Decreasing y value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -457,7 +457,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_058",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_058",
         "script_info": ["Changing Properties step for Scale Increasing y value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -465,7 +465,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_059",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_059",
         "script_info": ["Changing Properties step for Scale Decreasing z value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -473,7 +473,7 @@
     },
     {
         "case": "RS_DESKTOP_PROPERTIES_060",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_060",
         "script_info": ["Changing Properties step for Scale Increasing z value"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",

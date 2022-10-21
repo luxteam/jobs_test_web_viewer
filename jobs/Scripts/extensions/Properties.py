@@ -27,23 +27,23 @@ def test_002(args, case, driver, current_try):
 def test_003(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
-    PropertiesSteps.set(driver, "move", "X", 1)
-    assert PropertiesSteps.value(driver, "move", "X", "0") == True, "Properties can be changed while being unlocked"
+    init_value = PropertiesSteps.set(driver, "move", "X", 1)
+    assert PropertiesSteps.value(driver, "move", "X", init_value, "0") == True, "Properties can be changed while being unlocked"
 
 def test_004(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "move", "X", 1)
-    assert PropertiesSteps.value(driver, "move", "X", "1") == True, "Properties are not changing after locking"
+    init_value = PropertiesSteps.set(driver, "move", "X", 1)
+    assert PropertiesSteps.value(driver, "move", "X", init_value, "1") == True, "Properties are not changing after locking"
 
 def test_005(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.unlock(driver)
-    PropertiesSteps.set(driver, "move", "X", 1)
-    assert PropertiesSteps.value(driver, "move", "X", "0") == True, "Properties can be changed while being unlocked"
+    init_value = PropertiesSteps.set(driver, "move", "X", 1)
+    assert PropertiesSteps.value(driver, "move", "X", init_value, "0") == True, "Properties can be changed while being unlocked"
 
 def test_006(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
@@ -57,7 +57,7 @@ def test_007(args, case, driver, current_try):
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.set(driver, "move", "X", "-10")
-    assert PropertiesSteps.value(driver, "move", "X", "10") == True, "Incorrect field value"
+    assert PropertiesSteps.value(driver, "move", "X", "-10") == True, "Incorrect field value"
 
 def test_008(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
@@ -71,7 +71,7 @@ def test_009(args, case, driver, current_try):
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.set(driver, "move", "Y", "-10")
-    assert PropertiesSteps.value(driver, "move", "Y", "10") == True, "Incorrect field value"
+    assert PropertiesSteps.value(driver, "move", "Y", "-10") == True, "Incorrect field value"
 
 def test_010(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
@@ -89,7 +89,7 @@ def test_011(args, case, driver, current_try):
 
 def test_012(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
-    PropertiesSteps.select_object(driver)
+    PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.set(driver, "rotate", "X", "10")
     assert PropertiesSteps.value(driver, "rotate", "X", "10") == True, "Incorrect field value"
@@ -176,133 +176,133 @@ def test_024(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "move", "X", 10)
-    assert PropertiesSteps.value(driver, "move", "X", "10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "move", "X", 10)
+    assert PropertiesSteps.value(driver, "move", "X", "10", init_value) == True, "Incorrect field value"
 
 def test_025(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "move", "X", -10)
-    assert PropertiesSteps.value(driver, "move", "X", "-10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "move", "X", -10)
+    assert PropertiesSteps.value(driver, "move", "X", "-10", init_value) == True, "Incorrect field value"
 
 def test_026(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "move", "Y", 10)
-    assert PropertiesSteps.value(driver, "move", "Y", "10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "move", "Y", 10)
+    assert PropertiesSteps.value(driver, "move", "Y", "10", init_value) == True, "Incorrect field value"
 
 def test_027(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "move", "Y", -10)
-    assert PropertiesSteps.value(driver, "move", "Y", "-10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "move", "Y", -10)
+    assert PropertiesSteps.value(driver, "move", "Y", "-10", init_value) == True, "Incorrect field value"
 
 def test_028(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "move", "Z", 10)
-    assert PropertiesSteps.value(driver, "move", "Z", "10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "move", "Z", 10)
+    assert PropertiesSteps.value(driver, "move", "Z", "10", init_value) == True, "Incorrect field value"
 
 def test_029(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "move", "Z", -10)
-    assert PropertiesSteps.value(driver, "move", "Z", "-10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "move", "Z", -10)
+    assert PropertiesSteps.value(driver, "move", "Z", "-10", init_value) == True, "Incorrect field value"
 
 def test_030(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "rotate", "X", 10)
-    assert PropertiesSteps.value(driver, "rotate", "X", "10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "rotate", "X", 10)
+    assert PropertiesSteps.value(driver, "rotate", "X", "10", init_value) == True, "Incorrect field value"
 
 def test_031(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "rotate", "X", -10)
-    assert PropertiesSteps.value(driver, "rotate", "X", "-10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "rotate", "X", -10)
+    assert PropertiesSteps.value(driver, "rotate", "X", "-10", init_value) == True, "Incorrect field value"
 
 def test_032(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "rotate", "Y", 10)
-    assert PropertiesSteps.value(driver, "rotate", "Y", "10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "rotate", "Y", 10)
+    assert PropertiesSteps.value(driver, "rotate", "Y", "10", init_value) == True, "Incorrect field value"
 
 def test_033(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "rotate", "Y", -10)
-    assert PropertiesSteps.value(driver, "rotate", "Y", "-10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "rotate", "Y", -10)
+    assert PropertiesSteps.value(driver, "rotate", "Y", "-10", init_value) == True, "Incorrect field value"
 
 def test_034(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "rotate", "Z", 10)
-    assert PropertiesSteps.value(driver, "rotate", "Z", "10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "rotate", "Z", 10)
+    assert PropertiesSteps.value(driver, "rotate", "Z", "10", init_value) == True, "Incorrect field value"
 
 def test_035(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "rotate", "Z", -10)
-    assert PropertiesSteps.value(driver, "rotate", "Z", "-10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "rotate", "Z", -10)
+    assert PropertiesSteps.value(driver, "rotate", "Z", "-10", init_value) == True, "Incorrect field value"
 
 def test_036(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "scale", "X", 10)
-    assert PropertiesSteps.value(driver, "scale", "X", "10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "scale", "X", 10)
+    assert PropertiesSteps.value(driver, "scale", "X", "10", init_value) == True, "Incorrect field value"
 
 def test_037(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "scale", "X", -10)
-    assert PropertiesSteps.value(driver, "scale", "X", "-10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "scale", "X", -10)
+    assert PropertiesSteps.value(driver, "scale", "X", "-10", init_value) == True, "Incorrect field value"
 
 def test_038(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "scale", "Y", 10)
-    assert PropertiesSteps.value(driver, "scale", "Y", "10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "scale", "Y", 10)
+    assert PropertiesSteps.value(driver, "scale", "Y", "10", init_value) == True, "Incorrect field value"
 
 def test_039(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "scale", "Y", -10)
-    assert PropertiesSteps.value(driver, "scale", "Y", "-10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "scale", "Y", -10)
+    assert PropertiesSteps.value(driver, "scale", "Y", "-10", init_value) == True, "Incorrect field value"
 
 def test_040(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "scale", "Z", 10)
-    assert PropertiesSteps.value(driver, "scale", "Z", "10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "scale", "Z", 10)
+    assert PropertiesSteps.value(driver, "scale", "Z", "10", init_value) == True, "Incorrect field value"
 
 def test_041(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "scale", "Z", -10)
-    assert PropertiesSteps.value(driver, "scale", "Z", "-10") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "scale", "Z", -10)
+    assert PropertiesSteps.value(driver, "scale", "Z", "-10", init_value) == True, "Incorrect field value"
 
 def test_042(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
-    PropertiesSteps.set(driver, "move", "X", "abc")
+    init_value = PropertiesSteps.set(driver, "move", "X", "abc")
     assert CommonSteps.element_exists(driver, PropertiesLocators.NOT_A_NUMBER_TOOLTIP) == True, "Invalid imput tooltip does not appear"
 
 def test_043(args, case, driver, current_try):
@@ -310,141 +310,141 @@ def test_043(args, case, driver, current_try):
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "move", "5")
-    PropertiesSteps.set(driver, "move", "X", -10)
-    assert PropertiesSteps.value(driver, "move", "X", "-50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "move", "X", -10)
+    assert PropertiesSteps.value(driver, "move", "X", "-50", init_value) == True, "Incorrect field value"
 
 def test_044(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "move", "5")
-    PropertiesSteps.set(driver, "move", "X", 10)
-    assert PropertiesSteps.value(driver, "move", "X", "50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "move", "X", 10)
+    assert PropertiesSteps.value(driver, "move", "X", "50", init_value) == True, "Incorrect field value"
 
 def test_045(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "move", "5")
-    PropertiesSteps.set(driver, "move", "Y", -10)
-    assert PropertiesSteps.value(driver, "move", "Y", "-50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "move", "Y", -10)
+    assert PropertiesSteps.value(driver, "move", "Y", "-50", init_value) == True, "Incorrect field value"
 
 def test_046(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "move", "5")
-    PropertiesSteps.set(driver, "move", "Y", 10)
-    assert PropertiesSteps.value(driver, "move", "Y", "50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "move", "Y", 10)
+    assert PropertiesSteps.value(driver, "move", "Y", "50", init_value) == True, "Incorrect field value"
 
 def test_047(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "move", "5")
-    PropertiesSteps.set(driver, "move", "Z", -10)
-    assert PropertiesSteps.value(driver, "move", "Z", "-50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "move", "Z", -10)
+    assert PropertiesSteps.value(driver, "move", "Z", "-50", init_value) == True, "Incorrect field value"
 
 def test_048(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "move", "5")
-    PropertiesSteps.set(driver, "move", "Z", 10)
-    assert PropertiesSteps.value(driver, "move", "Z", "50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "move", "Z", 10)
+    assert PropertiesSteps.value(driver, "move", "Z", "50", init_value) == True, "Incorrect field value"
 
 def test_049(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "rotate", "5")
-    PropertiesSteps.set(driver, "rotate", "X", -10)
-    assert PropertiesSteps.value(driver, "rotate", "X", "-50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "rotate", "X", -10)
+    assert PropertiesSteps.value(driver, "rotate", "X", "-50", init_value) == True, "Incorrect field value"
 
 def test_050(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "rotate", "5")
-    PropertiesSteps.set(driver, "rotate", "X", 10)
-    assert PropertiesSteps.value(driver, "rotate", "X", "50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "rotate", "X", 10)
+    assert PropertiesSteps.value(driver, "rotate", "X", "50", init_value) == True, "Incorrect field value"
 
 def test_051(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "rotate", "5")
-    PropertiesSteps.set(driver, "rotate", "Y", -10)
-    assert PropertiesSteps.value(driver, "rotate", "Y", "-50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "rotate", "Y", -10)
+    assert PropertiesSteps.value(driver, "rotate", "Y", "-50", init_value) == True, "Incorrect field value"
 
 def test_052(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "rotate", "5")
-    PropertiesSteps.set(driver, "rotate", "Y", 10)
-    assert PropertiesSteps.value(driver, "rotate", "Y", "50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "rotate", "Y", 10)
+    assert PropertiesSteps.value(driver, "rotate", "Y", "50", init_value) == True, "Incorrect field value"
 
 def test_053(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "rotate", "5")
-    PropertiesSteps.set(driver, "rotate", "Z", -10)
-    assert PropertiesSteps.value(driver, "rotate", "Z", "-50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "rotate", "Z", -10)
+    assert PropertiesSteps.value(driver, "rotate", "Z", "-50", init_value) == True, "Incorrect field value"
 
 def test_054(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "rotate", "5")
-    PropertiesSteps.set(driver, "rotate", "Z", 10)
-    assert PropertiesSteps.value(driver, "rotate", "Z", "50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "rotate", "Z", 10)
+    assert PropertiesSteps.value(driver, "rotate", "Z", "50", init_value) == True, "Incorrect field value"
 
 def test_055(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "scale", "5")
-    PropertiesSteps.set(driver, "scale", "X", -10)
-    assert PropertiesSteps.value(driver, "scale", "X", "-50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "scale", "X", -1)
+    assert PropertiesSteps.value(driver, "scale", "X", "-5", init_value) == True, "Incorrect field value"
 
 def test_056(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "scale", "5")
-    PropertiesSteps.set(driver, "scale", "X", 10)
-    assert PropertiesSteps.value(driver, "scale", "X", "50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "scale", "X", 1)
+    assert PropertiesSteps.value(driver, "scale", "X", "5", init_value) == True, "Incorrect field value"
 
 def test_057(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "scale", "5")
-    PropertiesSteps.set(driver, "scale", "Y", -10)
-    assert PropertiesSteps.value(driver, "scale", "Y", "-50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "scale", "Y", -1)
+    assert PropertiesSteps.value(driver, "scale", "Y", "-5", init_value) == True, "Incorrect field value"
 
 def test_058(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "scale", "5")
-    PropertiesSteps.set(driver, "scale", "Y", 10)
-    assert PropertiesSteps.value(driver, "scale", "Y", "50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "scale", "Y", 1)
+    assert PropertiesSteps.value(driver, "scale", "Y", "5", init_value) == True, "Incorrect field value"
 
 def test_059(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "scale", "5")
-    PropertiesSteps.set(driver, "scale", "Z", -10)
-    assert PropertiesSteps.value(driver, "scale", "Z", "-50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "scale", "Z", -1)
+    assert PropertiesSteps.value(driver, "scale", "Z", "-5", init_value) == True, "Incorrect field value"
 
 def test_060(args, case, driver, current_try):
     PropertiesSteps.select_object(driver)
     PropertiesSteps.open_properties(driver)
     PropertiesSteps.lock(driver)
     PropertiesSteps.settings(driver, "scale", "5")
-    PropertiesSteps.set(driver, "scale", "Z", 10)
-    assert PropertiesSteps.value(driver, "scale", "Z", "50") == True, "Incorrect field value"
+    init_value = PropertiesSteps.set(driver, "scale", "Z", 1)
+    assert PropertiesSteps.value(driver, "scale", "Z", "5", init_value) == True, "Incorrect field value"
