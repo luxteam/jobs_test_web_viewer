@@ -9,7 +9,7 @@ from pyautogui import typewrite, press
 import pytest
 import pyautogui
 import inspect
-from steps import LibrarySteps
+from steps import LibrarySteps, ViewportSteps
 from locators import *
 
 sys.path.append(os.path.abspath(os.path.join(
@@ -19,6 +19,8 @@ import utils
 
 def test_001(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)
+    ViewportSteps.click_tab(driver, 2, 'menu')
+    ViewportSteps.click_tab(driver, 2, 'menu')
     sleep(10)
     assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver) != None, "Opened \"Library\" tab not found"
 
