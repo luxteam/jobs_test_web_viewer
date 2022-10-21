@@ -250,6 +250,9 @@ def choose_material(material_name, driver):
     time.sleep(2)
     search.send_keys(material_name)
 
+    # cards with materials can be reloaded few times, wait a bit
+    time.sleep(2)
+
     material_cards = find_by_class("material-card", driver, True)
 
     for card in material_cards:
