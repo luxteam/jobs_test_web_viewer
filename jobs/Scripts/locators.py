@@ -39,6 +39,12 @@ class FinalRenderLocators(object):
     WIDTH = '(//*[@maxlength])[1]'
     HEIGHT = '(//*[@maxlength])[2]'
     BACK_BUTTON ='(//div[@class="icon"])[3]'
+    RENDER_SPINNER = '//*[contains(@class,"animate-spin")]'
+    WIDTH = '(//*[@maxlength])[1]'
+    HEIGHT = '(//*[@maxlength])[2]'
+    SAMPLES = '(//*[@maxlength])[3]'
+    BACK_BUTTON ='(//div[@class="icon"])[3]'
+    DOWNLOAD_IMAGE = '//div[ @class="render-progress-bar-button" ]//button'
 
 class LibraryLocators(object):
     LIBRARY_TAB = '//./button/div[ text() = "Library" ]'
@@ -51,11 +57,6 @@ class LibraryLocators(object):
     MATERIAL_CARD = '//div[ contains(@class, "materials-table-content") ]//h2'
     SEARCH_MATERIAL_CARD = '//div[ @class="material-card" ]//h2'
     SEARCH_MATERIAL = '//input[ @placeholder="Search" ]'
-    RENDER_SPINNER = '//*[contains(@class,"animate-spin")]'
-    WIDTH = '(//*[@maxlength])[1]'
-    HEIGHT = '(//*[@maxlength])[2]'
-    SAMPLES = '(//*[@maxlength])[3]'
-    BACK_BUTTON ='(//div[@class="icon"])[3]'
 
 class PropertiesLocators(object):
     MOVE = '//div[@class="expand-button-container"]//h3[text()[contains(., "Move")]]'

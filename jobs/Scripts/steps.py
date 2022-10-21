@@ -6,12 +6,14 @@ import os
 import inspect
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from pyautogui import typewrite, press
+from pyautogui import typewrite, press, move
 import pyautogui
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from locators import *
 import utils
+
+pyautogui.FAILSAFE = False
 
 class CommonSteps:
     def element_exists(driver, locator):
@@ -41,6 +43,27 @@ class FinalRenderSteps:
 
     def return_to_viewport(driver):
         utils.find_by_xpath(FinalRenderLocators.BACK_BUTTON, driver).click()
+        sleep(5)
+
+    def set_samples(driver, samples):
+        utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(Keys.CONTROL + "a")
+        utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(samples)
+
+    def start_render(driver):
+        utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
+        WebDriverWait(driver, 600).until(
+                EC.presence_of_element_located((By.XPATH, FinalRenderLocators.RENDER_SPINNER))
+            )
+        WebDriverWait(driver, 600).until_not(
+                EC.presence_of_element_located((By.XPATH, FinalRenderLocators.RENDER_SPINNER))
+            )
+        sleep(5)
+
+    def return_to_viewport(driver):
+        utils.find_by_xpath(FinalRenderLocators.BACK_BUTTON, driver).click()
+        sleep(10)
+        pyautogui.moveTo(500,700)
+        pyautogui.dragTo(600, 700, 1, button='left')
         sleep(5)
 
 class LibrarySteps:
@@ -129,27 +152,6 @@ class ViewportSteps:
 
     def click_scene(driver):
         utils.find_by_class("bg-yellow-700", driver, True)[0].click()
-
-    def set_samples(driver, samples):
-        utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(Keys.CONTROL + "a")
-        utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(samples)
-
-    def start_render(driver):
-        utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
-        WebDriverWait(driver, 600).until(
-                EC.presence_of_element_located((By.XPATH, FinalRenderLocators.RENDER_SPINNER))
-            )
-        WebDriverWait(driver, 600).until_not(
-                EC.presence_of_element_located((By.XPATH, FinalRenderLocators.RENDER_SPINNER))
-            )
-        sleep(5)
-
-    def return_to_viewport(driver):
-        utils.find_by_xpath(FinalRenderLocators.BACK_BUTTON, driver).click()
-        sleep(10)
-        pyautogui.moveTo(500,700)
-        pyautogui.dragTo(600, 700, 1, button='left')
-        sleep(5)
 
 class PropertiesSteps:
     def select_object(driver):
