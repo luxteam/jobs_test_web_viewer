@@ -1,0 +1,233 @@
+[
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_001",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Acryl Plastic\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Acryl Plastic"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic White Plastic\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic White Plastic"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Frosted Glass\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Frosted Glass"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Dark Glass\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Dark Glass"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_005",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Diamond\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Diamond"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_006",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic White Wine\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic White Wine"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_007",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Red Wine\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Red Wine"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_008",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Glass\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Glass"
+    }
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_009",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Semitransparent Silicone\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Semitransparent Silicone"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_010",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Rubber\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Rubber"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_011",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Rough Plastic\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Rough Plastic"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_012",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Black Plastic\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Black Plastic"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_013",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Nickel\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Nickel"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_014",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Iron\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Iron"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_015",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Gold\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Gold"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_016",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Copper\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Copper"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_017",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Cobalt\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Cobalt"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_018",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Chrome\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Chrome"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_019",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Bronze\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Bronze"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_020",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Brass\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Brass"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_021",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Basic Aluminum\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Basic Aluminum"
+    }
+]

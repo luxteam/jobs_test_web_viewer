@@ -306,5 +306,16 @@
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "Herringbone Brown Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_028",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Gaize Dark Walnut Mosaic\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Gaize Dark Walnut Mosaic"
     }
 ]
