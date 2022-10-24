@@ -4,7 +4,7 @@
         "status": "active",
         "function_name": "test_001",
         "script_info": ["Open Lambo scene"],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
@@ -12,7 +12,7 @@
         "status": "active",
         "function_name": "test_002",
         "script_info": ["Lambo scene rotation"],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
@@ -20,7 +20,7 @@
         "status": "active",
         "function_name": "test_003",
         "script_info": ["Lambo scene Final render default JPEG"],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
@@ -28,7 +28,7 @@
         "status": "active",
         "function_name": "test_004",
         "script_info": ["Lambo scene Final render PNG"],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
@@ -36,7 +36,7 @@
         "status": "active",
         "function_name": "test_005",
         "script_info": ["Lambo scene Max resolution final render JPEG"],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
@@ -44,7 +44,7 @@
         "status": "active",
         "function_name": "test_006",
         "script_info": ["Lambo scene Max resolution final render PNG"],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
@@ -52,7 +52,7 @@
         "status": "active",
         "function_name": "test_007",
         "script_info": ["Lambo scene is rendered after default resolution final render"],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
@@ -60,7 +60,7 @@
         "status": "active",
         "function_name": "test_008",
         "script_info": ["Lambo scene is rendered after max resolution final render"],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
@@ -68,7 +68,7 @@
         "status": "active",
         "function_name": "test_009",
         "script_info": ["Lambo scene 100 samples default final render"],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
@@ -79,7 +79,7 @@
             "Lambo scene, applying material to an object by mouse click",
             "Object is not specified"
         ],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
@@ -90,7 +90,7 @@
             "Lambo scene, applying material to an object by drag'n'drop",
             "Object is not specified"
         ],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
@@ -101,7 +101,7 @@
             "Lambo scene, reapplying material to an object",
             "Object is not specified"
         ],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
@@ -112,7 +112,7 @@
             "Lambo scene, changing object's properties",
             "Object is not specified"
         ],
-        "scene_name": "LamboRS",
+        "scene_name": "Lambo",
         "viewport_render_delay": 8
     },
     {
