@@ -1,0 +1,379 @@
+[
+    {
+        "case": "ARS_DESKTOP_SCENES_001",
+        "status": "active",
+        "function_name": "test_001",
+        "script_info": ["Open Lambo scene"],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_002",
+        "status": "active",
+        "function_name": "test_002",
+        "script_info": ["Lambo scene rotation"],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_003",
+        "status": "active",
+        "function_name": "test_003",
+        "script_info": ["Lambo scene Final render default JPEG"],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_004",
+        "status": "active",
+        "function_name": "test_004",
+        "script_info": ["Lambo scene Final render PNG"],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_005",
+        "status": "active",
+        "function_name": "test_005",
+        "script_info": ["Lambo scene Max resolution final render JPEG"],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_006",
+        "status": "active",
+        "function_name": "test_006",
+        "script_info": ["Lambo scene Max resolution final render PNG"],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_007",
+        "status": "active",
+        "function_name": "test_007",
+        "script_info": ["Lambo scene is rendered after default resolution final render"],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_008",
+        "status": "active",
+        "function_name": "test_008",
+        "script_info": ["Lambo scene is rendered after max resolution final render"],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_009",
+        "status": "active",
+        "function_name": "test_009",
+        "script_info": ["Lambo scene 100 samples default final render"],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_010",
+        "status": "skipped",
+        "function_name": "test_010",
+        "script_info": [
+            "Lambo scene, applying material to an object by mouse click",
+            "Object is not specified"
+        ],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_011",
+        "status": "skipped",
+        "function_name": "test_011",
+        "script_info": [
+            "Lambo scene, applying material to an object by drag'n'drop",
+            "Object is not specified"
+        ],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_012",
+        "status": "skipped",
+        "function_name": "test_012",
+        "script_info": [
+            "Lambo scene, reapplying material to an object",
+            "Object is not specified"
+        ],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_013",
+        "status": "skipped",
+        "function_name": "test_013",
+        "script_info": [
+            "Lambo scene, changing object's properties",
+            "Object is not specified"
+        ],
+        "scene_name": "Lambo",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_014",
+        "status": "skipped",
+        "function_name": "test_014",
+        "script_info": [
+            "Open Bath scene",
+            "No scene"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_015",
+        "status": "skipped",
+        "function_name": "test_015",
+        "script_info": [
+            "Bath scene rotation",
+            "No scene provided"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_016",
+        "status": "skipped",
+        "function_name": "test_016",
+        "script_info": [
+            "Bath scene Final render default JPEG",
+            "No scene provided"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_017",
+        "status": "skipped",
+        "function_name": "test_017",
+        "script_info": [
+            "Bath scene Final render PNG",
+            "No scene provided"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_018",
+        "status": "skipped",
+        "function_name": "test_018",
+        "script_info": [
+            "Bath scene Max resolution final render JPEG",
+            "No scene provided"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_019",
+        "status": "skipped",
+        "function_name": "test_019",
+        "script_info": [
+            "Bath scene Max resolution final render PNG",
+            "No scene provided"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_020",
+        "status": "skipped",
+        "function_name": "test_020",
+        "script_info": [
+            "Bath scene is rendered after default resolution final render",
+            "No scene provided"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_021",
+        "status": "skipped",
+        "function_name": "test_021",
+        "script_info": [
+            "Bath scene is rendered after max resolution final render",
+            "No scene provided"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_022",
+        "status": "skipped",
+        "function_name": "test_022",
+        "script_info": [
+            "Bath scene 100 samples default final render",
+            "No scene provided"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_023",
+        "status": "skipped",
+        "function_name": "test_023",
+        "script_info": [
+            "Bath scene, applying material to an object by mouse click",
+            "Object is not specified",
+            "No scene provided"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_024",
+        "status": "skipped",
+        "function_name": "test_024",
+        "script_info": [
+            "Bath scene, applying material to an object by drag'n'drop",
+            "Object is not specified",
+            "No scene provided"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_025",
+        "status": "skipped",
+        "function_name": "test_025",
+        "script_info": [
+            "Bath scene, reapplying material to an object",
+            "Object is not specified",
+            "No scene provided"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_026",
+        "status": "skipped",
+        "function_name": "test_026",
+        "script_info": [
+            "Bath scene, changing object's properties",
+            "Object is not specified",
+            "No scene provided"
+        ],
+        "scene_name": "BathHouse",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_027",
+        "status": "active",
+        "function_name": "test_027",
+        "script_info": ["Open Sphere scene"],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_028",
+        "status": "active",
+        "function_name": "test_028",
+        "script_info": ["Sphere scene rotation"],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_029",
+        "status": "active",
+        "function_name": "test_029",
+        "script_info": ["Sphere scene Final render default JPEG"],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_030",
+        "status": "active",
+        "function_name": "test_030",
+        "script_info": ["Sphere scene Final render PNG"],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_031",
+        "status": "active",
+        "function_name": "test_031",
+        "script_info": ["Sphere scene Max resolution final render JPEG"],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_032",
+        "status": "active",
+        "function_name": "test_032",
+        "script_info": ["Sphere scene Max resolution final render PNG"],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_033",
+        "status": "active",
+        "function_name": "test_033",
+        "script_info": ["Sphere scene is rendered after default resolution final render"],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_034",
+        "status": "active",
+        "function_name": "test_034",
+        "script_info": ["Sphere scene is rendered after max resolution final render"],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_035",
+        "status": "active",
+        "function_name": "test_035",
+        "script_info": ["Sphere scene 100 samples default final render"],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_036",
+        "status": "active",
+        "function_name": "test_036",
+        "script_info": [
+            "Sphere scene, applying material to an object by mouse click"
+        ],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_037",
+        "status": "skipped",
+        "function_name": "test_037",
+        "script_info": [
+            "Sphere scene, applying material to an object by drag'n'drop",
+            "Coordinates not evaluated"
+        ],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_038",
+        "status": "active",
+        "function_name": "test_038",
+        "script_info": [
+            "Sphere scene, reapplying material to an object"
+        ],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_039",
+        "status": "active",
+        "function_name": "test_039",
+        "script_info": [
+            "Sphere scene, changing object's properties"
+        ],
+        "scene_name": "SphereRS",
+        "viewport_render_delay": 8
+    }
+]
+
