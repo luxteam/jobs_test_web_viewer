@@ -166,7 +166,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_016",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Marble Tiles\""

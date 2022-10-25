@@ -159,7 +159,7 @@ def save_results(args, case, cases, test_case_status, render_time = 0.0, executi
                 copyfile(os.path.join(args.output, '..', '..', '..', '..', 'jobs_launcher', 
                     'common', 'img', 'error.jpg'), stub_image_path)
 
-            test_case_report["message"] = list(error_messages)
+        test_case_report["message"] = list(error_messages)
 
         test_case_report["group_timeout_exceeded"] = False
 
@@ -215,8 +215,8 @@ def execute_tests(args, current_conf):
                 utils.case_logger.info(f"Image path: {image_path}")
 
                 # existing image can affect retry of case
-                if os.path.exists(image_path):
-                    os.remove(image_path)
+                if os.path.exists(f"{image_path}.jpg"):
+                    os.remove(f"{image_path}.jpg")
 
                 driver = utils.pre_action(case, args.mode)
 
@@ -232,7 +232,8 @@ def execute_tests(args, current_conf):
 
                 execution_time = time() - case_start_time
 
-                utils.save_screen(image_path, driver)
+                save_final_render_image = case["save_final_render_image"] if "save_final_render_image" in case else False
+                utils.save_screen(image_path, driver, save_final_render_image = save_final_render_image)
 
                 render_time = 0.0
 

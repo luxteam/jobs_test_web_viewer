@@ -4,6 +4,7 @@ env/
 .idea/
 __pycache__
 test_cases.json
+regression.json
 Work
 driver
 scripts/launcher.engine.log
