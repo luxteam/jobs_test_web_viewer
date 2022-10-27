@@ -32,10 +32,7 @@ def test_002(args, case, driver, current_try):
 
 
 def test_003(args, case, driver, current_try):
-    LibrarySteps.select_refridgerator_element(driver)
-    LibrarySteps.click_library_tab(driver, 1)
-    LibrarySteps.select_material(driver, "gold")
-    LibrarySteps.click_library_tab(driver, 8)
+    LibrarySteps.test_material(driver, "Gold")
 
 
 def test_004(args, case, driver, current_try):
@@ -43,11 +40,8 @@ def test_004(args, case, driver, current_try):
 
 
 def test_005(args, case, driver, current_try):
-    LibrarySteps.select_refridgerator_element(driver)
-    LibrarySteps.click_library_tab(driver, 1)
-    LibrarySteps.select_material(driver, "gold")
-    LibrarySteps.select_material(driver, "aluminum")
-    LibrarySteps.click_library_tab(driver, 8)
+    LibrarySteps.test_material(driver, "Gold")
+    LibrarySteps.test_material(driver, "Aluminum")
 
 
 def test_006(args, case, driver, current_try):
