@@ -262,16 +262,5 @@
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
         "material_name": "Mahogany Varnished"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_WOOD_025",
-        "status": "active",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Wood Beech Raw\""
-        ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
-        "viewport_render_delay": 8,
-        "material_name": "Wood Beech Raw"
     }
 ]
