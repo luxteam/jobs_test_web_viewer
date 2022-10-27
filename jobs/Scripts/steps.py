@@ -154,6 +154,31 @@ class ViewportSteps:
     def click_scene(driver):
         utils.find_by_class("bg-yellow-700", driver, True)[0].click()
 
+    def rotate_scene(driver):
+        # TODO: remove hardcoded coordinate values
+        pyautogui.moveTo(800, 750)
+        sleep(1)
+        pyautogui.mouseDown()
+        sleep(1)
+        pyautogui.moveRel(-200, 100)
+        sleep(1)
+        pyautogui.mouseUp()
+        sleep(8)
+
+    def select_element(driver, element_name):
+        utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
+        sleep(2)
+        search = utils.find_by_xpath(LibraryLocators.SCENE_SEARCH, driver)
+        search.click()
+        sleep(2)
+        search.send_keys(element_name)
+        sleep(1)
+        utils.find_by_class("bg-yellow-700", driver, True)[0].click()
+        sleep(1)
+        utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
+        sleep(1)
+
+
 class PropertiesSteps:
     def select_object(driver):
         utils.find_by_xpath(ViewportLocators.SCENE_INDEX, driver).click()
@@ -184,13 +209,16 @@ class PropertiesSteps:
         utils.find_by_xpath(PropertiesLocators.UNLOCK_BUTTON, driver).click()
 
     def set(driver, index, axis, input):
+        utils.find_by_xpath('(//h3[text()[contains(.,"Properties")]])[2]', driver).click()
         value = utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).get_attribute("value")
         if type(input) == int:
             if input > 0:
                 for _ in range(input):
+                    sleep(0.5)
                     utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[2], driver).click()
             else:
                 for _ in range(abs(input)):
+                    sleep(0.5)
                     utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[1], driver).click()
         else:
             utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).send_keys(Keys.CONTROL + "a")

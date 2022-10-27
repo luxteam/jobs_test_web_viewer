@@ -367,11 +367,10 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_039",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_039",
         "script_info": [
-            "Sphere scene, changing object's properties",
-            "Object properties are locked"
+            "Sphere scene, changing object's properties"
         ],
         "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8

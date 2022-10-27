@@ -45,7 +45,7 @@ class FinalRenderLocators(object):
     WIDTH = '(//*[@maxlength])[1]'
     HEIGHT = '(//*[@maxlength])[2]'
     SAMPLES = '(//*[@maxlength])[3]'
-    BACK_BUTTON ='(//div[@class="icon"])[3]
+    BACK_BUTTON ='(//div[@class="icon"])[3]'
     DOWNLOAD_IMAGE = '//div[ @class="render-progress-bar-button" ]//button'
 
 class LibraryLocators(object):

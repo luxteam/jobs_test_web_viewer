@@ -8,8 +8,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from pyautogui import typewrite, press
 import pyautogui
+from jobs.Scripts.steps import LibrarySteps, PropertiesSteps
 from steps import FinalRenderSteps, ViewportSteps
-from locators import PropertiesLocators, ViewportLocators, SceneIndexLocators
+from locators import PropertiesLocators, ViewportLocators
 
 sys.path.append(os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir)))
@@ -20,16 +21,8 @@ def test_001(args, case, driver, current_try):
     pass
 
 def test_002(args, case, driver, current_try):
-    pyautogui.moveTo(800, 750)
-    sleep(1)
-    pyautogui.mouseDown()
-    sleep(1)
-    pyautogui.moveRel(-200, 100)
-    sleep(1)
-    pyautogui.mouseUp()
-    sleep(8)
+    ViewportSteps.rotate_scene(driver)
 
-# default render is jpeg
 def test_003(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.start_render(driver)
@@ -68,10 +61,12 @@ def test_009(args, case, driver, current_try):
 
 def test_010(args, case, driver, current_try):
     # TODO: set object name
-    ViewportSteps.find_and_select_object_in_index(driver, "<Object name>")
-    ViewportSteps.library_select_material(driver, 'Gold')
-    sleep(8)
-
+    ViewportSteps.select_element(driver, "<Object name>")
+    
+    LibrarySteps.click_library_tab(driver, 2)
+    utils.choose_material("Gold", driver)
+    sleep(3)
+    LibrarySteps.click_library_tab(driver, 6)
 
 def test_011(args, case, driver, current_try):
     library = utils.find_by_xpath(ViewportLocators.LIBRARY, driver)
@@ -99,36 +94,32 @@ def test_011(args, case, driver, current_try):
     utils.save_screen("{}.png".format(name), driver)
     sleep(3)
 
-
 def test_012(args, case, driver, current_try):
     # TODO: set object name
-    ViewportSteps.find_and_select_object_in_index(driver, "<Object name>")
-
-    ViewportSteps.library_select_material(driver, "Gold")
-    ViewportSteps.library_select_material(driver, "Aluminum")
-    sleep(8)
+    ViewportSteps.select_element(driver, "<Object name>")
+    
+    LibrarySteps.click_library_tab(driver, 2)
+    utils.choose_material("Gold", driver)
+    sleep(3)
+    utils.choose_material("Aluminum", driver)
+    sleep(3)
+    LibrarySteps.click_library_tab(driver, 8)
 
 def test_013(args, case, driver, current_try):
     # TODO: set object name
-    ViewportSteps.find_and_select_object_in_index(driver, "<Object name>")
+    ViewportSteps.select_element(driver, "<Object name>")
 
-    ViewportSteps.properties_set_move(driver, x=10)
-    ViewportSteps.properties_set_rotate(driver, x=None, y=-10, z=None)
-    ViewportSteps.properties_set_scale(driver, x=None, y=None, z=5)
+    PropertiesSteps.open_properties(driver)
+    PropertiesSteps.set(driver, "move", "X", "10")
+    PropertiesSteps.set(driver, "rotate", "Y", "-10")
+    PropertiesSteps.set(driver, "scale", "Z", "5")
     sleep(8)
 
 def test_014(args, case, driver, current_try):
     pass
 
 def test_015(args, case, driver, current_try):
-    pyautogui.moveTo(800, 750)
-    sleep(1)
-    pyautogui.mouseDown()
-    sleep(1)
-    pyautogui.moveRel(-200, 100)
-    sleep(1)
-    pyautogui.mouseUp()
-    sleep(8)
+    ViewportSteps.rotate_scene(driver)
 
 def test_016(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
@@ -168,9 +159,12 @@ def test_022(args, case, driver, current_try):
 
 def test_023(args, case, driver, current_try):
     # TODO: set object name
-    ViewportSteps.find_and_select_object_in_index(driver, "<Object name>")
-    ViewportSteps.library_select_material(driver, 'Gold')
-    sleep(8)
+    ViewportSteps.select_element(driver, "<Object name>")
+    
+    LibrarySteps.click_library_tab(driver, 2)
+    utils.choose_material("Gold", driver)
+    sleep(3)
+    LibrarySteps.click_library_tab(driver, 6)
 
 
 def test_024(args, case, driver, current_try):
@@ -197,32 +191,30 @@ def test_024(args, case, driver, current_try):
 
 def test_025(args, case, driver, current_try):
     # TODO: set object name
-    ViewportSteps.find_and_select_object_in_index(driver, "<Object name>")
-    ViewportSteps.library_select_material(driver, 'Gold')
-    ViewportSteps.library_select_material(driver, 'Aluminum')
-    sleep(8)
+    ViewportSteps.select_element(driver, "<Object name>")
+    
+    LibrarySteps.click_library_tab(driver, 2)
+    utils.choose_material("Gold", driver)
+    sleep(3)
+    utils.choose_material("Aluminum", driver)
+    sleep(3)
+    LibrarySteps.click_library_tab(driver, 8)
 
 def test_026(args, case, driver, current_try):
     # TODO: set object name
-    ViewportSteps.find_and_select_object_in_index(driver, "<Object name>")
+    ViewportSteps.select_element(driver, "<Object name>")
 
-    ViewportSteps.properties_set_move(driver, x=10)
-    ViewportSteps.properties_set_rotate(driver, x=None, y=-10, z=None)
-    ViewportSteps.properties_set_scale(driver, x=None, y=None, z=5)
+    PropertiesSteps.open_properties(driver)
+    PropertiesSteps.set(driver, "move", "X", "10")
+    PropertiesSteps.set(driver, "rotate", "Y", "-10")
+    PropertiesSteps.set(driver, "scale", "Z", "5")
     sleep(8)
 
 def test_027(args, case, driver, current_try):
     pass
 
 def test_028(args, case, driver, current_try):
-    pyautogui.moveTo(800, 750)
-    sleep(1)
-    pyautogui.mouseDown()
-    sleep(1)
-    pyautogui.moveRel(-200, 100)
-    sleep(1)
-    pyautogui.mouseUp()
-    sleep(8)
+    ViewportSteps.rotate_scene(driver)
 
 def test_029(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
@@ -261,10 +253,12 @@ def test_035(args, case, driver, current_try):
     FinalRenderSteps.start_render(driver)
 
 def test_036(args, case, driver, current_try):
-    ViewportSteps.find_and_select_object_in_index(driver, "Sphere_001")
-    ViewportSteps.library_select_material(driver, 'Gold')
-    sleep(8)
-
+    ViewportSteps.select_element(driver, "Sphere_001")
+    
+    LibrarySteps.click_library_tab(driver, 2)
+    utils.choose_material("Gold", driver)
+    sleep(3)
+    LibrarySteps.click_library_tab(driver, 6)
 
 def test_037(args, case, driver, current_try):
     library = utils.find_by_xpath(ViewportLocators.LIBRARY, driver)
@@ -289,13 +283,20 @@ def test_037(args, case, driver, current_try):
 
 
 def test_038(args, case, driver, current_try):
-    ViewportSteps.find_and_select_object_in_index(driver, "Sphere_001")
-    ViewportSteps.library_select_material(driver, 'Gold')
-    ViewportSteps.library_select_material(driver, 'Aluminum')
+    ViewportSteps.select_element(driver, "Sphere_001")
+    
+    LibrarySteps.click_library_tab(driver, 2)
+    utils.choose_material("Gold", driver)
+    sleep(3)
+    utils.choose_material("Aluminum", driver)
+    sleep(3)
+    LibrarySteps.click_library_tab(driver, 8)
 
 def test_039(args, case, driver, current_try):
-    ViewportSteps.find_and_select_object_in_index(driver, "Sphere_001")
-    ViewportSteps.properties_set_move(driver, x=10)
-    ViewportSteps.properties_set_rotate(driver, x=None, y=-10, z=None)
-    ViewportSteps.properties_set_scale(driver, x=None, y=None, z=5)
+    ViewportSteps.select_element(driver, "Sphere_001")
+
+    PropertiesSteps.open_properties(driver)
+    PropertiesSteps.set(driver, "move", "X", "10")
+    PropertiesSteps.set(driver, "rotate", "Y", "-10")
+    PropertiesSteps.set(driver, "scale", "Z", "5")
     sleep(8)
