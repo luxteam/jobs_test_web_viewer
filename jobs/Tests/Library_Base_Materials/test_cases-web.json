@@ -1,288 +1,321 @@
 [
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_001",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_001",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Black Upholstery\""
+            "Applying material \"Aluminum\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Black Upholstery"
+        "material_name": "Aluminum"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_002",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_002",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Book Pattern\""
+            "Applying material \"Brass\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Book Pattern"
+        "material_name": "Brass"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_003",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_003",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Brown Leather\""
+            "Applying material \"Bronze\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Brown Leather"
+        "material_name": "Bronze"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_004",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_004",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Blue Denim Fabric\""
+            "Applying material \"Chrome\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Blue Denim Fabric"
+        "material_name": "Chrome"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_005",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_005",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Denim Fabric\""
+            "Applying material \"Cobalt\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Denim Fabric"
+        "material_name": "Cobalt"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_006",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_006",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Brown Fabric Leather\""
+            "Applying material \"Copper\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Brown Fabric Leather"
+        "material_name": "Copper"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_007",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_007",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Fabric Leather\""
+            "Applying material \"Gold\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Fabric Leather"
+        "material_name": "Gold"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_008",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_008",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Tablecloth Fabric Pattern\""
+            "Applying material \"Iron\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Tablecloth Fabric Pattern"
+        "material_name": "Iron"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_009",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_009",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Red Fabric Pattern\""
+            "Applying material \"Nickel\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Red Fabric Pattern"
+        "material_name": "Nickel"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_010",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_010",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Red Large Leather\""
+            "Applying material \"Black Plastic\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Red Large Leather"
+        "material_name": "Black Plastic"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_011",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_011",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Red Leather\""
+            "Applying material \"Rough Plastic\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Red Leather"
+        "material_name": "Rough Plastic"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_012",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_012",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Leather White\""
+            "Applying material \"Rubber\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Leather White"
+        "material_name": "Rubber"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_013",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_013",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Scarf Blue Knitted Fabric\""
+            "Applying material \"Semitransparent Silicone\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Scarf Blue Knitted Fabric"
+        "material_name": "Semitransparent Silicone"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_014",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_014",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Braid Jumper Knitted Fabric\""
+            "Applying material \"Glass\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Braid Jumper Knitted Fabric"
+        "material_name": "Glass"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_015",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_015",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Daisy Checker Knitted Fabric\""
+            "Applying material \"Red Wine\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Daisy Checker Knitted Fabric"
+        "material_name": "Red Wine"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_016",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_016",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Chunky Weave Cushion Fabric\""
+            "Applying material \"White Wine\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Chunky Weave Cushion Fabric"
+        "material_name": "White Wine"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_017",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_017",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Carrot Knitted Fabric\""
+            "Applying material \"Diamond\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Carrot Knitted Fabric"
+        "material_name": "Diamond"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_018",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_018",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Tiffany Blue Cushion Fabric\""
+            "Applying material \"Dark Glass\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Tiffany Blue Cushion Fabric"
+        "material_name": "Dark Glass"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_019",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_019",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Pale Coral Linen Fabric\""
+            "Applying material \"Frosted Glass\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Pale Coral Linen Fabric"
+        "material_name": "Frosted Glass"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_020",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_020",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Oblong Printed Fabric\""
+            "Applying material \"White Plastic\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Oblong Printed Fabric"
+        "material_name": "White Plastic"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_021",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_021",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Blue Pixel Linen Fabric\""
+            "Applying material \"Acryl Plastic\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Blue Pixel Linen Fabric"
+        "material_name": "Acryl Plastic"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_022",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_022",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Midnight Blue Heavy Fabric\""
+            "Applying material \"Skin - 0.1 percent melanin\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Midnight Blue Heavy Fabric"
+        "material_name": "Skin - 0.1 percent melanin"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_023",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_023",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Lemons Woollen Fabric\""
+            "Applying material \"Skin - 1 percent melanin\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Lemons Woollen Fabric"
+        "material_name": "Skin - 1 percent melanin"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_024",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_024",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Forest Green Jumper Fabric\""
+            "Applying material \"Skin - 2 percent melanin\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Forest Green Jumper Fabric"
+        "material_name": "Skin - 2 percent melanin"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_025",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_025",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Emerald Waves Fabric\""
+            "Applying material \"Skin - 5 percent melanin\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Emerald Waves Fabric"
+        "material_name": "Skin - 5 percent melanin"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_026",
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_026",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Latour Blue Fabric\""
+            "Applying material \"Skin - 10 percent melanin\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Latour Blue Fabric"
+        "material_name": "Skin - 10 percent melanin"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_027",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Skin - 20 percent melanin\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Skin - 20 percent melanin"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_028",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Skin - 30 percent melanin\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Skin - 30 percent melanin"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_029",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Skin - 50 percent melanin\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Skin - 50 percent melanin"
     }
 ]
