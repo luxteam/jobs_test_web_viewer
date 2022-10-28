@@ -9,6 +9,7 @@ from selenium.webdriver.common.by import By
 from pyautogui import typewrite, press
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.keys import Keys
 from psutil import Popen, NoSuchProcess
 from subprocess import PIPE, CREATE_NEW_CONSOLE
 import sys
@@ -248,6 +249,7 @@ def choose_material(material_name, driver):
     search = find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
     search.click()
     time.sleep(2)
+    search.send_keys(Keys.CONTROL + "a")
     search.send_keys(material_name)
 
     # cards with materials can be reloaded few times, wait a bit
