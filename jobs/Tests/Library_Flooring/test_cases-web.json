@@ -70,11 +70,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Hamogany Chevron Flooring\""
+            "Applying material \"Mahogany Chevron Flooring\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Hamogany Chevron Flooring"
+        "material_name": "Mahogany Chevron Flooring"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_008",
