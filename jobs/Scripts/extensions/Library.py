@@ -28,7 +28,7 @@ def test_001(args, case, driver, current_try):
 def test_002(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)
     LibrarySteps.click_library_tab(driver, 1)
-    assert not utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver).is_displayed(), "Opened \"Library\" tab found"
+    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver) == None, "Opened \"Library\" tab found"
 
 
 def test_003(args, case, driver, current_try):
