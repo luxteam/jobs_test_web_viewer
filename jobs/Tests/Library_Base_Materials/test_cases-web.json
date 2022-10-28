@@ -86,7 +86,7 @@
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "Basic Glass"
-    }
+    },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_009",
         "status": "active",
