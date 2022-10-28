@@ -229,5 +229,101 @@
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "Basic Aluminum"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_022",
+        "status": "skipped",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Skin - 50 percent melanin\""
+        ],
+        "jira_issue": "https://amdrender.atlassian.net/browse/RS-279",
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Skin - 50 percent melanin"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_023",
+        "status": "skipped",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Skin - 30 percent melanin\""
+        ],
+        "jira_issue": "https://amdrender.atlassian.net/browse/RS-279",
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Skin - 30 percent melanin"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_024",
+        "status": "skipped",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Skin - 20 percent melanin\""
+        ],
+        "jira_issue": "https://amdrender.atlassian.net/browse/RS-279",
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Skin - 20 percent melanin"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_025",
+        "status": "skipped",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Skin - 10 percent melanin\""
+        ],
+        "jira_issue": "https://amdrender.atlassian.net/browse/RS-279",
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Skin - 10 percent melanin"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_026",
+        "status": "skipped",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Skin - 5 percent melanin\""
+        ],
+        "jira_issue": "https://amdrender.atlassian.net/browse/RS-279",
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Skin - 5 percent melanin"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_027",
+        "status": "skipped",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Skin - 2 percent melanin\""
+        ],
+        "jira_issue": "https://amdrender.atlassian.net/browse/RS-279",
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Skin - 2 percent melanin"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_028",
+        "status": "skipped",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Skin - 1 percent melanin\""
+        ],
+        "jira_issue": "https://amdrender.atlassian.net/browse/RS-279",
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Skin - 1 percent melanin"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_029",
+        "status": "skipped",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Skin - 0.1 percent melanin\""
+        ],
+        "jira_issue": "https://amdrender.atlassian.net/browse/RS-279",
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Skin - 0.1 percent melanin"
     }
 ]
