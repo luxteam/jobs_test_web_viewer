@@ -100,10 +100,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_010",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Black Plastic\""
+            "Applying material \"Black Plastic\"",
+            "Observed test status due to fireflies"
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
@@ -111,10 +112,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_011",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Rough Plastic\""
+            "Applying material \"Rough Plastic\"",
+            "Observed test status due to fireflies"
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
@@ -122,10 +124,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_012",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Rubber\""
+            "Applying material \"Rubber\"",
+            "Observed test status due to fireflies"
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
@@ -133,10 +136,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_013",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Semitransparent Silicone\""
+            "Applying material \"Semitransparent Silicone\"",
+            "Observed test status due to fireflies"
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
@@ -199,10 +203,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_019",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Frosted Glass\""
+            "Applying material \"Frosted Glass\"",
+            "Observed test status due to fireflies"
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
@@ -210,10 +215,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_020",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"White Plastic\""
+            "Applying material \"White Plastic\"",
+            "Observed test status due to fireflies"
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
@@ -221,10 +227,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_021",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Acryl Plastic\""
+            "Applying material \"Acryl Plastic\"",
+            "Observed test status due to fireflies"
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,

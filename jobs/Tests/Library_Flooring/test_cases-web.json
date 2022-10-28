@@ -298,10 +298,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_028",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Gaize Dark Walnut Mosaic\""
+            "Applying material \"Gaize Dark Walnut Mosaic\"",
+            "Observed test status due to fireflies"
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
@@ -342,10 +343,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_032",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Coffee Beech Wood\""
+            "Applying material \"Coffee Beech Wood\"",
+            "Observed test status due to fireflies"
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
@@ -364,10 +366,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_034",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Redwood Pine Planks\""
+            "Applying material \"Redwood Pine Planks\"",
+            "Observed test status due to fireflies"
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
@@ -375,10 +378,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_035",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Ivory Walnut Solid Wood\""
+            "Applying material \"Ivory Walnut Solid Wood\"",
+            "Observed test status due to fireflies"
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
@@ -386,10 +390,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_036",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Mahogany Walnut Solid Wood\""
+            "Applying material \"Mahogany Walnut Solid Wood\"",
+            "Observed test status due to fireflies"
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
@@ -397,10 +402,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_037",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Harbour Oak Grey Wood\""
+            "Applying material \"Harbour Oak Grey Wood\"",
+            "Observed test status due to fireflies"
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
@@ -441,10 +447,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_041",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Canyon Maple Dark Wood\""
+            "Applying material \"Canyon Maple Dark Wood\"",
+            "Observed test status due to fireflies"
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
@@ -474,10 +481,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_044",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Galloway Brown Oak\""
+            "Applying material \"Galloway Brown Oak\"",
+            "Observed test status due to fireflies"
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
@@ -485,10 +493,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_045",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Pale Oak Solid Wood\""
+            "Applying material \"Pale Oak Solid Wood\"",
+            "Observed test status due to fireflies"
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
@@ -540,10 +549,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_050",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Dark Brown Ash Planks\""
+            "Applying material \"Dark Brown Ash Planks\"",
+            "Observed test status due to fireflies"
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
@@ -562,10 +572,11 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_052",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Adelie Brown Luxury Flooring\""
+            "Applying material \"Adelie Brown Luxury Flooring\"",
+            "Observed test status due to fireflies"
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
