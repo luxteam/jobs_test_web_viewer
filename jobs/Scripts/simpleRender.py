@@ -159,7 +159,7 @@ def save_results(args, case, cases, test_case_status, render_time = 0.0, executi
                 copyfile(os.path.join(args.output, '..', '..', '..', '..', 'jobs_launcher', 
                     'common', 'img', 'error.jpg'), stub_image_path)
 
-            test_case_report["message"] = list(error_messages)
+        test_case_report["message"] = list(error_messages)
 
         test_case_report["group_timeout_exceeded"] = False
 
