@@ -3,10 +3,10 @@
 
     <outpath value="{OutputDir}"/>
 
-    <execute command='python "{ResourcesDir}/simpleRender.py"' timeout="2500">
+    <execute command='python "{ResourcesDir}/simpleRender.py"' timeout="3000">
         <argument>--mode "{Mode}"</argument>
         <argument>--output "{OutputDir}"</argument>
-        <argument>--test_group Library_Fabrics</argument>
+        <argument>--test_group Library_Base_Materials</argument>
         <argument>--res_path "{ScenesDir}"</argument>
         <argument>--test_cases "{TestCases}"</argument>
         <argument>--retries {Retries}</argument>

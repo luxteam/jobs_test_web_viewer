@@ -37,11 +37,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Old Hamogany Chevron\""
+            "Applying material \"Old Mahogany Chevron\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Old Hamogany Chevron"
+        "material_name": "Old Mahogany Chevron"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_005",
@@ -70,11 +70,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Hamogany Chevron Flooring\""
+            "Applying material \"Mahogany Chevron Flooring\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Hamogany Chevron Flooring"
+        "material_name": "Mahogany Chevron Flooring"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_008",
@@ -295,5 +295,302 @@
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
         "material_name": "Herringbone Brown Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_028",
+        "status": "observed",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Gaize Dark Walnut Mosaic\"",
+            "Observed test status due to fireflies"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Gaize Dark Walnut Mosaic"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_029",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Pickle Green Painted Wood\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Pickle Green Painted Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_030",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Sage Satin Painted Wood\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Sage Satin Painted Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_031",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Stone Blue Painted Wood\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Stone Blue Painted Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_032",
+        "status": "observed",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Coffee Beech Wood\"",
+            "Observed test status due to fireflies"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Coffee Beech Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_033",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Light Berry Painted Wood\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Light Berry Painted Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_034",
+        "status": "observed",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Redwood Pine Planks\"",
+            "Observed test status due to fireflies"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Redwood Pine Planks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_035",
+        "status": "observed",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Ivory Walnut Solid Wood\"",
+            "Observed test status due to fireflies"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Ivory Walnut Solid Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_036",
+        "status": "observed",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Mahogany Walnut Solid Wood\"",
+            "Observed test status due to fireflies"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Mahogany Walnut Solid Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_037",
+        "status": "observed",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Harbour Oak Grey Wood\"",
+            "Observed test status due to fireflies"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Harbour Oak Grey Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_038",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Painted Wood Mermaid Boards\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Painted Wood Mermaid Boards"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_039",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Sacramento Green Painted Wood\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Sacramento Green Painted Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_040",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Mazzonetto Dices Parquet\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Mazzonetto Dices Parquet"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_041",
+        "status": "observed",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Canyon Maple Dark Wood\"",
+            "Observed test status due to fireflies"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Canyon Maple Dark Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_042",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Stack Bond Brown Wood\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Stack Bond Brown Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_043",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Atlantis Beige Wood\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Atlantis Beige Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_044",
+        "status": "observed",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Galloway Brown Oak\"",
+            "Observed test status due to fireflies"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Galloway Brown Oak"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_045",
+        "status": "observed",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Pale Oak Solid Wood\"",
+            "Observed test status due to fireflies"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Pale Oak Solid Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_046",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Fresco Oak Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Fresco Oak Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_047",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Ash Brown Solid Wood\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Ash Brown Solid Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_048",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"European Beech Hardwood\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "European Beech Hardwood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_049",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Wembley Chestnut Flooring\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Wembley Chestnut Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_050",
+        "status": "observed",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Dark Brown Ash Planks\"",
+            "Observed test status due to fireflies"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Dark Brown Ash Planks"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_051",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Oliana Blue Painted Wood\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Oliana Blue Painted Wood"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_052",
+        "status": "observed",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Adelie Brown Luxury Flooring\"",
+            "Observed test status due to fireflies"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Adelie Brown Luxury Flooring"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FLOORING_053",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Mazzonetto Dimonds Parquet\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Mazzonetto Dimonds Parquet"
     }
 ]
