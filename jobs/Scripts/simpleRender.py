@@ -159,7 +159,7 @@ def save_results(args, case, cases, test_case_status, render_time = 0.0, executi
                 copyfile(os.path.join(args.output, '..', '..', '..', '..', 'jobs_launcher', 
                     'common', 'img', 'error.jpg'), stub_image_path)
 
-            test_case_report["message"] = list(error_messages)
+        test_case_report["message"] = list(error_messages)
 
         test_case_report["group_timeout_exceeded"] = False
 
@@ -228,7 +228,11 @@ def execute_tests(args, current_conf):
                 try:
                     error_message = getattr(group_module, case["function_name"])(args, case, driver, current_try)
                 except AssertionError as e:
+                    utils.case_logger.warning(f"Catched Assertion Error")
                     error_message = str(e)
+
+                if error_message:
+                    utils.case_logger.warning(f"Error message: {error_message}")
 
                 execution_time = time() - case_start_time
 

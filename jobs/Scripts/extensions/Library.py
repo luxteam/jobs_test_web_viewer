@@ -22,13 +22,13 @@ def test_001(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'menu')
     ViewportSteps.click_tab(driver, 2, 'menu')
     sleep(10)
-    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver) != None, "Opened \"Library\" tab not found"
+    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver).is_displayed(), "Opened \"Library\" tab not found"
 
 
 def test_002(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)
     LibrarySteps.click_library_tab(driver, 1)
-    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver, 3) == None, "Opened \"Library\" tab found"
+    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver) == None, "Opened \"Library\" tab found"
 
 
 def test_003(args, case, driver, current_try):
