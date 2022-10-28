@@ -374,6 +374,122 @@
         ],
         "scene_name": "SphereRS",
         "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_040",
+        "status": "active",
+        "function_name": "test_040",
+        "script_info": ["Open W7800 scene"],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_041",
+        "status": "active",
+        "function_name": "test_041",
+        "script_info": ["W7800 scene rotation"],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_042",
+        "status": "active",
+        "function_name": "test_042",
+        "script_info": ["W7800 scene Final render default JPEG"],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_043",
+        "status": "active",
+        "function_name": "test_043",
+        "script_info": ["W7800 scene Final render PNG"],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_044",
+        "status": "active",
+        "function_name": "test_044",
+        "script_info": ["W7800 scene Max resolution final render JPEG"],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_045",
+        "status": "active",
+        "function_name": "test_045",
+        "script_info": ["W7800 scene Max resolution final render PNG"],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_046",
+        "status": "active",
+        "function_name": "test_046",
+        "script_info": ["W7800 scene is rendered after default resolution final render"],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_047",
+        "status": "active",
+        "function_name": "test_047",
+        "script_info": ["W7800 scene is rendered after max resolution final render"],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_048",
+        "status": "active",
+        "function_name": "test_048",
+        "script_info": ["W7800 scene 100 samples default final render"],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_049",
+        "status": "skipped",
+        "function_name": "test_049",
+        "script_info": [
+            "W7800 scene, applying material to an object by mouse click",
+            "Object is not specified"
+        ],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_050",
+        "status": "skipped",
+        "function_name": "test_050",
+        "script_info": [
+            "W7800 scene, applying material to an object by drag'n'drop",
+            "Coordinates not evaluated"
+        ],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_051",
+        "status": "skipped",
+        "function_name": "test_051",
+        "script_info": [
+            "W7800 scene, reapplying material to an object",
+            "Object is not specified"
+        ],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_052",
+        "status": "skipped",
+        "function_name": "test_052",
+        "script_info": [
+            "W7800 scene, changing object's properties",
+            "Object is not specified"
+        ],
+        "scene_name": "W7800",
+        "viewport_render_delay": 8
     }
 ]
 
