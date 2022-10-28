@@ -232,7 +232,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_022",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Skin - 0.1 percent melanin\""
@@ -243,7 +243,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_023",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Skin - 1 percent melanin\""
@@ -254,7 +254,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_024",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Skin - 2 percent melanin\""
@@ -265,7 +265,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_025",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Skin - 5 percent melanin\""
@@ -276,7 +276,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_026",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Skin - 10 percent melanin\""
@@ -287,7 +287,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_027",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Skin - 20 percent melanin\""
@@ -298,7 +298,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_028",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Skin - 30 percent melanin\""
@@ -309,7 +309,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_029",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Skin - 50 percent melanin\""
