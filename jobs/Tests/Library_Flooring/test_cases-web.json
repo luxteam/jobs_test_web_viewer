@@ -37,11 +37,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Old Hamogany Chevron\""
+            "Applying material \"Old Mahogany Chevron\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Old Hamogany Chevron"
+        "material_name": "Old Mahogany Chevron"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_005",
