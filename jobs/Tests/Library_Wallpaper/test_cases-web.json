@@ -15,11 +15,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Retro Mood Aqua BLue Wallpaper\""
+            "Applying material \"Retro Mood Aqua Blue Wallpaper\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Retro Mood Aqua BLue Wallpaper"
+        "material_name": "Retro Mood Aqua Blue Wallpaper"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_003",
