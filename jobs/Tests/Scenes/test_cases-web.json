@@ -117,113 +117,84 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_014",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_014",
-        "script_info": [
-            "Open Bath scene",
-            "No scene"
-        ],
-        "scene_name": "BathHouse",
+        "script_info": ["Open Sphere scene"],
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_015",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_015",
-        "script_info": [
-            "Bath scene rotation",
-            "No scene provided"
-        ],
-        "scene_name": "BathHouse",
+        "script_info": ["Sphere scene rotation"],
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_016",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_016",
-        "script_info": [
-            "Bath scene Final render default JPEG",
-            "No scene provided"
-        ],
-        "scene_name": "BathHouse",
+        "script_info": ["Sphere scene Final render default JPEG"],
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_017",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_017",
-        "script_info": [
-            "Bath scene Final render PNG",
-            "No scene provided"
-        ],
-        "scene_name": "BathHouse",
+        "script_info": ["Sphere scene Final render PNG"],
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_018",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_018",
-        "script_info": [
-            "Bath scene Max resolution final render JPEG",
-            "No scene provided"
-        ],
-        "scene_name": "BathHouse",
+        "script_info": ["Sphere scene Max resolution final render JPEG"],
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_019",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_019",
-        "script_info": [
-            "Bath scene Max resolution final render PNG",
-            "No scene provided"
-        ],
-        "scene_name": "BathHouse",
+        "script_info": ["Sphere scene Max resolution final render PNG"],
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_020",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_020",
-        "script_info": [
-            "Bath scene is rendered after default resolution final render",
-            "No scene provided"
-        ],
-        "scene_name": "BathHouse",
+        "script_info": ["Sphere scene is rendered after default resolution final render"],
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_021",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_021",
-        "script_info": [
-            "Bath scene is rendered after max resolution final render",
-            "No scene provided"
-        ],
-        "scene_name": "BathHouse",
+        "script_info": ["Sphere scene is rendered after max resolution final render"],
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_022",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_022",
-        "script_info": [
-            "Bath scene 100 samples default final render",
-            "No scene provided"
-        ],
-        "scene_name": "BathHouse",
+        "script_info": ["Sphere scene 100 samples default final render"],
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_023",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_023",
         "script_info": [
-            "Bath scene, applying material to an object by mouse click",
-            "Object is not specified",
-            "No scene provided"
+            "Sphere scene, applying material to an object by mouse click"
         ],
-        "scene_name": "BathHouse",
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -231,117 +202,114 @@
         "status": "skipped",
         "function_name": "test_024",
         "script_info": [
-            "Bath scene, applying material to an object by drag'n'drop",
-            "Object is not specified",
-            "No scene provided"
+            "Sphere scene, applying material to an object by drag'n'drop",
+            "Coordinates not evaluated"
         ],
-        "scene_name": "BathHouse",
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_025",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_025",
         "script_info": [
-            "Bath scene, reapplying material to an object",
-            "Object is not specified",
-            "No scene provided"
+            "Sphere scene, reapplying material to an object"
         ],
-        "scene_name": "BathHouse",
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_026",
-        "status": "skipped",
+        "status": "observed",
         "function_name": "test_026",
         "script_info": [
-            "Bath scene, changing object's properties",
-            "Object is not specified",
-            "No scene provided"
+            "https://amdrender.atlassian.net/browse/RS-276",
+            "Sphere scene, changing object's properties"
         ],
-        "scene_name": "BathHouse",
+        "scene_path": "SphereRS",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_027",
         "status": "active",
         "function_name": "test_027",
-        "script_info": ["Open Sphere scene"],
-        "scene_name": "SphereRS",
+        "script_info": ["Open W7800 scene"],
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_028",
         "status": "active",
         "function_name": "test_028",
-        "script_info": ["Sphere scene rotation"],
-        "scene_name": "SphereRS",
+        "script_info": ["W7800 scene rotation"],
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_029",
         "status": "active",
         "function_name": "test_029",
-        "script_info": ["Sphere scene Final render default JPEG"],
-        "scene_name": "SphereRS",
+        "script_info": ["W7800 scene Final render default JPEG"],
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_030",
         "status": "active",
         "function_name": "test_030",
-        "script_info": ["Sphere scene Final render PNG"],
-        "scene_name": "SphereRS",
+        "script_info": ["W7800 scene Final render PNG"],
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_031",
         "status": "active",
         "function_name": "test_031",
-        "script_info": ["Sphere scene Max resolution final render JPEG"],
-        "scene_name": "SphereRS",
+        "script_info": ["W7800 scene Max resolution final render JPEG"],
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_032",
         "status": "active",
         "function_name": "test_032",
-        "script_info": ["Sphere scene Max resolution final render PNG"],
-        "scene_name": "SphereRS",
+        "script_info": ["W7800 scene Max resolution final render PNG"],
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_033",
         "status": "active",
         "function_name": "test_033",
-        "script_info": ["Sphere scene is rendered after default resolution final render"],
-        "scene_name": "SphereRS",
+        "script_info": ["W7800 scene is rendered after default resolution final render"],
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_034",
         "status": "active",
         "function_name": "test_034",
-        "script_info": ["Sphere scene is rendered after max resolution final render"],
-        "scene_name": "SphereRS",
+        "script_info": ["W7800 scene is rendered after max resolution final render"],
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_035",
         "status": "active",
         "function_name": "test_035",
-        "script_info": ["Sphere scene 100 samples default final render"],
-        "scene_name": "SphereRS",
+        "script_info": ["W7800 scene 100 samples default final render"],
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_036",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_036",
         "script_info": [
-            "Sphere scene, applying material to an object by mouse click"
+            "W7800 scene, applying material to an object by mouse click",
+            "Object is not specified"
         ],
-        "scene_name": "SphereRS",
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -349,146 +317,32 @@
         "status": "skipped",
         "function_name": "test_037",
         "script_info": [
-            "Sphere scene, applying material to an object by drag'n'drop",
+            "W7800 scene, applying material to an object by drag'n'drop",
             "Coordinates not evaluated"
         ],
-        "scene_name": "SphereRS",
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     },
     {
         "case": "ARS_DESKTOP_SCENES_038",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_038",
-        "script_info": [
-            "Sphere scene, reapplying material to an object"
-        ],
-        "scene_name": "SphereRS",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_039",
-        "status": "active",
-        "function_name": "test_039",
-        "script_info": [
-            "Sphere scene, changing object's properties"
-        ],
-        "scene_name": "SphereRS",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_040",
-        "status": "active",
-        "function_name": "test_040",
-        "script_info": ["Open W7800 scene"],
-        "scene_name": "W7800",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_041",
-        "status": "active",
-        "function_name": "test_041",
-        "script_info": ["W7800 scene rotation"],
-        "scene_name": "W7800",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_042",
-        "status": "active",
-        "function_name": "test_042",
-        "script_info": ["W7800 scene Final render default JPEG"],
-        "scene_name": "W7800",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_043",
-        "status": "active",
-        "function_name": "test_043",
-        "script_info": ["W7800 scene Final render PNG"],
-        "scene_name": "W7800",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_044",
-        "status": "active",
-        "function_name": "test_044",
-        "script_info": ["W7800 scene Max resolution final render JPEG"],
-        "scene_name": "W7800",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_045",
-        "status": "active",
-        "function_name": "test_045",
-        "script_info": ["W7800 scene Max resolution final render PNG"],
-        "scene_name": "W7800",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_046",
-        "status": "active",
-        "function_name": "test_046",
-        "script_info": ["W7800 scene is rendered after default resolution final render"],
-        "scene_name": "W7800",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_047",
-        "status": "active",
-        "function_name": "test_047",
-        "script_info": ["W7800 scene is rendered after max resolution final render"],
-        "scene_name": "W7800",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_048",
-        "status": "active",
-        "function_name": "test_048",
-        "script_info": ["W7800 scene 100 samples default final render"],
-        "scene_name": "W7800",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_049",
-        "status": "skipped",
-        "function_name": "test_049",
-        "script_info": [
-            "W7800 scene, applying material to an object by mouse click",
-            "Object is not specified"
-        ],
-        "scene_name": "W7800",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_050",
-        "status": "skipped",
-        "function_name": "test_050",
-        "script_info": [
-            "W7800 scene, applying material to an object by drag'n'drop",
-            "Coordinates not evaluated"
-        ],
-        "scene_name": "W7800",
-        "viewport_render_delay": 8
-    },
-    {
-        "case": "ARS_DESKTOP_SCENES_051",
-        "status": "skipped",
-        "function_name": "test_051",
         "script_info": [
             "W7800 scene, reapplying material to an object",
             "Object is not specified"
         ],
-        "scene_name": "W7800",
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_052",
+        "case": "ARS_DESKTOP_SCENES_039",
         "status": "skipped",
-        "function_name": "test_052",
+        "function_name": "test_039",
         "script_info": [
             "W7800 scene, changing object's properties",
             "Object is not specified"
         ],
-        "scene_name": "W7800",
+        "scene_path": "W7800",
         "viewport_render_delay": 8
     }
 ]
