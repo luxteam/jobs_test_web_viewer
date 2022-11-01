@@ -4,7 +4,7 @@
         "status": "active",
         "function_name": "test_001",
         "script_info": ["Opening \"Library\" tab"],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "SimpleScene\\SimpleSceneBL.usda",
         "viewport_render_delay": 20
     },
     {
@@ -12,7 +12,7 @@
         "status": "active",
         "function_name": "test_002",
         "script_info": ["Closing \"Library\" tab"],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "SimpleScene\\SimpleSceneBL.usda",
         "viewport_render_delay": 8
     },
     {
@@ -20,7 +20,7 @@
         "status": "active",
         "function_name": "test_003",
         "script_info": ["Applying material to an object by mouse click"],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "SimpleScene\\SimpleSceneBL.usda",
         "viewport_render_delay": 8
     },
     {
@@ -28,7 +28,7 @@
         "status": "skipped",
         "function_name": "test_004",
         "script_info": ["Applying material to an object by drag'n'drop"],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "SimpleScene\\SimpleSceneBL.usda",
         "viewport_render_delay": 8
     },
     {
@@ -36,7 +36,7 @@
         "status": "active",
         "function_name": "test_005",
         "script_info": ["Reapplying material to an object"],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "SimpleScene\\SimpleSceneBL.usda",
         "viewport_render_delay": 8
     },
     {
@@ -44,7 +44,7 @@
         "status": "active",
         "function_name": "test_006",
         "script_info": ["Searching for a material in search bar"],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "SimpleScene\\SimpleSceneBL.usda",
         "viewport_render_delay": 8
     },
     {
@@ -52,7 +52,7 @@
         "status": "skipped",
         "function_name": "test_007",
         "script_info": ["Sorting materials by publish date"],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "SimpleScene\\SimpleSceneBL.usda",
         "viewport_render_delay": 8
     },
     {
@@ -60,7 +60,7 @@
         "status": "skipped",
         "function_name": "test_008",
         "script_info": ["Sorting materials by title"],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "SimpleScene\\SimpleSceneBL.usda",
         "viewport_render_delay": 8
     },
     {
@@ -68,7 +68,7 @@
         "status": "skipped",
         "function_name": "test_009",
         "script_info": ["Sorting materials by author"],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "SimpleScene\\SimpleSceneBL.usda",
         "viewport_render_delay": 8
     },
     {
@@ -76,7 +76,7 @@
         "status": "skipped",
         "function_name": "test_010",
         "script_info": ["Sorting materials in in descending order"],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "SimpleScene\\SimpleSceneBL.usda",
         "viewport_render_delay": 8
     }
 ]
