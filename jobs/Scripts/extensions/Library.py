@@ -36,7 +36,11 @@ def test_003(args, case, driver, current_try):
 
 
 def test_004(args, case, driver, current_try):
-    pass
+    LibrarySteps.click_library_tab(driver, 1)
+    utils.choose_material("Gold", driver, click=False)
+    LibrarySteps.drag_and_drop_material()
+    sleep(3)
+    LibrarySteps.click_library_tab(driver, 12)
 
 
 def test_005(args, case, driver, current_try):
