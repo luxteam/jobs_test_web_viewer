@@ -10,7 +10,7 @@ from pyautogui import typewrite, press
 import pyautogui
 from jobs.Scripts.steps import LibrarySteps, PropertiesSteps
 from steps import FinalRenderSteps, ViewportSteps
-from locators import PropertiesLocators, ViewportLocators
+from locators import LibraryLocators, ViewportLocators
 
 sys.path.append(os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir)))
@@ -69,30 +69,24 @@ def test_010(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 6)
 
 def test_011(args, case, driver, current_try):
-    library = utils.find_by_xpath(ViewportLocators.LIBRARY, driver)
-    library.click()
-    sleep(1)
-    # TODO: evaluate object coordinates
-    material = utils.find_by_xpath("//div[ @class = 'click-area' ]//h2[ text() = 'Gold']", driver)
-    source_coords = material.location
-     
-    sleep(1)
-    #pyautogui.moveTo(source_coords.get('x') + 30, source_coords.get('y') + 30)
-    # pyautogui.moveTo(800, 750)
-    sleep(1)
-    pyautogui.mouseDown()
-    sleep(1)
-    pyautogui.moveTo(760, 480)
-    #pyautogui.moveRel(395, -290)
-    #pyautogui.moveRel(395, -445)
-    sleep(1)
-    pyautogui.mouseUp()
+    # move object to the top
+    pyautogui.moveTo(50, 540)
+    pyautogui.dragTo(50, 0, 2, button='right')
+    
+    # find material
+    LibrarySteps.click_library_tab(driver, 2)
+    search = utils.find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
+    search.click()
     sleep(2)
-    library.click()
-    sleep(1)
-    name = inspect.stack()[0][3]
-    utils.save_screen("{}.png".format(name), driver)
-    sleep(3)
+    search.send_keys(Keys.CONTROL + "a")
+    search.send_keys("Gold")
+    sleep(2)
+
+    # apply material
+    pyautogui.moveTo(570, 760) # Gold material coordinates (first in list)
+    pyautogui.dragTo(745, 350, 2, button='left') # TODO: Set object coordinates
+    sleep(2)
+    LibrarySteps.click_library_tab(driver, 8)
 
 def test_012(args, case, driver, current_try):
     # TODO: set object name
@@ -166,25 +160,24 @@ def test_023(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 6)
 
 def test_024(args, case, driver, current_try):
-    library = utils.find_by_xpath(ViewportLocators.LIBRARY, driver)
-    library.click()
-    sleep(1)
-    # TODO: evaluate object coordinates
-    #source_coords = utils.find_by_xpath("//div[ @class = 'click-area' ]//h2[ text() = 'Gold' ]", driver).location
-    sleep(1)
-    #pyautogui.moveTo(source_coords.get('x') + 30, source_coords.get('y') + 30)
-    pyautogui.moveTo(800, 750)
-    sleep(1)
-    pyautogui.mouseDown()
-    sleep(1)
-    pyautogui.moveTo(760, 480)
-    #pyautogui.moveRel(395, -290)
-    #pyautogui.moveRel(395, -445)
-    sleep(1)
-    pyautogui.mouseUp()
+    # move sphere to the top
+    pyautogui.moveTo(50, 540)
+    pyautogui.dragTo(50, 0, 2, button='right')
+    
+    # find material
+    LibrarySteps.click_library_tab(driver, 2)
+    search = utils.find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
+    search.click()
     sleep(2)
-    library.click()
-    sleep(8)
+    search.send_keys(Keys.CONTROL + "a")
+    search.send_keys("Gold")
+    sleep(2)
+
+    # apply material
+    pyautogui.moveTo(570, 760) # Gold material coordinates (first in list)
+    pyautogui.dragTo(745, 350, 2, button='left') # Sphere coordinates
+    sleep(2)
+    LibrarySteps.click_library_tab(driver, 8)
 
 
 def test_025(args, case, driver, current_try):
@@ -258,25 +251,24 @@ def test_036(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 6)
 
 def test_037(args, case, driver, current_try):
-    library = utils.find_by_xpath(ViewportLocators.LIBRARY, driver)
-    library.click()
-    sleep(1)
-    # TODO: evaluate object coordinates
-    #source_coords = utils.find_by_xpath("//div[ @class = 'click-area' ]//h2[ text() = 'Gold' ]", driver).location
-    sleep(1)
-    #pyautogui.moveTo(source_coords.get('x') + 30, source_coords.get('y') + 30)
-    pyautogui.moveTo(800, 750)
-    sleep(1)
-    pyautogui.mouseDown()
-    sleep(1)
-    pyautogui.moveTo(760, 480)
-    #pyautogui.moveRel(395, -290)
-    #pyautogui.moveRel(395, -445)
-    sleep(1)
-    pyautogui.mouseUp()
+    # move object to the top
+    pyautogui.moveTo(50, 540)
+    pyautogui.dragTo(50, 0, 2, button='right')
+    
+    # find material
+    LibrarySteps.click_library_tab(driver, 2)
+    search = utils.find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
+    search.click()
     sleep(2)
-    library.click()
-    sleep(8)
+    search.send_keys(Keys.CONTROL + "a")
+    search.send_keys("Gold")
+    sleep(2)
+
+    # apply material
+    pyautogui.moveTo(570, 760) # Gold material coordinates (first in list)
+    pyautogui.dragTo(745, 350, 2, button='left') # TODO: Set object coordinates
+    sleep(2)
+    LibrarySteps.click_library_tab(driver, 8)
 
 
 def test_038(args, case, driver, current_try):

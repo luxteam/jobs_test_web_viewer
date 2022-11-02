@@ -199,11 +199,10 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_024",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_024",
         "script_info": [
-            "Sphere scene, applying material to an object by drag'n'drop",
-            "Coordinates not evaluated"
+            "Sphere scene, applying material to an object by drag'n'drop"
         ],
         "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8
