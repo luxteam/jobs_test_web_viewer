@@ -84,10 +84,9 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_011",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_011",
         "script_info": [
-            "https://amdrender.atlassian.net/browse/RS-181",
             "Lambo scene, applying material to an object by drag'n'drop"
         ],
         "scene_path": "Lambo\\LamboRS.usda",
@@ -313,11 +312,10 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_037",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_037",
         "script_info": [
-            "W7800 scene, applying material to an object by drag'n'drop",
-            "Coordinates not evaluated"
+            "W7800 scene, applying material to an object by drag'n'drop"
         ],
         "scene_path": "W7800\\W7800_Update_Version.usda",
         "viewport_render_delay": 8

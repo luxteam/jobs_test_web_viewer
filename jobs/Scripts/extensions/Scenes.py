@@ -69,6 +69,10 @@ def test_010(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 6)
 
 def test_011(args, case, driver, current_try):
+    # rotate scene
+    pyautogui.moveTo(1390, 240)
+    pyautogui.dragTo(960, 555, 2, button='left')
+    
     # move object to the top
     pyautogui.moveTo(50, 540)
     pyautogui.dragTo(50, 0, 2, button='right')
@@ -84,7 +88,7 @@ def test_011(args, case, driver, current_try):
 
     # apply material
     pyautogui.moveTo(570, 760) # Gold material coordinates (first in list)
-    pyautogui.dragTo(745, 350, 2, button='left') # TODO: Set object coordinates
+    pyautogui.dragTo(1010, 280, 2, button='left') # Object coordinates
     sleep(2)
     LibrarySteps.click_library_tab(driver, 8)
 
@@ -251,10 +255,6 @@ def test_036(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 6)
 
 def test_037(args, case, driver, current_try):
-    # move object to the top
-    pyautogui.moveTo(50, 540)
-    pyautogui.dragTo(50, 0, 2, button='right')
-    
     # find material
     LibrarySteps.click_library_tab(driver, 2)
     search = utils.find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
@@ -266,7 +266,7 @@ def test_037(args, case, driver, current_try):
 
     # apply material
     pyautogui.moveTo(570, 760) # Gold material coordinates (first in list)
-    pyautogui.dragTo(745, 350, 2, button='left') # TODO: Set object coordinates
+    pyautogui.dragTo(700, 430, 2, button='left') # TODO: Set object coordinates
     sleep(2)
     LibrarySteps.click_library_tab(driver, 8)
 
