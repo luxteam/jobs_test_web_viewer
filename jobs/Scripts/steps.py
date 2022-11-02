@@ -178,9 +178,11 @@ class PropertiesSteps:
 
     def lock(driver):
         utils.find_by_xpath(PropertiesLocators.LOCK_BUTTON, driver).click()
+        sleep(1)
 
     def unlock(driver):
         utils.find_by_xpath(PropertiesLocators.UNLOCK_BUTTON, driver).click()
+        sleep(1)
 
     def set(driver, index, axis, input):
         utils.find_by_xpath('(//h3[text()[contains(.,"Properties")]])[2]', driver).click()
