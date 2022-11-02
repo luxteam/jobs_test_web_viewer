@@ -75,7 +75,7 @@
         "case": "RS_WEB_PROPERTIES_010",
         "status": "active",
         "function_name": "test_010",
-        "script_info": ["Decreasing Move y field value by keyboard"],
+        "script_info": ["Increasing Move z field value by keyboard"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -83,7 +83,7 @@
         "case": "RS_WEB_PROPERTIES_011",
         "status": "active",
         "function_name": "test_011",
-        "script_info": ["Increasing Move z field value by keyboard"],
+        "script_info": ["Decreasing Move z field value by keyboard"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -99,7 +99,7 @@
         "case": "RS_WEB_PROPERTIES_013",
         "status": "active",
         "function_name": "test_013",
-        "script_info": ["Increasing Rotate y field value by keyboard"],
+        "script_info": ["Decreasing Rotate x field value by keyboard"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -339,7 +339,7 @@
         "case": "RS_WEB_PROPERTIES_043",
         "status": "active",
         "function_name": "test_043",
-        "script_info": ["Changing Properties step for Move Decreasing x value"],
+        "script_info": ["Changing Properties step for Move, decreasing x value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -347,7 +347,7 @@
         "case": "RS_WEB_PROPERTIES_044",
         "status": "active",
         "function_name": "test_044",
-        "script_info": ["Changing Properties step for Move Increasing x value"],
+        "script_info": ["Changing Properties step for Move, increasing x value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -355,7 +355,7 @@
         "case": "RS_WEB_PROPERTIES_045",
         "status": "active",
         "function_name": "test_045",
-        "script_info": ["Changing Properties step for Move Decreasing y value"],
+        "script_info": ["Changing Properties step for Move, decreasing y value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -363,7 +363,7 @@
         "case": "RS_WEB_PROPERTIES_046",
         "status": "active",
         "function_name": "test_046",
-        "script_info": ["Changing Properties step for Move Increasing y value"],
+        "script_info": ["Changing Properties step for Move, increasing y value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -371,7 +371,7 @@
         "case": "RS_WEB_PROPERTIES_047",
         "status": "active",
         "function_name": "test_047",
-        "script_info": ["Changing Properties step for Move Decreasing z value"],
+        "script_info": ["Changing Properties step for Move, decreasing z value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -379,7 +379,7 @@
         "case": "RS_WEB_PROPERTIES_048",
         "status": "active",
         "function_name": "test_048",
-        "script_info": ["Changing Properties step for Move Increasing z value"],
+        "script_info": ["Changing Properties step for Move, increasing z value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -387,7 +387,7 @@
         "case": "RS_WEB_PROPERTIES_049",
         "status": "active",
         "function_name": "test_049",
-        "script_info": ["Changing Properties step for Rotate Decreasing x value"],
+        "script_info": ["Changing Properties step for Rotate, decreasing x value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -395,7 +395,7 @@
         "case": "RS_WEB_PROPERTIES_050",
         "status": "active",
         "function_name": "test_050",
-        "script_info": ["Changing Properties step for Rotate Increasing x value"],
+        "script_info": ["Changing Properties step for Rotate, increasing x value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -403,7 +403,7 @@
         "case": "RS_WEB_PROPERTIES_051",
         "status": "active",
         "function_name": "test_051",
-        "script_info": ["Changing Properties step for Rotate Decreasing y value"],
+        "script_info": ["Changing Properties step for Rotate, decreasing y value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -411,7 +411,7 @@
         "case": "RS_WEB_PROPERTIES_052",
         "status": "active",
         "function_name": "test_052",
-        "script_info": ["Changing Properties step for Rotate Increasing y value"],
+        "script_info": ["Changing Properties step for Rotate, increasing y value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -419,7 +419,7 @@
         "case": "RS_WEB_PROPERTIES_053",
         "status": "active",
         "function_name": "test_053",
-        "script_info": ["Changing Properties step for Rotate Decreasing z value"],
+        "script_info": ["Changing Properties step for Rotate, decreasing z value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -427,7 +427,7 @@
         "case": "RS_WEB_PROPERTIES_054",
         "status": "active",
         "function_name": "test_054",
-        "script_info": ["Changing Properties step for Rotate Increasing z value"],
+        "script_info": ["Changing Properties step for Rotate, increasing z value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -435,7 +435,7 @@
         "case": "RS_WEB_PROPERTIES_055",
         "status": "active",
         "function_name": "test_055",
-        "script_info": ["Changing Properties step for Scale Decreasing x value"],
+        "script_info": ["Changing Properties step for Scale, decreasing x value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -443,7 +443,7 @@
         "case": "RS_WEB_PROPERTIES_056",
         "status": "active",
         "function_name": "test_056",
-        "script_info": ["Changing Properties step for Scale Increasing x value"],
+        "script_info": ["Changing Properties step for Scale, increasing x value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -451,7 +451,7 @@
         "case": "RS_WEB_PROPERTIES_057",
         "status": "active",
         "function_name": "test_057",
-        "script_info": ["Changing Properties step for Scale Decreasing y value"],
+        "script_info": ["Changing Properties step for Scale, decreasing y value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -459,7 +459,7 @@
         "case": "RS_WEB_PROPERTIES_058",
         "status": "active",
         "function_name": "test_058",
-        "script_info": ["Changing Properties step for Scale Increasing y value"],
+        "script_info": ["Changing Properties step for Scale, increasing y value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -467,7 +467,7 @@
         "case": "RS_WEB_PROPERTIES_059",
         "status": "active",
         "function_name": "test_059",
-        "script_info": ["Changing Properties step for Scale Decreasing z value"],
+        "script_info": ["Changing Properties step for Scale, decreasing z value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     },
@@ -475,7 +475,7 @@
         "case": "RS_WEB_PROPERTIES_060",
         "status": "active",
         "function_name": "test_060",
-        "script_info": ["Changing Properties step for Scale Increasing z value"],
+        "script_info": ["Changing Properties step for Scale, increasing z value"],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8
     }
