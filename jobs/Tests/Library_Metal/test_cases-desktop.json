@@ -4,22 +4,22 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Gold\""
+            "Applying material \"Gold Parametric Imperfections\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Gold"
+        "material_name": "Gold Parametric Imperfections"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_METAL_002",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Aluminum\""
+            "Applying material \"Copper Satin\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Aluminum"
+        "material_name": "Copper Satin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_METAL_003",
@@ -81,11 +81,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Chrome\""
+            "Applying material \"Chrome Parametric\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Chrome"
+        "material_name": "Chrome Parametric"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_METAL_009",
@@ -246,10 +246,10 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Copper Satin\""
+            "Applying material \"Aluminum Parametric\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Copper Satin"
+        "material_name": "Aluminum Parametric"
     }
 ]

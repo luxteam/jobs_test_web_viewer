@@ -22,32 +22,30 @@ def test_001(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'menu')
     ViewportSteps.click_tab(driver, 2, 'menu')
     sleep(10)
-    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver) != None, "Opened \"Library\" tab not found"
+    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver).is_displayed(), "Opened \"Library\" tab not found"
 
 
 def test_002(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)
     LibrarySteps.click_library_tab(driver, 1)
-    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver, 3) == None, "Opened \"Library\" tab found"
+    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver) == None, "Opened \"Library\" tab found"
 
 
 def test_003(args, case, driver, current_try):
-    LibrarySteps.select_refridgerator_element(driver)
-    LibrarySteps.click_library_tab(driver, 1)
-    LibrarySteps.select_material(driver, "gold")
-    LibrarySteps.click_library_tab(driver, 8)
+    LibrarySteps.test_material(driver, "Gold")
 
 
 def test_004(args, case, driver, current_try):
-    pass
+    LibrarySteps.click_library_tab(driver, 1)
+    utils.choose_material("Gold", driver, click=False)
+    LibrarySteps.drag_and_drop_material()
+    sleep(3)
+    LibrarySteps.click_library_tab(driver, 12)
 
 
 def test_005(args, case, driver, current_try):
-    LibrarySteps.select_refridgerator_element(driver)
-    LibrarySteps.click_library_tab(driver, 1)
-    LibrarySteps.select_material(driver, "gold")
-    LibrarySteps.select_material(driver, "aluminum")
-    LibrarySteps.click_library_tab(driver, 8)
+    LibrarySteps.test_material(driver, "Gold")
+    LibrarySteps.test_material(driver, "Aluminum")
 
 
 def test_006(args, case, driver, current_try):

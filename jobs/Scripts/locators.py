@@ -1,5 +1,35 @@
 class ViewportLocators(object):
     FINAL_RENDER = '//*[local-name() = "path" and @d="M4,4H7L9,2H15L17,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20H4A2,2 0 0,1 2,18V6A2,2 0 0,1 4,4M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9Z"]'
+    SETTING = '(//div[ contains(@class, "app-header-center") ]//div[ contains(@class, "menu-left") ]//button)[1]'
+    PROPERTIES = '//button/div[contains(text(), "Properties")]'
+    SCENE_INDEX = '//button/div[contains(text(), "Scene Index")]'
+    FRIDGE = '//div[contains(text(), "Body")]'
+    SCENE_INDEX_TAB = '//./button/div[ text() = "Scene Index" ]'
+    SCENE_INDEX_TEXT = '//h3[ text() = "Scene Index" ]'
+    SCENE_SEARCH = '//input[ @placeholder="Search Scene" ]'
+    PARENT_TREE = '//div[ @id="scene-index-prim-0" ]//div[ @class="py-1" ]'
+    TIMELINE_BAR = '//./button/div[ text() = "Timeline" ]'
+    TIMELINE_VIEW = '//div[ text() = " Timeline view " ]'
+    COMMENTS_BAR = '//./button/div[ text() = "Comments" ]'
+    COMMENT = '//div[ text() = " Comment 1" ]'
+    SETTINGS_WINDOW = '//div[ contains(@class, "app-header-center") ]//div[ contains(@class, "menu-left") ]//button'
+    SETTINGS_TEXT = '//h3[ text() = "Selection viewport" ]'
+    SCENE_MENU = '//button[ @class = "button-iconed" ]'
+    MENU_ITEM = '//button[ @class = "menu-item" ]'
+    
+    def expand_node(name):
+        return '//div[contains(text(), "' + name +'")]/..//button[@class=\'scene-index-prim-button-expand\']'
+
+class SettingsLocators(object):
+    MOVE_INPUT = '//h4[text()[contains(., "Move")]]/../..//input'
+    MOVE_LEFT = '(//h4[text()[contains(., "Move")]]/../..//button)[1]'
+    MOVE_RIGHT = '(//h4[text()[contains(., "Move")]]/../..//button)[2]'
+    ROTATE_INPUT = '//h4[text()[contains(., "Rotate")]]/../..//input'
+    ROTATE_LEFT = '(//h4[text()[contains(., "Rotate")]]/../..//button)[1]'
+    ROTATE_RIGHT = '(//h4[text()[contains(., "Rotate")]]/../..//button)[2]'
+    SCALE_INPUT = '//h4[text()[contains(., "Scale")]]/../..//input'
+    SCALE_LEFT = '(//h4[text()[contains(., "Scale")]]/../..//button)[1]'
+    SCALE_RIGHT = '(//h4[text()[contains(., "Scale")]]/../..//button)[2]'
 
     SETTING = '(//div[ contains(@class, "app-header-center") ]//div[ contains(@class, "menu-left") ]//button)[1]'
     PROPERTIES = '//button/div[contains(text(), "Properties")]'
@@ -76,4 +106,3 @@ class PropertiesLocators(object):
         elif index == "scale":
             i = "3"
         return ['(//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//input', '((//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//button)[1]', '((//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//button)[2]']
-

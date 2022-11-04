@@ -10,6 +10,7 @@ from selenium.webdriver.common.keys import Keys
 from pyautogui import typewrite, press
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.keys import Keys
 from psutil import Popen, NoSuchProcess
 from subprocess import PIPE, CREATE_NEW_CONSOLE
 import sys
@@ -245,7 +246,7 @@ def save_screen(screen_path, driver, extension = "jpg", save_final_render_image 
         driver.save_screenshot(f"{screen_path}.{extension}")
 
 
-def choose_material(material_name, driver):
+def choose_material(material_name, driver, click = True):
     search = find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
     search.click()
     time.sleep(2)
@@ -261,7 +262,9 @@ def choose_material(material_name, driver):
         found_name = card.find_element(By.TAG_NAME, "h2").text
 
         if found_name == material_name:
-            card.click()
+            if click:
+                card.click()
+
             break
     else:
         raise Exception("Material not found")

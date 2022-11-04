@@ -228,7 +228,11 @@ def execute_tests(args, current_conf):
                 try:
                     error_message = getattr(group_module, case["function_name"])(args, case, driver, current_try)
                 except AssertionError as e:
+                    utils.case_logger.warning(f"Catched Assertion Error")
                     error_message = str(e)
+
+                if error_message:
+                    utils.case_logger.warning(f"Error message: {error_message}")
 
                 execution_time = time() - case_start_time
 

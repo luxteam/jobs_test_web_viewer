@@ -122,6 +122,15 @@ class LibrarySteps:
         sleep(3)
         LibrarySteps.click_library_tab(driver, 12)
 
+    def drag_and_drop_material():
+        pyautogui.moveTo(575, 750)
+        time.sleep(0.5)
+        pyautogui.mouseDown(button='left')
+        time.sleep(0.5)
+        pyautogui.moveTo(980, 410, 3)
+        time.sleep(0.5)
+        pyautogui.mouseUp(button='left')
+
 class ViewportSteps:
     def click_tab(driver, sec, tab):
         if tab == 'scene index':
@@ -204,9 +213,11 @@ class PropertiesSteps:
 
     def lock(driver):
         utils.find_by_xpath(PropertiesLocators.LOCK_BUTTON, driver).click()
+        sleep(1)
 
     def unlock(driver):
         utils.find_by_xpath(PropertiesLocators.UNLOCK_BUTTON, driver).click()
+        sleep(1)
 
     def set(driver, index, axis, input):
         utils.find_by_xpath('(//h3[text()[contains(.,"Properties")]])[2]', driver).click()

@@ -25,7 +25,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_004",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_004",
         "script_info": ["Applying material to an object by drag'n'drop"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
