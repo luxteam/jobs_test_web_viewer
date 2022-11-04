@@ -6,6 +6,7 @@ import time
 import win32gui
 import win32con
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from pyautogui import typewrite, press
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import TimeoutException

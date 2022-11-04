@@ -4,6 +4,7 @@ from time import sleep
 import sys
 import os
 import inspect
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from pyautogui import typewrite, press, move
@@ -161,6 +162,31 @@ class ViewportSteps:
 
     def click_scene(driver):
         utils.find_by_class("bg-yellow-700", driver, True)[0].click()
+
+    def rotate_scene(driver):
+        # TODO: remove hardcoded coordinate values
+        pyautogui.moveTo(800, 750)
+        sleep(1)
+        pyautogui.mouseDown()
+        sleep(1)
+        pyautogui.moveRel(-200, 100)
+        sleep(1)
+        pyautogui.mouseUp()
+        sleep(8)
+
+    def select_element(driver, element_name):
+        utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
+        sleep(2)
+        search = utils.find_by_xpath(LibraryLocators.SCENE_SEARCH, driver)
+        search.click()
+        sleep(2)
+        search.send_keys(element_name)
+        sleep(1)
+        utils.find_by_class("bg-yellow-700", driver, True)[0].click()
+        sleep(1)
+        utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
+        sleep(1)
+
 
 class PropertiesSteps:
     def select_object(driver):
