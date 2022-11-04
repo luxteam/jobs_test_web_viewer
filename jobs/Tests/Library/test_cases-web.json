@@ -17,7 +17,7 @@
     },
     {
         "case": "RS_WEB_LIBRARY_003",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_003",
         "script_info": ["Applying material to an object by mouse click"],
         "scene_name": "Kitchen_set",
@@ -33,7 +33,7 @@
     },
     {
         "case": "RS_WEB_LIBRARY_005",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_005",
         "script_info": ["Reapplying material to an object"],
         "scene_name": "Kitchen_set",
