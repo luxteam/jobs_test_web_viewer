@@ -122,15 +122,6 @@ class LibrarySteps:
         sleep(3)
         LibrarySteps.click_library_tab(driver, 12)
 
-    def drag_and_drop_material():
-        pyautogui.moveTo(575, 750)
-        time.sleep(0.5)
-        pyautogui.mouseDown(button='left')
-        time.sleep(0.5)
-        pyautogui.moveTo(980, 410, 3)
-        time.sleep(0.5)
-        pyautogui.mouseUp(button='left')
-
 class ViewportSteps:
     def click_tab(driver, sec, tab):
         if tab == 'scene index':
