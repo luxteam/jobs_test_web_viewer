@@ -1,6 +1,7 @@
 {
     "split": true,
     "groups": {
+        "Scenes": "",
         "Viewport": "",
         "FinalRender": "",
         "Properties": "",
