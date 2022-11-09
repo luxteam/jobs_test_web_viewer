@@ -116,3 +116,10 @@ def test_020(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'menu')
     ViewportSteps.click_tab(driver, 2, 'menu')
     assert utils.find_by_xpath(ViewportLocators.MENU_ITEM, driver).is_displayed() == False, "Scene menu is opened"
+
+
+def test_030(args, case, driver, current_try):
+    ViewportSteps.click_tab(driver, 2, 'scene index')
+    ViewportSteps.search_scene_element(driver, "CupCRed_1")
+    ViewportSteps.click_scene(driver)
+    sleep(8)

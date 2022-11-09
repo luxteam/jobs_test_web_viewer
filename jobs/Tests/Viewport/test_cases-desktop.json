@@ -177,5 +177,15 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_VIEWPORT_030",
+        "status": "active",
+        "function_name": "test_030",
+        "script_info": [
+            "Testing bounding box for small objects"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
     }
 ]
