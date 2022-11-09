@@ -179,6 +179,17 @@
         "viewport_render_delay": 8
     },
     {
+        "case": "RS_DESKTOP_VIEWPORT_029",
+        "status": "active",
+        "function_name": "test_029",
+        "script_info": [
+            "Valid AMD Render Studio versions",
+            "Do not compare"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
         "case": "RS_DESKTOP_VIEWPORT_030",
         "status": "active",
         "function_name": "test_030",
