@@ -16,6 +16,10 @@ class ViewportLocators(object):
     SETTINGS_TEXT = '//h3[ text() = "Selection viewport" ]'
     SCENE_MENU = '//button[ @class = "button-iconed" ]'
     MENU_ITEM = '//button[ @class = "menu-item" ]'
+    VERSIONS_MENU = '//button[ text() = "Versions" ]'
+    VERSIONS_WINDOW = '//div[ @class = "card-sectioned-text-container" ]'
+    VERSION_SERVICE_NAMES = f'//div[ @class = "font-bold" ]'
+    VERSION_ROWS = f'//div[ @class = "version-text" ]'
     
     def expand_node(name):
         return '//div[contains(text(), "' + name +'")]/..//button[@class=\'scene-index-prim-button-expand\']'
