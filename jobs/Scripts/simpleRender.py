@@ -239,11 +239,14 @@ def execute_tests(args, current_conf):
                 save_final_render_image = case["save_final_render_image"] if "save_final_render_image" in case else False
                 utils.save_screen(image_path, driver, save_final_render_image = save_final_render_image)
 
-                render_time = 0.0
+                if save_final_render_image:
+                    render_time = utils.get_render_time(driver)
+                else:
+                    render_time = 0.0
 
                 if error_message:
                     error_messages.add(error_message)
-                    save_results(args, case, cases, "failed", execution_time = execution_time, load_scene_time = load_scene_time, error_messages = error_messages)
+                    save_results(args, case, cases, "failed", render_time = render_time, load_scene_time = load_scene_time, execution_time = execution_time, error_messages = error_messages)
                 elif case["status"] == "active":
                     save_results(args, case, cases, "passed", render_time = render_time, load_scene_time = load_scene_time, execution_time = execution_time)
                 else:
