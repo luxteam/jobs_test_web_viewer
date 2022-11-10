@@ -113,7 +113,7 @@ class LibrarySteps:
                 materials_text.append(material.text)
         materials_sorted = materials_text.copy()
         materials_sorted.sort()
-        assert materials_sorted[:9] == materials_text[:9], "Materials are displayed in the wrong order"
+        assert materials_sorted == materials_text, "Materials are displayed in the wrong order"
 
     def test_material(driver, name):
         LibrarySteps.select_refridgerator_element(driver)
