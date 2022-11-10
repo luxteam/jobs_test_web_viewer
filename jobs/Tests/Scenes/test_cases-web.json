@@ -143,7 +143,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Open Sphere scene"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -153,7 +153,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene rotation"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -163,7 +163,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene Final render default JPEG"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -173,7 +173,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene Final render PNG"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -183,7 +183,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene Max resolution final render JPEG"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -193,7 +193,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene Max resolution final render PNG"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -203,7 +203,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene is rendered after default resolution final render"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -213,7 +213,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene is rendered after max resolution final render"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -223,7 +223,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene 100 samples default final render"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -234,7 +234,7 @@
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene, applying material to an object by mouse click"
         ],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -245,7 +245,7 @@
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene, applying material to an object by drag'n'drop"
         ],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -256,7 +256,7 @@
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene, reapplying material to an object"
         ],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -268,7 +268,7 @@
             "https://amdrender.atlassian.net/browse/RS-276",
             "Sphere scene, changing object's properties"
         ],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
@@ -278,7 +278,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "Open W7800 scene"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -288,7 +288,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene rotation"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -298,7 +298,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene Final render default JPEG"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -308,7 +308,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene Final render PNG"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -318,7 +318,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene Max resolution final render JPEG"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -328,7 +328,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene Max resolution final render PNG"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -338,7 +338,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene is rendered after default resolution final render"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -348,7 +348,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene is rendered after max resolution final render"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -358,7 +358,7 @@
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene 100 samples default final render"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -370,7 +370,7 @@
             "W7800 scene, applying material to an object by mouse click",
             "Object is not specified"
         ],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -381,7 +381,7 @@
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene, applying material to an object by drag'n'drop"
         ],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -393,7 +393,7 @@
             "W7800 scene, reapplying material to an object",
             "Object is not specified"
         ],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
@@ -405,7 +405,7 @@
             "W7800 scene, changing object's properties",
             "Object is not specified"
         ],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     }
 ]
