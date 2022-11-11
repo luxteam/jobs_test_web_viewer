@@ -25,39 +25,41 @@ def test_002(args, case, driver, current_try):
 
 def test_003(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_004(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_format_to_png(driver)
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_005(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_006(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_format_to_png(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_007(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
-    FinalRenderSteps.start_render(driver)
+    render_time = FinalRenderSteps.start_render(driver)
     FinalRenderSteps.return_to_viewport(driver)
+    return render_time
 
 def test_008(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
-    FinalRenderSteps.start_render(driver)
+    render_time = FinalRenderSteps.start_render(driver)
     FinalRenderSteps.return_to_viewport(driver)
+    return render_time
 
 def test_009(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_samples(driver, "100")
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_010(args, case, driver, current_try):
     # TODO: set object name
@@ -121,39 +123,41 @@ def test_015(args, case, driver, current_try):
 
 def test_016(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_017(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_format_to_png(driver)
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_018(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_019(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_format_to_png(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_020(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
-    FinalRenderSteps.start_render(driver)
+    render_time = FinalRenderSteps.start_render(driver)
     FinalRenderSteps.return_to_viewport(driver)
+    return render_time
 
 def test_021(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
-    FinalRenderSteps.start_render(driver)
+    render_time = FinalRenderSteps.start_render(driver)
     FinalRenderSteps.return_to_viewport(driver)
+    return render_time
 
 def test_022(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_samples(driver, "100")
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_023(args, case, driver, current_try):
     ViewportSteps.select_element(driver, "Sphere_001")
@@ -211,39 +215,41 @@ def test_028(args, case, driver, current_try):
 
 def test_029(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_030(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_format_to_png(driver)
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_031(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_032(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_format_to_png(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_033(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
-    FinalRenderSteps.start_render(driver)
+    render_time = FinalRenderSteps.start_render(driver)
     FinalRenderSteps.return_to_viewport(driver)
+    return render_time
 
 def test_034(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
-    FinalRenderSteps.start_render(driver)
+    render_time = FinalRenderSteps.start_render(driver)
     FinalRenderSteps.return_to_viewport(driver)
+    return render_time
 
 def test_035(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_samples(driver, "100")
-    FinalRenderSteps.start_render(driver)
+    return FinalRenderSteps.start_render(driver)
 
 def test_036(args, case, driver, current_try):
     #TODO: specify object

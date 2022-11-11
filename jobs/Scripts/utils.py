@@ -268,14 +268,3 @@ def choose_material(material_name, driver, click = True):
             break
     else:
         raise Exception("Material not found")
-
-
-def get_render_time(driver):
-    raw_render_time = find_by_xpath(FinalRenderLocators.TIME_TAKEN, driver).text
-
-    parts = raw_render_time.split()[1].split(":")
-    render_hours = int(parts[0])
-    render_minutes = int(parts[1])
-    render_seconds = int(parts[2])
-
-    return render_hours * 60 * 60 + render_minutes * 60 + render_seconds
