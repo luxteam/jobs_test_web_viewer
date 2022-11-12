@@ -150,7 +150,7 @@ def save_results(args, case, cases, test_case_status, render_time = 0.0, executi
             stub_image_path = os.path.join(args.output, 'Color', test_case_report['file_name'])
             if not os.path.exists(stub_image_path):
                 copyfile(os.path.join(args.output, '..', '..', '..', '..', 'jobs_launcher', 
-                    'common', 'img', 'passed.jpg'), stub_image_path)
+                    'common', 'img', 'error.jpg'), stub_image_path)
 
             test_case_report["render_color_path"] = os.path.join("Color", test_case_report["file_name"])
         else:
@@ -279,7 +279,11 @@ def execute_tests(args, current_conf):
             utils.case_logger.error(f"Failed to execute case \"{case['case']}\" at all")
             rc = -1
             execution_time = time() - case_start_time
-            save_results(args, case, cases, "error", execution_time = execution_time, error_messages = error_messages)
+
+            if case["status"] == "active":
+                save_results(args, case, cases, "error", execution_time = execution_time, error_messages = error_messages)
+            else:
+                save_results(args, case, cases, "observed", execution_time = execution_time, error_messages = error_messages)
 
     return rc
 
