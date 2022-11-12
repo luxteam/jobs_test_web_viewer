@@ -1,161 +1,157 @@
 [
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_001",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Aluminum\""
+            "Applying material \"Skin - 50 percent melanin\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Aluminum"
+        "material_name": "Skin - 50 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_002",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Brass\""
+            "Applying material \"Skin - 30 percent melanin\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Brass"
+        "material_name": "Skin - 30 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_003",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Bronze\""
+            "Applying material \"Skin - 20 percent melanin\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Bronze"
+        "material_name": "Skin - 20 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_004",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Chrome\""
+            "Applying material \"Skin - 10 percent melanin\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Chrome"
+        "material_name": "Skin - 10 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_005",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Cobalt\""
+            "Applying material \"Skin - 5 percent melanin\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Cobalt"
+        "material_name": "Skin - 5 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_006",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Copper\""
+            "Applying material \"Skin - 2 percent melanin\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Copper"
+        "material_name": "Skin - 2 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_007",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Gold\""
+            "Applying material \"Skin - 1 percent melanin\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Gold"
+        "material_name": "Skin - 1 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_008",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Iron\""
+            "Applying material \"Skin - 0.1 percent melanin\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Iron"
+        "material_name": "Skin - 0.1 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_009",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Nickel\""
+            "Applying material \"Acryl Plastic\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Nickel"
+        "material_name": "Acryl Plastic"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_010",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Black Plastic\"",
-            "Observed test status due to fireflies"
+            "Applying material \"White Plastic\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Black Plastic"
+        "material_name": "White Plastic"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_011",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Rough Plastic\"",
-            "Observed test status due to fireflies"
+            "Applying material \"Frosted Glass\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Rough Plastic"
+        "material_name": "Frosted Glass"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_012",
-        "status": "observed",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Rubber\"",
-            "Observed test status due to fireflies"
+            "Applying material \"Dark Glass\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Rubber"
+        "material_name": "Dark Glass"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_013",
-        "status": "observed",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Semitransparent Silicone\"",
-            "Observed test status due to fireflies"
+            "Applying material \"Diamond\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Semitransparent Silicone"
+        "material_name": "Diamond"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_014",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Glass\""
+            "Applying material \"White Wine\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Glass"
+        "material_name": "White Wine"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_015",
@@ -173,156 +169,153 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"White Wine\""
+            "Applying material \"Glass\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "White Wine"
+        "material_name": "Glass"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_017",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Diamond\""
+            "Applying material \"Semitransparent Silicone\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Diamond"
+        "material_name": "Semitransparent Silicone"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_018",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Dark Glass\""
+            "Applying material \"Rubber\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Dark Glass"
+        "material_name": "Rubber"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_019",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Frosted Glass\"",
-            "Observed test status due to fireflies"
+            "Applying material \"Rough Plastic\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Frosted Glass"
+        "material_name": "Rough Plastic"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_020",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"White Plastic\"",
-            "Observed test status due to fireflies"
+            "Applying material \"Black Plastic\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "White Plastic"
+        "material_name": "Black Plastic"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_021",
-        "status": "observed",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Acryl Plastic\"",
-            "Observed test status due to fireflies"
+            "Applying material \"Nickel\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Acryl Plastic"
+        "material_name": "Nickel"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_022",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Skin - 0.1 percent melanin\""
+            "Applying material \"Iron\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 0.1 percent melanin"
+        "material_name": "Iron"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_023",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Skin - 1 percent melanin\""
+            "Applying material \"Gold\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 1 percent melanin"
+        "material_name": "Gold"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_024",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Skin - 2 percent melanin\""
+            "Applying material \"Copper\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 2 percent melanin"
+        "material_name": "Copper"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_025",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Skin - 5 percent melanin\""
+            "Applying material \"Cobalt\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 5 percent melanin"
+        "material_name": "Cobalt"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_026",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Skin - 10 percent melanin\""
+            "Applying material \"Chrome\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 10 percent melanin"
+        "material_name": "Chrome"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_027",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Skin - 20 percent melanin\""
+            "Applying material \"Bronze\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 20 percent melanin"
+        "material_name": "Bronze"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_028",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Skin - 30 percent melanin\""
+            "Applying material \"Brass\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 30 percent melanin"
+        "material_name": "Brass"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_029",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Skin - 50 percent melanin\""
+            "Applying material \"Aluminum\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 50 percent melanin"
+        "material_name": "Aluminum"
     }
 ]

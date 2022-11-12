@@ -187,7 +187,7 @@
         "material_name": "Classical Marble Pattern"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_0120",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_018",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -246,7 +246,7 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"TH: Beige Marble Tiles\""
+            "Applying material \"TH: Beige  Marble Tiles\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
