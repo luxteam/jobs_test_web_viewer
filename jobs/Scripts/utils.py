@@ -88,7 +88,7 @@ def driver_desktop():
     options.binary_location = "C:\\Program Files\\AMD\\AMD RenderStudio\\AMD RenderStudio.exe"
     options.add_argument("--url-streamer=ws://localhost:10000")
     options.add_argument("--url-rest-streamer=http://localhost:10001")
-    driver = webdriver.Chrome('..\\driver\\chromedriver.exe', options=options)
+    driver = webdriver.Chrome('C:\\Users\\user\\Desktop\\jobs_test_web_viewer\\jobs\\driver\\100\\chromedriver.exe', options=options)
     time.sleep(1)
     driver.switch_to.window(driver.window_handles[0])
 
@@ -98,7 +98,7 @@ def driver_desktop():
 def driver_web():
     options = webdriver.ChromeOptions()
     options.add_argument('--start-maximized')
-    driver = webdriver.Chrome('..\\driver\\chromedriver.exe', options=options)
+    driver = webdriver.Chrome('C:\\Users\\user\\Desktop\\jobs_test_web_viewer\\jobs\\driver\\107\\chromedriver.exe', options=options)
     
     return driver
 
@@ -256,7 +256,14 @@ def choose_material(material_name, driver, click = True):
     # cards with materials can be reloaded few times, wait a bit
     time.sleep(2)
 
-    material_cards = find_by_class("material-card", driver, True)
+    if material_name == "Marble Tiles" or material_name == "TH: Brick Wall":
+        pyautogui.mouseDown(1900, 665)
+        pyautogui.moveTo(1900, 850)
+        time.sleep(1)
+        pyautogui.moveTo(1900, 1010, 1)
+        pyautogui.mouseUp()
+
+    material_cards = find_by_xpath(LibraryLocators.MATERIAL_CARDS, driver, True)
 
     for card in material_cards:
         found_name = card.find_element(By.TAG_NAME, "h2").text
