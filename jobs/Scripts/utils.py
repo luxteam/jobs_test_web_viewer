@@ -88,7 +88,7 @@ def driver_desktop():
     options.binary_location = "C:\\Program Files\\AMD\\AMD RenderStudio\\AMD RenderStudio.exe"
     options.add_argument("--url-streamer=ws://localhost:10000")
     options.add_argument("--url-rest-streamer=http://localhost:10001")
-    driver = webdriver.Chrome('C:\\Users\\user\\Desktop\\jobs_test_web_viewer\\jobs\\driver\\100\\chromedriver.exe', options=options)
+    driver = webdriver.Chrome('..\\driver\\chromedriver.exe', options=options)
     time.sleep(1)
     driver.switch_to.window(driver.window_handles[0])
 
@@ -98,7 +98,7 @@ def driver_desktop():
 def driver_web():
     options = webdriver.ChromeOptions()
     options.add_argument('--start-maximized')
-    driver = webdriver.Chrome('C:\\Users\\user\\Desktop\\jobs_test_web_viewer\\jobs\\driver\\107\\chromedriver.exe', options=options)
+    driver = webdriver.Chrome('..\\driver\\chromedriver.exe', options=options)
     
     return driver
 
