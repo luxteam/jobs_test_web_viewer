@@ -89,7 +89,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_009",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Retro-futuristic Tiles\""
@@ -111,7 +111,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_011",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Gold-Black Checker tiles\""

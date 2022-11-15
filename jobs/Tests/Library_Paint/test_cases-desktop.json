@@ -12,7 +12,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PAINT_002",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Car Paint\""
