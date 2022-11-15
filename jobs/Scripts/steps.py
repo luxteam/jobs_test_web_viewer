@@ -113,6 +113,8 @@ class LibrarySteps:
                 materials_text.append(material.text)
         materials_sorted = materials_text.copy()
         materials_sorted.sort()
+        utils.case_logger.info("Materials RS: {}".format(materials_text))
+        utils.case_logger.info("Materials sorted: {}".format(materials_sorted))
         assert materials_sorted == materials_text, "Materials are displayed in the wrong order"
 
     def test_material(driver, name):
