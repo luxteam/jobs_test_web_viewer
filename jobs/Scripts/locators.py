@@ -59,7 +59,7 @@ class LibraryLocators(object):
     MATERIAL = '//./div[ @class="click-area" ]//h2[ text()=\"'
     SORTING_BY = '/html/body/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[3]/button'
     SORTING_KEY = '/html/body/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[2]//div//*[ text()=\"'
-    MATERIAL_CARD = '//div[ contains(@class, "materials-table-content") ]//h2'
+    MATERIAL_CARD = '//div[ contains(@id, "row-0") ]//h2'
     SEARCH_MATERIAL_CARD = '//div[ @class="material-card" ]//h2'
     SEARCH_MATERIAL = '//input[ @placeholder="Search" ]'
 
