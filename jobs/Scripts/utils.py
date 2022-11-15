@@ -4,7 +4,11 @@ import pyautogui
 from selenium import webdriver
 import time
 import win32gui
+import win32api
 import win32con
+import zipfile
+import requests
+import wget
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from pyautogui import typewrite, press
@@ -96,11 +100,40 @@ def driver_desktop():
 
 
 def driver_web():
+    install_chromedriver()
+
     options = webdriver.ChromeOptions()
     options.add_argument('--start-maximized')
     driver = webdriver.Chrome('..\\driver\\chromedriver.exe', options=options)
     
     return driver
+
+
+def get_chrome_version():
+    file = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    info = win32api.GetFileVersionInfo(file, "\\")
+    ms = info['FileVersionMS']
+    ls = info['FileVersionLS']
+    version = "{0}.{1}.{2}.{3}".format(win32api.HIWORD(ms), win32api.LOWORD (ms), win32api.HIWORD (ls), win32api.LOWORD (ls))
+    case_logger.info("Chrome version: {}".format(version))
+    return version
+
+
+def install_chromedriver():
+    if os.path.exists('..\\driver\\chromedriver.exe'):
+        os.remove('..\\driver\\chromedriver.exe')
+
+    try:
+        version = get_chrome_version()
+        version = version.split('.')[-1]
+        driver_version = requests.get('https://chromedriver.storage.googleapis.com/LATEST_RELEASE_{}'.format(version)).text
+        case_logger.info("Driver version: {}".format(driver_version))
+        driver_zip = wget.download('https://chromedriver.storage.googleapis.com/{}/chromedriver_win32.zip'.format(driver_version), 'chromedriver.zip')
+        with zipfile.ZipFile(driver_zip, 'r') as zip_ref:
+            zip_ref.extractall('..\\driver')
+        os.remove(driver_zip)
+    except:
+        raise Exception("Failed to download chromedriver")
 
 
 def post_action(case, mode, driver):
