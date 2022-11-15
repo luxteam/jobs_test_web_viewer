@@ -106,13 +106,15 @@ class LibrarySteps:
         sleep(5)
 
     def sorting_by_title(driver):
-        materials = utils.find_by_xpath(LibraryLocators.MATERIAL_CARD, driver, True)
+        materials = utils.find_by_xpath(LibraryLocators.MATERIAL_TITLE, driver, True)
         materials_text = []
         for material in materials:
             if material.text != None:
                 materials_text.append(material.text)
         materials_sorted = materials_text.copy()
         materials_sorted.sort()
+        utils.case_logger.info("Materials RS: {}".format(materials_text))
+        utils.case_logger.info("Materials sorted: {}".format(materials_sorted))
         assert materials_sorted == materials_text, "Materials are displayed in the wrong order"
 
     def test_material(driver, name):
