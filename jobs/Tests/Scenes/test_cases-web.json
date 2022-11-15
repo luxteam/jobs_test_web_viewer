@@ -1,6 +1,6 @@
 [
     {
-        "case": "ARS_DESKTOP_SCENES_001",
+        "case": "ARS_WEB_SCENES_001",
         "status": "skipped",
         "function_name": "test_001",
         "script_info": [
@@ -10,7 +10,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_002",
+        "case": "ARS_WEB_SCENES_002",
         "status": "skipped",
         "function_name": "test_002",
         "script_info": [
@@ -20,7 +20,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_003",
+        "case": "ARS_WEB_SCENES_003",
         "status": "skipped",
         "function_name": "test_003",
         "script_info": [
@@ -30,7 +30,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_004",
+        "case": "ARS_WEB_SCENES_004",
         "status": "skipped",
         "function_name": "test_004",
         "script_info": [
@@ -40,7 +40,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_005",
+        "case": "ARS_WEB_SCENES_005",
         "status": "skipped",
         "function_name": "test_005",
         "script_info": [
@@ -50,7 +50,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_006",
+        "case": "ARS_WEB_SCENES_006",
         "status": "skipped",
         "function_name": "test_006",
         "script_info": [
@@ -60,7 +60,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_007",
+        "case": "ARS_WEB_SCENES_007",
         "status": "skipped",
         "function_name": "test_007",
         "script_info": [
@@ -70,7 +70,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_008",
+        "case": "ARS_WEB_SCENES_008",
         "status": "skipped",
         "function_name": "test_008",
         "script_info": [
@@ -80,7 +80,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_009",
+        "case": "ARS_WEB_SCENES_009",
         "status": "skipped",
         "function_name": "test_009",
         "script_info": [
@@ -90,7 +90,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_010",
+        "case": "ARS_WEB_SCENES_010",
         "status": "skipped",
         "function_name": "test_010",
         "script_info": [
@@ -102,7 +102,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_011",
+        "case": "ARS_WEB_SCENES_011",
         "status": "skipped",
         "function_name": "test_011",
         "script_info": [
@@ -113,7 +113,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_012",
+        "case": "ARS_WEB_SCENES_012",
         "status": "skipped",
         "function_name": "test_012",
         "script_info": [
@@ -125,7 +125,7 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_013",
+        "case": "ARS_WEB_SCENES_013",
         "status": "skipped",
         "function_name": "test_013",
         "script_info": [
@@ -137,130 +137,130 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_014",
+        "case": "ARS_WEB_SCENES_014",
         "status": "skipped",
         "function_name": "test_014",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Open Sphere scene"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_015",
+        "case": "ARS_WEB_SCENES_015",
         "status": "skipped",
         "function_name": "test_015",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene rotation"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_016",
+        "case": "ARS_WEB_SCENES_016",
         "status": "skipped",
         "function_name": "test_016",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene Final render default JPEG"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_017",
+        "case": "ARS_WEB_SCENES_017",
         "status": "skipped",
         "function_name": "test_017",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene Final render PNG"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_018",
+        "case": "ARS_WEB_SCENES_018",
         "status": "skipped",
         "function_name": "test_018",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene Max resolution final render JPEG"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_019",
+        "case": "ARS_WEB_SCENES_019",
         "status": "skipped",
         "function_name": "test_019",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene Max resolution final render PNG"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_020",
+        "case": "ARS_WEB_SCENES_020",
         "status": "skipped",
         "function_name": "test_020",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene is rendered after default resolution final render"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_021",
+        "case": "ARS_WEB_SCENES_021",
         "status": "skipped",
         "function_name": "test_021",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene is rendered after max resolution final render"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_022",
+        "case": "ARS_WEB_SCENES_022",
         "status": "skipped",
         "function_name": "test_022",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene 100 samples default final render"],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_023",
+        "case": "ARS_WEB_SCENES_023",
         "status": "skipped",
         "function_name": "test_023",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene, applying material to an object by mouse click"
         ],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_024",
+        "case": "ARS_WEB_SCENES_024",
         "status": "skipped",
         "function_name": "test_024",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene, applying material to an object by drag'n'drop"
         ],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_025",
+        "case": "ARS_WEB_SCENES_025",
         "status": "skipped",
         "function_name": "test_025",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-245",
             "Sphere scene, reapplying material to an object"
         ],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_026",
+        "case": "ARS_WEB_SCENES_026",
         "status": "observed",
         "function_name": "test_026",
         "script_info": [
@@ -268,101 +268,101 @@
             "https://amdrender.atlassian.net/browse/RS-276",
             "Sphere scene, changing object's properties"
         ],
-        "scene_path": "SphereRS",
+        "scene_name": "SphereRS",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_027",
+        "case": "ARS_WEB_SCENES_027",
         "status": "skipped",
         "function_name": "test_027",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "Open W7800 scene"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_028",
+        "case": "ARS_WEB_SCENES_028",
         "status": "skipped",
         "function_name": "test_028",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene rotation"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_029",
+        "case": "ARS_WEB_SCENES_029",
         "status": "skipped",
         "function_name": "test_029",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene Final render default JPEG"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_030",
+        "case": "ARS_WEB_SCENES_030",
         "status": "skipped",
         "function_name": "test_030",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene Final render PNG"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_031",
+        "case": "ARS_WEB_SCENES_031",
         "status": "skipped",
         "function_name": "test_031",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene Max resolution final render JPEG"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_032",
+        "case": "ARS_WEB_SCENES_032",
         "status": "skipped",
         "function_name": "test_032",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene Max resolution final render PNG"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_033",
+        "case": "ARS_WEB_SCENES_033",
         "status": "skipped",
         "function_name": "test_033",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene is rendered after default resolution final render"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_034",
+        "case": "ARS_WEB_SCENES_034",
         "status": "skipped",
         "function_name": "test_034",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene is rendered after max resolution final render"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_035",
+        "case": "ARS_WEB_SCENES_035",
         "status": "skipped",
         "function_name": "test_035",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene 100 samples default final render"],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_036",
+        "case": "ARS_WEB_SCENES_036",
         "status": "skipped",
         "function_name": "test_036",
         "script_info": [
@@ -370,22 +370,22 @@
             "W7800 scene, applying material to an object by mouse click",
             "Object is not specified"
         ],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_037",
+        "case": "ARS_WEB_SCENES_037",
         "status": "skipped",
         "function_name": "test_037",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-284",
             "W7800 scene, applying material to an object by drag'n'drop"
         ],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_038",
+        "case": "ARS_WEB_SCENES_038",
         "status": "skipped",
         "function_name": "test_038",
         "script_info": [
@@ -393,11 +393,11 @@
             "W7800 scene, reapplying material to an object",
             "Object is not specified"
         ],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     },
     {
-        "case": "ARS_DESKTOP_SCENES_039",
+        "case": "ARS_WEB_SCENES_039",
         "status": "skipped",
         "function_name": "test_039",
         "script_info": [
@@ -405,7 +405,7 @@
             "W7800 scene, changing object's properties",
             "Object is not specified"
         ],
-        "scene_path": "W7800",
+        "scene_name": "W7800",
         "viewport_render_delay": 8
     }
 ]
