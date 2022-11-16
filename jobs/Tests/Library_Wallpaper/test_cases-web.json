@@ -8,7 +8,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Green Herringbone Wallpaper"
+        "material_name": "Green Herringbone Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_002",
@@ -19,7 +20,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Retro Mood Aqua Blue Wallpaper"
+        "material_name": "Retro Mood Aqua Blue Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_003",
@@ -30,7 +32,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Retro Mood Mocca Wallpaper"
+        "material_name": "Retro Mood Mocca Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_004",
@@ -41,7 +44,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Retro Mood Olive Wallpaper"
+        "material_name": "Retro Mood Olive Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_005",
@@ -52,7 +56,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Lozenge Aegean Blue Wallpaper"
+        "material_name": "Lozenge Aegean Blue Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_006",
@@ -63,7 +68,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Indigo and Copper Wallpaper"
+        "material_name": "Indigo and Copper Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_007",
@@ -74,7 +80,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Green Moroccan Wallpaper"
+        "material_name": "Green Moroccan Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_008",
@@ -85,7 +92,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Sashiko Green Wallpaper"
+        "material_name": "Sashiko Green Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_009",
@@ -96,7 +104,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Sashiko Navy Wallpaper"
+        "material_name": "Sashiko Navy Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_010",
@@ -107,7 +116,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Sashiko Taupe Wallpaper"
+        "material_name": "Sashiko Taupe Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_011",
@@ -118,7 +128,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Bluemine Linen Wallpaper"
+        "material_name": "Bluemine Linen Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_012",
@@ -129,7 +140,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Serene Sage Linen Wallpaper"
+        "material_name": "Serene Sage Linen Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_013",
@@ -140,7 +152,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Triton Bordeaux Wallpaper"
+        "material_name": "Triton Bordeaux Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_014",
@@ -151,7 +164,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Flower Parade Pink Wallpaper"
+        "material_name": "Flower Parade Pink Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_015",
@@ -162,7 +176,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Mocha Decor Wallpaper"
+        "material_name": "Mocha Decor Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_016",
@@ -173,7 +188,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Victorian Vintage Wallpaper"
+        "material_name": "Victorian Vintage Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_017",
@@ -184,7 +200,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Vintage Flower Wallpaper"
+        "material_name": "Vintage Flower Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_0120",
@@ -195,7 +212,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Retro Scalloped Wallpaper"
+        "material_name": "Retro Scalloped Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_019",
@@ -206,7 +224,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Canary Art Deco Wallpaper"
+        "material_name": "Canary Art Deco Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_020",
@@ -217,7 +236,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Flower Power Vintage Wallpaper"
+        "material_name": "Flower Power Vintage Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_021",
@@ -228,7 +248,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Retro Geometric Wallpaper"
+        "material_name": "Retro Geometric Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_022",
@@ -239,7 +260,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Retro Style Wallpaper"
+        "material_name": "Retro Style Wallpaper",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALLPAPER_023",
@@ -250,6 +272,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Wallpaper vertical damask"
+        "material_name": "Wallpaper vertical damask",
+        "scroll": false
     }
 ]

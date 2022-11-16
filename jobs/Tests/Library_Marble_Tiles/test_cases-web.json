@@ -8,7 +8,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Blue Portuguese Ceramic Tile"
+        "material_name": "Blue Portuguese Ceramic Tile",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_002",
@@ -19,7 +20,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Brown Portuguese Ceramic Tile"
+        "material_name": "Brown Portuguese Ceramic Tile",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_003",
@@ -30,7 +32,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Blue Mosaic Tiles with Gold"
+        "material_name": "Blue Mosaic Tiles with Gold",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_004",
@@ -41,7 +44,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Porcelain Vitrified Tiles"
+        "material_name": "Porcelain Vitrified Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_005",
@@ -52,7 +56,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Bardiglio Gray Marble Tiles"
+        "material_name": "Bardiglio Gray Marble Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_006",
@@ -63,7 +68,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Arabescato Blue Marble Tiles"
+        "material_name": "Arabescato Blue Marble Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_007",
@@ -74,7 +80,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Verde Guatemala Slatted Marble"
+        "material_name": "Verde Guatemala Slatted Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_008",
@@ -85,7 +92,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Weave Pattern Marble Tiles"
+        "material_name": "Weave Pattern Marble Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_009",
@@ -96,7 +104,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Pinwheel Pattern Marble Tiles"
+        "material_name": "Pinwheel Pattern Marble Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_010",
@@ -107,7 +116,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Bianco Statuario Marble Tiles"
+        "material_name": "Bianco Statuario Marble Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_011",
@@ -118,7 +128,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Imperial Jade Marble Tiles"
+        "material_name": "Imperial Jade Marble Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_012",
@@ -129,7 +140,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Dark-Green Marble Rhombus Tile"
+        "material_name": "Dark-Green Marble Rhombus Tile",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_013",
@@ -140,7 +152,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Iberian Calcite Marble Tiles"
+        "material_name": "Iberian Calcite Marble Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_014",
@@ -151,7 +164,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Circle Marble Pattern"
+        "material_name": "Circle Marble Pattern",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_015",
@@ -162,7 +176,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Mosaic Marble Pattern"
+        "material_name": "Mosaic Marble Pattern",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_016",
@@ -173,7 +188,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Marble Tiles"
+        "material_name": "Marble Tiles",
+        "scroll": true
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_017",
@@ -184,7 +200,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Classical Marble Pattern"
+        "material_name": "Classical Marble Pattern",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_0120",
@@ -195,7 +212,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Marble Green Pattern"
+        "material_name": "Marble Green Pattern",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_019",
@@ -206,7 +224,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Tiles Black Long Variative"
+        "material_name": "Tiles Black Long Variative",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_020",
@@ -217,7 +236,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Marble Floor Tiles"
+        "material_name": "TH: Marble Floor Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_021",
@@ -228,7 +248,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Bardiglio Marble"
+        "material_name": "Bardiglio Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_022",
@@ -239,7 +260,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Picasso Black Marble"
+        "material_name": "Picasso Black Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_023",
@@ -250,7 +272,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Beige Marble Tiles"
+        "material_name": "TH: Beige Marble Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_024",
@@ -261,7 +284,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Guatemala Blue Marble"
+        "material_name": "Guatemala Blue Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_025",
@@ -272,6 +296,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Cremo Marble"
+        "material_name": "Cremo Marble",
+        "scroll": false
     }
 ]

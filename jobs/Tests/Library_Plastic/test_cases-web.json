@@ -8,7 +8,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Carbon biColor Coat"
+        "material_name": "Carbon biColor Coat",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTIC_002",
@@ -19,6 +20,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Patterned Resin Floor"
+        "material_name": "Patterned Resin Floor",
+        "scroll": false
     }
 ]

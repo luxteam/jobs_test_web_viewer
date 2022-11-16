@@ -8,7 +8,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Cobblestone"
+        "material_name": "TH: Old Cobblestone",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_002",
@@ -19,7 +20,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Light Cobblestone Floor"
+        "material_name": "TH: Light Cobblestone Floor",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_003",
@@ -30,7 +32,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Medieval Cobblestone"
+        "material_name": "TH: Medieval Cobblestone",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_004",
@@ -41,7 +44,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Cobblestone Color"
+        "material_name": "TH: Cobblestone Color",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_005",
@@ -52,7 +56,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Medieval Cobblestone"
+        "material_name": "TH: Old Medieval Cobblestone",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_006",
@@ -63,7 +68,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Dark Cobblestone Floor"
+        "material_name": "TH: Dark Cobblestone Floor",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_007",
@@ -74,7 +80,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Gray Cobblestone Floor"
+        "material_name": "TH: Gray Cobblestone Floor",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_008",
@@ -85,7 +92,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Moss Cobblestone Floor"
+        "material_name": "TH: Moss Cobblestone Floor",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_009",
@@ -96,7 +104,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Cobblestone Floor"
+        "material_name": "TH: Cobblestone Floor",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_010",
@@ -107,7 +116,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Broken Cobblestone Floor"
+        "material_name": "TH: Broken Cobblestone Floor",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_011",
@@ -118,7 +128,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Pink Cobblestone Floor"
+        "material_name": "TH: Pink Cobblestone Floor",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_012",
@@ -129,7 +140,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Yellow Cobblestone Floor"
+        "material_name": "TH: Yellow Cobblestone Floor",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_013",
@@ -140,7 +152,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Cobblestone Large"
+        "material_name": "TH: Cobblestone Large",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_014",
@@ -151,7 +164,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Cobblestone Square"
+        "material_name": "TH: Cobblestone Square",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_015",
@@ -162,7 +176,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Floor Pattern"
+        "material_name": "TH: Old Floor Pattern",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_COBBLESTONE_016",
@@ -173,6 +188,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Floor Pattern"
+        "material_name": "TH: Floor Pattern",
+        "scroll": false
     }
 ]

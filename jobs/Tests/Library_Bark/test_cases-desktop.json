@@ -8,7 +8,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Bark Base"
+        "material_name": "Bark Base",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_002",
@@ -19,7 +20,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Bark Beech"
+        "material_name": "Bark Beech",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_003",
@@ -30,7 +32,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Bark Oak"
+        "material_name": "Bark Oak",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_004",
@@ -41,7 +44,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Bark Pine"
+        "material_name": "Bark Pine",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_005",
@@ -52,7 +56,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Bark Smooth"
+        "material_name": "Bark Smooth",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_006",
@@ -63,7 +68,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Bark Brown"
+        "material_name": "TH: Bark Brown",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_007",
@@ -74,7 +80,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Bark Brown"
+        "material_name": "TH: Old Bark Brown",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_008",
@@ -85,6 +92,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Tree Bark"
+        "material_name": "TH: Tree Bark",
+        "scroll": false
     }
 ]

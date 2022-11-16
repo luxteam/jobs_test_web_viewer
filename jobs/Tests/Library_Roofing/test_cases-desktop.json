@@ -8,7 +8,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Ceramic Roof"
+        "material_name": "TH: Ceramic Roof",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_ROOFING_002",
@@ -19,7 +20,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Gray Ceramic Roof"
+        "material_name": "TH: Gray Ceramic Roof",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_ROOFING_003",
@@ -30,7 +32,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Grey Roof Tiles"
+        "material_name": "TH: Grey Roof Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_ROOFING_004",
@@ -41,7 +44,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Moss Gray Roof Tiles"
+        "material_name": "TH: Moss Gray Roof Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_ROOFING_005",
@@ -52,7 +56,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Slate Roof Tiles"
+        "material_name": "TH: Slate Roof Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_ROOFING_006",
@@ -63,7 +68,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Reed Roof"
+        "material_name": "TH: Reed Roof",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_ROOFING_007",
@@ -74,7 +80,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Riet Roof"
+        "material_name": "TH: Riet Roof",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_ROOFING_008",
@@ -85,7 +92,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Roof 3"
+        "material_name": "TH: Roof 3",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_ROOFING_009",
@@ -96,7 +104,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Roof Tiles"
+        "material_name": "TH: Old Roof Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_ROOFING_010",
@@ -107,7 +116,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Wooden Roof"
+        "material_name": "TH: Old Wooden Roof",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_ROOFING_011",
@@ -118,7 +128,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Roof Slates"
+        "material_name": "TH: Roof Slates",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_ROOFING_012",
@@ -129,6 +140,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Ceramic Roof Tiles"
+        "material_name": "TH: Ceramic Roof Tiles",
+        "scroll": false
     }
 ]

@@ -8,7 +8,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Aluminum Hexagon"
+        "material_name": "Aluminum Hexagon",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_SCIFI_002",
@@ -19,7 +20,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Chains"
+        "material_name": "Chains",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_SCIFI_003",
@@ -30,7 +32,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Perforated Metal"
+        "material_name": "Perforated Metal",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_SCIFI_004",
@@ -41,6 +44,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "SciFi Brick"
+        "material_name": "SciFi Brick",
+        "scroll": false
     }
 ]

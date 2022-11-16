@@ -247,7 +247,7 @@ def save_screen(screen_path, driver, extension = "jpg", save_final_render_image 
         driver.save_screenshot(f"{screen_path}.{extension}")
 
 
-def choose_material(material_name, driver, click = True):
+def choose_material(material_name, driver, scroll, click = True):
     search = find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
     search.click()
     time.sleep(2)
@@ -257,7 +257,7 @@ def choose_material(material_name, driver, click = True):
     # cards with materials can be reloaded few times, wait a bit
     time.sleep(2)
 
-    if material_name == "Marble Tiles" or material_name == "TH: Brick Wall":
+    if scroll:
         first_material = find_by_xpath(LibraryLocators.MATERIAL_CARD, driver)
         first_material.click() # focus on the materials table 
         ActionChains(driver)\

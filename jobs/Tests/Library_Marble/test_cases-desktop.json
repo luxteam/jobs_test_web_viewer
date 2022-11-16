@@ -8,7 +8,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Marble Variable Color"
+        "material_name": "Marble Variable Color",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_002",
@@ -19,7 +20,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Marble Light Gray"
+        "material_name": "Marble Light Gray",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_003",
@@ -30,7 +32,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Marble Brown"
+        "material_name": "Marble Brown",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_004",
@@ -41,7 +44,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Cream Onyx"
+        "material_name": "Cream Onyx",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_005",
@@ -52,7 +56,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Granite"
+        "material_name": "Granite",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_006",
@@ -63,7 +68,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Marble Orange Streaks"
+        "material_name": "Marble Orange Streaks",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_007",
@@ -74,7 +80,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Marble Light Red"
+        "material_name": "Marble Light Red",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_008",
@@ -85,7 +92,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Marble Yellow"
+        "material_name": "Marble Yellow",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_009",
@@ -96,7 +104,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Marble Red"
+        "material_name": "Marble Red",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_010",
@@ -107,7 +116,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Simple Marble light blue"
+        "material_name": "Simple Marble light blue",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_011",
@@ -118,7 +128,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Onyx Gray Streaked"
+        "material_name": "Onyx Gray Streaked",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_012",
@@ -129,7 +140,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Blue Emperador Marble"
+        "material_name": "Blue Emperador Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_013",
@@ -140,7 +152,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Oasis Green Marble"
+        "material_name": "Oasis Green Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_014",
@@ -151,7 +164,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Oasis Blue Marble"
+        "material_name": "Oasis Blue Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_015",
@@ -162,7 +176,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Rosso Verona Marble"
+        "material_name": "Rosso Verona Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_016",
@@ -173,7 +188,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Arabescato Marble"
+        "material_name": "Arabescato Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_017",
@@ -184,7 +200,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Travertine Marble"
+        "material_name": "Travertine Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_018",
@@ -195,7 +212,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Sicilian Beige Marble"
+        "material_name": "Sicilian Beige Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_019",
@@ -206,7 +224,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Portoro Green Marble"
+        "material_name": "Portoro Green Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_020",
@@ -217,7 +236,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Milan Polished Marble"
+        "material_name": "Milan Polished Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_021",
@@ -228,7 +248,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Blue Dune Marble"
+        "material_name": "Blue Dune Marble",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_022",
@@ -239,6 +260,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Verde Alpi Marble"
+        "material_name": "Verde Alpi Marble",
+        "scroll": false
     }
 ]

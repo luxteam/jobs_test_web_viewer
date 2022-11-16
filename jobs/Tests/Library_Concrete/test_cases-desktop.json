@@ -8,7 +8,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Bricks Concrete Wall"
+        "material_name": "TH: Bricks Concrete Wall",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_002",
@@ -19,7 +20,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Concrete Plain"
+        "material_name": "Concrete Plain",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_003",
@@ -30,7 +32,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Concrete Planks"
+        "material_name": "Concrete Planks",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_004",
@@ -41,7 +44,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Concrete Tiles"
+        "material_name": "Concrete Tiles",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_005",
@@ -52,7 +56,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH Dirty Concrete"
+        "material_name": "TH Dirty Concrete",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_006",
@@ -63,7 +68,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Rubble Concrete Floor"
+        "material_name": "TH: Rubble Concrete Floor",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_007",
@@ -74,7 +80,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Concrete Floor"
+        "material_name": "TH: Concrete Floor",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_008",
@@ -85,7 +92,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Concrete Old Floor"
+        "material_name": "TH: Concrete Old Floor",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_009",
@@ -96,7 +104,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Concrete Wall"
+        "material_name": "TH: Concrete Wall",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_010",
@@ -107,7 +116,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Smooth Concrete"
+        "material_name": "Smooth Concrete",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_011",
@@ -118,7 +128,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Gray Ramshorn Shells Wall"
+        "material_name": "Gray Ramshorn Shells Wall",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_012",
@@ -129,7 +140,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Ramshorn Shells Wall"
+        "material_name": "Ramshorn Shells Wall",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_013",
@@ -140,7 +152,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Detailed Ramshorn Shells Wall"
+        "material_name": "Detailed Ramshorn Shells Wall",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_014",
@@ -151,7 +164,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "White Stone Wall"
+        "material_name": "White Stone Wall",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_015",
@@ -162,7 +176,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Red Stone Wall"
+        "material_name": "Red Stone Wall",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_016",
@@ -173,7 +188,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Stone Wall Combination"
+        "material_name": "Stone Wall Combination",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_017",
@@ -184,7 +200,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Stone Wall"
+        "material_name": "Stone Wall",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_018",
@@ -195,7 +212,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Wall of Shells"
+        "material_name": "Wall of Shells",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_019",
@@ -206,7 +224,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Cement Wall with Starfish"
+        "material_name": "Cement Wall with Starfish",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_020",
@@ -217,7 +236,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Gray Cement Shells Wall"
+        "material_name": "Gray Cement Shells Wall",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_021",
@@ -228,7 +248,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Cement Wall with Shells"
+        "material_name": "Cement Wall with Shells",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_022",
@@ -239,7 +260,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Cement Shells Wall"
+        "material_name": "Cement Shells Wall",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_CONCRETE_023",
@@ -250,6 +272,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Concrete Floor Worn"
+        "material_name": "TH: Concrete Floor Worn",
+        "scroll": false
     }
 ]

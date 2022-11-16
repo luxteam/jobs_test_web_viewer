@@ -8,7 +8,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Black Upholstery"
+        "material_name": "Black Upholstery",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_002",
@@ -19,7 +20,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Book Pattern"
+        "material_name": "TH: Book Pattern",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_003",
@@ -30,7 +32,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Brown Leather"
+        "material_name": "TH: Brown Leather",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_004",
@@ -41,7 +44,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Blue Denim Fabric"
+        "material_name": "TH: Blue Denim Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_005",
@@ -52,7 +56,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Denim Fabric"
+        "material_name": "TH: Denim Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_006",
@@ -63,7 +68,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Brown Fabric Leather"
+        "material_name": "TH: Brown Fabric Leather",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_007",
@@ -74,7 +80,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Fabric Leather"
+        "material_name": "TH: Fabric Leather",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_008",
@@ -85,7 +92,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Tablecloth Fabric Pattern"
+        "material_name": "TH: Tablecloth Fabric Pattern",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_009",
@@ -96,7 +104,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Red Fabric Pattern"
+        "material_name": "TH: Red Fabric Pattern",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_010",
@@ -107,7 +116,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Red Large Leather"
+        "material_name": "TH: Red Large Leather",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_011",
@@ -118,7 +128,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Red Leather"
+        "material_name": "TH: Red Leather",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_012",
@@ -129,7 +140,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Leather White"
+        "material_name": "TH: Leather White",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_013",
@@ -140,7 +152,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Scarf Blue Knitted Fabric"
+        "material_name": "Scarf Blue Knitted Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_014",
@@ -151,7 +164,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Braid Jumper Knitted Fabric"
+        "material_name": "Braid Jumper Knitted Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_015",
@@ -162,7 +176,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Daisy Checker Knitted Fabric"
+        "material_name": "Daisy Checker Knitted Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_016",
@@ -173,7 +188,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Chunky Weave Cushion Fabric"
+        "material_name": "Chunky Weave Cushion Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_017",
@@ -184,7 +200,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Carrot Knitted Fabric"
+        "material_name": "Carrot Knitted Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_018",
@@ -195,7 +212,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Tiffany Blue Cushion Fabric"
+        "material_name": "Tiffany Blue Cushion Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_019",
@@ -206,7 +224,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Pale Coral Linen Fabric"
+        "material_name": "Pale Coral Linen Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_020",
@@ -217,7 +236,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Oblong Printed Fabric"
+        "material_name": "Oblong Printed Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_021",
@@ -228,7 +248,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Blue Pixel Linen Fabric"
+        "material_name": "Blue Pixel Linen Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_022",
@@ -239,7 +260,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Midnight Blue Heavy Fabric"
+        "material_name": "Midnight Blue Heavy Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_023",
@@ -250,7 +272,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Lemons Woollen Fabric"
+        "material_name": "Lemons Woollen Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_024",
@@ -261,7 +284,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Forest Green Jumper Fabric"
+        "material_name": "Forest Green Jumper Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_025",
@@ -272,7 +296,8 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Emerald Waves Fabric"
+        "material_name": "Emerald Waves Fabric",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FABRICS_026",
@@ -283,6 +308,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Latour Blue Fabric"
+        "material_name": "Latour Blue Fabric",
+        "scroll": false
     }
 ]

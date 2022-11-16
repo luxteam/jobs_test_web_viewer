@@ -8,7 +8,8 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Old Paint"
+        "material_name": "Old Paint",
+        "scroll": false
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PAINT_002",
@@ -19,6 +20,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Car Paint"
+        "material_name": "Car Paint",
+        "scroll": false
     }
 ]
