@@ -16,6 +16,10 @@ class ViewportLocators(object):
     SETTINGS_TEXT = '//h3[ text() = "Selection viewport" ]'
     SCENE_MENU = '//button[ @class = "button-iconed" ]'
     MENU_ITEM = '//button[ @class = "menu-item" ]'
+    VERSIONS_MENU = '//button[ text() = "Versions" ]'
+    VERSIONS_WINDOW = '//div[ @class = "card-sectioned-text-container" ]'
+    VERSION_SERVICE_NAMES = f'//div[ @class = "font-bold" ]'
+    VERSION_ROWS = f'//div[ @class = "version-text" ]'
     
     def expand_node(name):
         return '//div[contains(text(), "' + name +'")]/..//button[@class=\'scene-index-prim-button-expand\']'
@@ -45,6 +49,7 @@ class FinalRenderLocators(object):
     SAMPLES = '(//*[@maxlength])[3]'
     BACK_BUTTON ='(//div[@class="icon"])[3]'
     DOWNLOAD_IMAGE = '//div[ @class="render-progress-bar-button" ]//button'
+    TIME_TAKEN = '//div[ @class="render-progress-text" ]'
 
 class LibraryLocators(object):
     LIBRARY_TAB = '//./button/div[ text() = "Library" ]'

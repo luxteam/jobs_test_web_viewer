@@ -16,11 +16,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Copper Satin\""
+            "Applying material \"Aluminum Parametric\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Copper Satin",
+        "material_name": "Aluminum Parametric",
         "scroll": false
     },
     {
@@ -268,11 +268,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Aluminum Parametric\""
+            "Applying material \"Copper Satin\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Aluminum Parametric",
+        "material_name": "Copper Satin",
         "scroll": false
     }
 ]

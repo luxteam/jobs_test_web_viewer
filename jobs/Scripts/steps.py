@@ -38,10 +38,6 @@ class FinalRenderSteps:
         utils.find_by_xpath(FinalRenderLocators.HEIGHT, driver).send_keys(Keys.CONTROL + "a")
         utils.find_by_xpath(FinalRenderLocators.HEIGHT, driver).send_keys(height)
 
-    def start_render(driver):
-        utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
-        sleep(10)
-
     def return_to_viewport(driver):
         utils.find_by_xpath(FinalRenderLocators.BACK_BUTTON, driver).click()
         sleep(5)
@@ -60,12 +56,24 @@ class FinalRenderSteps:
             )
         sleep(5)
 
+        return FinalRenderSteps.get_render_time(driver)
+
     def return_to_viewport(driver):
         utils.find_by_xpath(FinalRenderLocators.BACK_BUTTON, driver).click()
         sleep(10)
         pyautogui.moveTo(500,700)
         pyautogui.dragTo(600, 700, 1, button='left')
         sleep(5)
+
+    def get_render_time(driver):
+        raw_render_time = utils.find_by_xpath(FinalRenderLocators.TIME_TAKEN, driver, wait=0).text
+
+        parts = raw_render_time.split()[1].split(":")
+        render_hours = float(parts[0])
+        render_minutes = float(parts[1])
+        render_seconds = float(parts[2])
+
+        return render_hours * 60 * 60 + render_minutes * 60 + render_seconds
 
 class LibrarySteps:
     def click_library_tab(driver, sec):
@@ -123,15 +131,6 @@ class LibrarySteps:
         utils.choose_material(name, driver, scroll)
         sleep(3)
         LibrarySteps.click_library_tab(driver, 12)
-
-    def drag_and_drop_material():
-        pyautogui.moveTo(575, 750)
-        time.sleep(0.5)
-        pyautogui.mouseDown(button='left')
-        time.sleep(0.5)
-        pyautogui.moveTo(980, 410, 3)
-        time.sleep(0.5)
-        pyautogui.mouseUp(button='left')
 
 class ViewportSteps:
     def click_tab(driver, sec, tab):

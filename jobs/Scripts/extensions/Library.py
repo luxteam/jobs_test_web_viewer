@@ -38,9 +38,19 @@ def test_003(args, case, driver, current_try):
 def test_004(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)
     utils.choose_material("Gold", driver, click=False)
-    LibrarySteps.drag_and_drop_material()
+    drag_and_drop_kitchen()
     sleep(3)
     LibrarySteps.click_library_tab(driver, 12)
+
+
+def drag_and_drop_kitchen():
+    pyautogui.moveTo(575, 750)
+    sleep(0.5)
+    pyautogui.mouseDown(button='left')
+    sleep(0.5)
+    pyautogui.moveTo(980, 410, 3)
+    sleep(0.5)
+    pyautogui.mouseUp(button='left')
 
 
 def test_005(args, case, driver, current_try):

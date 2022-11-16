@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from pyautogui import typewrite, press
 import pyautogui
+import re
 from steps import ViewportSteps
 from locators import *
 
@@ -116,3 +117,46 @@ def test_020(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'menu')
     ViewportSteps.click_tab(driver, 2, 'menu')
     assert utils.find_by_xpath(ViewportLocators.MENU_ITEM, driver).is_displayed() == False, "Scene menu is opened"
+
+
+def test_029(args, case, driver, current_try):
+    ViewportSteps.click_tab(driver, 2, 'menu')
+    utils.find_by_xpath(ViewportLocators.VERSIONS_MENU, driver).click()
+    versions_window = utils.find_by_xpath(ViewportLocators.VERSIONS_WINDOW, driver)
+
+    if args.mode == "desktop":
+        expected_service_names = ["AMD RenderStudio", "Frontend", "Streamer"]
+    else:
+        expected_service_names = ["AMD RenderStudio", "Frontend", "Streamer", "Live", "Router", "Storage"]
+
+    sleep(1)
+
+    actual_service_names = versions_window.find_elements(By.XPATH, ViewportLocators.VERSION_SERVICE_NAMES)
+    actual_service_rows = versions_window.find_elements(By.XPATH, ViewportLocators.VERSION_ROWS)
+
+    for a in actual_service_rows:
+        utils.case_logger.info("\"" + a.text + "\"")
+
+    for a in actual_service_names:
+        utils.case_logger.info("\"" + a.text + "\"")
+
+    for i in range(len(expected_service_names)):
+        actual_service_name = actual_service_names[i].text
+        actual_service_row = actual_service_rows[i].text
+        expected_service_name = expected_service_names[i]
+
+        assert actual_service_name == expected_service_name, f"Found row for service {actual_service_name} instead of {expected_service_name}"
+
+        if expected_service_name == "AMD RenderStudio":
+            # Example: Version: 0.1.12. Branch: develop. Build: #87. Hash: b996aaa
+            assert len(re.findall(r"^Version: \d+\.\d+\.\d+\. Branch: .*\. Build: #\d+\. Hash: [a-z0-9]{7}$", actual_service_row)) == 1, f"Service {actual_service_row} has invalid version line"
+        else:
+            # Example: Version: 0.30.0. Hash: a10c8f9
+            assert len(re.findall(r"^Version: \d+\.\d+\.\d+\. Hash: [a-z0-9]{7}$", actual_service_row)) == 1, f"Row with versions {actual_service_row} is invalid"
+
+
+def test_030(args, case, driver, current_try):
+    ViewportSteps.click_tab(driver, 2, 'scene index')
+    ViewportSteps.search_scene_element(driver, "CupCRed_1")
+    ViewportSteps.click_scene(driver)
+    sleep(8)
