@@ -84,6 +84,8 @@ def pre_action(case, mode):
 
 
 def driver_desktop():
+    install_chromedriver("desktop")
+
     global streamer_process
     streamer_process = Popen(["C:\\Program Files\\AMD\\AMD RenderStudio\\services\\WebUsdStreamServer\\Run.bat", "--webrtc-port", "10000", "--rest-port", "10001"], creationflags=CREATE_NEW_CONSOLE)
     time.sleep(2)
@@ -100,7 +102,7 @@ def driver_desktop():
 
 
 def driver_web():
-    install_chromedriver()
+    install_chromedriver("web")
 
     options = webdriver.ChromeOptions()
     options.add_argument('--start-maximized')
@@ -119,19 +121,26 @@ def get_chrome_version():
     return version
 
 
-def install_chromedriver():
+def install_chromedriver(mode):
     if os.path.exists('..\\driver\\chromedriver.exe'):
         os.remove('..\\driver\\chromedriver.exe')
 
     try:
-        version = get_chrome_version()
-        version = version.split('.')[-1]
-        driver_version = requests.get('https://chromedriver.storage.googleapis.com/LATEST_RELEASE_{}'.format(version)).text
-        case_logger.info("Driver version: {}".format(driver_version))
-        driver_zip = wget.download('https://chromedriver.storage.googleapis.com/{}/chromedriver_win32.zip'.format(driver_version), 'chromedriver.zip')
-        with zipfile.ZipFile(driver_zip, 'r') as zip_ref:
-            zip_ref.extractall('..\\driver')
-        os.remove(driver_zip)
+        if mode == "desktop":
+            driver_zip = wget.download('https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip', 'chromedriver.zip')
+            with zipfile.ZipFile(driver_zip, 'r') as zip_ref:
+                zip_ref.extractall('..\\driver')
+            os.remove(driver_zip)
+            case_logger.info("Driver is installed")
+        elif mode == "web":
+            version = get_chrome_version()
+            version = version.split('.')[-1]
+            driver_version = requests.get('https://chromedriver.storage.googleapis.com/LATEST_RELEASE_{}'.format(version)).text
+            case_logger.info("Driver version: {}".format(driver_version))
+            driver_zip = wget.download('https://chromedriver.storage.googleapis.com/{}/chromedriver_win32.zip'.format(driver_version), 'chromedriver.zip')
+            with zipfile.ZipFile(driver_zip, 'r') as zip_ref:
+                zip_ref.extractall('..\\driver')
+            os.remove(driver_zip)
     except:
         raise Exception("Failed to download chromedriver")
 
