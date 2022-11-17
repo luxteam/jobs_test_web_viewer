@@ -8,8 +8,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 50 percent melanin",
-        "scroll": false
+        "material_name": "Skin - 50 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_002",
@@ -20,8 +19,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 30 percent melanin",
-        "scroll": false
+        "material_name": "Skin - 30 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_003",
@@ -32,8 +30,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 20 percent melanin",
-        "scroll": false
+        "material_name": "Skin - 20 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_004",
@@ -44,8 +41,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 10 percent melanin",
-        "scroll": false
+        "material_name": "Skin - 10 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_005",
@@ -56,8 +52,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 5 percent melanin",
-        "scroll": false
+        "material_name": "Skin - 5 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_006",
@@ -68,8 +63,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 2 percent melanin",
-        "scroll": false
+        "material_name": "Skin - 2 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_007",
@@ -80,8 +74,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 1 percent melanin",
-        "scroll": false
+        "material_name": "Skin - 1 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_008",
@@ -92,8 +85,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Skin - 0.1 percent melanin",
-        "scroll": false
+        "material_name": "Skin - 0.1 percent melanin"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_009",
@@ -104,8 +96,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Acryl Plastic",
-        "scroll": false
+        "material_name": "Acryl Plastic"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_010",
@@ -116,8 +107,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "White Plastic",
-        "scroll": false
+        "material_name": "White Plastic"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_011",
@@ -128,8 +118,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Frosted Glass",
-        "scroll": false
+        "material_name": "Frosted Glass"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_012",
@@ -140,8 +129,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Dark Glass",
-        "scroll": false
+        "material_name": "Dark Glass"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_013",
@@ -152,8 +140,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Diamond",
-        "scroll": false
+        "material_name": "Diamond"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_014",
@@ -164,8 +151,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "White Wine",
-        "scroll": false
+        "material_name": "White Wine"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_015",
@@ -176,8 +162,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Red Wine",
-        "scroll": false
+        "material_name": "Red Wine"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_016",
@@ -188,8 +173,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Glass",
-        "scroll": false
+        "material_name": "Glass"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_017",
@@ -200,8 +184,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Semitransparent Silicone",
-        "scroll": false
+        "material_name": "Semitransparent Silicone"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_018",
@@ -212,8 +195,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Rubber",
-        "scroll": false
+        "material_name": "Rubber"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_019",
@@ -224,8 +206,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Rough Plastic",
-        "scroll": false
+        "material_name": "Rough Plastic"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_020",
@@ -236,8 +217,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Black Plastic",
-        "scroll": false
+        "material_name": "Black Plastic"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_021",
@@ -248,8 +228,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Nickel",
-        "scroll": false
+        "material_name": "Nickel"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_022",
@@ -260,8 +239,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Iron",
-        "scroll": false
+        "material_name": "Iron"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_023",
@@ -272,8 +250,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Gold",
-        "scroll": false
+        "material_name": "Gold"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_024",
@@ -284,8 +261,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Copper",
-        "scroll": false
+        "material_name": "Copper"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_025",
@@ -296,8 +272,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Cobalt",
-        "scroll": false
+        "material_name": "Cobalt"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_026",
@@ -308,8 +283,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Chrome",
-        "scroll": false
+        "material_name": "Chrome"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_027",
@@ -320,8 +294,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Bronze",
-        "scroll": false
+        "material_name": "Bronze"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_028",
@@ -332,8 +305,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Brass",
-        "scroll": false
+        "material_name": "Brass"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_029",
@@ -344,7 +316,6 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Aluminum",
-        "scroll": false
+        "material_name": "Aluminum"
     }
 ]

@@ -8,8 +8,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Broken Wall",
-        "scroll": false
+        "material_name": "TH: Broken Wall"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALL_002",
@@ -20,8 +19,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Castle Wall Slates",
-        "scroll": false
+        "material_name": "TH: Castle Wall Slates"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALL_003",
@@ -32,8 +30,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Castle Wall Variation",
-        "scroll": false
+        "material_name": "TH: Castle Wall Variation"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALL_004",
@@ -44,8 +41,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Defense Wall",
-        "scroll": false
+        "material_name": "TH: Old Defense Wall"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALL_005",
@@ -56,8 +52,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Defense Wall",
-        "scroll": false
+        "material_name": "TH: Defense Wall"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALL_006",
@@ -68,8 +63,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Red Medieval Blocks",
-        "scroll": false
+        "material_name": "TH: Red Medieval Blocks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALL_007",
@@ -80,8 +74,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Medieval Blocks",
-        "scroll": false
+        "material_name": "TH: Medieval Blocks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALL_008",
@@ -92,8 +85,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Crude Medieval Blocks",
-        "scroll": false
+        "material_name": "TH: Crude Medieval Blocks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALL_009",
@@ -104,8 +96,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Large Sandstone Blocks",
-        "scroll": false
+        "material_name": "TH: Large Sandstone Blocks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALL_010",
@@ -116,8 +107,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Crafted Medieval Blocks",
-        "scroll": false
+        "material_name": "TH: Crafted Medieval Blocks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALL_011",
@@ -128,8 +118,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Rough Block Wall",
-        "scroll": false
+        "material_name": "TH: Rough Block Wall"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WALL_012",
@@ -140,7 +129,6 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Sandstone Blocks",
-        "scroll": false
+        "material_name": "TH: Sandstone Blocks"
     }
 ]

@@ -8,8 +8,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Crumbling Rough Plaster",
-        "scroll": false
+        "material_name": "TH: Crumbling Rough Plaster"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_002",
@@ -20,8 +19,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Clay Floor",
-        "scroll": false
+        "material_name": "TH: Clay Floor"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_003",
@@ -32,8 +30,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Medieval Wall",
-        "scroll": false
+        "material_name": "TH: Medieval Wall"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_004",
@@ -44,8 +41,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Gray Plaster",
-        "scroll": false
+        "material_name": "TH: Gray Plaster"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_005",
@@ -56,8 +52,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Rough Plaster",
-        "scroll": false
+        "material_name": "TH: Old Rough Plaster"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_006",
@@ -68,8 +63,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Rough Plaster Broken",
-        "scroll": false
+        "material_name": "TH: Rough Plaster Broken"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_007",
@@ -80,8 +74,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Rough Plasterbrick",
-        "scroll": false
+        "material_name": "TH: Rough Plasterbrick"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_008",
@@ -92,8 +85,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Clean Plaster",
-        "scroll": false
+        "material_name": "TH: Clean Plaster"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_009",
@@ -104,8 +96,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Dirt Plaster Rough",
-        "scroll": false
+        "material_name": "TH: Dirt Plaster Rough"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_010",
@@ -116,8 +107,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Moss Plaster Rough",
-        "scroll": false
+        "material_name": "TH: Moss Plaster Rough"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_011",
@@ -128,8 +118,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: White Rough Plaster",
-        "scroll": false
+        "material_name": "TH: White Rough Plaster"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_012",
@@ -140,8 +129,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Yellow Plaster",
-        "scroll": false
+        "material_name": "TH: Old Yellow Plaster"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_013",
@@ -152,8 +140,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Rough Plaster Brick",
-        "scroll": false
+        "material_name": "TH: Rough Plaster Brick"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_014",
@@ -164,8 +151,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Plaster Scratched",
-        "scroll": false
+        "material_name": "Plaster Scratched"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_015",
@@ -176,8 +162,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Simple plaster",
-        "scroll": false
+        "material_name": "Simple plaster"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_016",
@@ -188,8 +173,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Gray Plaster",
-        "scroll": false
+        "material_name": "TH: Old Gray Plaster"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_017",
@@ -200,8 +184,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Yellow Plaster",
-        "scroll": false
+        "material_name": "TH: Yellow Plaster"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_018",
@@ -212,8 +195,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Dirty Gray Plaster",
-        "scroll": false
+        "material_name": "TH: Dirty Gray Plaster"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_PLASTER_019",
@@ -224,7 +206,6 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Sandstone Cracks",
-        "scroll": false
+        "material_name": "TH: Sandstone Cracks"
     }
 ]

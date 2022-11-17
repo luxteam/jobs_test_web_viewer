@@ -8,8 +8,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Gold Edged Leaf Tiles",
-        "scroll": false
+        "material_name": "Gold Edged Leaf Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_002",
@@ -20,8 +19,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Iberian Blue Ceramic Tiles",
-        "scroll": false
+        "material_name": "Iberian Blue Ceramic Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_003",
@@ -32,8 +30,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Iberian Beige Ceramic Tiles",
-        "scroll": false
+        "material_name": "Iberian Beige Ceramic Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_004",
@@ -44,8 +41,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Jade Tiles Irregular Bond",
-        "scroll": false
+        "material_name": "Jade Tiles Irregular Bond"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_005",
@@ -56,8 +52,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Wavy Colored Ceramic Tiles",
-        "scroll": false
+        "material_name": "Wavy Colored Ceramic Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_006",
@@ -68,8 +63,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Mosaic Vines Ceramic Tiles",
-        "scroll": false
+        "material_name": "Mosaic Vines Ceramic Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_007",
@@ -80,8 +74,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Sodalite Marble and Gold Tiles",
-        "scroll": false
+        "material_name": "Sodalite Marble and Gold Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_008",
@@ -92,8 +85,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Glazed Cube Pattern Tiles",
-        "scroll": false
+        "material_name": "Glazed Cube Pattern Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_009",
@@ -104,8 +96,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Retro-futuristic Tiles",
-        "scroll": false
+        "material_name": "Retro-futuristic Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_010",
@@ -116,8 +107,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Glazed Cell Tiles",
-        "scroll": false
+        "material_name": "Glazed Cell Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_011",
@@ -128,8 +118,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Gold-Black Checker tiles",
-        "scroll": false
+        "material_name": "Gold-Black Checker tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_012",
@@ -140,8 +129,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Glazed Mosaic Tiles",
-        "scroll": false
+        "material_name": "Glazed Mosaic Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_013",
@@ -152,8 +140,7 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Moroccan Hexagonal Tiles",
-        "scroll": false
+        "material_name": "Moroccan Hexagonal Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_TILE_014",
@@ -164,7 +151,6 @@
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Iberian Green Tiles",
-        "scroll": false
+        "material_name": "Iberian Green Tiles"
     }
 ]

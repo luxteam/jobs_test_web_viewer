@@ -8,8 +8,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Bark Base",
-        "scroll": false
+        "material_name": "Bark Base"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_002",
@@ -20,8 +19,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Bark Beech",
-        "scroll": false
+        "material_name": "Bark Beech"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_003",
@@ -32,8 +30,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Bark Oak",
-        "scroll": false
+        "material_name": "Bark Oak"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_004",
@@ -44,8 +41,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Bark Pine",
-        "scroll": false
+        "material_name": "Bark Pine"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_005",
@@ -56,8 +52,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Bark Smooth",
-        "scroll": false
+        "material_name": "Bark Smooth"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_006",
@@ -68,8 +63,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Bark Brown",
-        "scroll": false
+        "material_name": "TH: Bark Brown"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_007",
@@ -80,8 +74,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Bark Brown",
-        "scroll": false
+        "material_name": "TH: Old Bark Brown"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BARK_008",
@@ -92,7 +85,6 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Tree Bark",
-        "scroll": false
+        "material_name": "TH: Tree Bark"
     }
 ]

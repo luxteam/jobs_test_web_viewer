@@ -8,8 +8,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Beam Wall",
-        "scroll": false
+        "material_name": "TH: Beam Wall"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_002",
@@ -20,8 +19,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Blue Painted Planks",
-        "scroll": false
+        "material_name": "TH: Blue Painted Planks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_003",
@@ -32,8 +30,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Gray Planks",
-        "scroll": false
+        "material_name": "TH: Gray Planks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_004",
@@ -44,8 +41,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: New Brown Boards",
-        "scroll": false
+        "material_name": "TH: New Brown Boards"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_005",
@@ -56,8 +52,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Light Planks",
-        "scroll": false
+        "material_name": "TH: Light Planks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_006",
@@ -68,8 +63,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Gray Old Boards",
-        "scroll": false
+        "material_name": "TH: Gray Old Boards"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_007",
@@ -80,8 +74,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Brown Boards",
-        "scroll": false
+        "material_name": "TH: Old Brown Boards"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_008",
@@ -92,8 +85,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Dry Brown Planks",
-        "scroll": false
+        "material_name": "TH: Dry Brown Planks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_009",
@@ -104,8 +96,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Dark Planks",
-        "scroll": false
+        "material_name": "TH: Dark Planks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_010",
@@ -116,8 +107,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Fine Grained Wood",
-        "scroll": false
+        "material_name": "TH: Fine Grained Wood"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_011",
@@ -128,8 +118,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Green Rough Planks",
-        "scroll": false
+        "material_name": "TH: Green Rough Planks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_012",
@@ -140,8 +129,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Kitchen Wood",
-        "scroll": false
+        "material_name": "TH: Kitchen Wood"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_013",
@@ -152,8 +140,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Medieval Wood",
-        "scroll": false
+        "material_name": "TH: Medieval Wood"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_014",
@@ -164,8 +151,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Moss Wood",
-        "scroll": false
+        "material_name": "TH: Moss Wood"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_015",
@@ -176,8 +162,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Planks",
-        "scroll": false
+        "material_name": "TH: Old Planks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_016",
@@ -188,8 +173,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Planks Llight Brown",
-        "scroll": false
+        "material_name": "TH: Planks Llight Brown"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_017",
@@ -200,8 +184,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Plywood",
-        "scroll": false
+        "material_name": "TH: Plywood"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_018",
@@ -212,8 +195,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Rough Wood",
-        "scroll": false
+        "material_name": "TH: Rough Wood"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_019",
@@ -224,8 +206,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Wood Planks Dirt",
-        "scroll": false
+        "material_name": "TH: Wood Planks Dirt"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_020",
@@ -236,8 +217,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Wood Table",
-        "scroll": false
+        "material_name": "TH: Wood Table"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_021",
@@ -248,8 +228,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Wooden Rough Planks",
-        "scroll": false
+        "material_name": "TH: Wooden Rough Planks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_022",
@@ -260,8 +239,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Wood Beech Coated",
-        "scroll": false
+        "material_name": "Wood Beech Coated"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_023",
@@ -272,8 +250,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Wood Beech Raw",
-        "scroll": false
+        "material_name": "Wood Beech Raw"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_024",
@@ -284,7 +261,6 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Mahogany Varnished",
-        "scroll": false
+        "material_name": "Mahogany Varnished"
     }
 ]

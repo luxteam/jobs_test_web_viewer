@@ -8,8 +8,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Stylized Flagstones",
-        "scroll": false
+        "material_name": "Stylized Flagstones"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_002",
@@ -20,8 +19,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Brick Floor",
-        "scroll": false
+        "material_name": "TH: Brick Floor"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_003",
@@ -32,8 +30,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Diagonal Brick Floor",
-        "scroll": false
+        "material_name": "TH: Diagonal Brick Floor"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_004",
@@ -44,8 +41,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Brick Moss",
-        "scroll": false
+        "material_name": "TH: Brick Moss"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_005",
@@ -56,8 +52,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Gray Floor Bricks",
-        "scroll": false
+        "material_name": "TH: Gray Floor Bricks"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_006",
@@ -68,8 +63,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Old Floor Klinkers",
-        "scroll": false
+        "material_name": "TH: Old Floor Klinkers"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_007",
@@ -80,8 +74,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Floor Klinkers",
-        "scroll": false
+        "material_name": "TH: Floor Klinkers"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_008",
@@ -92,8 +85,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Sidewalk Brick Floor",
-        "scroll": false
+        "material_name": "TH: Sidewalk Brick Floor"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_009",
@@ -104,8 +96,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Aerial Asphalt",
-        "scroll": false
+        "material_name": "TH: Aerial Asphalt"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_010",
@@ -116,8 +107,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Road Asphalt",
-        "scroll": false
+        "material_name": "TH: Road Asphalt"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_011",
@@ -128,8 +118,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Cathedral Floor Tiles",
-        "scroll": false
+        "material_name": "TH: Cathedral Floor Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_012",
@@ -140,8 +129,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Yellow Floor Tiles",
-        "scroll": false
+        "material_name": "TH: Yellow Floor Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_013",
@@ -152,8 +140,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Floor Tiles",
-        "scroll": false
+        "material_name": "TH: Floor Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_014",
@@ -164,8 +151,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Large Floor Tiles",
-        "scroll": false
+        "material_name": "TH: Large Floor Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_015",
@@ -176,8 +162,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Large Grey Tiles",
-        "scroll": false
+        "material_name": "TH: Large Grey Tiles"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_016",
@@ -188,8 +173,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Large Square Pattern",
-        "scroll": false
+        "material_name": "TH: Large Square Pattern"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_017",
@@ -200,8 +184,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Pavement",
-        "scroll": false
+        "material_name": "TH: Pavement"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_018",
@@ -212,8 +195,7 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Square Floor",
-        "scroll": false
+        "material_name": "TH: Square Floor"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOOR_019",
@@ -224,7 +206,6 @@
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "TH: Square Floor Patern",
-        "scroll": false
+        "material_name": "TH: Square Floor Patern"
     }
 ]
