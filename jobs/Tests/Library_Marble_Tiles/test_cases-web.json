@@ -133,7 +133,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_012",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Dark-Green Marble Rhombus Tile\""

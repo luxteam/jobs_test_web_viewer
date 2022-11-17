@@ -1,7 +1,7 @@
 [
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_001",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Blue Portuguese Ceramic Tile\""
@@ -13,7 +13,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_002",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Brown Portuguese Ceramic Tile\""
@@ -25,7 +25,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_003",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Blue Mosaic Tiles with Gold\""
@@ -37,7 +37,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_004",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Porcelain Vitrified Tiles\""
@@ -49,7 +49,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_005",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Bardiglio Gray Marble Tiles\""
@@ -61,7 +61,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_006",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Arabescato Blue Marble Tiles\""
@@ -73,7 +73,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_007",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Verde Guatemala Slatted Marble\""
@@ -85,7 +85,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_008",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Weave Pattern Marble Tiles\""
@@ -97,7 +97,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_009",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Pinwheel Pattern Marble Tiles\""
@@ -109,7 +109,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_010",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Bianco Statuario Marble Tiles\""
@@ -121,7 +121,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_011",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Imperial Jade Marble Tiles\""
@@ -133,7 +133,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_012",
-        "status": "skipped",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Dark-Green Marble Rhombus Tile\""
@@ -145,7 +145,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_013",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Iberian Calcite Marble Tiles\""
@@ -157,7 +157,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_014",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Circle Marble Pattern\""
@@ -169,7 +169,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_015",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Mosaic Marble Pattern\""
@@ -193,7 +193,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_017",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Classical Marble Pattern\""
@@ -205,7 +205,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_018",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Marble Green Pattern\""
@@ -217,7 +217,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_019",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Tiles Black Long Variative\""
@@ -229,7 +229,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_020",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Marble Floor Tiles\""
@@ -241,7 +241,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_021",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Bardiglio Marble\""
@@ -253,7 +253,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_022",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Picasso Black Marble\""
@@ -265,7 +265,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_023",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Beige  Marble Tiles\""
@@ -277,7 +277,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_024",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Guatemala Blue Marble\""
@@ -289,7 +289,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_025",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Cremo Marble\""
