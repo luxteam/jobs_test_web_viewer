@@ -57,7 +57,7 @@
     },
     {
         "case": "RS_WEB_LIBRARY_008",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_008",
         "script_info": ["Sorting materials by title"],
         "scene_name": "Kitchen_set",
