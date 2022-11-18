@@ -247,7 +247,7 @@ def save_screen(screen_path, driver, extension = "jpg", save_final_render_image 
         driver.save_screenshot(f"{screen_path}.{extension}")
 
 
-def choose_material(material_name, driver, scroll, click = True):
+def choose_material(material_name, driver, scroll = False, click = True):
     search = find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
     search.click()
     time.sleep(2)
