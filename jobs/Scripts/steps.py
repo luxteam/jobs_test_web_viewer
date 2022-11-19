@@ -125,7 +125,7 @@ class LibrarySteps:
         utils.case_logger.info("Materials sorted: {}".format(materials_sorted))
         assert materials_sorted == materials_text, "Materials are displayed in the wrong order"
 
-    def test_material(driver, name, scroll):
+    def test_material(driver, name, scroll=False):
         LibrarySteps.select_refridgerator_element(driver)
         LibrarySteps.click_library_tab(driver, 1)
         utils.choose_material(name, driver, scroll)
