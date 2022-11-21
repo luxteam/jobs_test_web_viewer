@@ -191,7 +191,7 @@ class ViewportSteps:
 
 class PropertiesSteps:
     def select_object(driver):
-        utils.find_by_xpath(ViewportLocators.SCENE_INDEX, driver).click()
+        utils.find_by_xpath(ViewportLocators.SCENE_INDEX_TAB, driver).click()
         sleep(0.5)
         utils.find_by_xpath(ViewportLocators.expand_node("Kitchen_set"), driver).click()
         utils.find_by_xpath(ViewportLocators.expand_node("Props_grp"), driver).click()
@@ -234,12 +234,16 @@ class PropertiesSteps:
                     utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[1], driver).click()
         else:
             utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).send_keys(Keys.CONTROL + "a")
-            utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).send_keys(input)
+
+            for char in input:
+                utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).send_keys(char)
+                sleep(0.1)
+
         sleep(5)
         return value
         
     def settings(driver, axis, value):
-        utils.find_by_xpath(ViewportLocators.SETTING, driver).click()
+        utils.find_by_xpath(ViewportLocators.SETTINGS_WINDOW, driver).click()
         if axis == "move":
             utils.find_by_xpath(SettingsLocators.MOVE_INPUT, driver).send_keys(Keys.CONTROL + "a")
             utils.find_by_xpath(SettingsLocators.MOVE_INPUT, driver).send_keys(value)
@@ -249,7 +253,7 @@ class PropertiesSteps:
         elif axis == "scale":
             utils.find_by_xpath(SettingsLocators.SCALE_INPUT, driver).send_keys(Keys.CONTROL + "a")
             utils.find_by_xpath(SettingsLocators.SCALE_INPUT, driver).send_keys(value)
-        utils.find_by_xpath(ViewportLocators.SETTING, driver).click()
+        utils.find_by_xpath(ViewportLocators.SETTINGS_WINDOW, driver).click()
 
     def value(driver, index, axis, value, init_value="0"):
         if int(utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).get_attribute("value")) - int(value) == int(init_value):

@@ -247,7 +247,7 @@ def execute_tests(args, current_conf):
 
                 if error_message:
                     error_messages.add(error_message)
-                    save_results(args, case, cases, "failed", render_time = render_time, load_scene_time = load_scene_time, execution_time = execution_time, error_messages = error_messages)
+                    save_results(args, case, cases, "error", render_time = render_time, load_scene_time = load_scene_time, execution_time = execution_time, error_messages = error_messages)
                 elif case["status"] == "active":
                     save_results(args, case, cases, "passed", render_time = render_time, load_scene_time = load_scene_time, execution_time = execution_time)
                 else:

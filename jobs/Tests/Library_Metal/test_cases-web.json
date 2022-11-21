@@ -78,7 +78,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_METAL_008",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Chrome Parametric\""
@@ -122,7 +122,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_METAL_012",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Gun Metal\""
@@ -144,7 +144,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_METAL_014",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Bronze Oxydized\""

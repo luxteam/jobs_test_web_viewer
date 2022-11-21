@@ -1,7 +1,7 @@
 [
     {
         "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_001",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Crumbling Sandstone Bricks\""
