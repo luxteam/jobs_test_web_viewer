@@ -56,14 +56,15 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_006",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Brick Wall\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "TH: Brick Wall"
+        "material_name": "TH: Brick Wall",
+        "scroll": true
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_007",

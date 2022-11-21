@@ -11,6 +11,7 @@ from pyautogui import typewrite, press
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 from psutil import Popen, NoSuchProcess
 from subprocess import PIPE, CREATE_NEW_CONSOLE
 import sys
@@ -246,7 +247,7 @@ def save_screen(screen_path, driver, extension = "jpg", save_final_render_image 
         driver.save_screenshot(f"{screen_path}.{extension}")
 
 
-def choose_material(material_name, driver, click = True):
+def choose_material(material_name, driver, scroll = False, click = True):
     search = find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
     search.click()
     time.sleep(2)
@@ -256,15 +257,27 @@ def choose_material(material_name, driver, click = True):
     # cards with materials can be reloaded few times, wait a bit
     time.sleep(2)
 
-    material_cards = find_by_class("material-card", driver, True)
+    if scroll:
+        first_material = find_by_xpath(LibraryLocators.MATERIAL_CARD, driver)
+        first_material.click() # focus on the materials table 
+        ActionChains(driver)\
+        .key_down(Keys.END)\
+        .perform() # scroll down to load all materials
 
-    for card in material_cards:
-        found_name = card.find_element(By.TAG_NAME, "h2").text
+        needed_material = find_by_xpath(LibraryLocators.MATERIAL + material_name + '\"]', driver)
+        driver.execute_script("arguments[0].scrollIntoView();", needed_material)
+        needed_material.click()
 
-        if found_name == material_name:
-            if click:
-                card.click()
-
-            break
     else:
-        raise Exception("Material not found")
+        material_cards = find_by_xpath(LibraryLocators.MATERIAL_CARDS, driver, True)
+
+        for card in material_cards:
+            found_name = card.find_element(By.TAG_NAME, "h2").text
+
+            if found_name == material_name:
+                if click:
+                    card.click()
+
+                break
+        else:
+            raise Exception("Material not found")

@@ -10,4 +10,7 @@ import utils
 
 
 def test_material(args, case, driver, current_try):
-    LibrarySteps.test_material(driver, case["material_name"])
+    if 'scroll' in case:
+        LibrarySteps.test_material(driver, case["material_name"], scroll=case["scroll"])
+    else:
+        LibrarySteps.test_material(driver, case["material_name"], scroll=False)
