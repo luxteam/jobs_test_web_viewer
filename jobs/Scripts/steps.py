@@ -207,6 +207,7 @@ class PropertiesSteps:
         utils.find_by_xpath(PropertiesLocators.MOVE, driver).click()
         utils.find_by_xpath(PropertiesLocators.ROTATE, driver).click()
         utils.find_by_xpath(PropertiesLocators.SCALE, driver).click()
+        sleep(0.5)
     
     def close_properties(driver):
         utils.find_by_xpath(ViewportLocators.PROPERTIES, driver).click()
