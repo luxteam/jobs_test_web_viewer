@@ -60,7 +60,8 @@ def test_005(args, case, driver, current_try):
 
 def test_006(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)
-    LibrarySteps.search_material(driver, "TH Green Metal Rust")
+    materials = LibrarySteps.search_material(driver, "TH Green Metal Rust")
+    assert len(materials) == 2 and materials[1].text == "TH Green Metal Rust", "Materials are displayed in the wrong order"
 
 
 def test_007(args, case, driver, current_try):
