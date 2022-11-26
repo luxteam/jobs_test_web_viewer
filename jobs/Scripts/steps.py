@@ -67,6 +67,39 @@ class FinalRenderSteps:
         pyautogui.dragTo(600, 700, 1, button='left')
         sleep(5)
 
+    def check_progress_bar(driver):
+        utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
+        sleep(1)
+        style_value_1 = utils.find_by_xpath(FinalRenderLocators.PROGRESS_BAR, driver).value_of_css_property('min-width')
+        sleep(4)
+        style_value_2 = utils.find_by_xpath(FinalRenderLocators.PROGRESS_BAR, driver).value_of_css_property('min-width')
+        sleep(0.5)
+        assert float(style_value_2[0:-1]) > float(style_value_1[0:-1]), "Progress bar is filling incorrectly"
+
+    def stop_before_end(driver, restart=False):
+        utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
+        sleep(1.5)
+        utils.find_by_xpath(FinalRenderLocators.STOP_RENDER, driver, True)[1].click()
+        sleep(3)
+        if restart:
+            utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
+            sleep(3)
+            assert CommonSteps.element_exists(driver, FinalRenderLocators.PROGRESS_BAR), "Render didn't restart"
+        else:
+            assert utils.find_by_xpath(FinalRenderLocators.PROGRESS_BAR, driver, False, 2) == None, "Render didn't stop"
+
+    def save_before_end(driver, args, case):
+        image_path = os.path.abspath(os.path.join(args.output, "Color", case["case"]))
+
+        utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
+        sleep(1.5)
+        utils.find_by_xpath(FinalRenderLocators.DOWNLOAD_IMAGE, driver).click()
+        time.sleep(0.5)
+        pyautogui.typewrite(f"{image_path}.jpeg")
+        pyautogui.press("enter")
+        time.sleep(0.5)
+
+
 class LibrarySteps:
     def click_library_tab(driver, sec):
         utils.find_by_xpath(LibraryLocators.LIBRARY_TAB, driver).click()

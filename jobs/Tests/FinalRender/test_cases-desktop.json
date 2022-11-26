@@ -1,7 +1,7 @@
 [
     {
         "case": "RS_DESKTOP_FINALRENDER_001",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_001",
         "script_info": ["Final render default jpeg"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -10,7 +10,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_002",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_002",
         "script_info": ["Final render default png"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -19,7 +19,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_003",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_003",
         "script_info": ["Max resolution final render JPEG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -28,7 +28,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_004",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_004",
         "script_info": ["Max resolution final render PNG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -37,7 +37,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_005",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_005",
         "script_info": ["2K final render JPEG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -46,7 +46,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_006",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_006",
         "script_info": ["2K final render PNG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -55,7 +55,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_007",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_007",
         "script_info": ["Scene is rendered after default resolution final render"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -63,7 +63,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_008",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_008",
         "script_info": ["Scene is rendered after max resolution final render"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -71,7 +71,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_009",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_009",
         "script_info": ["HD final render JPEG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -80,7 +80,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_010",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_010",
         "script_info": ["HD final render PNG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -89,7 +89,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_011",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_011",
         "script_info": ["1135х625 final render JPEG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -98,7 +98,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_012",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_012",
         "script_info": ["1135х625 final render PNG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -107,7 +107,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_013",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_013",
         "script_info": ["9999 samples default final render JPEG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -116,7 +116,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_014",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_014",
         "script_info": ["9999 samples default final render PNG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -125,7 +125,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_015",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_015",
         "script_info": ["1 sample default final render JPEG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -134,7 +134,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_016",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_016",
         "script_info": ["1 sample default final render PNG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -143,7 +143,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_017",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_017",
         "script_info": ["1024 sample default final render JPEG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -152,7 +152,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_018",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_018",
         "script_info": ["1024 sample default final render PNG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -161,7 +161,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_019",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_019",
         "script_info": ["9999 samples 2048x1080 final render JPEG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -170,7 +170,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_020",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_020",
         "script_info": ["9999 samples 2048x1080 final render PNG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -179,7 +179,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_021",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_021",
         "script_info": ["1 sample 2048x1080 final render JPEG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -188,7 +188,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_022",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_022",
         "script_info": ["1 sample 2048x1080 final render PNG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -197,7 +197,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_023",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_023",
         "script_info": ["1024 sample 2048x1080 final render JPEG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -206,7 +206,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_024",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_024",
         "script_info": ["1024 sample 2048x1080 final render PNG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -215,7 +215,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_025",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_001",
         "script_info": ["Final render default jpeg", "Save screenshot", "Do not compare"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -223,7 +223,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_026",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_006",
         "script_info": ["2K final render PNG", "Save screenshot", "Do not compare"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -231,9 +231,41 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_027",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_021",
         "script_info": ["1 sample 2048x1080 final render JPEG", "Save screenshot", "Do not compare"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_FINALRENDER_028",
+        "status": "active",
+        "function_name": "test_025",
+        "script_info": ["3840x2160 final render JPEG"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_FINALRENDER_029",
+        "status": "skipped",
+        "function_name": "test_026",
+        "script_info": ["2048x1080 final render JPEG", "Stop before the end of render"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_FINALRENDER_030",
+        "status": "skipped",
+        "function_name": "test_027",
+        "script_info": ["2048x1080 final render JPEG", "Restart render after stopping it"],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_FINALRENDER_031",
+        "status": "skipped",
+        "function_name": "test_028",
+        "script_info": ["3840x2160 final render JPEG", "Save image before the end of render"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8
     }

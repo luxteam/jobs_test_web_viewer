@@ -45,6 +45,8 @@ class FinalRenderLocators(object):
     SAMPLES = '(//*[@maxlength])[3]'
     BACK_BUTTON ='(//div[@class="icon"])[3]'
     DOWNLOAD_IMAGE = '//div[ @class="render-progress-bar-button" ]//button'
+    PROGRESS_BAR = '//div[ contains(@class, "loader-pane") ]'
+    STOP_RENDER = '//div[ @class="render-progress" ]//button[ @class="button-iconed bg-white" ]'
 
 class LibraryLocators(object):
     LIBRARY_TAB = '//./button/div[ text() = "Library" ]'
