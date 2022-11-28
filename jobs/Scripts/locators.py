@@ -20,7 +20,7 @@ class ViewportLocators(object):
     VERSION_ROWS = f'//div[ @class = "version-text" ]'
     
     def expand_node(name):
-        return '//div[contains(text(), "' + name +'")]/..//button[@class=\'scene-index-prim-button-expand\']'
+        return '//div[contains(text(), "' + name +'")]/..//div[ contains(@class, "scene-index-prim-button-expand-container") ]'
 
 class SettingsLocators(object):
     MOVE_INPUT = '//h4[text()[contains(., "Move")]]/../..//input'
