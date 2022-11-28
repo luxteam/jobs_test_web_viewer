@@ -1,210 +1,210 @@
 [
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_001",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_001",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Stylized Flagstones\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "Stylized Flagstones"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_002",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_002",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Brick Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Brick Floor"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_003",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_003",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Diagonal Brick Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Diagonal Brick Floor"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_004",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_004",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Brick Moss\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Brick Moss"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_005",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_005",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Gray Floor Bricks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Gray Floor Bricks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_006",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_006",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Old Floor Klinkers\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Floor Klinkers"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_007",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_007",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Floor Klinkers\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Floor Klinkers"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_008",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_008",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Sidewalk Brick Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Sidewalk Brick Floor"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_009",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_009",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Aerial Asphalt\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Aerial Asphalt"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_010",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_010",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Road Asphalt\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Road Asphalt"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_011",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_011",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Cathedral Floor Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Cathedral Floor Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_012",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_012",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Yellow Floor Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Yellow Floor Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_013",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_013",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Floor Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Floor Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_014",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_014",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Large Floor Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Large Floor Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_015",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_015",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Large Grey Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Large Grey Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_016",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_016",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Large Square Pattern\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Large Square Pattern"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_017",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_017",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Pavement\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Pavement"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_018",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_018",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Square Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Square Floor"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOOR_019",
+        "case": "RS_DESKTOP_LIBRARY_EXTERIOR_FLOORING_019",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"TH: Square Floor Pattern\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Square Floor Pattern"
     }

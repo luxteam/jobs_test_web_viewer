@@ -203,17 +203,6 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Tiles Black Long Variative\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Tiles Black Long Variative"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_020",
-        "status": "active",
-        "function_name": "test_material",
-        "script_info": [
             "Applying material \"TH: Marble Floor Tiles\""
         ],
         "scene_name": "Kitchen_set",
@@ -221,7 +210,7 @@
         "material_name": "TH: Marble Floor Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_021",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_020",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -232,7 +221,7 @@
         "material_name": "Bardiglio Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_022",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_021",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -243,7 +232,7 @@
         "material_name": "Picasso Black Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_023",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_022",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -254,7 +243,7 @@
         "material_name": "TH: Beige Marble Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_024",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_023",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -265,7 +254,7 @@
         "material_name": "Guatemala Blue Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_025",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_024",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
