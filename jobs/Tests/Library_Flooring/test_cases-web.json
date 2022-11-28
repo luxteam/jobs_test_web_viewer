@@ -499,11 +499,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Blue Beech Hut Painted Wood\""
+            "Applying material \"Blue Beach Hut Painted Wood\""
         ],
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
-        "material_name": "Blue Beech Hut Painted Wood"
+        "material_name": "Blue Beach Hut Painted Wood"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_FLOORING_047",
