@@ -5,7 +5,7 @@ class ViewportLocators(object):
     SCENE_INDEX_TAB = '//./button/div[ text() = "Scene Index" ]'
     SCENE_INDEX_TEXT = '//h3[ text() = "Scene Index" ]'
     SCENE_SEARCH = '//input[ @placeholder="Search Scene" ]'
-    PARENT_TREE = '//div[ @id="scene-index-prim-0" ]//div[ @class="py-1" ]'
+    PARENT_TREE = '//div[ @id="scene-index-prim-0" ]/div[2]'
     TIMELINE_BAR = '//./button/div[ text() = "Timeline" ]'
     TIMELINE_VIEW = '//div[ text() = " Timeline view " ]'
     COMMENTS_BAR = '//./button/div[ text() = "Comments" ]'
@@ -20,7 +20,7 @@ class ViewportLocators(object):
     VERSION_ROWS = f'//div[ @class = "version-text" ]'
     
     def expand_node(name):
-        return '//div[contains(text(), "' + name +'")]/..//button[@class=\'scene-index-prim-button-expand\']'
+        return '//div[contains(text(), "' + name +'")]/..//div[ contains(@class, "scene-index-prim-button-expand-container") ]'
 
 class SettingsLocators(object):
     MOVE_INPUT = '//h4[text()[contains(., "Move")]]/../..//input'

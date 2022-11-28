@@ -158,7 +158,7 @@ class ViewportSteps:
         sleep(3)
 
     def click_parent_tree(driver):
-        utils.find_by_class("scene-index-prim-button-expand", driver, True)[0].click()
+        utils.find_by_class("scene-index-prim-button-expand-container", driver, True)[0].click()
         sleep(2)
 
     def click_scene(driver):
