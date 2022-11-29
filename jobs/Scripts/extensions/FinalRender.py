@@ -153,22 +153,22 @@ def test_024(args, case, driver, current_try):
     FinalRenderSteps.set_samples(driver, "1024")
     FinalRenderSteps.start_render(driver)
 
-def test_025(args, case, driver, current_try):
+def test_028(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
     FinalRenderSteps.check_progress_bar(driver)
 
-def test_026(args, case, driver, current_try):
+def test_029(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_resolution(driver, "2048", "1080")
     FinalRenderSteps.stop_before_end(driver)
 
-def test_027(args, case, driver, current_try):
+def test_030(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_resolution(driver, "2048", "1080")
     FinalRenderSteps.stop_before_end(driver, True)
 
-def test_028(args, case, driver, current_try):
+def test_031(args, case, driver, current_try):
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
     FinalRenderSteps.save_before_end(driver, args, case)

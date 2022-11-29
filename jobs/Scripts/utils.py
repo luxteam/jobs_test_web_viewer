@@ -236,7 +236,10 @@ def switch_window(driver):
     time.sleep(1)
 
 
-def save_screen(screen_path, driver, extension = "jpg", save_final_render_image = False):
+def save_screen(screen_path, driver, extension = "jpg", save_final_render_image = False, make_screen = True):
+    if not make_screen:
+        pass
+
     if save_final_render_image:
         find_by_xpath(FinalRenderLocators.DOWNLOAD_IMAGE, driver).click()
         time.sleep(0.5)

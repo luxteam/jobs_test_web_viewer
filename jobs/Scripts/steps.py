@@ -71,8 +71,7 @@ class FinalRenderSteps:
         style_value_1 = utils.find_by_xpath(FinalRenderLocators.PROGRESS_BAR, driver).value_of_css_property('min-width')
         sleep(4)
         style_value_2 = utils.find_by_xpath(FinalRenderLocators.PROGRESS_BAR, driver).value_of_css_property('min-width')
-        sleep(0.5)
-        assert float(style_value_2[0:-1]) > float(style_value_1[0:-1]), "Progress bar is filling incorrectly"
+        assert float(style_value_2[0:-1]) >= float(style_value_1[0:-1]), "Progress bar is filling incorrectly"
 
     def stop_before_end(driver, restart=False):
         utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
@@ -93,7 +92,7 @@ class FinalRenderSteps:
         sleep(1.5)
         utils.find_by_xpath(FinalRenderLocators.DOWNLOAD_IMAGE, driver).click()
         time.sleep(0.5)
-        pyautogui.typewrite(f"{image_path}.jpeg")
+        pyautogui.typewrite(f"{image_path}.jpg")
         pyautogui.press("enter")
         time.sleep(0.5)
 
