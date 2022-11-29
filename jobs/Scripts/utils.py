@@ -4,7 +4,12 @@ import pyautogui
 from selenium import webdriver
 import time
 import win32gui
+import win32api
 import win32con
+import zipfile
+import requests
+import wget
+import json
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from pyautogui import typewrite, press
@@ -81,6 +86,8 @@ def pre_action(case, mode):
 
 
 def driver_desktop():
+    install_chromedriver("desktop")
+
     global streamer_process
     streamer_process = Popen(["C:\\Program Files\\AMD\\AMD RenderStudio\\services\\WebUsdStreamServer\\Run.bat", "--webrtc-port", "10000", "--rest-port", "10001"], creationflags=CREATE_NEW_CONSOLE)
     time.sleep(2)
@@ -97,11 +104,63 @@ def driver_desktop():
 
 
 def driver_web():
+    install_chromedriver("web")
+
     options = webdriver.ChromeOptions()
     options.add_argument('--start-maximized')
     driver = webdriver.Chrome('..\\driver\\chromedriver.exe', options=options)
     
     return driver
+
+
+def get_chrome_version():
+    file = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    info = win32api.GetFileVersionInfo(file, "\\")
+    ms = info['FileVersionMS']
+    ls = info['FileVersionLS']
+    version = "{0}.{1}.{2}.{3}".format(win32api.HIWORD(ms), win32api.LOWORD (ms), win32api.HIWORD (ls), win32api.LOWORD (ls))
+    case_logger.info("Chrome version: {}".format(version))
+    return version
+
+
+def install_chromedriver(mode):
+    try:
+        try:
+            with open('..\\driver\\version.json') as json_file:
+                version = json.load(json_file)['Chromedriver version']
+        except FileNotFoundError:
+            version = None
+        if mode == "desktop":
+            driver_version = "100.0.4896.60"
+            if version != driver_version:
+                driver_zip = wget.download('https://chromedriver.storage.googleapis.com/{}/chromedriver_win32.zip'.format(driver_version), 'chromedriver.zip')
+                with zipfile.ZipFile(driver_zip, 'r') as zip_ref:
+                    zip_ref.extractall('..\\driver')
+                os.remove(driver_zip)
+                data = {"Chromedriver version": driver_version}
+                with open('..\\driver\\version.json', 'w') as f:
+                    f.write(json.dumps(data))
+                case_logger.info("Driver is installed. Version: {}".format(driver_version))
+            else:
+                case_logger.info("Driver is already installed")
+        elif mode == "web":
+            chrome_version = get_chrome_version()
+            chrome_version = chrome_version.split('.')[0]
+            driver_version = requests.get('https://chromedriver.storage.googleapis.com/LATEST_RELEASE_{}'.format(chrome_version)).text
+            if version != driver_version:
+                driver_zip = wget.download('https://chromedriver.storage.googleapis.com/{}/chromedriver_win32.zip'.format(driver_version), 'chromedriver.zip')
+                with zipfile.ZipFile(driver_zip, 'r') as zip_ref:
+                    zip_ref.extractall('..\\driver')
+                os.remove(driver_zip)
+                data = {"Chromedriver version": driver_version}
+                with open('..\\driver\\version.json', 'w') as f:
+                    f.write(json.dumps(data))
+                case_logger.info("Driver is installed. Version: {}".format(driver_version))
+            else:
+                case_logger.info("Driver is already installed")
+    except Exception as e:
+        case_logger.error(f"Failed to download chromedriver: {str(e)}")
+        case_logger.error(f"Traceback: {traceback.format_exc()}")
 
 
 def post_action(case, mode, driver):
