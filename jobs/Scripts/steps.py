@@ -193,6 +193,7 @@ class PropertiesSteps:
     def select_object(driver):
         utils.find_by_xpath(ViewportLocators.SCENE_INDEX_TAB, driver).click()
         sleep(0.5)
+        utils.find_by_xpath(ViewportLocators.expand_node("Scene"), driver).click()
         utils.find_by_xpath(ViewportLocators.expand_node("Kitchen_set"), driver).click()
         utils.find_by_xpath(ViewportLocators.expand_node("Props_grp"), driver).click()
         utils.find_by_xpath(ViewportLocators.expand_node("North_grp"), driver).click()
