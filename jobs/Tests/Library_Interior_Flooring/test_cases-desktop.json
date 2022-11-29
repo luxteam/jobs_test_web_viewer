@@ -15,11 +15,11 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
-            "Applying material \"Mazzonetto Dimonds Parquet\""
+            "Applying material \"Mazzonetto Diamonds Parquet\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Mazzonetto Dimonds Parquet"
+        "material_name": "Mazzonetto Diamonds Parquet"
     },
     {
         "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_003",
