@@ -144,7 +144,7 @@ def install_chromedriver(mode):
                 case_logger.info("Driver is already installed")
         elif mode == "web":
             chrome_version = get_chrome_version()
-            chrome_version = chrome_version.split('.')[1]
+            chrome_version = chrome_version.split('.')[0]
             driver_version = requests.get('https://chromedriver.storage.googleapis.com/LATEST_RELEASE_{}'.format(chrome_version)).text
             if version != driver_version:
                 driver_zip = wget.download('https://chromedriver.storage.googleapis.com/{}/chromedriver_win32.zip'.format(driver_version), 'chromedriver.zip')
