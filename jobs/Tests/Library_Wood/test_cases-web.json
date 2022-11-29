@@ -23,7 +23,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_003",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Pale Oak Solid Wood\""
@@ -34,7 +34,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_004",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Galloway Brown Oak\""
@@ -78,7 +78,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_008",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Coffee Beech Wood\""
@@ -122,7 +122,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_012",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Harbour Oak Grey Wood\""
@@ -133,7 +133,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_013",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Canyon Maple Dark Wood\""
@@ -144,7 +144,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_014",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Mahogany Walnut Solid Wood\""
@@ -155,7 +155,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_WOOD_015",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Ivory Walnut Solid Wood\""

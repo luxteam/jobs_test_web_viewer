@@ -1,7 +1,7 @@
 [
     {
         "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_001",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Gaize Dark Walnut Mosaic\""
@@ -56,7 +56,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_006",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Adelie Brown Luxury Flooring\""
@@ -78,7 +78,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_008",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Dark Brown Ash Planks\""
@@ -89,7 +89,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_009",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Redwood Pine Planks\""
