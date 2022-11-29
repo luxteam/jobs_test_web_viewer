@@ -38,9 +38,19 @@ def test_003(args, case, driver, current_try):
 def test_004(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)
     utils.choose_material("Gold", driver, click=False)
-    LibrarySteps.drag_and_drop_material()
+    drag_and_drop_kitchen()
     sleep(3)
     LibrarySteps.click_library_tab(driver, 12)
+
+
+def drag_and_drop_kitchen():
+    pyautogui.moveTo(575, 750)
+    sleep(0.5)
+    pyautogui.mouseDown(button='left')
+    sleep(0.5)
+    pyautogui.moveTo(980, 410, 3)
+    sleep(0.5)
+    pyautogui.mouseUp(button='left')
 
 
 def test_005(args, case, driver, current_try):
@@ -50,7 +60,8 @@ def test_005(args, case, driver, current_try):
 
 def test_006(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 1)
-    LibrarySteps.search_material(driver, "TH Green Metal Rust")
+    materials = LibrarySteps.search_material(driver, "TH Green Metal Rust")
+    assert len(materials) == 2 and materials[1].text == "TH Green Metal Rust", "Materials are displayed in the wrong order"
 
 
 def test_007(args, case, driver, current_try):

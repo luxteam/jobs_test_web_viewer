@@ -38,10 +38,6 @@ class FinalRenderSteps:
         utils.find_by_xpath(FinalRenderLocators.HEIGHT, driver).send_keys(Keys.CONTROL + "a")
         utils.find_by_xpath(FinalRenderLocators.HEIGHT, driver).send_keys(height)
 
-    def start_render(driver):
-        utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
-        sleep(10)
-
     def return_to_viewport(driver):
         utils.find_by_xpath(FinalRenderLocators.BACK_BUTTON, driver).click()
         sleep(5)
@@ -59,6 +55,8 @@ class FinalRenderSteps:
                 EC.presence_of_element_located((By.XPATH, FinalRenderLocators.RENDER_SPINNER))
             )
         sleep(5)
+
+        return FinalRenderSteps.get_render_time(driver)
 
     def return_to_viewport(driver):
         utils.find_by_xpath(FinalRenderLocators.BACK_BUTTON, driver).click()
@@ -99,6 +97,16 @@ class FinalRenderSteps:
         pyautogui.press("enter")
         time.sleep(0.5)
 
+    def get_render_time(driver):
+        raw_render_time = utils.find_by_xpath(FinalRenderLocators.TIME_TAKEN, driver, wait=0).text
+
+        parts = raw_render_time.split()[1].split(":")
+        render_hours = float(parts[0])
+        render_minutes = float(parts[1])
+        render_seconds = float(parts[2])
+
+        return render_hours * 60 * 60 + render_minutes * 60 + render_seconds
+
 
 class LibrarySteps:
     def click_library_tab(driver, sec):
@@ -123,10 +131,10 @@ class LibrarySteps:
         search.click()
         time.sleep(2)
         search.send_keys(name)
-        sleep(4)
+        sleep(6)
         materials = utils.find_by_xpath(LibraryLocators.SEARCH_MATERIAL_CARD, driver, True)
-        sleep(2)
-        assert len(materials) == 2 and materials[1].text == "TH Green Metal Rust", "Materials are displayed in the wrong order"
+        utils.case_logger.info("Materials: {}".format(materials))
+        return materials
 
     def select_material(driver, material):
         utils.find_by_xpath(LibraryLocators.MATERIAL + str(material).capitalize() + '\"]', driver).click()
@@ -139,30 +147,23 @@ class LibrarySteps:
         sleep(5)
 
     def sorting_by_title(driver):
-        materials = utils.find_by_xpath(LibraryLocators.MATERIAL_CARD, driver, True)
+        materials = utils.find_by_xpath(LibraryLocators.MATERIAL_TITLE, driver, True)
         materials_text = []
         for material in materials:
             if material.text != None:
                 materials_text.append(material.text)
         materials_sorted = materials_text.copy()
         materials_sorted.sort()
-        assert materials_sorted[:9] == materials_text[:9], "Materials are displayed in the wrong order"
+        utils.case_logger.info("Materials RS: {}".format(materials_text))
+        utils.case_logger.info("Materials sorted: {}".format(materials_sorted))
+        assert materials_sorted == materials_text, "Materials are displayed in the wrong order"
 
-    def test_material(driver, name):
+    def test_material(driver, name, scroll=False):
         LibrarySteps.select_refridgerator_element(driver)
         LibrarySteps.click_library_tab(driver, 1)
-        utils.choose_material(name, driver)
+        utils.choose_material(name, driver, scroll)
         sleep(3)
         LibrarySteps.click_library_tab(driver, 12)
-
-    def drag_and_drop_material():
-        pyautogui.moveTo(575, 750)
-        time.sleep(0.5)
-        pyautogui.mouseDown(button='left')
-        time.sleep(0.5)
-        pyautogui.moveTo(980, 410, 3)
-        time.sleep(0.5)
-        pyautogui.mouseUp(button='left')
 
 class ViewportSteps:
     def click_tab(driver, sec, tab):
@@ -190,7 +191,7 @@ class ViewportSteps:
         sleep(3)
 
     def click_parent_tree(driver):
-        utils.find_by_class("scene-index-prim-button-expand", driver, True)[0].click()
+        utils.find_by_class("scene-index-prim-button-expand-container", driver, True)[0].click()
         sleep(2)
 
     def click_scene(driver):
@@ -223,8 +224,9 @@ class ViewportSteps:
 
 class PropertiesSteps:
     def select_object(driver):
-        utils.find_by_xpath(ViewportLocators.SCENE_INDEX, driver).click()
+        utils.find_by_xpath(ViewportLocators.SCENE_INDEX_TAB, driver).click()
         sleep(0.5)
+        utils.find_by_xpath(ViewportLocators.expand_node("Scene"), driver).click()
         utils.find_by_xpath(ViewportLocators.expand_node("Kitchen_set"), driver).click()
         utils.find_by_xpath(ViewportLocators.expand_node("Props_grp"), driver).click()
         utils.find_by_xpath(ViewportLocators.expand_node("North_grp"), driver).click()
@@ -239,6 +241,7 @@ class PropertiesSteps:
         utils.find_by_xpath(PropertiesLocators.MOVE, driver).click()
         utils.find_by_xpath(PropertiesLocators.ROTATE, driver).click()
         utils.find_by_xpath(PropertiesLocators.SCALE, driver).click()
+        sleep(0.5)
     
     def close_properties(driver):
         utils.find_by_xpath(ViewportLocators.PROPERTIES, driver).click()
@@ -266,12 +269,16 @@ class PropertiesSteps:
                     utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[1], driver).click()
         else:
             utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).send_keys(Keys.CONTROL + "a")
-            utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).send_keys(input)
+
+            for char in input:
+                utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).send_keys(char)
+                sleep(0.1)
+
         sleep(5)
         return value
         
     def settings(driver, axis, value):
-        utils.find_by_xpath(ViewportLocators.SETTING, driver).click()
+        utils.find_by_xpath(ViewportLocators.SETTINGS_WINDOW, driver).click()
         if axis == "move":
             utils.find_by_xpath(SettingsLocators.MOVE_INPUT, driver).send_keys(Keys.CONTROL + "a")
             utils.find_by_xpath(SettingsLocators.MOVE_INPUT, driver).send_keys(value)
@@ -281,7 +288,7 @@ class PropertiesSteps:
         elif axis == "scale":
             utils.find_by_xpath(SettingsLocators.SCALE_INPUT, driver).send_keys(Keys.CONTROL + "a")
             utils.find_by_xpath(SettingsLocators.SCALE_INPUT, driver).send_keys(value)
-        utils.find_by_xpath(ViewportLocators.SETTING, driver).click()
+        utils.find_by_xpath(ViewportLocators.SETTINGS_WINDOW, driver).click()
 
     def value(driver, index, axis, value, init_value="0"):
         if int(utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).get_attribute("value")) - int(value) == int(init_value):

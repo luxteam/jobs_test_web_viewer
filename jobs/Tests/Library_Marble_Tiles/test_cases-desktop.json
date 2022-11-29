@@ -122,7 +122,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_012",
-        "status": "active",
+        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Dark-Green Marble Rhombus Tile\""
@@ -166,14 +166,15 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_016",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Marble Tiles\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8,
-        "material_name": "Marble Tiles"
+        "material_name": "Marble Tiles",
+        "scroll": true
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_017",

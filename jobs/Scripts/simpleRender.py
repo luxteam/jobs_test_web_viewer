@@ -91,7 +91,7 @@ def prepare_empty_reports(args, current_conf):
             test_case_report['test_case'] = case['case']
             test_case_report['render_device'] = get_gpu()
             test_case_report['script_info'] = case['script_info']
-            test_case_report['scene_name'] = case.get('scene', '')
+            test_case_report['scene_name'] = case['scene_path'] if args.mode == 'desktop' else case['scene_name']
             test_case_report['test_group'] = args.test_group
             test_case_report['execution_time'] = 0.0
             test_case_report['date_time'] = datetime.now().strftime(
@@ -150,7 +150,7 @@ def save_results(args, case, cases, test_case_status, render_time = 0.0, executi
             stub_image_path = os.path.join(args.output, 'Color', test_case_report['file_name'])
             if not os.path.exists(stub_image_path):
                 copyfile(os.path.join(args.output, '..', '..', '..', '..', 'jobs_launcher', 
-                    'common', 'img', 'passed.jpg'), stub_image_path)
+                    'common', 'img', 'error.jpg'), stub_image_path)
 
             test_case_report["render_color_path"] = os.path.join("Color", test_case_report["file_name"])
         else:
@@ -221,12 +221,18 @@ def execute_tests(args, current_conf):
                 driver = utils.pre_action(case, args.mode)
 
                 error_message = None
+                render_time = 0.0
  
                 if "scene_path" in case or "scene_name" in case:
                     load_scene_time = utils.load_scene(args, case, driver)
 
                 try:
-                    error_message = getattr(group_module, case["function_name"])(args, case, driver, current_try)
+                    result = getattr(group_module, case["function_name"])(args, case, driver, current_try)
+
+                    if isinstance(result, float):
+                        render_time = result
+                    else:
+                        error_message = result
                 except AssertionError as e:
                     utils.case_logger.warning(f"Catched Assertion Error")
                     error_message = str(e)
@@ -239,11 +245,9 @@ def execute_tests(args, current_conf):
                 save_final_render_image = case["save_final_render_image"] if "save_final_render_image" in case else False
                 utils.save_screen(image_path, driver, save_final_render_image = save_final_render_image)
 
-                render_time = 0.0
-
                 if error_message:
                     error_messages.add(error_message)
-                    save_results(args, case, cases, "failed", execution_time = execution_time, load_scene_time = load_scene_time, error_messages = error_messages)
+                    save_results(args, case, cases, "error", render_time = render_time, load_scene_time = load_scene_time, execution_time = execution_time, error_messages = error_messages)
                 elif case["status"] == "active":
                     save_results(args, case, cases, "passed", render_time = render_time, load_scene_time = load_scene_time, execution_time = execution_time)
                 else:
@@ -256,7 +260,12 @@ def execute_tests(args, current_conf):
                 break
             except Exception as e:
                 execution_time = time() - case_start_time
-                save_results(args, case, cases, "error", execution_time = execution_time, load_scene_time = load_scene_time, error_messages = error_messages)
+
+                if case["status"] == "active":
+                    save_results(args, case, cases, "error", execution_time = execution_time, load_scene_time = load_scene_time, error_messages = error_messages)
+                else:
+                    save_results(args, case, cases, "observed", execution_time = execution_time, load_scene_time = load_scene_time, error_messages = error_messages)
+
                 utils.case_logger.error(f"Failed to execute test case (try #{current_try}): {str(e)}")
                 utils.case_logger.error(f"Traceback: {traceback.format_exc()}")
             finally:
@@ -270,7 +279,11 @@ def execute_tests(args, current_conf):
             utils.case_logger.error(f"Failed to execute case \"{case['case']}\" at all")
             rc = -1
             execution_time = time() - case_start_time
-            save_results(args, case, cases, "error", execution_time = execution_time, error_messages = error_messages)
+
+            if case["status"] == "active":
+                save_results(args, case, cases, "error", execution_time = execution_time, error_messages = error_messages)
+            else:
+                save_results(args, case, cases, "observed", execution_time = execution_time, error_messages = error_messages)
 
     return rc
 
