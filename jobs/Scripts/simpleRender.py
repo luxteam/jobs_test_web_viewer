@@ -242,9 +242,10 @@ def execute_tests(args, current_conf):
 
                 execution_time = time() - case_start_time
 
-                save_final_render_image = case["save_final_render_image"] if "save_final_render_image" in case else False
                 make_screen = case["make_screen"] if "make_screen" in case else True
-                utils.save_screen(image_path, driver, save_final_render_image = save_final_render_image, make_screen = make_screen)
+                if make_screen:
+                    save_final_render_image = case["save_final_render_image"] if "save_final_render_image" in case else False
+                    utils.save_screen(image_path, driver, save_final_render_image = save_final_render_image)
 
                 if error_message:
                     error_messages.add(error_message)
