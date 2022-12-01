@@ -151,4 +151,24 @@ def test_024(args, case, driver, current_try):
     FinalRenderSteps.set_format_to_png(driver)
     FinalRenderSteps.set_resolution(driver, "2048", "1080")
     FinalRenderSteps.set_samples(driver, "1024")
-    return FinalRenderSteps.start_render(driver)
+    FinalRenderSteps.start_render(driver)
+
+def test_028(args, case, driver, current_try):
+    FinalRenderSteps.open_final_render(driver)
+    FinalRenderSteps.set_resolution(driver, "3840", "2160")
+    FinalRenderSteps.check_progress_bar(driver)
+
+def test_029(args, case, driver, current_try):
+    FinalRenderSteps.open_final_render(driver)
+    FinalRenderSteps.set_resolution(driver, "2048", "1080")
+    FinalRenderSteps.stop_before_end(driver)
+
+def test_030(args, case, driver, current_try):
+    FinalRenderSteps.open_final_render(driver)
+    FinalRenderSteps.set_resolution(driver, "2048", "1080")
+    FinalRenderSteps.stop_before_end(driver, True)
+
+def test_031(args, case, driver, current_try):
+    FinalRenderSteps.open_final_render(driver)
+    FinalRenderSteps.set_resolution(driver, "3840", "2160")
+    FinalRenderSteps.save_before_end(driver, args, case)
