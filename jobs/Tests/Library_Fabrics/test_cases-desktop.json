@@ -4,6 +4,94 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
+            "Applying material \"Aegean Herringbone Fabric\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Aegean Herringbone Fabric"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Sage Houndstooth Fabric\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Sage Houndstooth Fabric"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Black and White Gingham Fabric\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Black and White Gingham Fabric"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Pebble Kilm Fabric\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Pebble Kilm Fabric"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_005",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Sapphire Ramie Fabric\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Sapphire Ramie Fabric"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_006",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Porcelain Ramie Fabric\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Porcelain Ramie Fabric"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_007",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Teal Corduroy Fabric\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Teal Corduroy Fabric"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_008",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Blush Mottled Linen\""
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8,
+        "material_name": "Blush Mottled Linen"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_009",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
             "Applying material \"Hazel Wood Ikat Fabric\""
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -11,7 +99,7 @@
         "material_name": "Hazel Wood Ikat Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_002",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_010",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -22,7 +110,7 @@
         "material_name": "Linen Hikari Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_003",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_011",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -33,7 +121,7 @@
         "material_name": "Gaiusboro Honeycomb Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_004",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_012",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -44,7 +132,7 @@
         "material_name": "Motley Patchwork Rug"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_005",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_013",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -55,7 +143,7 @@
         "material_name": "Charcoal Garda Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_006",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_014",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -66,7 +154,7 @@
         "material_name": "Blue Shibori Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_007",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_015",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -77,7 +165,7 @@
         "material_name": "Pale Coral Linen Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_008",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_016",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -88,7 +176,7 @@
         "material_name": "Tiffany Blue Cushion Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_009",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_017",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -99,7 +187,7 @@
         "material_name": "Emerald Waves Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_010",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_018",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -110,7 +198,7 @@
         "material_name": "Lemons Woollen Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_011",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_019",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -121,7 +209,7 @@
         "material_name": "Braid Jumper Knitted Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_012",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_020",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -132,7 +220,7 @@
         "material_name": "Daisy Checker Knitted Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_013",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_021",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -143,7 +231,7 @@
         "material_name": "Forest Green Jumper Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_014",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_022",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -154,7 +242,7 @@
         "material_name": "Scarf Blue Knitted Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_015",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_023",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -165,7 +253,7 @@
         "material_name": "Carrot Knitted Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_016",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_024",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -176,7 +264,7 @@
         "material_name": "Chunky Weave Cushion Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_017",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_025",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -187,7 +275,7 @@
         "material_name": "Midnight Blue Heavy Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_018",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_026",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -198,7 +286,7 @@
         "material_name": "Blue Pixel Linen Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_019",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_027",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -209,7 +297,7 @@
         "material_name": "Oblong Printed Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_020",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_028",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -220,7 +308,7 @@
         "material_name": "Latour Blue Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_021",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_029",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -231,7 +319,7 @@
         "material_name": "Black Upholstery"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_022",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_030",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -242,7 +330,7 @@
         "material_name": "TH: Book Pattern"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_023",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_031",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -253,7 +341,7 @@
         "material_name": "TH: Brown Leather"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_024",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_032",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -264,7 +352,7 @@
         "material_name": "TH: Blue Denim Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_025",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_033",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -275,7 +363,7 @@
         "material_name": "TH: Denim Fabric"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_026",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_034",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -286,7 +374,7 @@
         "material_name": "TH: Brown Fabric Leather"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_027",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_035",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -297,7 +385,7 @@
         "material_name": "TH: Fabric Leather"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_028",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_036",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -308,7 +396,7 @@
         "material_name": "TH: Tablecloth Fabric Pattern"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_029",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_037",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -319,7 +407,7 @@
         "material_name": "TH: Red Fabric Pattern"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_030",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_038",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -330,7 +418,7 @@
         "material_name": "TH: Red Large Leather"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_031",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_039",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -341,7 +429,7 @@
         "material_name": "TH: Red Leather"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FABRICS_032",
+        "case": "RS_DESKTOP_LIBRARY_FABRICS_040",
         "status": "active",
         "function_name": "test_material",
         "script_info": [

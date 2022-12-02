@@ -4,6 +4,61 @@
         "status": "active",
         "function_name": "test_material",
         "script_info": [
+            "Applying material \"Semper Marble Gold\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Semper Marble Gold"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_002",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Verdi Almi Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Verdi Almi Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_003",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Pale Pink Carrara Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Pale Pink Carrara Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_004",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Green Alps Polished Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Green Alps Polished Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_005",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
+            "Applying material \"Lucia Black Marble\""
+        ],
+        "scene_name": "Kitchen_set",
+        "viewport_render_delay": 8,
+        "material_name": "Lucia Black Marble"
+    },
+    {
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_006",
+        "status": "active",
+        "function_name": "test_material",
+        "script_info": [
             "Applying material \"Rain Forest Green Onyx\""
         ],
         "scene_name": "Kitchen_set",
@@ -11,7 +66,7 @@
         "material_name": "Rain Forest Green Onyx"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_002",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_007",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -22,7 +77,7 @@
         "material_name": "Dimgrey Decorative Granite"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_003",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_008",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -33,7 +88,7 @@
         "material_name": "Moss Green Solid Granite"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_004",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_009",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -44,7 +99,7 @@
         "material_name": "Grey Chateau Solid Granite"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_005",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_010",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -55,7 +110,7 @@
         "material_name": "Argentinian Layered Onyx"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_006",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_011",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -66,7 +121,7 @@
         "material_name": "Marble Variable Color"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_007",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_012",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -77,7 +132,7 @@
         "material_name": "Marble Light Gray"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_008",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_013",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -88,7 +143,7 @@
         "material_name": "Marble Brown"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_009",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_014",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -99,7 +154,7 @@
         "material_name": "Cream Onyx"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_010",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_015",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -110,7 +165,7 @@
         "material_name": "Granite"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_011",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_016",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -121,7 +176,7 @@
         "material_name": "Marble Orange Streaks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_012",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_017",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -132,7 +187,7 @@
         "material_name": "Marble Light Red"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_013",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_018",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -143,7 +198,7 @@
         "material_name": "Marble Yellow"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_014",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_019",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -154,7 +209,7 @@
         "material_name": "Marble Red"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_015",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_020",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -165,7 +220,7 @@
         "material_name": "Simple Marble light blue"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_016",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_021",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -176,7 +231,7 @@
         "material_name": "Onyx Gray Streaked"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_017",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_022",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -187,7 +242,7 @@
         "material_name": "Blue Emperador Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_018",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_023",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -198,7 +253,7 @@
         "material_name": "Oasis Green Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_019",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_024",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -209,7 +264,7 @@
         "material_name": "Oasis Blue Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_020",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_025",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -220,7 +275,7 @@
         "material_name": "Rosso Verona Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_021",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_026",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -231,7 +286,7 @@
         "material_name": "Arabescato Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_022",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_027",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -242,7 +297,7 @@
         "material_name": "Travertine Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_023",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_028",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -253,7 +308,7 @@
         "material_name": "Sicilian Beige Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_024",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_029",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -264,7 +319,7 @@
         "material_name": "Portoro Green Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_025",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_030",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -275,7 +330,7 @@
         "material_name": "Milan Polished Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_026",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_031",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -286,7 +341,7 @@
         "material_name": "Blue Dune Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_027",
+        "case": "RS_DESKTOP_LIBRARY_MARBLE_032",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
