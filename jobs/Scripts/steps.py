@@ -31,12 +31,15 @@ class FinalRenderSteps:
         utils.find_by_xpath(FinalRenderLocators.FORMAT, driver).click()
         sleep(1)
         utils.find_by_xpath(FinalRenderLocators.PNG_FORMAT, driver).click()
+        sleep(0.5)
 
     def set_resolution(driver, width, height):
         utils.find_by_xpath(FinalRenderLocators.WIDTH, driver).send_keys(Keys.CONTROL + "a")
         utils.find_by_xpath(FinalRenderLocators.WIDTH, driver).send_keys(width)
+        sleep(0.5)
         utils.find_by_xpath(FinalRenderLocators.HEIGHT, driver).send_keys(Keys.CONTROL + "a")
         utils.find_by_xpath(FinalRenderLocators.HEIGHT, driver).send_keys(height)
+        sleep(0.5)
 
     def return_to_viewport(driver):
         utils.find_by_xpath(FinalRenderLocators.BACK_BUTTON, driver).click()
@@ -45,6 +48,7 @@ class FinalRenderSteps:
     def set_samples(driver, samples):
         utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(Keys.CONTROL + "a")
         utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(samples)
+        sleep(0.5)
 
     def start_render(driver):
         utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
