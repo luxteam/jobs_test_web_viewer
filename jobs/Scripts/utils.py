@@ -44,13 +44,24 @@ def close_process(process):
         for ch in child_processes:
             try:
                 ch.kill()
+            except NoSuchProcess:
+                case_logger.info(f"Process is killed: {ch}")
+
+        try:
+            process.kill()
+        except NoSuchProcess:
+            case_logger.info(f"Process is killed: {process}")
+
+        sleep(0.5)
+
+        for ch in child_processes:
+            try:
                 status = ch.status()
                 case_logger.error(f"Process is alive: {ch}. Name: {ch.name()}. Status: {status}")
             except NoSuchProcess:
                 case_logger.info(f"Process is killed: {ch}")
 
         try:
-            process.kill()
             status = process.status()
             case_logger.error(f"Process is alive: {process}. Name: {process.name()}. Status: {status}")
         except NoSuchProcess:
