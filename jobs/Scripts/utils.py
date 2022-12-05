@@ -52,7 +52,7 @@ def close_process(process):
         except NoSuchProcess:
             case_logger.info(f"Process is killed: {process}")
 
-        sleep(0.5)
+        time.sleep(0.5)
 
         for ch in child_processes:
             try:
