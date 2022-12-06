@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"TH: Broken Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Broken Wall"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"TH: Castle Wall Slates\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Castle Wall Slates"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"TH: Castle Wall Variation\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Castle Wall Variation"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"TH: Old Defense Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Defense Wall"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"TH: Defense Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Defense Wall"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"TH: Red Medieval Blocks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Red Medieval Blocks"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"TH: Medieval Blocks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Medieval Blocks"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"TH: Crude Medieval Blocks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Crude Medieval Blocks"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"TH: Large Sandstone Blocks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Large Sandstone Blocks"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"TH: Crafted Medieval Blocks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Crafted Medieval Blocks"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"TH: Rough Block Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Rough Block Wall"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"TH: Sandstone Blocks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Sandstone Blocks"
     }

@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"Sandstone\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Sandstone"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"TH: Aerial Moss Rock\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Aerial Moss Rock"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"TH: Aerial Mountain Rocks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Aerial Mountain Rocks"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"TH: Aerial Rocks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Aerial Rocks"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"TH: Mossy Rock\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Mossy Rock"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"TH: Smooth Stone\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Smooth Stone"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"TH: Ligth Rock\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Ligth Rock"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"TH: Rock\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Rock"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"TH: Light Brown Rock\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Light Brown Rock"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"TH: Volcano Rock\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Volcano Rock"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"TH: Red Rock\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Red Rock"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"TH: Gray Rock\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Gray Rock"
     },
@@ -138,7 +138,7 @@
         "script_info": [
             "Applying material \"TH: Gray Rocks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Gray Rocks"
     },
@@ -149,7 +149,7 @@
         "script_info": [
             "Applying material \"TH: Old Stone\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Stone"
     }

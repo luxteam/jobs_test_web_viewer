@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"Marble Variable Color\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Marble Variable Color"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"Marble Light Gray\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Marble Light Gray"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"Marble Brown\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Marble Brown"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"Cream Onyx\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Cream Onyx"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"Granite\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Granite"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"Marble Orange Streaks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Marble Orange Streaks"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"Marble Light Red\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Marble Light Red"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"Marble Yellow\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Marble Yellow"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"Marble Red\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Marble Red"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"Simple Marble light blue\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Simple Marble light blue"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"Onyx Gray Streaked\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Onyx Gray Streaked"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"Blue Emperador Marble\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Blue Emperador Marble"
     },
@@ -138,7 +138,7 @@
         "script_info": [
             "Applying material \"Oasis Green Marble\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Oasis Green Marble"
     },
@@ -149,7 +149,7 @@
         "script_info": [
             "Applying material \"Oasis Blue Marble\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Oasis Blue Marble"
     },
@@ -160,7 +160,7 @@
         "script_info": [
             "Applying material \"Rosso Verona Marble\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Rosso Verona Marble"
     },
@@ -171,7 +171,7 @@
         "script_info": [
             "Applying material \"Arabescato Marble\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Arabescato Marble"
     },
@@ -182,7 +182,7 @@
         "script_info": [
             "Applying material \"Travertine Marble\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Travertine Marble"
     },
@@ -193,7 +193,7 @@
         "script_info": [
             "Applying material \"Sicilian Beige Marble\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Sicilian Beige Marble"
     },
@@ -204,7 +204,7 @@
         "script_info": [
             "Applying material \"Portoro Green Marble\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Portoro Green Marble"
     },
@@ -215,7 +215,7 @@
         "script_info": [
             "Applying material \"Milan Polished Marble\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Milan Polished Marble"
     },
@@ -226,7 +226,7 @@
         "script_info": [
             "Applying material \"Blue Dune Marble\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Blue Dune Marble"
     },
@@ -237,7 +237,7 @@
         "script_info": [
             "Applying material \"Verde Alpi Marble\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Verde Alpi Marble"
     }

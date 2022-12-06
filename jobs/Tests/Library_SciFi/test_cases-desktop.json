@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"Aluminum Hexagon\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Aluminum Hexagon"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"Chains\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Chains"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"Perforated Metal\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Perforated Metal"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"SciFi Brick\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "SciFi Brick"
     }

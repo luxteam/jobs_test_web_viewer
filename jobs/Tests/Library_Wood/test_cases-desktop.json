@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"TH: Beam Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Beam Wall"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"TH: Blue Painted Planks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Blue Painted Planks"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"TH: Gray Planks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Gray Planks"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"TH: New Brown Boards\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: New Brown Boards"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"TH: Light Planks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Light Planks"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"TH: Gray Old Boards\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Gray Old Boards"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"TH: Old Brown Boards\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Brown Boards"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"TH: Dry Brown Planks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Dry Brown Planks"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"TH: Dark Planks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Dark Planks"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"TH: Fine Grained Wood\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Fine Grained Wood"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"TH: Green Rough Planks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Green Rough Planks"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"TH: Kitchen Wood\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Kitchen Wood"
     },
@@ -138,7 +138,7 @@
         "script_info": [
             "Applying material \"TH: Medieval Wood\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Medieval Wood"
     },
@@ -149,7 +149,7 @@
         "script_info": [
             "Applying material \"TH: Moss Wood\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Moss Wood"
     },
@@ -160,7 +160,7 @@
         "script_info": [
             "Applying material \"TH: Old Planks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Planks"
     },
@@ -171,7 +171,7 @@
         "script_info": [
             "Applying material \"TH: Planks Llight Brown\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Planks Llight Brown"
     },
@@ -182,7 +182,7 @@
         "script_info": [
             "Applying material \"TH: Plywood\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Plywood"
     },
@@ -193,7 +193,7 @@
         "script_info": [
             "Applying material \"TH: Rough Wood\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Rough Wood"
     },
@@ -204,7 +204,7 @@
         "script_info": [
             "Applying material \"TH: Wood Planks Dirt\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Wood Planks Dirt"
     },
@@ -215,7 +215,7 @@
         "script_info": [
             "Applying material \"TH: Wood Table\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Wood Table"
     },
@@ -226,7 +226,7 @@
         "script_info": [
             "Applying material \"TH: Wooden Rough Planks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Wooden Rough Planks"
     },
@@ -237,7 +237,7 @@
         "script_info": [
             "Applying material \"Wood Beech Coated\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Wood Beech Coated"
     },
@@ -248,7 +248,7 @@
         "script_info": [
             "Applying material \"Wood Beech Raw\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Wood Beech Raw"
     },
@@ -259,7 +259,7 @@
         "script_info": [
             "Applying material \"Mahogany Varnished\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Mahogany Varnished"
     }

@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"Bark Base\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Bark Base"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"Bark Beech\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Bark Beech"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"Bark Oak\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Bark Oak"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"Bark Pine\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Bark Pine"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"Bark Smooth\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Bark Smooth"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"TH: Bark Brown\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Bark Brown"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"TH: Old Bark Brown\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Bark Brown"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"TH: Tree Bark\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Tree Bark"
     }

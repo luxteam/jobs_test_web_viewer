@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"Gold Edged Leaf Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Gold Edged Leaf Tiles"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"Iberian Blue Ceramic Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Iberian Blue Ceramic Tiles"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"Iberian Beige Ceramic Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Iberian Beige Ceramic Tiles"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"Jade Tiles Irregular Bond\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Jade Tiles Irregular Bond"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"Wavy Colored Ceramic Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Wavy Colored Ceramic Tiles"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"Mosaic Vines Ceramic Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Mosaic Vines Ceramic Tiles"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"Sodalite Marble and Gold Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Sodalite Marble and Gold Tiles"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"Glazed Cube Pattern Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Glazed Cube Pattern Tiles"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"Retro-futuristic Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Retro-futuristic Tiles"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"Glazed Cell Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Glazed Cell Tiles"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"Gold-Black Checker tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Gold-Black Checker tiles"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"Glazed Mosaic Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Glazed Mosaic Tiles"
     },
@@ -138,7 +138,7 @@
         "script_info": [
             "Applying material \"Moroccan Hexagonal Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Moroccan Hexagonal Tiles"
     },
@@ -149,7 +149,7 @@
         "script_info": [
             "Applying material \"Iberian Green Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Iberian Green Tiles"
     }

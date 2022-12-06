@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"TH: Bricks Concrete Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Bricks Concrete Wall"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"Concrete Plain\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Concrete Plain"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"Concrete Planks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Concrete Planks"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"Concrete Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Concrete Tiles"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"TH Dirty Concrete\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH Dirty Concrete"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"TH: Rubble Concrete Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Rubble Concrete Floor"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"TH: Concrete Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Concrete Floor"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"TH: Concrete Old Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Concrete Old Floor"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"TH: Concrete Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Concrete Wall"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"Smooth Concrete\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Smooth Concrete"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"Gray Ramshorn Shells Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Gray Ramshorn Shells Wall"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"Ramshorn Shells Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Ramshorn Shells Wall"
     },
@@ -138,7 +138,7 @@
         "script_info": [
             "Applying material \"Detailed Ramshorn Shells Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Detailed Ramshorn Shells Wall"
     },
@@ -149,7 +149,7 @@
         "script_info": [
             "Applying material \"White Stone Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "White Stone Wall"
     },
@@ -160,7 +160,7 @@
         "script_info": [
             "Applying material \"Red Stone Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Red Stone Wall"
     },
@@ -171,7 +171,7 @@
         "script_info": [
             "Applying material \"Stone Wall Combination\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Stone Wall Combination"
     },
@@ -182,7 +182,7 @@
         "script_info": [
             "Applying material \"Stone Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Stone Wall"
     },
@@ -193,7 +193,7 @@
         "script_info": [
             "Applying material \"Wall of Shells\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Wall of Shells"
     },
@@ -204,7 +204,7 @@
         "script_info": [
             "Applying material \"Cement Wall with Starfish\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Cement Wall with Starfish"
     },
@@ -215,7 +215,7 @@
         "script_info": [
             "Applying material \"Gray Cement Shells Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Gray Cement Shells Wall"
     },
@@ -226,7 +226,7 @@
         "script_info": [
             "Applying material \"Cement Wall with Shells\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Cement Wall with Shells"
     },
@@ -237,7 +237,7 @@
         "script_info": [
             "Applying material \"Cement Shells Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Cement Shells Wall"
     },
@@ -248,7 +248,7 @@
         "script_info": [
             "Applying material \"TH: Concrete Floor Worn\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Concrete Floor Worn"
     }

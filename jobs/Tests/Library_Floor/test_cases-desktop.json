@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"Stylized Flagstones\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Stylized Flagstones"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"TH: Brick Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Brick Floor"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"TH: Diagonal Brick Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Diagonal Brick Floor"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"TH: Brick Moss\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Brick Moss"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"TH: Gray Floor Bricks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Gray Floor Bricks"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"TH: Old Floor Klinkers\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Floor Klinkers"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"TH: Floor Klinkers\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Floor Klinkers"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"TH: Sidewalk Brick Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Sidewalk Brick Floor"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"TH: Aerial Asphalt\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Aerial Asphalt"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"TH: Road Asphalt\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Road Asphalt"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"TH: Cathedral Floor Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Cathedral Floor Tiles"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"TH: Yellow Floor Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Yellow Floor Tiles"
     },
@@ -138,7 +138,7 @@
         "script_info": [
             "Applying material \"TH: Floor Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Floor Tiles"
     },
@@ -149,7 +149,7 @@
         "script_info": [
             "Applying material \"TH: Large Floor Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Large Floor Tiles"
     },
@@ -160,7 +160,7 @@
         "script_info": [
             "Applying material \"TH: Large Grey Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Large Grey Tiles"
     },
@@ -171,7 +171,7 @@
         "script_info": [
             "Applying material \"TH: Large Square Pattern\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Large Square Pattern"
     },
@@ -182,7 +182,7 @@
         "script_info": [
             "Applying material \"TH: Pavement\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Pavement"
     },
@@ -193,7 +193,7 @@
         "script_info": [
             "Applying material \"TH: Square Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Square Floor"
     },
@@ -204,7 +204,7 @@
         "script_info": [
             "Applying material \"TH: Square Floor Pattern\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Square Floor Pattern"
     }

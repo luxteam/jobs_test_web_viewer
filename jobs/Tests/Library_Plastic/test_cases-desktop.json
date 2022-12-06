@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"Carbon biColor Coat\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Carbon biColor Coat"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"Patterned Resin Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Patterned Resin Floor"
     }
