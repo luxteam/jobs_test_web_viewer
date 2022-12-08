@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"Gold Parametric Imperfections\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Gold Parametric Imperfections"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"Aluminum Parametric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Aluminum Parametric"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"Aluminum Brushed\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Aluminum Brushed"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"Aluminum Corrugated\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Aluminum Corrugated"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"Aluminum Matte\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Aluminum Matte"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"Brass Brushed\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Brass Brushed"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"Brass Satin\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Brass Satin"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"Chrome Parametric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Chrome Parametric"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"Copper Brushed\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Copper Brushed"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"Copper Old\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Copper Old"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"Galvanized Metal\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Galvanized Metal"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"Gun Metal\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Gun Metal"
     },
@@ -138,7 +138,7 @@
         "script_info": [
             "Applying material \"Cast Iron Damaged\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Cast Iron Damaged"
     },
@@ -149,7 +149,7 @@
         "script_info": [
             "Applying material \"Bronze Oxydized\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Bronze Oxydized"
     },
@@ -160,7 +160,7 @@
         "script_info": [
             "Applying material \"Iron Hammered\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Iron Hammered"
     },
@@ -171,7 +171,7 @@
         "script_info": [
             "Applying material \"Stainless Steel Brushed\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Stainless Steel Brushed"
     },
@@ -182,7 +182,7 @@
         "script_info": [
             "Applying material \"TH Factory Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH Factory Wall"
     },
@@ -193,7 +193,7 @@
         "script_info": [
             "Applying material \"TH Green Metal Rust\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH Green Metal Rust"
     },
@@ -204,7 +204,7 @@
         "script_info": [
             "Applying material \"TH Metal Plate\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH Metal Plate"
     },
@@ -215,7 +215,7 @@
         "script_info": [
             "Applying material \"TH Rusty Metallic Profile\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH Rusty Metallic Profile"
     },
@@ -226,7 +226,7 @@
         "script_info": [
             "Applying material \"TH Rusty Metal\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH Rusty Metal"
     },
@@ -237,7 +237,7 @@
         "script_info": [
             "Applying material \"Gold Foil\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Gold Foil"
     },
@@ -248,7 +248,7 @@
         "script_info": [
             "Applying material \"Copper Satin\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Copper Satin"
     }

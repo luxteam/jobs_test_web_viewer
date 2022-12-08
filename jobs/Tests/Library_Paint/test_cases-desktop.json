@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"Old Paint\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Old Paint"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"Car Paint\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Car Paint"
     }

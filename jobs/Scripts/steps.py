@@ -116,13 +116,16 @@ class LibrarySteps:
         utils.find_by_xpath(LibraryLocators.LIBRARY_TAB, driver).click()
         sleep(sec)
 
-    def select_refridgerator_element(driver):
+    def select_element(driver, element):
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
         sleep(2)
         search = utils.find_by_xpath(LibraryLocators.SCENE_SEARCH, driver)
         search.click()
         sleep(2)
-        search.send_keys("Refridgerator_1")
+        if element == "sphere":
+            search.send_keys("Sphere_001")
+        elif element == "fridge":
+            search.send_keys("Refridgerator_1")
         sleep(1)
         utils.find_by_class("bg-yellow-700", driver, True)[0].click()
         sleep(1)
@@ -161,8 +164,8 @@ class LibrarySteps:
         utils.case_logger.info("Materials sorted: {}".format(materials_sorted))
         assert materials_sorted == materials_text, "Materials are displayed in the wrong order"
 
-    def test_material(driver, name, scroll=False):
-        LibrarySteps.select_refridgerator_element(driver)
+    def test_material(driver, name, scroll=False, element="sphere"):
+        LibrarySteps.select_element(driver, element)
         LibrarySteps.click_library_tab(driver, 1)
         utils.choose_material(name, driver, scroll)
         sleep(3)

@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"Pale Coral Linen Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Pale Coral Linen Fabric"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"Tiffany Blue Cushion Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Tiffany Blue Cushion Fabric"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"Emerald Waves Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Emerald Waves Fabric"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"Lemons Woollen Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Lemons Woollen Fabric"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"Braid Jumper Knitted Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Braid Jumper Knitted Fabric"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"Daisy Checker Knitted Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Daisy Checker Knitted Fabric"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"Forest Green Jumper Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Forest Green Jumper Fabric"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"Scarf Blue Knitted Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Scarf Blue Knitted Fabric"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"Carrot Knitted Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Carrot Knitted Fabric"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"Chunky Weave Cushion Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Chunky Weave Cushion Fabric"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"Midnight Blue Heavy Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Midnight Blue Heavy Fabric"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"Blue Pixel Linen Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Blue Pixel Linen Fabric"
     },
@@ -138,7 +138,7 @@
         "script_info": [
             "Applying material \"Oblong Printed Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Oblong Printed Fabric"
     },
@@ -149,7 +149,7 @@
         "script_info": [
             "Applying material \"Latour Blue Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Latour Blue Fabric"
     },
@@ -160,7 +160,7 @@
         "script_info": [
             "Applying material \"Black Upholstery\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Black Upholstery"
     },
@@ -171,7 +171,7 @@
         "script_info": [
             "Applying material \"TH: Book Pattern\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Book Pattern"
     },
@@ -182,7 +182,7 @@
         "script_info": [
             "Applying material \"TH: Brown Leather\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Brown Leather"
     },
@@ -193,7 +193,7 @@
         "script_info": [
             "Applying material \"TH: Blue Denim Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Blue Denim Fabric"
     },
@@ -204,7 +204,7 @@
         "script_info": [
             "Applying material \"TH: Denim Fabric\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Denim Fabric"
     },
@@ -215,7 +215,7 @@
         "script_info": [
             "Applying material \"TH: Brown Fabric Leather\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Brown Fabric Leather"
     },
@@ -226,7 +226,7 @@
         "script_info": [
             "Applying material \"TH: Fabric Leather\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Fabric Leather"
     },
@@ -237,7 +237,7 @@
         "script_info": [
             "Applying material \"TH: Tablecloth Fabric Pattern\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Tablecloth Fabric Pattern"
     },
@@ -248,7 +248,7 @@
         "script_info": [
             "Applying material \"TH: Red Fabric Pattern\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Red Fabric Pattern"
     },
@@ -259,7 +259,7 @@
         "script_info": [
             "Applying material \"TH: Red Large Leather\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Red Large Leather"
     },
@@ -270,7 +270,7 @@
         "script_info": [
             "Applying material \"TH: Red Leather\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Red Leather"
     },
@@ -281,7 +281,7 @@
         "script_info": [
             "Applying material \"TH: Leather White\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Leather White"
     }

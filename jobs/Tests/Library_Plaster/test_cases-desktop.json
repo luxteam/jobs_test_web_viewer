@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"TH: Crumbling Rough Plaster\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Crumbling Rough Plaster"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"TH: Clay Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Clay Floor"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"TH: Medieval Wall\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Medieval Wall"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"TH: Gray Plaster\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Gray Plaster"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"TH: Old Rough Plaster\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Rough Plaster"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"TH: Rough Plaster Broken\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Rough Plaster Broken"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"TH: Rough Plasterbrick\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Rough Plasterbrick"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"TH: Clean Plaster\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Clean Plaster"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"TH: Dirt Plaster Rough\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Dirt Plaster Rough"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"TH: Moss Plaster Rough\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Moss Plaster Rough"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"TH: White Rough Plaster\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: White Rough Plaster"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"TH: Old Yellow Plaster\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Yellow Plaster"
     },
@@ -138,7 +138,7 @@
         "script_info": [
             "Applying material \"TH: Rough Plaster Brick\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Rough Plaster Brick"
     },
@@ -149,7 +149,7 @@
         "script_info": [
             "Applying material \"Plaster Scratched\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Plaster Scratched"
     },
@@ -160,7 +160,7 @@
         "script_info": [
             "Applying material \"Simple plaster\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Simple plaster"
     },
@@ -171,7 +171,7 @@
         "script_info": [
             "Applying material \"TH: Old Gray Plaster\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Gray Plaster"
     },
@@ -182,7 +182,7 @@
         "script_info": [
             "Applying material \"TH: Yellow Plaster\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Yellow Plaster"
     },
@@ -193,7 +193,7 @@
         "script_info": [
             "Applying material \"TH: Dirty Gray Plaster\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Dirty Gray Plaster"
     },
@@ -204,7 +204,7 @@
         "script_info": [
             "Applying material \"TH: Sandstone Cracks\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Sandstone Cracks"
     }

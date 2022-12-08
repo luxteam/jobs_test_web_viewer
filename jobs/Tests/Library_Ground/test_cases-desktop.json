@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"TH: Various Rocks Ground\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Various Rocks Ground"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"Ground Leaves Cover\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Ground Leaves Cover"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"Moss Ground\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Moss Ground"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"Rocky Ground\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Rocky Ground"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"Ground River Bottom\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Ground River Bottom"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"Ground Soil\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Ground Soil"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"TH: Moss Mountain Ground\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Moss Mountain Ground"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"TH: Coral Gravel\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Coral Gravel"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"TH: Coral Rocky Ground\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Coral Rocky Ground"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"TH: Rocks Dirt Ground\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Rocks Dirt Ground"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"TH: Light Rocks Ground\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Light Rocks Ground"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"TH: Rocks Ground\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Rocks Ground"
     },
@@ -138,7 +138,7 @@
         "script_info": [
             "Applying material \"TH: Mountain Rocks Ground\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Mountain Rocks Ground"
     },
@@ -149,7 +149,7 @@
         "script_info": [
             "Applying material \"Pebbles Sand\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Pebbles Sand"
     },
@@ -160,7 +160,7 @@
         "script_info": [
             "Applying material \"Smooth Beach Sand\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Smooth Beach Sand"
     },
@@ -171,7 +171,7 @@
         "script_info": [
             "Applying material \"Shells Pebble Sand\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Shells Pebble Sand"
     },
@@ -182,7 +182,7 @@
         "script_info": [
             "Applying material \"Shells Beach Sand\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Shells Beach Sand"
     },
@@ -193,7 +193,7 @@
         "script_info": [
             "Applying material \"Starfish Beach Sand\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Starfish Beach Sand"
     }

@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"Skin - 50 percent melanin\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Skin - 50 percent melanin"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"Skin - 30 percent melanin\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Skin - 30 percent melanin"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"Skin - 20 percent melanin\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Skin - 20 percent melanin"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"Skin - 10 percent melanin\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Skin - 10 percent melanin"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"Skin - 5 percent melanin\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Skin - 5 percent melanin"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"Skin - 2 percent melanin\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Skin - 2 percent melanin"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"Skin - 1 percent melanin\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Skin - 1 percent melanin"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"Skin - 0.1 percent melanin\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Skin - 0.1 percent melanin"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"Acryl Plastic\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Acryl Plastic"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"White Plastic\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "White Plastic"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"Frosted Glass\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Frosted Glass"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"Dark Glass\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Dark Glass"
     },
@@ -138,7 +138,7 @@
         "script_info": [
             "Applying material \"Diamond\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Diamond"
     },
@@ -149,7 +149,7 @@
         "script_info": [
             "Applying material \"White Wine\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "White Wine"
     },
@@ -160,7 +160,7 @@
         "script_info": [
             "Applying material \"Red Wine\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Red Wine"
     },
@@ -171,7 +171,7 @@
         "script_info": [
             "Applying material \"Glass\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Glass"
     },
@@ -182,7 +182,7 @@
         "script_info": [
             "Applying material \"Semitransparent Silicone\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Semitransparent Silicone"
     },
@@ -193,7 +193,7 @@
         "script_info": [
             "Applying material \"Rubber\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Rubber"
     },
@@ -204,7 +204,7 @@
         "script_info": [
             "Applying material \"Rough Plastic\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Rough Plastic"
     },
@@ -215,7 +215,7 @@
         "script_info": [
             "Applying material \"Black Plastic\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Black Plastic"
     },
@@ -226,7 +226,7 @@
         "script_info": [
             "Applying material \"Nickel\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Nickel"
     },
@@ -237,7 +237,7 @@
         "script_info": [
             "Applying material \"Iron\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Iron"
     },
@@ -248,7 +248,7 @@
         "script_info": [
             "Applying material \"Gold\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Gold"
     },
@@ -259,7 +259,7 @@
         "script_info": [
             "Applying material \"Copper\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Copper"
     },
@@ -270,7 +270,7 @@
         "script_info": [
             "Applying material \"Cobalt\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Cobalt"
     },
@@ -281,7 +281,7 @@
         "script_info": [
             "Applying material \"Chrome\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Chrome"
     },
@@ -292,7 +292,7 @@
         "script_info": [
             "Applying material \"Bronze\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Bronze"
     },
@@ -303,7 +303,7 @@
         "script_info": [
             "Applying material \"Brass\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Brass"
     },
@@ -314,7 +314,7 @@
         "script_info": [
             "Applying material \"Aluminum\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "Aluminum"
     }

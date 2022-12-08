@@ -32,7 +32,7 @@ def test_002(args, case, driver, current_try):
 
 
 def test_003(args, case, driver, current_try):
-    LibrarySteps.test_material(driver, "Gold")
+    LibrarySteps.test_material(driver, "Gold", element="fridge")
 
 
 def test_004(args, case, driver, current_try):
@@ -54,8 +54,8 @@ def drag_and_drop_kitchen():
 
 
 def test_005(args, case, driver, current_try):
-    LibrarySteps.test_material(driver, "Gold")
-    LibrarySteps.test_material(driver, "Aluminum")
+    LibrarySteps.test_material(driver, "Gold", element="fridge")
+    LibrarySteps.test_material(driver, "Aluminum", element="fridge")
 
 
 def test_006(args, case, driver, current_try):

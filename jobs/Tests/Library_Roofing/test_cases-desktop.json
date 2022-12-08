@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"TH: Ceramic Roof\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Ceramic Roof"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"TH: Gray Ceramic Roof\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Gray Ceramic Roof"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"TH: Grey Roof Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Grey Roof Tiles"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"TH: Moss Gray Roof Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Moss Gray Roof Tiles"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"TH: Slate Roof Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Slate Roof Tiles"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"TH: Reed Roof\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Reed Roof"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"TH: Riet Roof\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Riet Roof"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"TH: Roof 3\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Roof 3"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"TH: Old Roof Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Roof Tiles"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"TH: Old Wooden Roof\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Wooden Roof"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"TH: Roof Slates\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Roof Slates"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"TH: Ceramic Roof Tiles\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Ceramic Roof Tiles"
     }

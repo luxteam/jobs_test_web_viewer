@@ -6,7 +6,7 @@
         "script_info": [
             "Applying material \"TH: Old Cobblestone\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Cobblestone"
     },
@@ -17,7 +17,7 @@
         "script_info": [
             "Applying material \"TH: Light Cobblestone Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Light Cobblestone Floor"
     },
@@ -28,7 +28,7 @@
         "script_info": [
             "Applying material \"TH: Medieval Cobblestone\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Medieval Cobblestone"
     },
@@ -39,7 +39,7 @@
         "script_info": [
             "Applying material \"TH: Cobblestone Color\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Cobblestone Color"
     },
@@ -50,7 +50,7 @@
         "script_info": [
             "Applying material \"TH: Old Medieval Cobblestone\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Medieval Cobblestone"
     },
@@ -61,7 +61,7 @@
         "script_info": [
             "Applying material \"TH: Dark Cobblestone Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Dark Cobblestone Floor"
     },
@@ -72,7 +72,7 @@
         "script_info": [
             "Applying material \"TH: Gray Cobblestone Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Gray Cobblestone Floor"
     },
@@ -83,7 +83,7 @@
         "script_info": [
             "Applying material \"TH: Moss Cobblestone Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Moss Cobblestone Floor"
     },
@@ -94,7 +94,7 @@
         "script_info": [
             "Applying material \"TH: Cobblestone Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Cobblestone Floor"
     },
@@ -105,7 +105,7 @@
         "script_info": [
             "Applying material \"TH: Broken Cobblestone Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Broken Cobblestone Floor"
     },
@@ -116,7 +116,7 @@
         "script_info": [
             "Applying material \"TH: Pink Cobblestone Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Pink Cobblestone Floor"
     },
@@ -127,7 +127,7 @@
         "script_info": [
             "Applying material \"TH: Yellow Cobblestone Floor\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Yellow Cobblestone Floor"
     },
@@ -138,7 +138,7 @@
         "script_info": [
             "Applying material \"TH: Cobblestone Large\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Cobblestone Large"
     },
@@ -149,7 +149,7 @@
         "script_info": [
             "Applying material \"TH: Cobblestone Square\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Cobblestone Square"
     },
@@ -160,7 +160,7 @@
         "script_info": [
             "Applying material \"TH: Old Floor Pattern\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Old Floor Pattern"
     },
@@ -171,7 +171,7 @@
         "script_info": [
             "Applying material \"TH: Floor Pattern\""
         ],
-        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "scene_path": "Sphere\\SphereRS.usda",
         "viewport_render_delay": 8,
         "material_name": "TH: Floor Pattern"
     }
