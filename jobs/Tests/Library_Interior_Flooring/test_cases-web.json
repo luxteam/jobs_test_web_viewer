@@ -1,29 +1,7 @@
 [
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_001",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_001",
         "status": "active",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Oliana Blue Painted Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Oliana Blue Painted Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_002",
-        "status": "active",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"European Beech Hardwood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "European Beech Hardwood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_003",
-        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Gaize Dark Walnut Mosaic\""
@@ -33,7 +11,7 @@
         "material_name": "Gaize Dark Walnut Mosaic"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_004",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_002",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -44,7 +22,7 @@
         "material_name": "Mazzonetto Diamonds Parquet"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_005",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_003",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -55,7 +33,7 @@
         "material_name": "Wembley Chestnut Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_006",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_004",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -66,7 +44,7 @@
         "material_name": "Fresco Oak Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_007",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_005",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -77,8 +55,8 @@
         "material_name": "Stack Bond Brown Wood"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_008",
-        "status": "observed",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_006",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Adelie Brown Luxury Flooring\""
@@ -88,7 +66,7 @@
         "material_name": "Adelie Brown Luxury Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_009",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_007",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -99,41 +77,8 @@
         "material_name": "Mazzonetto Dices Parquet"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_010",
-        "status": "observed",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Pale Oak Solid Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Pale Oak Solid Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_011",
-        "status": "observed",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Galloway Brown Oak\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Galloway Brown Oak"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_012",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_008",
         "status": "active",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Atlantis Beige Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Atlantis Beige Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_013",
-        "status": "observed",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Dark Brown Ash Planks\""
@@ -143,8 +88,8 @@
         "material_name": "Dark Brown Ash Planks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_014",
-        "status": "observed",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_009",
+        "status": "active",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Redwood Pine Planks\""
@@ -154,139 +99,7 @@
         "material_name": "Redwood Pine Planks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_015",
-        "status": "active",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Sage Satin Painted Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Sage Satin Painted Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_016",
-        "status": "active",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Stone Blue Painted Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Stone Blue Painted Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_017",
-        "status": "observed",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Coffee Beech Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Coffee Beech Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_018",
-        "status": "active",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Sacramento Green Painted Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Sacramento Green Painted Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_019",
-        "status": "active",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Light Berry Painted Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Light Berry Painted Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_020",
-        "status": "active",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Ash Brown Solid Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Ash Brown Solid Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_021",
-        "status": "observed",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Harbour Oak Grey Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Harbour Oak Grey Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_022",
-        "status": "observed",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Canyon Maple Dark Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Canyon Maple Dark Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_023",
-        "status": "observed",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Mahogany Walnut Solid Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Mahogany Walnut Solid Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_024",
-        "status": "observed",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Ivory Walnut Solid Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Ivory Walnut Solid Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_025",
-        "status": "active",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Painted Wood Mermaid Boards\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Painted Wood Mermaid Boards"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_026",
-        "status": "active",
-        "function_name": "test_material",
-        "script_info": [
-            "Applying material \"Pickle Green Painted Wood\""
-        ],
-        "scene_name": "Kitchen_set",
-        "viewport_render_delay": 8,
-        "material_name": "Pickle Green Painted Wood"
-    },
-    {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_027",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_010",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -297,7 +110,7 @@
         "material_name": "Rose Beige Cambridge Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_028",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_011",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -308,7 +121,7 @@
         "material_name": "Cambridge Colored Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_029",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_012",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -319,7 +132,7 @@
         "material_name": "Dark Cedar Herringbone Parquet"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_030",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_013",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -330,7 +143,7 @@
         "material_name": "Old Mahogany Chevron"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_031",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_014",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -341,7 +154,7 @@
         "material_name": "Umber Classic Chevron"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_032",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_015",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -352,7 +165,7 @@
         "material_name": "Wheat Classic Chevron"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_033",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_016",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -363,7 +176,7 @@
         "material_name": "Mahogany Chevron Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_034",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_017",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -374,7 +187,7 @@
         "material_name": "Umber Chevron Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_035",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_018",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -385,7 +198,7 @@
         "material_name": "Pale Oak Chevron Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_036",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_019",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -396,7 +209,7 @@
         "material_name": "Buensalido Concrete Wood Floor"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_037",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_020",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -407,7 +220,7 @@
         "material_name": "Crystal Matrix Wooden Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_038",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_021",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -418,7 +231,7 @@
         "material_name": "Diamond Matrix Wooden Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_039",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_022",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -429,7 +242,7 @@
         "material_name": "Mansion Weave Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_040",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_023",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -440,7 +253,7 @@
         "material_name": "Cornwall Oak Wood Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_041",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_024",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -451,7 +264,7 @@
         "material_name": "Cornwall Toned Wood Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_042",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_025",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -462,7 +275,7 @@
         "material_name": "Yale Tinted Wooden Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_043",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_026",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -473,7 +286,7 @@
         "material_name": "Angora Tinted Wooden Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_044",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_027",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -484,7 +297,7 @@
         "material_name": "Old Painted Wood Planks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_045",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_028",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -495,7 +308,7 @@
         "material_name": "Diamond Accent Parquet"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_046",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_029",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -506,7 +319,7 @@
         "material_name": "Blue Beach Hut Painted Wood"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_047",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_030",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -517,7 +330,7 @@
         "material_name": "Solid Natural Wooden Planks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_048",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_031",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -528,7 +341,7 @@
         "material_name": "Yale Blue Ethnic Wooden Floor"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_049",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_032",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -539,7 +352,7 @@
         "material_name": "Yale Blue Geo Wooden Floor"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_050",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_033",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -550,7 +363,7 @@
         "material_name": "Yale Blue Mosaic Wooden Floor"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_051",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_034",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -561,7 +374,7 @@
         "material_name": "La Roche Chateau Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_052",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_035",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -572,7 +385,7 @@
         "material_name": "Diamond Wooden Flooring"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_FLOORING_053",
+        "case": "RS_DESKTOP_LIBRARY_INTERIOR_FLOORING_036",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
