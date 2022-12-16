@@ -222,9 +222,9 @@ class ViewportSteps:
         sleep(1)
         pyautogui.mouseDown(button='right')
         sleep(1)
-        pyautogui.moveRel(-200, 100)
+        pyautogui.moveRel(50, 0)
         sleep(1)
-        pyautogui.mouseUp()
+        pyautogui.mouseUp(button='right')
         sleep(8)
 
     def focus_on_element(driver):
