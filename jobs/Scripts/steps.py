@@ -166,10 +166,12 @@ class LibrarySteps:
 
     def test_material(driver, name, scroll=False, element="sphere"):
         LibrarySteps.select_element(driver, element)
+        ViewportSteps.focus_on_element(driver)
         LibrarySteps.click_library_tab(driver, 1)
         utils.choose_material(name, driver, scroll)
         sleep(3)
         LibrarySteps.click_library_tab(driver, 12)
+        ViewportSteps.move_scene(driver)
 
 class ViewportSteps:
     def click_tab(driver, sec, tab):
@@ -213,6 +215,20 @@ class ViewportSteps:
         sleep(1)
         pyautogui.mouseUp()
         sleep(8)
+
+    def move_scene(driver):
+        # TODO: remove hardcoded coordinate values
+        pyautogui.moveTo(800, 750)
+        sleep(1)
+        pyautogui.mouseDown(button='right')
+        sleep(1)
+        pyautogui.moveRel(-200, 100)
+        sleep(1)
+        pyautogui.mouseUp()
+        sleep(8)
+
+    def focus_on_element(driver):
+        utils.find_by_xpath(ViewportLocators.FOCUS, driver).click()
 
     def select_element(driver, element_name):
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
