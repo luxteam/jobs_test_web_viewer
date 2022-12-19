@@ -1,7 +1,7 @@
 [
     {
         "case": "RS_DESKTOP_VIEWPORT_001",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_001",
         "script_info": ["Wait for scene to load"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -9,7 +9,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_002",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_002",
         "script_info": ["Measure scene loading time"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -17,7 +17,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_003",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_003",
         "script_info": [
             "Opening \"Scene index\" tab",
@@ -28,7 +28,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_004",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_004",
         "script_info": [
             "Opening \"Scene index\" tab",
@@ -39,7 +39,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_005",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_005",
         "script_info": [
             "Opening \"Scene index\" tab",
@@ -51,7 +51,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_006",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_006",
         "script_info": [
             "Opening \"Scene index\" tab",
@@ -62,7 +62,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_007",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_007",
         "script_info": [
             "Opening \"Scene index\" tab",
@@ -73,7 +73,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_008",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_008",
         "script_info": [
             "Opening \"Scene index\" tab",
@@ -84,7 +84,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_009",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_009",
         "script_info": [
             "Opening \"Scene index\" tab",
@@ -95,7 +95,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_010",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_010",
         "script_info": [
             "Opening \"Scene index\" tab",
@@ -107,7 +107,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_014",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_014",
         "script_info": [
             "Click \"Timeline\" button"
@@ -117,7 +117,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_015",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_015",
         "script_info": [
             "Click \"Timeline\" button",
@@ -128,7 +128,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_016",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_016",
         "script_info": [
             "Click \"Comments\" button"
@@ -138,7 +138,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_017",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_017",
         "script_info": [
             "Click \"Comments\" button",
@@ -149,7 +149,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_018",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_018",
         "script_info": [
             "Click \"Settings\" button"
@@ -159,7 +159,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_019",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_019",
         "script_info": [
             "Click Scene menu button in top left corner"
@@ -169,7 +169,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_020",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_020",
         "script_info": [
             "Click Scene menu button in top left corner",
@@ -179,9 +179,9 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "RS_DESKTOP_VIEWPORT_029",
-        "status": "active",
-        "function_name": "test_029",
+        "case": "RS_DESKTOP_VIEWPORT_027",
+        "status": "skipped",
+        "function_name": "test_027",
         "script_info": [
             "Valid AMD Render Studio versions",
             "Do not compare"
@@ -190,13 +190,53 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "RS_DESKTOP_VIEWPORT_030",
-        "status": "active",
-        "function_name": "test_030",
+        "case": "RS_DESKTOP_VIEWPORT_028",
+        "status": "skipped",
+        "function_name": "test_028",
         "script_info": [
             "Testing bounding box for small objects"
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_VIEWPORT_044",
+        "status": "skipped",
+        "function_name": "test_044",
+        "script_info": [
+            "Testing Home button"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_VIEWPORT_045",
+        "status": "skipped",
+        "function_name": "test_045",
+        "script_info": [
+            "Opening another scene via Home button"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_VIEWPORT_046",
+        "status": "active",
+        "function_name": "test_046",
+        "script_info": [
+            "Testing Share button on Kitchen_set"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_VIEWPORT_047",
+        "status": "active",
+        "function_name": "test_046",
+        "script_info": [
+            "Testing Share button on Bistro scene"
+        ],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
         "viewport_render_delay": 8
     }
 ]
