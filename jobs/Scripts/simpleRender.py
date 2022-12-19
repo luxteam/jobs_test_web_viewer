@@ -224,7 +224,10 @@ def execute_tests(args, current_conf):
                 render_time = 0.0
  
                 if "scene_path" in case or "scene_name" in case:
-                    load_scene_time = utils.load_scene(args, case, driver)
+                    if "max_load_time" in case:
+                        load_scene_time = utils.load_scene(args, case, driver, max_load_time=case["max_load_time"])
+                    else:
+                        load_scene_time = utils.load_scene(args, case, driver)
 
                 try:
                     result = getattr(group_module, case["function_name"])(args, case, driver, current_try)
