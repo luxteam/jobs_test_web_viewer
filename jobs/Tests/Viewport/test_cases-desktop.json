@@ -200,9 +200,9 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "RS_DESKTOP_VIEWPORT_044",
+        "case": "RS_DESKTOP_VIEWPORT_029",
         "status": "active",
-        "function_name": "test_044",
+        "function_name": "test_029",
         "script_info": [
             "Testing Home button"
         ],
@@ -210,9 +210,9 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "RS_DESKTOP_VIEWPORT_045",
+        "case": "RS_DESKTOP_VIEWPORT_030",
         "status": "active",
-        "function_name": "test_045",
+        "function_name": "test_030",
         "script_info": [
             "Opening another scene via Home button"
         ],
@@ -220,9 +220,9 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "RS_DESKTOP_VIEWPORT_046",
+        "case": "RS_DESKTOP_VIEWPORT_031",
         "status": "active",
-        "function_name": "test_046",
+        "function_name": "test_031",
         "script_info": [
             "Testing Share button on Kitchen_set"
         ],
@@ -230,9 +230,9 @@
         "viewport_render_delay": 8
     },
     {
-        "case": "RS_DESKTOP_VIEWPORT_047",
+        "case": "RS_DESKTOP_VIEWPORT_032",
         "status": "active",
-        "function_name": "test_046",
+        "function_name": "test_031",
         "script_info": [
             "Testing Share button on Bistro scene"
         ],

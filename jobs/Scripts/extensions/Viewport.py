@@ -165,14 +165,14 @@ def test_028(args, case, driver, current_try):
     sleep(8)
 
 
-def test_044(args, case, driver, current_try):
+def test_029(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'menu')
     CommonSteps.select_menu_item(driver, 'Home')
     ViewportSteps.project_view(driver)
     sleep(8)
 
 
-def test_045(args, case, driver, current_try):
+def test_030(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'menu')
     CommonSteps.select_menu_item(driver, 'Home')
     ViewportSteps.project_view(driver)
@@ -181,7 +181,7 @@ def test_045(args, case, driver, current_try):
     sleep(8)
 
 
-def test_046(args, case, driver, current_try):
+def test_031(args, case, driver, current_try):
     ViewportSteps.test_share_button(driver)
     sleep(30)
     assert CommonSteps.element_exists(driver, ViewportLocators.QR_CODE)

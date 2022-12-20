@@ -258,6 +258,7 @@ class ViewportSteps:
         utils.find_by_xpath(ViewportLocators.HAS_MENU, driver, True)[1].click()
         sleep(1)
         utils.find_by_xpath(ViewportLocators.REQUEST_LINK, driver).click()
+        #pyautogui.click(970, 170)
 
 class PropertiesSteps:
     def select_object(driver):
