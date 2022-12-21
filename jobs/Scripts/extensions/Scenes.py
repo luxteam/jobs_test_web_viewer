@@ -296,32 +296,38 @@ def test_041(args, case, driver, current_try):
     rotate_simple_scene(driver)
 
 def test_042(args, case, driver, current_try):
+    rotate_simple_scene(driver)
     FinalRenderSteps.open_final_render(driver)
     return FinalRenderSteps.start_render(driver)
 
 def test_043(args, case, driver, current_try):
+    rotate_simple_scene(driver)
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_format_to_png(driver)
     return FinalRenderSteps.start_render(driver)
 
 def test_044(args, case, driver, current_try):
+    rotate_simple_scene(driver)
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
     return FinalRenderSteps.start_render(driver)
 
 def test_045(args, case, driver, current_try):
+    rotate_simple_scene(driver)
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_format_to_png(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
     return FinalRenderSteps.start_render(driver)
 
 def test_046(args, case, driver, current_try):
+    rotate_simple_scene(driver)
     FinalRenderSteps.open_final_render(driver)
     render_time = FinalRenderSteps.start_render(driver)
     FinalRenderSteps.return_to_viewport(driver)
     return render_time
 
 def test_047(args, case, driver, current_try):
+    rotate_simple_scene(driver)
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_resolution(driver, "3840", "2160")
     render_time = FinalRenderSteps.start_render(driver)
@@ -329,6 +335,7 @@ def test_047(args, case, driver, current_try):
     return render_time
 
 def test_048(args, case, driver, current_try):
+    rotate_simple_scene(driver)
     FinalRenderSteps.open_final_render(driver)
     FinalRenderSteps.set_samples(driver, "100")
     return FinalRenderSteps.start_render(driver)

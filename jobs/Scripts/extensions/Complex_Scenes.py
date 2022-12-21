@@ -83,7 +83,7 @@ def test_011(args, case, driver, current_try):
 
     # apply material
     pyautogui.moveTo(820, 760) # Gold material coordinates (second in list)
-    pyautogui.dragTo(805, 420, 2, button='left') # Object coordinates
+    pyautogui.dragTo(810, 420, 2, button='left') # Object coordinates
     sleep(2)
     LibrarySteps.click_library_tab(driver, 30)
 
@@ -111,21 +111,19 @@ def test_013(args, case, driver, current_try):
 
 
 def rotate_scene(driver):
-    pyautogui.moveTo(800, 750)
+    pyautogui.moveTo(1000, 300)
     sleep(0.5)
-    pyautogui.mouseDown()
+    pyautogui.dragTo(500, 450, 1, button="left")
     sleep(0.5)
-    pyautogui.moveRel(450, 50)
-    sleep(0.5)
-    pyautogui.mouseUp()
 
-    for i in range(2):
-        pyautogui.moveTo(1600, 900)
+    for i in range(4):
+        pyautogui.moveTo(200, 900)
         sleep(0.5)
-        pyautogui.mouseDown(button="right")
+        pyautogui.dragTo(875, 525, 1, button="right")
         sleep(0.5)
-        pyautogui.moveTo(450, 300)
-        sleep(0.5)
-        pyautogui.mouseUp(button="right")
+
+    # zoom scene
+    for i in range(30):
+        pyautogui.scroll(1000)
 
     sleep(30)
