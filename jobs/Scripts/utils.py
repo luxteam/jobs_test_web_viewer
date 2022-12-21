@@ -275,8 +275,6 @@ def find_by_tag(tag_name, driver, many=False, wait=10):
 
 def load_scene(args, case, driver):
     if args.mode == "desktop":
-        case_logger.info(ViewportLocators.get_recently_viewed_item_locator(case["scene_path"]))
-        find_by_xpath(ViewportLocators.get_recently_viewed_item_locator(case["scene_path"]), driver=driver).click()
         try:
             # try to find scene in recently viewed items
             find_by_xpath(ViewportLocators.get_recently_viewed_item_locator(case["scene_path"]), driver=driver).click()
