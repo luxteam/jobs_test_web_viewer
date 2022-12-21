@@ -35,6 +35,8 @@ pyautogui.FAILSAFE = False
 case_logger = None
 # Streamer process (only for desktop version)
 streamer_process = None
+# Storage server process (only for desktop version)
+storage_server_process = None
 
 
 def close_process(process):
@@ -99,14 +101,19 @@ def pre_action(case, mode):
 def driver_desktop():
     install_chromedriver("desktop")
 
-    global streamer_process
-    streamer_process = Popen(["C:\\Program Files\\AMD\\AMD RenderStudio\\services\\WebUsdStreamServer\\Run.bat", "--webrtc-port", "10000", "--rest-port", "10001"], creationflags=CREATE_NEW_CONSOLE)
+    global streamer_process, storage_server_process
+    storage_server_process = Popen(["C:\\Program Files\\AMD\\AMD RenderStudio\\services\\WebUsdStorageServer\\WebUsdStorageServer.exe", "--port", "11000", "--local-mode",
+        "--db-uri", "sqlite+aiosqlite:///C:\\Users\\user\\AppData\\Roaming\\AMDRenderStudio\\WebUsdStorageServer\\storage.db",
+        "--storage-dir", "C:\\Users\\user\\AppData\\Roaming\\AMDRenderStudio\\WebUsdStorageServer\\.storage",
+        "--storage-preset-dir", "C:\\Program Files\\AMD\\AMD RenderStudio\\services\\WebUsdStorageServer\\storage-preset"], creationflags=CREATE_NEW_CONSOLE)
+    streamer_process = Popen(["C:\\Program Files\\AMD\\AMD RenderStudio\\services\\WebUsdStreamServer\\Run.bat", "--webrtc-port", "10000", "--rest-port", "10001", "--storage-service-url", "http://localhost:11000"], creationflags=CREATE_NEW_CONSOLE)
     time.sleep(2)
 
     options = webdriver.ChromeOptions()
     options.binary_location = "C:\\Program Files\\AMD\\AMD RenderStudio\\AMD RenderStudio.exe"
     options.add_argument("--url-streamer=ws://localhost:10000")
     options.add_argument("--url-rest-streamer=http://localhost:10001")
+    options.add_argument("--url-storage=http://localhost:11000")
     driver = webdriver.Chrome('..\\driver\\chromedriver.exe', options=options)
     time.sleep(1)
     driver.switch_to.window(driver.window_handles[0])
@@ -177,8 +184,8 @@ def install_chromedriver(mode):
 def post_action(case, mode, driver):
     try:
         if mode == "desktop":   
-
             close_process(streamer_process)
+            close_process(storage_server_process)
 
         if driver:
             driver.close()
@@ -268,11 +275,19 @@ def find_by_tag(tag_name, driver, many=False, wait=10):
 
 def load_scene(args, case, driver):
     if args.mode == "desktop":
-        find_by_class("p-2", driver=driver).click()
-        time.sleep(1)
-        scene_path = os.path.join(args.res_path, case["scene_path"])
-        pyautogui.typewrite(scene_path)
-        pyautogui.press("enter")
+        case_logger.info(ViewportLocators.get_recently_viewed_item_locator(case["scene_path"]))
+        find_by_xpath(ViewportLocators.get_recently_viewed_item_locator(case["scene_path"]), driver=driver).click()
+        try:
+            # try to find scene in recently viewed items
+            find_by_xpath(ViewportLocators.get_recently_viewed_item_locator(case["scene_path"]), driver=driver).click()
+            time.sleep(1)
+        except:
+            # else open new scene through files browser
+            find_by_class("p-2", driver=driver).click()
+            time.sleep(1)
+            scene_path = os.path.join(args.res_path, case["scene_path"])
+            pyautogui.typewrite(scene_path)
+            pyautogui.press("enter")
     else:
         scene_name = case['scene_name']
         find_by_xpath(f"//div[ @class = 'project-card-text' ]//div[ text() = '{scene_name}' ]", driver=driver).click()
