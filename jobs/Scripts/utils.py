@@ -355,7 +355,7 @@ def choose_material(material_name, driver, scroll = False, click = True):
         material_cards = find_by_xpath(LibraryLocators.MATERIAL_CARDS, driver, True)
 
         for card in material_cards:
-            found_name = card.find_element(By.TAG_NAME, "h2").text
+            found_name = card.find_element(By.XPATH, LibraryLocators.MATERIAL_TITLE).text
 
             if found_name == material_name:
                 if click:

@@ -68,6 +68,7 @@ class LibraryLocators(object):
     SEARCH_MATERIAL_CARD = '//div[ @class="material-card" ]//h2'
     SEARCH_MATERIAL = '//input[ @placeholder="Search" ]'
     MATERIAL_CARD = '//div[ @class="material-card" ]'
+    MATERIAL_TITLE = './/div[ @class="material-title" ]'
 
 class PropertiesLocators(object):
     MOVE = '//div[@class="expand-button-container"]//h3[text()[contains(., "Move")]]'
