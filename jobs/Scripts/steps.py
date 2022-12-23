@@ -134,7 +134,7 @@ class LibrarySteps:
         time.sleep(2)
         search.send_keys(name)
         sleep(6)
-        materials = utils.find_by_xpath(LibraryLocators.SEARCH_MATERIAL_CARD, driver, True)
+        materials = utils.find_by_xpath(LibraryLocators.MATERIAL_CARDS, driver, True)
         utils.case_logger.info("Materials: {}".format(materials))
         return materials
 
