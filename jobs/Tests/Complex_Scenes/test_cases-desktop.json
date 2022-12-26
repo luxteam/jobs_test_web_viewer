@@ -37,7 +37,7 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_005",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_005",
         "script_info": ["Bistro scene Max resolution final render JPEG"],
         "scene_path": "Bistro\\BistroInrteriorsimple.usda",
@@ -46,7 +46,7 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_006",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_006",
         "script_info": ["Bistro scene Max resolution final render PNG"],
         "scene_path": "Bistro\\BistroInrteriorsimple.usda",
@@ -64,7 +64,7 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_008",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_008",
         "script_info": ["Bistro scene is rendered after max resolution final render"],
         "scene_path": "Bistro\\BistroInrteriorsimple.usda",
