@@ -155,7 +155,7 @@
     },
     {
         "case": "RS_DESKTOP_LIBRARY_METAL_015",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_material",
         "script_info": [
             "Applying material \"Iron Hammered\""

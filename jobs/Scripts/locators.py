@@ -30,6 +30,10 @@ class ViewportLocators(object):
     def expand_node(name):
         return '//div[contains(text(), "' + name +'")]/..//div[ contains(@class, "scene-index-prim-button-expand-container") ]'
 
+    def get_recently_viewed_item_locator(scene_path):
+        scene_name = scene_path.replace("\\", "/").split("/")[-1].rsplit(".", 1)[0]
+        return f'//div[ @class = "project-card-title" and text() = "{scene_name}" ]'
+
 class SettingsLocators(object):
     MOVE_INPUT = '//h4[text()[contains(., "Move")]]/../..//input'
     MOVE_LEFT = '(//h4[text()[contains(., "Move")]]/../..//button)[1]'
@@ -71,6 +75,7 @@ class LibraryLocators(object):
     SEARCH_MATERIAL_CARD = '//div[ @class="material-card" ]//h2'
     SEARCH_MATERIAL = '//input[ @placeholder="Search" ]'
     MATERIAL_CARD = '//div[ @class="material-card" ]'
+    MATERIAL_TITLE = './/div[ @class="material-title" ]'
 
 class PropertiesLocators(object):
     MOVE = '//div[@class="expand-button-container"]//h3[text()[contains(., "Move")]]'
