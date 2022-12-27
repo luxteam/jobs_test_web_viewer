@@ -273,7 +273,7 @@ def find_by_tag(tag_name, driver, many=False, wait=10):
             return []
 
 
-def load_scene(args, case, driver):
+def load_scene(args, case, driver, max_load_time=60):
     if args.mode == "desktop":
         try:
             # try to find scene in recently viewed items
@@ -293,7 +293,7 @@ def load_scene(args, case, driver):
     start_time = time.time()
     loading_element = find_by_xpath("//div[ text() = 'Loading' ]", driver)
 
-    for i in range(60):
+    for i in range(max_load_time):
         case_logger.info(loading_element)
 
         loading_element= find_by_xpath("//div[ text() = 'Loading' ]", driver, False, 0)

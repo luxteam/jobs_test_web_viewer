@@ -1,0 +1,127 @@
+[
+    {
+        "case": "ARS_DESKTOP_SCENES_001",
+        "status": "active",
+        "function_name": "test_001",
+        "script_info": ["Open Bistro scene"],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_002",
+        "status": "active",
+        "function_name": "test_002",
+        "script_info": ["Bistro scene rotation"],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_003",
+        "status": "active",
+        "function_name": "test_003",
+        "script_info": ["Bistro scene Final render default JPEG"],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_004",
+        "status": "active",
+        "function_name": "test_004",
+        "script_info": ["Bistro scene Final render PNG"],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_005",
+        "status": "skipped",
+        "function_name": "test_005",
+        "script_info": ["Bistro scene Max resolution final render JPEG"],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_006",
+        "status": "skipped",
+        "function_name": "test_006",
+        "script_info": ["Bistro scene Max resolution final render PNG"],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_007",
+        "status": "active",
+        "function_name": "test_007",
+        "script_info": ["Bistro scene is rendered after default resolution final render"],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_008",
+        "status": "skipped",
+        "function_name": "test_008",
+        "script_info": ["Bistro scene is rendered after max resolution final render"],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_009",
+        "status": "active",
+        "function_name": "test_009",
+        "script_info": ["Bistro scene 100 samples default final render"],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_010",
+        "status": "active",
+        "function_name": "test_010",
+        "script_info": [
+            "Bistro scene, applying material to an object by mouse click"
+        ],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_011",
+        "status": "active",
+        "function_name": "test_011",
+        "script_info": [
+            "Bistro scene, applying material to an object by drag'n'drop"
+        ],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_012",
+        "status": "active",
+        "function_name": "test_012",
+        "script_info": [
+            "Bistro scene, reapplying material to an object"
+        ],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_013",
+        "status": "active",
+        "function_name": "test_013",
+        "script_info": [
+            "Bistro scene, changing object's properties"
+        ],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
+        "viewport_render_delay": 30,
+        "max_load_time": 120
+    }
+]
