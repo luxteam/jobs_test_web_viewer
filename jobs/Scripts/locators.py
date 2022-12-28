@@ -86,3 +86,16 @@ class PropertiesLocators(object):
         elif index == "scale":
             i = "3"
         return ['(//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//input', '((//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//button)[1]', '((//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//button)[2]']
+
+class AnimationLocators(object):
+    TIMELINE_BUTTON = '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[2]/button'
+    CURRENT_FRAME = '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[3]/div[1]/div[3]/div[2]/div[2]/input'
+    START_FRAME = '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[3]/div[2]/div[3]/div[2]/div[2]/input'
+    END_FRAME = '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[3]/div[3]/div[3]/div[2]/div[2]/input'
+    FOCUS = '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[3]/button'
+    CURRENT_DEC = '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[3]/div[1]/div[3]/div[2]/div[1]/button'
+    CURRENT_INC = '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[3]/div[1]/div[3]/div[2]/div[3]/button'
+    START_DEC = '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[3]/div[2]/div[3]/div[2]/div[1]/button'
+    START_INC = '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[3]/div[2]/div[3]/div[2]/div[3]/button'
+    END_DEC = '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[3]/div[3]/div[3]/div[2]/div[1]/button'
+    END_INC = '//*[@id="app"]/div[1]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[3]/div[3]/div[3]/div[2]/div[3]/button'
