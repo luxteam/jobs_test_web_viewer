@@ -184,4 +184,3 @@ def test_030(args, case, driver, current_try):
 def test_031(args, case, driver, current_try):
     ViewportSteps.test_share_button(driver)
     sleep(30)
-    assert CommonSteps.element_exists(driver, ViewportLocators.QR_CODE)
