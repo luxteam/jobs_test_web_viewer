@@ -407,6 +407,149 @@
         ],
         "scene_name": "W7800",
         "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_040",
+        "status": "skipped",
+        "function_name": "test_040",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Open Simple scene"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_041",
+        "status": "skipped",
+        "function_name": "test_041",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Simple scene rotation"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_042",
+        "status": "skipped",
+        "function_name": "test_042",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Simple scene Final render default JPEG"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_043",
+        "status": "skipped",
+        "function_name": "test_043",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Simple scene Final render PNG"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_044",
+        "status": "skipped",
+        "function_name": "test_044",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Simple scene Max resolution final render JPEG"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_045",
+        "status": "skipped",
+        "function_name": "test_045",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Simple scene Max resolution final render PNG"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_046",
+        "status": "skipped",
+        "function_name": "test_046",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Simple scene is rendered after default resolution final render"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_047",
+        "status": "skipped",
+        "function_name": "test_047",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Simple scene is rendered after max resolution final render"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_048",
+        "status": "skipped",
+        "function_name": "test_048",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Simple scene 100 samples default final render"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_049",
+        "status": "skipped",
+        "function_name": "test_049",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Simple scene, applying material to an object by mouse click"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_050",
+        "status": "skipped",
+        "function_name": "test_050",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Simple scene, applying material to an object by drag'n'drop"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_051",
+        "status": "skipped",
+        "function_name": "test_051",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Simple scene, reapplying material to an object"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_WEB_SCENES_052",
+        "status": "skipped",
+        "function_name": "test_052",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-284",
+            "Simple scene, changing object's properties"
+        ],
+        "scene_name": "Simple",
+        "viewport_render_delay": 8
     }
 ]
 
