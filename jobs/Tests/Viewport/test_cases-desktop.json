@@ -221,7 +221,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_046",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_046",
         "script_info": [
             "Testing Share button on Kitchen_set"
@@ -231,7 +231,7 @@
     },
     {
         "case": "RS_DESKTOP_VIEWPORT_047",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_046",
         "script_info": [
             "Testing Share button on Bistro scene"
