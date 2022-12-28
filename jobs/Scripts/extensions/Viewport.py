@@ -151,11 +151,11 @@ def test_027(args, case, driver, current_try):
             # There are two possible formats
             # Example: Version: 0.1.12. Branch: develop. Build: #87. Hash: b996aaa
             # Example: Version: 0.1.12. PR: #100. Build: #87. Hash: b996aaa
-            if len(re.findall(r"^Version: \d+\.\d+\.\d+\. Branch: .*\. Build: #\d+\. Hash: [a-z0-9]{7}$", actual_service_row)) == 0:
-                assert len(re.findall(r"^Version: \d+\.\d+\.\d+\. PR: #.*\. Build: #\d+\. Hash: [a-z0-9]{7}$", actual_service_row)) == 1, f"Service {actual_service_row} has invalid version line"
+            if len(re.findall(r"^Version: \d+\.\d+\.\d+\. Branch: .*\. Build: #\d+\. Hash: [a-z0-9]{7,8}$", actual_service_row)) == 0:
+                assert len(re.findall(r"^Version: \d+\.\d+\.\d+\. PR: #.*\. Build: #\d+\. Hash: [a-z0-9]{7,8}$", actual_service_row)) == 1, f"Service {actual_service_row} has invalid version line"
         else:
             # Example: Version: 0.30.0. Hash: a10c8f9
-            assert len(re.findall(r"^Version: \d+\.\d+\.\d+\. Hash: [a-z0-9]{7}$", actual_service_row)) == 1, f"Row with versions {actual_service_row} is invalid"
+            assert len(re.findall(r"^Version: \d+\.\d+\.\d+\. Hash: [a-z0-9]{7,8}$", actual_service_row)) == 1, f"Row with versions {actual_service_row} is invalid"
 
 
 def test_028(args, case, driver, current_try):
