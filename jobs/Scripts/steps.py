@@ -164,11 +164,11 @@ class LibrarySteps:
         utils.case_logger.info("Materials sorted: {}".format(materials_sorted))
         assert materials_sorted == materials_text, "Materials are displayed in the wrong order"
 
-    def test_material(driver, name, scroll=False, element="sphere"):
+    def test_material(driver, name, exact_title_match=False, element="sphere"):
         LibrarySteps.select_element(driver, element)
         ViewportSteps.focus_on_element(driver)
         LibrarySteps.click_library_tab(driver, 1)
-        utils.choose_material(name, driver, scroll)
+        utils.choose_material(name, driver, exact_title_match)
         sleep(3)
         LibrarySteps.click_library_tab(driver, 12)
         ViewportSteps.move_scene(driver)

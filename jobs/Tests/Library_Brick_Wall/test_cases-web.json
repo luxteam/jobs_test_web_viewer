@@ -64,7 +64,7 @@
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "TH: Brick Wall",
-        "scroll": true
+        "exact_title_match": true
     },
     {
         "case": "RS_DESKTOP_LIBRARY_BRICK_WALL_007",
