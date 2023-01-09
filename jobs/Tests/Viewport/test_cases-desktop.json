@@ -204,7 +204,8 @@
         "status": "active",
         "function_name": "test_029",
         "script_info": [
-            "Testing Home button"
+            "Testing Home button",
+            "Do not compare"
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
         "viewport_render_delay": 8

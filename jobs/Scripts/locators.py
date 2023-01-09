@@ -23,6 +23,7 @@ class ViewportLocators(object):
     HAS_MENU = '//div[ contains(@class, "has-menu") ]'
     REQUEST_LINK = '//*[ text()[contains(., "Request link")] ]'
     QR_CODE = '//div[ contains(@class, "qr-code-container") ]'
+    DROP_FILE = '//div[ contains(@class, "p-2") ]'
 
     def file_menu(element):
         return f'//button[ contains(@class, "menu-item") and text()[contains(., "{element}")] ]'
