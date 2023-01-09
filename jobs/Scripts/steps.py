@@ -174,7 +174,7 @@ class LibrarySteps:
         ViewportSteps.move_scene(driver)
 
 class ViewportSteps:
-    def click_tab(driver, sec, tab):
+    def click_tab(driver, delay, tab):
         if tab == 'scene index':
             utils.find_by_xpath(ViewportLocators.SCENE_INDEX_TAB, driver).click()
         elif tab == 'timeline':
@@ -185,7 +185,7 @@ class ViewportSteps:
             utils.find_by_xpath(ViewportLocators.SETTINGS_WINDOW, driver).click()
         elif tab == 'menu':
             utils.find_by_xpath(ViewportLocators.SCENE_MENU, driver).click()
-        sleep(sec)
+        sleep(delay)
 
     def search_scene_element(driver, text):
         search = utils.find_by_xpath(ViewportLocators.SCENE_SEARCH, driver)
@@ -319,7 +319,7 @@ class PropertiesSteps:
 
 
 class AnimationSteps:
-    def click_timeline_button(driver, button, sec):
+    def click_timeline_button(driver, button, delay=0):
         if button == 'first_frame':
             utils.find_by_xpath(AnimationLocators.TIMELINE_BUTTON + '[1]', driver).click()
         elif button == 'play':
@@ -328,7 +328,7 @@ class AnimationSteps:
             utils.find_by_xpath(AnimationLocators.TIMELINE_BUTTON + '[3]', driver).click()
         elif button == 'focus':
             utils.find_by_xpath(AnimationLocators.FOCUS, driver).click()
-        sleep(sec)
+        sleep(delay)
         
     def set_frame(driver, field, value):
         if field == 'current':
