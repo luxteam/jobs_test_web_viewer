@@ -19,6 +19,14 @@ class ViewportLocators(object):
     VERSIONS_WINDOW = '//div[ @class = "card-sectioned-text-container" ]'
     VERSION_SERVICE_NAMES = f'//div[ @class = "font-bold" ]'
     VERSION_ROWS = f'//div[ @class = "version-text" ]'
+    PROJECT_VIEW = '//div[ contains(@class, "button-content") ]//*[ text()="Open project view" ]'
+    HAS_MENU = '//div[ contains(@class, "has-menu") ]'
+    REQUEST_LINK = '//*[ text()[contains(., "Request link")] ]'
+    QR_CODE = '//div[ contains(@class, "qr-code-container") ]'
+    DROP_FILE = '//div[ contains(@class, "p-2") ]'
+
+    def file_menu(element):
+        return f'//button[ contains(@class, "menu-item") and text()[contains(., "{element}")] ]'
     
     def expand_node(name):
         return '//div[contains(text(), "' + name +'")]/..//div[ contains(@class, "scene-index-prim-button-expand-container") ]'

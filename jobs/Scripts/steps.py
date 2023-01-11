@@ -20,6 +20,14 @@ class CommonSteps:
     def element_exists(driver, locator):
         return utils.find_by_xpath(locator, driver).is_displayed()
 
+    def select_menu_item(driver, element):
+        elements = ['Home', 'Open', 'Recent', 'Save', 'Save As ...', 'Delete', 'Versions']
+        if element not in elements:
+            raise Exception("Unknown menu element")
+        else:
+            utils.find_by_xpath(ViewportLocators.file_menu(element), driver).click()
+            sleep(1)
+
 class FinalRenderSteps:
     def open_final_render(driver):
         utils.find_by_xpath(ViewportLocators.FINAL_RENDER, driver).click()
@@ -41,10 +49,6 @@ class FinalRenderSteps:
         utils.find_by_xpath(FinalRenderLocators.HEIGHT, driver).send_keys(height)
         sleep(0.5)
 
-    def return_to_viewport(driver):
-        utils.find_by_xpath(FinalRenderLocators.BACK_BUTTON, driver).click()
-        sleep(5)
-
     def set_samples(driver, samples):
         utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(Keys.CONTROL + "a")
         utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(samples)
@@ -62,12 +66,12 @@ class FinalRenderSteps:
 
         return FinalRenderSteps.get_render_time(driver)
 
-    def return_to_viewport(driver):
+    def return_to_viewport(driver, delay=5):
         utils.find_by_xpath(FinalRenderLocators.BACK_BUTTON, driver).click()
         sleep(10)
         pyautogui.moveTo(500,700)
         pyautogui.dragTo(600, 700, 1, button='left')
-        sleep(5)
+        sleep(delay)
 
     def check_progress_bar(driver):
         utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
@@ -164,11 +168,11 @@ class LibrarySteps:
         utils.case_logger.info("Materials sorted: {}".format(materials_sorted))
         assert materials_sorted == materials_text, "Materials are displayed in the wrong order"
 
-    def test_material(driver, name, scroll=False, element="sphere"):
+    def test_material(driver, name, exact_title_match=False, element="sphere"):
         LibrarySteps.select_element(driver, element)
         ViewportSteps.focus_on_element(driver)
         LibrarySteps.click_library_tab(driver, 1)
-        utils.choose_material(name, driver, scroll)
+        utils.choose_material(name, driver, exact_title_match)
         sleep(3)
         LibrarySteps.click_library_tab(driver, 12)
         ViewportSteps.move_scene(driver)
@@ -243,6 +247,14 @@ class ViewportSteps:
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
         sleep(1)
 
+    def project_view(driver):
+        utils.find_by_xpath(ViewportLocators.PROJECT_VIEW, driver).click()
+
+    def test_share_button(driver):
+        utils.find_by_xpath(ViewportLocators.HAS_MENU, driver, True)[1].click()
+        sleep(1)
+        utils.find_by_xpath(ViewportLocators.REQUEST_LINK, driver).click()
+        #pyautogui.click(970, 170)
 
 class PropertiesSteps:
     def select_object(driver):

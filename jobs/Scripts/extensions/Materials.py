@@ -10,7 +10,7 @@ import utils
 
 
 def test_material(args, case, driver, current_try):
-    if 'scroll' in case:
-        LibrarySteps.test_material(driver, case["material_name"], scroll=case["scroll"])
+    if 'exact_title_match' in case:
+        LibrarySteps.test_material(driver, case["material_name"], exact_title_match=case["exact_title_match"])
     else:
-        LibrarySteps.test_material(driver, case["material_name"], scroll=False)
+        LibrarySteps.test_material(driver, case["material_name"], exact_title_match=False)

@@ -174,7 +174,7 @@
         "scene_name": "Kitchen_set",
         "viewport_render_delay": 8,
         "material_name": "Marble Tiles",
-        "scroll": true
+        "exact_title_match": true
     },
     {
         "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_017",

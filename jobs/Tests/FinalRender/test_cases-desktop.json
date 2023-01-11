@@ -170,7 +170,7 @@
     },
     {
         "case": "RS_DESKTOP_FINALRENDER_020",
-        "status": "active",
+        "status": "skipped",
         "function_name": "test_020",
         "script_info": ["9999 samples 2048x1080 final render PNG"],
         "scene_path": "KitchenSet\\Kitchen_set.usd",

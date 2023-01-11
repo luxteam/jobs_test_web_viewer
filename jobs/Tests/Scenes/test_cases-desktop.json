@@ -73,7 +73,7 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_010",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_010",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-181",
@@ -94,7 +94,7 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_012",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_012",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-181",
@@ -105,7 +105,7 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_013",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_013",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-181",
@@ -218,7 +218,7 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_026",
-        "status": "observed",
+        "status": "active",
         "function_name": "test_026",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-276",
@@ -301,7 +301,7 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_036",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_036",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-181",
@@ -322,7 +322,7 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_038",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_038",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-181",
@@ -333,13 +333,128 @@
     },
     {
         "case": "ARS_DESKTOP_SCENES_039",
-        "status": "skipped",
+        "status": "active",
         "function_name": "test_039",
         "script_info": [
             "https://amdrender.atlassian.net/browse/RS-181",
             "W7800 scene, changing object's properties"
         ],
         "scene_path": "W7800\\W7800_Update_Version.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_040",
+        "status": "active",
+        "function_name": "test_040",
+        "script_info": ["Open Simple scene"],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_041",
+        "status": "active",
+        "function_name": "test_041",
+        "script_info": ["Simple scene rotation"],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_042",
+        "status": "active",
+        "function_name": "test_042",
+        "script_info": ["Simple scene Final render default JPEG"],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_043",
+        "status": "active",
+        "function_name": "test_043",
+        "script_info": ["Simple scene Final render PNG"],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_044",
+        "status": "skipped",
+        "function_name": "test_044",
+        "script_info": ["Simple scene Max resolution final render JPEG"],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_045",
+        "status": "skipped",
+        "function_name": "test_045",
+        "script_info": ["Simple scene Max resolution final render PNG"],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_046",
+        "status": "active",
+        "function_name": "test_046",
+        "script_info": ["Simple scene is rendered after default resolution final render"],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_047",
+        "status": "skipped",
+        "function_name": "test_047",
+        "script_info": ["Simple scene is rendered after max resolution final render"],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_048",
+        "status": "active",
+        "function_name": "test_048",
+        "script_info": ["Simple scene 100 samples default final render"],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_049",
+        "status": "active",
+        "function_name": "test_049",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-181",
+            "Simple scene, applying material to an object by mouse click"
+        ],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_050",
+        "status": "active",
+        "function_name": "test_050",
+        "script_info": [
+            "Simple scene, applying material to an object by drag'n'drop"
+        ],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_051",
+        "status": "active",
+        "function_name": "test_051",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-181",
+            "Simple scene, reapplying material to an object"
+        ],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "ARS_DESKTOP_SCENES_052",
+        "status": "active",
+        "function_name": "test_052",
+        "script_info": [
+            "https://amdrender.atlassian.net/browse/RS-181",
+            "Simple scene, changing object's properties"
+        ],
+        "scene_path": "Simple\\SimpleSceneT6.usda",
         "viewport_render_delay": 8
     }
 ]
