@@ -1,6 +1,6 @@
 [
     {
-        "case": "RS_DESKTOP_LIBRARY_SCIFI_001",
+        "case": "RS_WEB_LIBRARY_SCIFI_001",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -11,7 +11,7 @@
         "material_name": "Aluminum Hexagon"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_SCIFI_002",
+        "case": "RS_WEB_LIBRARY_SCIFI_002",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -22,7 +22,7 @@
         "material_name": "Chains"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_SCIFI_003",
+        "case": "RS_WEB_LIBRARY_SCIFI_003",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -33,7 +33,7 @@
         "material_name": "Perforated Metal"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_SCIFI_004",
+        "case": "RS_WEB_LIBRARY_SCIFI_004",
         "status": "active",
         "function_name": "test_material",
         "script_info": [

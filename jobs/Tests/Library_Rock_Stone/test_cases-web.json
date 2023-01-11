@@ -1,6 +1,6 @@
 [
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_001",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_001",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -11,7 +11,7 @@
         "material_name": "Sandstone"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_002",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_002",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -22,7 +22,7 @@
         "material_name": "TH: Aerial Moss Rock"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_003",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_003",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -33,7 +33,7 @@
         "material_name": "TH: Aerial Mountain Rocks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_004",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_004",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -44,7 +44,7 @@
         "material_name": "TH: Aerial Rocks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_005",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_005",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -55,7 +55,7 @@
         "material_name": "TH: Mossy Rock"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_006",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_006",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -66,7 +66,7 @@
         "material_name": "TH: Smooth Stone"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_007",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_007",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -77,7 +77,7 @@
         "material_name": "TH: Ligth Rock"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_008",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_008",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -88,7 +88,7 @@
         "material_name": "TH: Rock"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_009",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_009",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -99,7 +99,7 @@
         "material_name": "TH: Light Brown Rock"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_010",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_010",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -110,7 +110,7 @@
         "material_name": "TH: Volcano Rock"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_011",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_011",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -121,7 +121,7 @@
         "material_name": "TH: Red Rock"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_012",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_012",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -132,7 +132,7 @@
         "material_name": "TH: Gray Rock"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_013",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_013",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -143,7 +143,7 @@
         "material_name": "TH: Gray Rocks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_ROCK_STONE_014",
+        "case": "RS_WEB_LIBRARY_ROCK_STONE_014",
         "status": "active",
         "function_name": "test_material",
         "script_info": [

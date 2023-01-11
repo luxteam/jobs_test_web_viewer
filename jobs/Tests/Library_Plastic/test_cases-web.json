@@ -1,6 +1,6 @@
 [
     {
-        "case": "RS_DESKTOP_LIBRARY_PLASTIC_001",
+        "case": "RS_WEB_LIBRARY_PLASTIC_001",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -11,7 +11,7 @@
         "material_name": "Carbon biColor Coat"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_PLASTIC_002",
+        "case": "RS_WEB_LIBRARY_PLASTIC_002",
         "status": "active",
         "function_name": "test_material",
         "script_info": [

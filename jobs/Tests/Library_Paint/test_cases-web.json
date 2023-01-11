@@ -1,6 +1,6 @@
 [
     {
-        "case": "RS_DESKTOP_LIBRARY_PAINT_001",
+        "case": "RS_WEB_LIBRARY_PAINT_001",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -11,7 +11,7 @@
         "material_name": "Old Paint"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_PAINT_002",
+        "case": "RS_WEB_LIBRARY_PAINT_002",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
