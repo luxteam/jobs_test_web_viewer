@@ -179,11 +179,32 @@
         "viewport_render_delay": 8
     },
     {
+        "case": "RS_DESKTOP_VIEWPORT_027",
+        "status": "active",
+        "function_name": "test_027",
+        "script_info": [
+            "Valid AMD Render Studio versions",
+            "Do not compare"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_VIEWPORT_028",
+        "status": "active",
+        "function_name": "test_028",
+        "script_info": [
+            "Testing bounding box for small objects"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
         "case": "RS_DESKTOP_VIEWPORT_029",
         "status": "active",
         "function_name": "test_029",
         "script_info": [
-            "Valid AMD Render Studio versions",
+            "Testing Home button",
             "Do not compare"
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
@@ -194,9 +215,29 @@
         "status": "active",
         "function_name": "test_030",
         "script_info": [
-            "Testing bounding box for small objects"
+            "Opening another scene via Home button"
         ],
         "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_VIEWPORT_031",
+        "status": "skipped",
+        "function_name": "test_031",
+        "script_info": [
+            "Testing Share button on Kitchen_set"
+        ],
+        "scene_path": "KitchenSet\\Kitchen_set.usd",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_VIEWPORT_032",
+        "status": "skipped",
+        "function_name": "test_031",
+        "script_info": [
+            "Testing Share button on Bistro scene"
+        ],
+        "scene_path": "Bistro\\BistroInrteriorsimple.usda",
         "viewport_render_delay": 8
     }
 ]

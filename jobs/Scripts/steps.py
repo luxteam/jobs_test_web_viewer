@@ -20,6 +20,14 @@ class CommonSteps:
     def element_exists(driver, locator):
         return utils.find_by_xpath(locator, driver).is_displayed()
 
+    def select_menu_item(driver, element):
+        elements = ['Home', 'Open', 'Recent', 'Save', 'Save As ...', 'Delete', 'Versions']
+        if element not in elements:
+            raise Exception("Unknown menu element")
+        else:
+            utils.find_by_xpath(ViewportLocators.file_menu(element), driver).click()
+            sleep(1)
+
 class FinalRenderSteps:
     def open_final_render(driver):
         utils.find_by_xpath(ViewportLocators.FINAL_RENDER, driver).click()
@@ -239,6 +247,14 @@ class ViewportSteps:
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
         sleep(1)
 
+    def project_view(driver):
+        utils.find_by_xpath(ViewportLocators.PROJECT_VIEW, driver).click()
+
+    def test_share_button(driver):
+        utils.find_by_xpath(ViewportLocators.HAS_MENU, driver, True)[1].click()
+        sleep(1)
+        utils.find_by_xpath(ViewportLocators.REQUEST_LINK, driver).click()
+        #pyautogui.click(970, 170)
 
 class PropertiesSteps:
     def select_object(driver):
