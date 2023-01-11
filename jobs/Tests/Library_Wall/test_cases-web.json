@@ -1,6 +1,6 @@
 [
     {
-        "case": "RS_DESKTOP_LIBRARY_WALL_001",
+        "case": "RS_WEB_LIBRARY_WALL_001",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -11,7 +11,7 @@
         "material_name": "TH: Broken Wall"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_WALL_002",
+        "case": "RS_WEB_LIBRARY_WALL_002",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -22,7 +22,7 @@
         "material_name": "TH: Castle Wall Slates"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_WALL_003",
+        "case": "RS_WEB_LIBRARY_WALL_003",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -33,7 +33,7 @@
         "material_name": "TH: Castle Wall Variation"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_WALL_004",
+        "case": "RS_WEB_LIBRARY_WALL_004",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -44,7 +44,7 @@
         "material_name": "TH: Old Defense Wall"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_WALL_005",
+        "case": "RS_WEB_LIBRARY_WALL_005",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -55,7 +55,7 @@
         "material_name": "TH: Defense Wall"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_WALL_006",
+        "case": "RS_WEB_LIBRARY_WALL_006",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -66,7 +66,7 @@
         "material_name": "TH: Red Medieval Blocks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_WALL_007",
+        "case": "RS_WEB_LIBRARY_WALL_007",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -77,7 +77,7 @@
         "material_name": "TH: Medieval Blocks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_WALL_008",
+        "case": "RS_WEB_LIBRARY_WALL_008",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -88,7 +88,7 @@
         "material_name": "TH: Crude Medieval Blocks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_WALL_009",
+        "case": "RS_WEB_LIBRARY_WALL_009",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -99,7 +99,7 @@
         "material_name": "TH: Large Sandstone Blocks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_WALL_010",
+        "case": "RS_WEB_LIBRARY_WALL_010",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -110,7 +110,7 @@
         "material_name": "TH: Crafted Medieval Blocks"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_WALL_011",
+        "case": "RS_WEB_LIBRARY_WALL_011",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -121,7 +121,7 @@
         "material_name": "TH: Rough Block Wall"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_WALL_012",
+        "case": "RS_WEB_LIBRARY_WALL_012",
         "status": "active",
         "function_name": "test_material",
         "script_info": [

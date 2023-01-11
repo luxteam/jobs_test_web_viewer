@@ -1,6 +1,6 @@
 [
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_001",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_001",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -11,7 +11,7 @@
         "material_name": "Skin - 50 percent melanin"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_002",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_002",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -22,7 +22,7 @@
         "material_name": "Skin - 30 percent melanin"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_003",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_003",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -33,7 +33,7 @@
         "material_name": "Skin - 20 percent melanin"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_004",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_004",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -44,7 +44,7 @@
         "material_name": "Skin - 10 percent melanin"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_005",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_005",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -55,7 +55,7 @@
         "material_name": "Skin - 5 percent melanin"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_006",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_006",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -66,7 +66,7 @@
         "material_name": "Skin - 2 percent melanin"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_007",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_007",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -77,7 +77,7 @@
         "material_name": "Skin - 1 percent melanin"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_008",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_008",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -88,7 +88,7 @@
         "material_name": "Skin - 0.1 percent melanin"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_009",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_009",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -99,7 +99,7 @@
         "material_name": "Acryl Plastic"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_010",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_010",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -110,7 +110,7 @@
         "material_name": "White Plastic"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_011",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_011",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -121,7 +121,7 @@
         "material_name": "Frosted Glass"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_012",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_012",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -132,7 +132,7 @@
         "material_name": "Dark Glass"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_013",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_013",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -143,7 +143,7 @@
         "material_name": "Diamond"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_014",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_014",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -154,7 +154,7 @@
         "material_name": "White Wine"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_015",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_015",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -165,7 +165,7 @@
         "material_name": "Red Wine"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_016",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_016",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -176,7 +176,7 @@
         "material_name": "Glass"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_017",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_017",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -187,7 +187,7 @@
         "material_name": "Semitransparent Silicone"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_018",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_018",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -198,7 +198,7 @@
         "material_name": "Rubber"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_019",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_019",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -209,7 +209,7 @@
         "material_name": "Rough Plastic"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_020",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_020",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -220,7 +220,7 @@
         "material_name": "Black Plastic"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_021",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_021",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -231,7 +231,7 @@
         "material_name": "Nickel"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_022",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_022",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -242,7 +242,7 @@
         "material_name": "Iron"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_023",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_023",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -253,7 +253,7 @@
         "material_name": "Gold"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_024",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_024",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -264,7 +264,7 @@
         "material_name": "Copper"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_025",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_025",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -275,7 +275,7 @@
         "material_name": "Cobalt"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_026",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_026",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -286,7 +286,7 @@
         "material_name": "Chrome"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_027",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_027",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -297,7 +297,7 @@
         "material_name": "Bronze"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_028",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_028",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -308,7 +308,7 @@
         "material_name": "Brass"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_BASE_MATERIALS_029",
+        "case": "RS_WEB_LIBRARY_BASE_MATERIALS_029",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
