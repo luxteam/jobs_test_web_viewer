@@ -178,7 +178,7 @@ class LibrarySteps:
         ViewportSteps.move_scene(driver)
 
 class ViewportSteps:
-    def click_tab(driver, sec, tab):
+    def click_tab(driver, delay, tab):
         if tab == 'scene index':
             utils.find_by_xpath(ViewportLocators.SCENE_INDEX_TAB, driver).click()
         elif tab == 'timeline':
@@ -189,7 +189,7 @@ class ViewportSteps:
             utils.find_by_xpath(ViewportLocators.SETTINGS_WINDOW, driver).click()
         elif tab == 'menu':
             utils.find_by_xpath(ViewportLocators.SCENE_MENU, driver).click()
-        sleep(sec)
+        sleep(delay)
 
     def search_scene_element(driver, text):
         search = utils.find_by_xpath(ViewportLocators.SCENE_SEARCH, driver)
@@ -328,3 +328,45 @@ class PropertiesSteps:
         if int(utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).get_attribute("value")) - int(value) == int(init_value):
             return True
         else: return False
+
+
+class AnimationSteps:
+    def click_timeline_button(driver, button, delay=0):
+        if button == 'first_frame':
+            utils.find_by_xpath(AnimationLocators.TIMELINE_BUTTON + '[1]', driver).click()
+        elif button == 'play':
+            utils.find_by_xpath(AnimationLocators.TIMELINE_BUTTON + '[2]', driver).click()
+        elif button == 'last_frame':
+            utils.find_by_xpath(AnimationLocators.TIMELINE_BUTTON + '[3]', driver).click()
+        elif button == 'focus':
+            utils.find_by_xpath(AnimationLocators.FOCUS, driver).click()
+        sleep(delay)
+        
+    def set_frame(driver, field, value):
+        if field == 'current':
+            frame = utils.find_by_xpath(AnimationLocators.CURRENT_FRAME, driver)
+        elif field == 'start':
+            frame = utils.find_by_xpath(AnimationLocators.START_FRAME, driver)
+        elif field == 'end':
+            frame = utils.find_by_xpath(AnimationLocators.END_FRAME, driver)
+        sleep(0.5)
+        action = ActionChains(driver)
+        action.double_click(frame).perform()
+        frame.send_keys(value)
+        frame.send_keys(Keys.ENTER)
+
+    def click_arrows(driver, arrow, clicks=1):
+        for i in range(clicks):
+            if arrow == 'current_inc':
+                utils.find_by_xpath(AnimationLocators.CURRENT_INC, driver).click()
+            elif arrow == 'current_dec':
+                utils.find_by_xpath(AnimationLocators.CURRENT_DEC, driver).click()
+            elif arrow == 'start_inc':
+                utils.find_by_xpath(AnimationLocators.START_INC, driver).click()
+            elif arrow == 'start_dec':
+                utils.find_by_xpath(AnimationLocators.START_DEC, driver).click()
+            elif arrow == 'end_inc':
+                utils.find_by_xpath(AnimationLocators.END_INC, driver).click()
+            elif arrow == 'end_dec':
+                utils.find_by_xpath(AnimationLocators.END_DEC, driver).click()
+            sleep(0.1)

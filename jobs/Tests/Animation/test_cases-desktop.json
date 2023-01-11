@@ -1,0 +1,130 @@
+[
+    {
+        "case": "RS_DESKTOP_ANIMATION_001",
+        "status": "active",
+        "function_name": "test_001",
+        "script_info": ["Testing if animation is working"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_002",
+        "status": "active",
+        "function_name": "test_002",
+        "script_info": ["Testing skipping to the first frame"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_003",
+        "status": "active",
+        "function_name": "test_003",
+        "script_info": ["Testing skipping to the last frame"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_004",
+        "status": "active",
+        "function_name": "test_004",
+        "script_info": ["Testing Focus button"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_005",
+        "status": "active",
+        "function_name": "test_005",
+        "script_info": ["Setting Frame by keybord"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_006",
+        "status": "active",
+        "function_name": "test_006",
+        "script_info": ["Setting Start field by keyboard"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_007",
+        "status": "active",
+        "function_name": "test_007",
+        "script_info": ["Setting End field by keyboard"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_008",
+        "status": "active",
+        "function_name": "test_008",
+        "script_info": ["Increasing Frame by arrows"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_009",
+        "status": "active",
+        "function_name": "test_009",
+        "script_info": ["Decreasing Frame by arrows"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_010",
+        "status": "active",
+        "function_name": "test_010",
+        "script_info": ["Increasing Start by arrows"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_011",
+        "status": "active",
+        "function_name": "test_011",
+        "script_info": ["Decreasing Start by arrows"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_012",
+        "status": "active",
+        "function_name": "test_012",
+        "script_info": ["Increasing End by arrows"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_013",
+        "status": "active",
+        "function_name": "test_013",
+        "script_info": ["Decreasing End by arrows"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_014",
+        "status": "active",
+        "function_name": "test_014",
+        "script_info": ["Frame doesn't go before Start frame"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_015",
+        "status": "active",
+        "function_name": "test_015",
+        "script_info": ["Frame doesn't go after End frame"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    },
+    {
+        "case": "RS_DESKTOP_ANIMATION_016",
+        "status": "active",
+        "function_name": "test_016",
+        "script_info": ["Take screenshot of default state of Timeline tab"],
+        "scene_path": "Animation\\Animation.usda",
+        "viewport_render_delay": 8
+    }
+]

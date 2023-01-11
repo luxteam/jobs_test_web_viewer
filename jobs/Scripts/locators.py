@@ -94,3 +94,16 @@ class PropertiesLocators(object):
         elif index == "scale":
             i = "3"
         return ['(//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//input', '((//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//button)[1]', '((//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//button)[2]']
+
+class AnimationLocators(object):
+    TIMELINE_BUTTON = '//div[ contains(@class, "timeline-view-controls" )]//button'
+    CURRENT_FRAME = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][1]//input'
+    START_FRAME = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][2]//input'
+    END_FRAME = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][3]//input'
+    FOCUS = '//div[ contains(@class, "timeline-view-inputs") ]//button[ @class="button-iconed" ]'
+    CURRENT_INC = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][1]//div[ contains(@class, "inner-container") ]//div[ contains(@class, "additional-slot") ][2]//button'
+    CURRENT_DEC = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][1]//div[ contains(@class, "inner-container") ]//div[ contains(@class, "additional-slot") ][1]//button'
+    START_DEC = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][2]//div[ contains(@class, "inner-container") ]//div[ contains(@class, "additional-slot") ][1]//button'
+    START_INC = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][2]//div[ contains(@class, "inner-container") ]//div[ contains(@class, "additional-slot") ][2]//button'
+    END_DEC = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][3]//div[ contains(@class, "inner-container") ]//div[ contains(@class, "additional-slot") ][1]//button'
+    END_INC = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][3]//div[ contains(@class, "inner-container") ]//div[ contains(@class, "additional-slot") ][2]//button'
