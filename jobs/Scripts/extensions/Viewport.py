@@ -169,7 +169,8 @@ def test_029(args, case, driver, current_try):
     ViewportSteps.click_tab(driver, 2, 'menu')
     CommonSteps.select_menu_item(driver, 'Home')
     ViewportSteps.project_view(driver)
-    sleep(8)
+    sleep(2)
+    assert CommonSteps.element_exists(driver, ViewportLocators.DROP_FILE)
 
 
 def test_030(args, case, driver, current_try):
