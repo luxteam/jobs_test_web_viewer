@@ -18,17 +18,15 @@ import utils
 
 
 def test_001(args, case, driver, current_try):
-    LibrarySteps.click_library_tab(driver, 1)
-    ViewportSteps.click_tab(driver, 2, 'menu')
-    ViewportSteps.click_tab(driver, 2, 'menu')
-    sleep(10)
-    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver).is_displayed(), "Opened \"Library\" tab not found"
+    LibrarySteps.click_library_tab(driver)
+    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver) != None, "Opened \"Library\" tab not found"
 
 
 def test_002(args, case, driver, current_try):
-    LibrarySteps.click_library_tab(driver, 1)
-    LibrarySteps.click_library_tab(driver, 1)
-    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver) == None, "Opened \"Library\" tab found"
+    LibrarySteps.click_library_tab(driver)
+    LibrarySteps.click_library_tab(driver)
+    sleep(1)
+    assert utils.find_by_xpath(LibraryLocators.MATERIALS_TEXT, driver, wait=1) == None, "Opened \"Library\" tab found"
 
 
 def test_003(args, case, driver, current_try):
@@ -36,11 +34,11 @@ def test_003(args, case, driver, current_try):
 
 
 def test_004(args, case, driver, current_try):
-    LibrarySteps.click_library_tab(driver, 1)
-    utils.choose_material("Gold", driver, click=False)
+    LibrarySteps.click_library_tab(driver)
+    utils.choose_material("Gold", driver, click=False, exact_title_match=True)
     drag_and_drop_kitchen()
+    LibrarySteps.click_library_tab(driver)
     sleep(3)
-    LibrarySteps.click_library_tab(driver, 12)
 
 
 def drag_and_drop_kitchen():
@@ -54,32 +52,32 @@ def drag_and_drop_kitchen():
 
 
 def test_005(args, case, driver, current_try):
-    LibrarySteps.test_material(driver, "Gold", element="fridge")
+    LibrarySteps.test_material(driver, "Gold", element="fridge", exact_title_match=True)
     LibrarySteps.test_material(driver, "Aluminum", element="fridge")
 
 
 def test_006(args, case, driver, current_try):
-    LibrarySteps.click_library_tab(driver, 1)
+    LibrarySteps.click_library_tab(driver)
     materials = LibrarySteps.search_material(driver, "TH Green Metal Rust")
     assert len(materials) == 2 and materials[1].text == "TH Green Metal Rust", "Materials are displayed in the wrong order"
 
 
 def test_007(args, case, driver, current_try):
-    LibrarySteps.click_library_tab(driver, 1)
+    LibrarySteps.click_library_tab(driver)
     pass
 
 
 def test_008(args, case, driver, current_try):
-    LibrarySteps.click_library_tab(driver, 1)
+    LibrarySteps.click_library_tab(driver)
     LibrarySteps.set_sorting(driver, 'title')
     LibrarySteps.sorting_by_title(driver)
 
 
 def test_009(args, case, driver, current_try):
-    LibrarySteps.click_library_tab(driver, 1)
+    LibrarySteps.click_library_tab(driver)
     pass
 
 
 def test_010(args, case, driver, current_try):
-    LibrarySteps.click_library_tab(driver, 1)
+    LibrarySteps.click_library_tab(driver)
     pass

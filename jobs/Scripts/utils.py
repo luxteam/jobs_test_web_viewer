@@ -14,6 +14,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from pyautogui import typewrite, press
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
@@ -220,7 +221,7 @@ def find_by_xpath(xpath, driver, many=False, wait=10):
     if not many:
         try:
             element = WebDriverWait(driver, wait).until(
-                lambda d: d.find_element(By.XPATH, xpath)
+                EC.element_to_be_clickable((By.XPATH, xpath))
             )
             return element
         except TimeoutException:
@@ -228,7 +229,7 @@ def find_by_xpath(xpath, driver, many=False, wait=10):
     else:
         try:
             elements = WebDriverWait(driver, wait).until(
-                lambda d: d.find_elements(By.XPATH, xpath)
+                EC.presence_of_all_elements_located((By.XPATH, xpath))
             )
             return elements
         except TimeoutException:
@@ -239,7 +240,7 @@ def find_by_class(class_name, driver, many=False, wait=10):
     if not many:
         try:
             element = WebDriverWait(driver, wait).until(
-                lambda d: d.find_element(By.CLASS_NAME, class_name)
+                EC.element_to_be_clickable((By.CLASS_NAME, class_name))
             )
             return element
         except TimeoutException:
@@ -247,7 +248,7 @@ def find_by_class(class_name, driver, many=False, wait=10):
     else:
         try:
             elements = WebDriverWait(driver, wait).until(
-                lambda d: d.find_elements(By.CLASS_NAME, class_name)
+                EC.presence_of_all_elements_located((By.CLASS_NAME, class_name))
             )
             return elements
         except TimeoutException:
@@ -258,7 +259,7 @@ def find_by_tag(tag_name, driver, many=False, wait=10):
     if not many:
         try:
             element = WebDriverWait(driver, wait).until(
-                lambda d: d.find_element(By.TAG_NAME, tag_name)
+                EC.element_to_be_clickable((By.TAG_NAME, tag_name))
             )
             return element
         except TimeoutException:
@@ -266,7 +267,7 @@ def find_by_tag(tag_name, driver, many=False, wait=10):
     else:
         try:
             elements = WebDriverWait(driver, wait).until(
-                lambda d: d.find_elements(By.TAG_NAME, tag_name)
+                EC.presence_of_all_elements_located((By.TAG_NAME, tag_name))
             )
             return elements
         except TimeoutException:
@@ -333,7 +334,6 @@ def save_screen(screen_path, driver, extension = "jpg", save_final_render_image 
 def choose_material(material_name, driver, exact_title_match = False, click = True):
     search = find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
     search.click()
-    time.sleep(2)
     search.send_keys(Keys.CONTROL + "a")
 
     if exact_title_match:
@@ -353,6 +353,9 @@ def choose_material(material_name, driver, exact_title_match = False, click = Tr
         if found_name == material_name:
             if click:
                 card.click()
+                WebDriverWait(driver, 10).until(
+                    EC.invisibility_of_element_located((By.XPATH, LibraryLocators.LOADER_CARD))
+                )
 
             break
     else:

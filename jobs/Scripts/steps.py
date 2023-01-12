@@ -23,28 +23,21 @@ class CommonSteps:
 class FinalRenderSteps:
     def open_final_render(driver):
         utils.find_by_xpath(ViewportLocators.FINAL_RENDER, driver).click()
-        sleep(2)
         utils.find_by_xpath(FinalRenderLocators.OUTPUT, driver).click()
-        sleep(1)
 
     def set_format_to_png(driver):
         utils.find_by_xpath(FinalRenderLocators.FORMAT, driver).click()
-        sleep(1)
         utils.find_by_xpath(FinalRenderLocators.PNG_FORMAT, driver).click()
-        sleep(0.5)
 
     def set_resolution(driver, width, height):
         utils.find_by_xpath(FinalRenderLocators.WIDTH, driver).send_keys(Keys.CONTROL + "a")
         utils.find_by_xpath(FinalRenderLocators.WIDTH, driver).send_keys(width)
-        sleep(0.5)
         utils.find_by_xpath(FinalRenderLocators.HEIGHT, driver).send_keys(Keys.CONTROL + "a")
         utils.find_by_xpath(FinalRenderLocators.HEIGHT, driver).send_keys(height)
-        sleep(0.5)
 
     def set_samples(driver, samples):
         utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(Keys.CONTROL + "a")
         utils.find_by_xpath(FinalRenderLocators.SAMPLES, driver).send_keys(samples)
-        sleep(0.5)
 
     def start_render(driver):
         utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
@@ -54,13 +47,13 @@ class FinalRenderSteps:
         WebDriverWait(driver, 600).until_not(
                 EC.presence_of_element_located((By.XPATH, FinalRenderLocators.RENDER_SPINNER))
             )
-        sleep(5)
+        sleep(0.1)
 
         return FinalRenderSteps.get_render_time(driver)
 
-    def return_to_viewport(driver, delay=5):
+    def return_to_viewport(driver, delay=1):
         utils.find_by_xpath(FinalRenderLocators.BACK_BUTTON, driver).click()
-        sleep(10)
+        utils.find_by_xpath(LibraryLocators.LIBRARY_TAB, driver)
         pyautogui.moveTo(500,700)
         pyautogui.dragTo(600, 700, 1, button='left')
         sleep(delay)
@@ -69,18 +62,15 @@ class FinalRenderSteps:
         utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
         sleep(1)
         style_value_1 = utils.find_by_xpath(FinalRenderLocators.PROGRESS_BAR, driver).value_of_css_property('min-width')
-        sleep(4)
+        sleep(3)
         style_value_2 = utils.find_by_xpath(FinalRenderLocators.PROGRESS_BAR, driver).value_of_css_property('min-width')
         assert float(style_value_2[0:-1]) >= float(style_value_1[0:-1]), "Progress bar is filling incorrectly"
 
     def stop_before_end(driver, restart=False):
         utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
-        sleep(1.5)
         utils.find_by_xpath(FinalRenderLocators.STOP_RENDER, driver, True)[1].click()
-        sleep(3)
         if restart:
             utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
-            sleep(3)
             assert CommonSteps.element_exists(driver, FinalRenderLocators.PROGRESS_BAR), "Render didn't restart"
         else:
             assert utils.find_by_xpath(FinalRenderLocators.PROGRESS_BAR, driver, False, 2) == None, "Render didn't stop"
@@ -89,9 +79,7 @@ class FinalRenderSteps:
         image_path = os.path.abspath(os.path.join(args.output, "Color", case["case"]))
 
         utils.find_by_xpath(FinalRenderLocators.BEGIN_RENDER, driver).click()
-        sleep(1.5)
         utils.find_by_xpath(FinalRenderLocators.DOWNLOAD_IMAGE, driver).click()
-        time.sleep(0.5)
         pyautogui.typewrite(f"{image_path}.jpg")
         pyautogui.press("enter")
         time.sleep(0.5)
@@ -108,32 +96,25 @@ class FinalRenderSteps:
 
 
 class LibrarySteps:
-    def click_library_tab(driver, sec):
-        utils.find_by_xpath(LibraryLocators.LIBRARY_TAB, driver).click()
-        sleep(sec)
+    def click_library_tab(driver, wait=10, many=False):
+        utils.find_by_xpath(LibraryLocators.LIBRARY_TAB, driver, many, wait).click()
 
     def select_element(driver, element):
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
-        sleep(2)
         search = utils.find_by_xpath(LibraryLocators.SCENE_SEARCH, driver)
         search.click()
-        sleep(2)
         if element == "sphere":
             search.send_keys("Sphere_001")
         elif element == "fridge":
             search.send_keys("Refridgerator_1")
-        sleep(1)
         utils.find_by_class("bg-yellow-700", driver, True)[0].click()
-        sleep(1)
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
-        sleep(1)
 
     def search_material(driver, name):
         search = utils.find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
         search.click()
-        time.sleep(2)
         search.send_keys(name)
-        sleep(6)
+        sleep(0.5)
         materials = utils.find_by_xpath(LibraryLocators.MATERIAL_CARDS, driver, True)
         utils.case_logger.info("Materials: {}".format(materials))
         return materials
@@ -144,9 +125,8 @@ class LibrarySteps:
 
     def set_sorting(driver, key):
         utils.find_by_xpath(LibraryLocators.SORTING_BY, driver).click()
-        sleep(1)
         utils.find_by_xpath(LibraryLocators.SORTING_KEY + str(key).capitalize() + '\"]', driver).click()
-        sleep(5)
+        sleep(2)
 
     def sorting_by_title(driver):
         materials = utils.find_by_xpath(LibraryLocators.MATERIAL_TITLE, driver, True)
@@ -163,14 +143,13 @@ class LibrarySteps:
     def test_material(driver, name, exact_title_match=False, element="sphere"):
         LibrarySteps.select_element(driver, element)
         ViewportSteps.focus_on_element(driver)
-        LibrarySteps.click_library_tab(driver, 1)
+        LibrarySteps.click_library_tab(driver)
         utils.choose_material(name, driver, exact_title_match)
-        sleep(3)
-        LibrarySteps.click_library_tab(driver, 12)
+        LibrarySteps.click_library_tab(driver, wait=12)
         ViewportSteps.move_scene(driver)
 
 class ViewportSteps:
-    def click_tab(driver, sec, tab):
+    def click_tab(driver, tab):
         if tab == 'scene index':
             utils.find_by_xpath(ViewportLocators.SCENE_INDEX_TAB, driver).click()
         elif tab == 'timeline':
@@ -181,7 +160,6 @@ class ViewportSteps:
             utils.find_by_xpath(ViewportLocators.SETTINGS_WINDOW, driver).click()
         elif tab == 'menu':
             utils.find_by_xpath(ViewportLocators.SCENE_MENU, driver).click()
-        sleep(sec)
 
     def search_scene_element(driver, text):
         search = utils.find_by_xpath(ViewportLocators.SCENE_SEARCH, driver)
@@ -210,7 +188,9 @@ class ViewportSteps:
         pyautogui.moveRel(-200, 100)
         sleep(1)
         pyautogui.mouseUp()
-        sleep(8)
+        WebDriverWait(driver, 10).until(
+            EC.invisibility_of_element_located((By.XPATH, LibraryLocators.LOADER_CARD))
+        )
 
     def move_scene(driver):
         # TODO: remove hardcoded coordinate values
@@ -221,7 +201,9 @@ class ViewportSteps:
         pyautogui.moveRel(50, 0)
         sleep(1)
         pyautogui.mouseUp(button='right')
-        sleep(8)
+        WebDriverWait(driver, 10).until(
+            EC.invisibility_of_element_located((By.XPATH, LibraryLocators.LOADER_CARD))
+        )
 
     def focus_on_element(driver):
         utils.find_by_xpath(ViewportLocators.FOCUS, driver).click()
@@ -243,7 +225,6 @@ class ViewportSteps:
 class PropertiesSteps:
     def select_object(driver):
         utils.find_by_xpath(ViewportLocators.SCENE_INDEX_TAB, driver).click()
-        sleep(0.5)
         utils.find_by_xpath(ViewportLocators.expand_node("Scene"), driver).click()
         utils.find_by_xpath(ViewportLocators.expand_node("Kitchen_set"), driver).click()
         utils.find_by_xpath(ViewportLocators.expand_node("Props_grp"), driver).click()
@@ -255,23 +236,18 @@ class PropertiesSteps:
 
     def open_properties(driver):
         utils.find_by_xpath(ViewportLocators.PROPERTIES, driver).click()
-        sleep(0.5)
         utils.find_by_xpath(PropertiesLocators.MOVE, driver).click()
         utils.find_by_xpath(PropertiesLocators.ROTATE, driver).click()
         utils.find_by_xpath(PropertiesLocators.SCALE, driver).click()
-        sleep(0.5)
     
     def close_properties(driver):
         utils.find_by_xpath(ViewportLocators.PROPERTIES, driver).click()
-        sleep(0.5)
 
     def lock(driver):
         utils.find_by_xpath(PropertiesLocators.LOCK_BUTTON, driver).click()
-        sleep(1)
 
     def unlock(driver):
         utils.find_by_xpath(PropertiesLocators.UNLOCK_BUTTON, driver).click()
-        sleep(1)
 
     def set(driver, index, axis, input):
         utils.find_by_xpath('(//h3[text()[contains(.,"Properties")]])[2]', driver).click()
@@ -279,11 +255,11 @@ class PropertiesSteps:
         if type(input) == int:
             if input > 0:
                 for _ in range(input):
-                    sleep(0.5)
+                    sleep(0.3)
                     utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[2], driver).click()
             else:
                 for _ in range(abs(input)):
-                    sleep(0.5)
+                    sleep(0.3)
                     utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[1], driver).click()
         else:
             utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).send_keys(Keys.CONTROL + "a")
@@ -292,7 +268,6 @@ class PropertiesSteps:
                 utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).send_keys(char)
                 sleep(0.1)
 
-        sleep(5)
         return value
         
     def settings(driver, axis, value):
