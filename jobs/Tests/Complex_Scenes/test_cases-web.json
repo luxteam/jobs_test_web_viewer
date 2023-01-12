@@ -1,6 +1,6 @@
 [
     {
-        "case": "ARS_DESKTOP_SCENES_001",
+        "case": "ARS_WEB_SCENES_001",
         "status": "skipped",
         "function_name": "test_001",
         "script_info": [
@@ -12,7 +12,7 @@
         "max_load_time": 120
     },
     {
-        "case": "ARS_DESKTOP_SCENES_002",
+        "case": "ARS_WEB_SCENES_002",
         "status": "skipped",
         "function_name": "test_002",
         "script_info": [
@@ -24,7 +24,7 @@
         "max_load_time": 120
     },
     {
-        "case": "ARS_DESKTOP_SCENES_003",
+        "case": "ARS_WEB_SCENES_003",
         "status": "skipped",
         "function_name": "test_003",
         "script_info": [
@@ -36,7 +36,7 @@
         "max_load_time": 120
     },
     {
-        "case": "ARS_DESKTOP_SCENES_004",
+        "case": "ARS_WEB_SCENES_004",
         "status": "skipped",
         "function_name": "test_004",
         "script_info": [
@@ -48,7 +48,7 @@
         "max_load_time": 120
     },
     {
-        "case": "ARS_DESKTOP_SCENES_005",
+        "case": "ARS_WEB_SCENES_005",
         "status": "skipped",
         "function_name": "test_005",
         "script_info": [
@@ -60,7 +60,7 @@
         "max_load_time": 120
     },
     {
-        "case": "ARS_DESKTOP_SCENES_006",
+        "case": "ARS_WEB_SCENES_006",
         "status": "skipped",
         "function_name": "test_006",
         "script_info": [
@@ -72,7 +72,7 @@
         "max_load_time": 120
     },
     {
-        "case": "ARS_DESKTOP_SCENES_007",
+        "case": "ARS_WEB_SCENES_007",
         "status": "skipped",
         "function_name": "test_007",
         "script_info": [
@@ -84,7 +84,7 @@
         "max_load_time": 120
     },
     {
-        "case": "ARS_DESKTOP_SCENES_008",
+        "case": "ARS_WEB_SCENES_008",
         "status": "skipped",
         "function_name": "test_008",
         "script_info": [
@@ -96,7 +96,7 @@
         "max_load_time": 120
     },
     {
-        "case": "ARS_DESKTOP_SCENES_009",
+        "case": "ARS_WEB_SCENES_009",
         "status": "skipped",
         "function_name": "test_009",
         "script_info": [
@@ -108,7 +108,7 @@
         "max_load_time": 120
     },
     {
-        "case": "ARS_DESKTOP_SCENES_010",
+        "case": "ARS_WEB_SCENES_010",
         "status": "skipped",
         "function_name": "test_010",
         "script_info": [
@@ -120,7 +120,7 @@
         "max_load_time": 120
     },
     {
-        "case": "ARS_DESKTOP_SCENES_011",
+        "case": "ARS_WEB_SCENES_011",
         "status": "skipped",
         "function_name": "test_011",
         "script_info": [
@@ -132,7 +132,7 @@
         "max_load_time": 120
     },
     {
-        "case": "ARS_DESKTOP_SCENES_012",
+        "case": "ARS_WEB_SCENES_012",
         "status": "skipped",
         "function_name": "test_012",
         "script_info": [
@@ -144,7 +144,7 @@
         "max_load_time": 120
     },
     {
-        "case": "ARS_DESKTOP_SCENES_013",
+        "case": "ARS_WEB_SCENES_013",
         "status": "skipped",
         "function_name": "test_013",
         "script_info": [

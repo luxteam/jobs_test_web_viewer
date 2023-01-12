@@ -20,6 +20,14 @@ class CommonSteps:
     def element_exists(driver, locator):
         return utils.find_by_xpath(locator, driver).is_displayed()
 
+    def select_menu_item(driver, element):
+        elements = ['Home', 'Open', 'Recent', 'Save', 'Save As ...', 'Delete', 'Versions']
+        if element not in elements:
+            raise Exception("Unknown menu element")
+        else:
+            utils.find_by_xpath(ViewportLocators.file_menu(element), driver).click()
+            sleep(1)
+
 class FinalRenderSteps:
     def open_final_render(driver):
         utils.find_by_xpath(ViewportLocators.FINAL_RENDER, driver).click()
@@ -221,6 +229,14 @@ class ViewportSteps:
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
         sleep(1)
 
+    def project_view(driver):
+        utils.find_by_xpath(ViewportLocators.PROJECT_VIEW, driver).click()
+
+    def test_share_button(driver):
+        utils.find_by_xpath(ViewportLocators.HAS_MENU, driver, True)[1].click()
+        sleep(1)
+        utils.find_by_xpath(ViewportLocators.REQUEST_LINK, driver).click()
+        #pyautogui.click(970, 170)
 
 class PropertiesSteps:
     def select_object(driver):
@@ -287,3 +303,45 @@ class PropertiesSteps:
         if int(utils.find_by_xpath(PropertiesLocators.properties_locators(index, axis)[0], driver).get_attribute("value")) - int(value) == int(init_value):
             return True
         else: return False
+
+
+class AnimationSteps:
+    def click_timeline_button(driver, button, delay=0):
+        if button == 'first_frame':
+            utils.find_by_xpath(AnimationLocators.TIMELINE_BUTTON + '[1]', driver).click()
+        elif button == 'play':
+            utils.find_by_xpath(AnimationLocators.TIMELINE_BUTTON + '[2]', driver).click()
+        elif button == 'last_frame':
+            utils.find_by_xpath(AnimationLocators.TIMELINE_BUTTON + '[3]', driver).click()
+        elif button == 'focus':
+            utils.find_by_xpath(AnimationLocators.FOCUS, driver).click()
+        sleep(delay)
+        
+    def set_frame(driver, field, value):
+        if field == 'current':
+            frame = utils.find_by_xpath(AnimationLocators.CURRENT_FRAME, driver)
+        elif field == 'start':
+            frame = utils.find_by_xpath(AnimationLocators.START_FRAME, driver)
+        elif field == 'end':
+            frame = utils.find_by_xpath(AnimationLocators.END_FRAME, driver)
+        sleep(0.5)
+        action = ActionChains(driver)
+        action.double_click(frame).perform()
+        frame.send_keys(value)
+        frame.send_keys(Keys.ENTER)
+
+    def click_arrows(driver, arrow, clicks=1):
+        for i in range(clicks):
+            if arrow == 'current_inc':
+                utils.find_by_xpath(AnimationLocators.CURRENT_INC, driver).click()
+            elif arrow == 'current_dec':
+                utils.find_by_xpath(AnimationLocators.CURRENT_DEC, driver).click()
+            elif arrow == 'start_inc':
+                utils.find_by_xpath(AnimationLocators.START_INC, driver).click()
+            elif arrow == 'start_dec':
+                utils.find_by_xpath(AnimationLocators.START_DEC, driver).click()
+            elif arrow == 'end_inc':
+                utils.find_by_xpath(AnimationLocators.END_INC, driver).click()
+            elif arrow == 'end_dec':
+                utils.find_by_xpath(AnimationLocators.END_DEC, driver).click()
+            sleep(0.1)

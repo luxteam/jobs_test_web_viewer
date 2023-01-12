@@ -1,6 +1,6 @@
 [
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_001",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_001",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -11,7 +11,7 @@
         "material_name": "Blue Portuguese Ceramic Tile"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_002",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_002",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -22,7 +22,7 @@
         "material_name": "Brown Portuguese Ceramic Tile"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_003",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_003",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -33,7 +33,7 @@
         "material_name": "Blue Mosaic Tiles with Gold"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_004",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_004",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -44,7 +44,7 @@
         "material_name": "Porcelain Vitrified Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_005",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_005",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -55,7 +55,7 @@
         "material_name": "Bardiglio Gray Marble Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_006",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_006",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -66,7 +66,7 @@
         "material_name": "Arabescato Blue Marble Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_007",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_007",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -77,7 +77,7 @@
         "material_name": "Verde Guatemala Slatted Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_008",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_008",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -88,7 +88,7 @@
         "material_name": "Weave Pattern Marble Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_009",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_009",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -99,7 +99,7 @@
         "material_name": "Pinwheel Pattern Marble Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_010",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_010",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -110,7 +110,7 @@
         "material_name": "Bianco Statuario Marble Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_011",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_011",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -121,7 +121,7 @@
         "material_name": "Imperial Jade Marble Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_012",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_012",
         "status": "observed",
         "function_name": "test_material",
         "script_info": [
@@ -132,7 +132,7 @@
         "material_name": "Dark-Green Marble Rhombus Tile"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_013",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_013",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -143,7 +143,7 @@
         "material_name": "Iberian Calcite Marble Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_014",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_014",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -154,7 +154,7 @@
         "material_name": "Circle Marble Pattern"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_015",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_015",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -165,7 +165,7 @@
         "material_name": "Mosaic Marble Pattern"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_016",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_016",
         "status": "skipped",
         "function_name": "test_material",
         "script_info": [
@@ -177,7 +177,7 @@
         "exact_title_match": true
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_017",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_017",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -188,7 +188,7 @@
         "material_name": "Classical Marble Pattern"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_018",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_018",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -199,7 +199,7 @@
         "material_name": "Marble Green Pattern"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_019",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_019",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -210,7 +210,7 @@
         "material_name": "TH: Marble Floor Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_020",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_020",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -221,7 +221,7 @@
         "material_name": "Bardiglio Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_021",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_021",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -232,7 +232,7 @@
         "material_name": "Picasso Black Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_022",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_022",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -243,7 +243,7 @@
         "material_name": "TH: Beige Marble Tiles"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_023",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_023",
         "status": "active",
         "function_name": "test_material",
         "script_info": [
@@ -254,7 +254,7 @@
         "material_name": "Guatemala Blue Marble"
     },
     {
-        "case": "RS_DESKTOP_LIBRARY_MARBLE_TILES_024",
+        "case": "RS_WEB_LIBRARY_MARBLE_TILES_024",
         "status": "active",
         "function_name": "test_material",
         "script_info": [

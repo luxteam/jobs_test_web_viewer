@@ -19,6 +19,14 @@ class ViewportLocators(object):
     VERSIONS_WINDOW = '//div[ @class = "card-sectioned-text-container" ]'
     VERSION_SERVICE_NAMES = f'//div[ @class = "font-bold" ]'
     VERSION_ROWS = f'//div[ @class = "version-text" ]'
+    PROJECT_VIEW = '//div[ contains(@class, "button-content") ]//*[ text()="Open project view" ]'
+    HAS_MENU = '//div[ contains(@class, "has-menu") ]'
+    REQUEST_LINK = '//*[ text()[contains(., "Request link")] ]'
+    QR_CODE = '//div[ contains(@class, "qr-code-container") ]'
+    DROP_FILE = '//div[ contains(@class, "p-2") ]'
+
+    def file_menu(element):
+        return f'//button[ contains(@class, "menu-item") and text()[contains(., "{element}")] ]'
     
     def expand_node(name):
         return '//div[contains(text(), "' + name +'")]/..//div[ contains(@class, "scene-index-prim-button-expand-container") ]'
@@ -87,3 +95,16 @@ class PropertiesLocators(object):
         elif index == "scale":
             i = "3"
         return ['(//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//input', '((//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//button)[1]', '((//h4[text()[contains(., "' + axis + '")]])[' + i + ']/../..//button)[2]']
+
+class AnimationLocators(object):
+    TIMELINE_BUTTON = '//div[ contains(@class, "timeline-view-controls" )]//button'
+    CURRENT_FRAME = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][1]//input'
+    START_FRAME = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][2]//input'
+    END_FRAME = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][3]//input'
+    FOCUS = '//div[ contains(@class, "timeline-view-inputs") ]//button[ @class="button-iconed" ]'
+    CURRENT_INC = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][1]//div[ contains(@class, "inner-container") ]//div[ contains(@class, "additional-slot") ][2]//button'
+    CURRENT_DEC = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][1]//div[ contains(@class, "inner-container") ]//div[ contains(@class, "additional-slot") ][1]//button'
+    START_DEC = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][2]//div[ contains(@class, "inner-container") ]//div[ contains(@class, "additional-slot") ][1]//button'
+    START_INC = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][2]//div[ contains(@class, "inner-container") ]//div[ contains(@class, "additional-slot") ][2]//button'
+    END_DEC = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][3]//div[ contains(@class, "inner-container") ]//div[ contains(@class, "additional-slot") ][1]//button'
+    END_INC = '//div[ contains(@class, "timeline-view-inputs") ]//div[ contains(@class, "app-input-container") ][3]//div[ contains(@class, "inner-container") ]//div[ contains(@class, "additional-slot") ][2]//button'
