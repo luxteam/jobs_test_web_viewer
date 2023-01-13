@@ -172,17 +172,13 @@ class ViewportSteps:
     def search_scene_element(driver, text):
         search = utils.find_by_xpath(ViewportLocators.SCENE_SEARCH, driver)
         search.click()
-        sleep(2)
         search.send_keys(text)
-        sleep(1)
 
     def clear_field(driver):
         utils.find_by_xpath("//div[ contains(@class, 'pl-2') ]//button", driver).click()
-        sleep(3)
 
     def click_parent_tree(driver):
-        utils.find_by_class("scene-index-prim-button-expand-container", driver, True)[0].click()
-        sleep(2)
+        utils.find_by_class("scene-index-prim-button-expand-container", driver).click()
 
     def click_scene(driver):
         utils.find_by_class("bg-yellow-700", driver, True)[0].click()
@@ -218,23 +214,17 @@ class ViewportSteps:
 
     def select_element(driver, element_name):
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
-        sleep(2)
         search = utils.find_by_xpath(LibraryLocators.SCENE_SEARCH, driver)
         search.click()
-        sleep(2)
         search.send_keys(element_name)
-        sleep(1)
-        utils.find_by_class("bg-yellow-700", driver, True)[0].click()
-        sleep(1)
+        utils.find_by_class("bg-yellow-700", driver).click()
         utils.find_by_xpath(LibraryLocators.SCENE_INDEX_TAB, driver).click()
-        sleep(1)
 
     def project_view(driver):
         utils.find_by_xpath(ViewportLocators.PROJECT_VIEW, driver).click()
 
     def test_share_button(driver):
         utils.find_by_xpath(ViewportLocators.HAS_MENU, driver, True)[1].click()
-        sleep(1)
         utils.find_by_xpath(ViewportLocators.REQUEST_LINK, driver).click()
         #pyautogui.click(970, 170)
 
@@ -306,7 +296,7 @@ class PropertiesSteps:
 
 
 class AnimationSteps:
-    def click_timeline_button(driver, button, delay=0):
+    def click_timeline_button(driver, button):
         if button == 'first_frame':
             utils.find_by_xpath(AnimationLocators.TIMELINE_BUTTON + '[1]', driver).click()
         elif button == 'play':
@@ -315,7 +305,6 @@ class AnimationSteps:
             utils.find_by_xpath(AnimationLocators.TIMELINE_BUTTON + '[3]', driver).click()
         elif button == 'focus':
             utils.find_by_xpath(AnimationLocators.FOCUS, driver).click()
-        sleep(delay)
         
     def set_frame(driver, field, value):
         if field == 'current':
@@ -324,7 +313,6 @@ class AnimationSteps:
             frame = utils.find_by_xpath(AnimationLocators.START_FRAME, driver)
         elif field == 'end':
             frame = utils.find_by_xpath(AnimationLocators.END_FRAME, driver)
-        sleep(0.5)
         action = ActionChains(driver)
         action.double_click(frame).perform()
         frame.send_keys(value)

@@ -22,105 +22,108 @@ def test_001(args, case, driver, current_try):
 
 
 def test_002(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'scene index')
-    assert utils.find_by_xpath(ViewportLocators.SCENE_INDEX_TEXT, driver, True) != [], "Opened \"Scene index\" tab not found"
+    ViewportSteps.click_tab(driver, 'scene index')
+    assert utils.find_by_xpath(ViewportLocators.SCENE_INDEX_TEXT, driver) != None, "Opened \"Scene index\" tab not found"
 
 
 def test_003(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'scene index')
-    ViewportSteps.click_tab(driver, 2, 'scene index')
-    assert utils.find_by_xpath(ViewportLocators.SCENE_INDEX_TEXT, driver, True, 2) == [], "Opened \"Scene index\" tab found"
+    ViewportSteps.click_tab(driver, 'scene index')
+    ViewportSteps.click_tab(driver, 'scene index')
+    sleep(1)
+    assert utils.find_by_xpath(ViewportLocators.SCENE_INDEX_TEXT, driver, wait=1) == None, "Opened \"Scene index\" tab found"
 
 
 def test_004(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'scene index')
+    ViewportSteps.click_tab(driver, 'scene index')
     ViewportSteps.search_scene_element(driver, "Refridgerator_1")
     assert utils.find_by_class("bg-yellow-700", driver, True) != [], "Object with corresponding name isn't highlighted in list"
 
 
 def test_005(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'scene index')
+    ViewportSteps.click_tab(driver, 'scene index')
     ViewportSteps.search_scene_element(driver, "abc")
     ViewportSteps.clear_field(driver)
-    assert utils.find_by_xpath(ViewportLocators.SCENE_SEARCH, driver).get_attribute('value') == "", "Search bar input isn't cleared"
+    assert utils.find_by_xpath(ViewportLocators.SCENE_SEARCH, driver).get_property('value') == "", "Search bar input isn't cleared"
 
 
 def test_006(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'scene index')
+    ViewportSteps.click_tab(driver, 'scene index')
     ViewportSteps.click_parent_tree(driver)
     assert utils.find_by_xpath(ViewportLocators.PARENT_TREE, driver).is_displayed() == True, "Parent tree is closed"
 
 
 def test_007(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'scene index')
+    ViewportSteps.click_tab(driver, 'scene index')
     ViewportSteps.click_parent_tree(driver)
     ViewportSteps.click_parent_tree(driver)
-    assert utils.find_by_xpath(ViewportLocators.PARENT_TREE, driver).is_displayed() == False, "Parent tree is opened"
+    assert utils.find_by_xpath(ViewportLocators.PARENT_TREE, driver, wait=1) == None, "Parent tree is opened"
 
 
 def test_008(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'scene index')
+    ViewportSteps.click_tab(driver, 'scene index')
     ViewportSteps.search_scene_element(driver, "Refridgerator_1")
     ViewportSteps.click_scene(driver)
-    sleep(8)
+    sleep(2)
 
 
 def test_009(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'scene index')
+    ViewportSteps.click_tab(driver, 'scene index')
     utils.find_by_xpath("//div[ contains(@class, 'scene-index-prim-append') ]//button[2]", driver).click()
-    sleep(8)
+    sleep(2)
 
 
 def test_010(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'scene index')
+    ViewportSteps.click_tab(driver, 'scene index')
     button = utils.find_by_xpath("//div[ contains(@class, 'scene-index-prim-append') ]//button[2]", driver)
-    sleep(1)
     button.click()
-    sleep(1)
+    sleep(0.1)
     button.click()
-    sleep(8)
+    sleep(2)
 
 
 def test_014(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'timeline')
+    ViewportSteps.click_tab(driver, 'timeline')
     assert utils.find_by_xpath(ViewportLocators.TIMELINE_VIEW, driver, True) != [], "Timeline bar is hidden"
 
 
 def test_015(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'timeline')
-    ViewportSteps.click_tab(driver, 2, 'timeline')
-    assert utils.find_by_xpath(ViewportLocators.TIMELINE_VIEW, driver, True, 2) == [], "Timeline bar is opened"
+    ViewportSteps.click_tab(driver, 'timeline')
+    ViewportSteps.click_tab(driver, 'timeline')
+    sleep(1)
+    assert utils.find_by_xpath(ViewportLocators.TIMELINE_VIEW, driver, True, wait=1) == [], "Timeline bar is opened"
 
 
 def test_016(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'comments')
+    ViewportSteps.click_tab(driver, 'comments')
     assert utils.find_by_xpath(ViewportLocators.COMMENT, driver, True) != [], "Comments bar is hidden"
 
 
 def test_017(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'comments')
-    ViewportSteps.click_tab(driver, 2, 'comments')
+    ViewportSteps.click_tab(driver, 'comments')
+    ViewportSteps.click_tab(driver, 'comments')
+    sleep(1)
     assert utils.find_by_xpath(ViewportLocators.COMMENT, driver, True) == [], "Comments bar is opened"
 
 
 def test_018(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'settings')
+    ViewportSteps.click_tab(driver, 'settings')
     assert utils.find_by_xpath(ViewportLocators.SETTINGS_TEXT, driver, True) != [], "Settings window is hidden"
 
 
 def test_019(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'menu')
+    ViewportSteps.click_tab(driver, 'menu')
     assert utils.find_by_xpath(ViewportLocators.MENU_ITEM, driver, True) != [], "Scene menu is closed"
 
 
 def test_020(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'menu')
-    ViewportSteps.click_tab(driver, 2, 'menu')
-    assert utils.find_by_xpath(ViewportLocators.MENU_ITEM, driver).is_displayed() == False, "Scene menu is opened"
+    ViewportSteps.click_tab(driver, 'menu')
+    ViewportSteps.click_tab(driver, 'menu')
+    sleep(1)
+    assert utils.find_by_xpath(ViewportLocators.MENU_ITEM, driver) == None, "Scene menu is opened"
 
 
 def test_027(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'menu')
+    ViewportSteps.click_tab(driver, 'menu')
     utils.find_by_xpath(ViewportLocators.VERSIONS_MENU, driver).click()
     versions_window = utils.find_by_xpath(ViewportLocators.VERSIONS_WINDOW, driver)
 
@@ -131,8 +134,8 @@ def test_027(args, case, driver, current_try):
 
     sleep(1)
 
-    actual_service_names = versions_window.find_elements(By.XPATH, ViewportLocators.VERSION_SERVICE_NAMES)
-    actual_service_rows = versions_window.find_elements(By.XPATH, ViewportLocators.VERSION_ROWS)
+    actual_service_names = utils.find_by_xpath(ViewportLocators.VERSION_SERVICE_NAMES, driver, many=True)
+    actual_service_rows = utils.find_by_xpath(ViewportLocators.VERSION_ROWS, driver, many=True)
 
     for a in actual_service_rows:
         utils.case_logger.info("\"" + a.text + "\"")
@@ -159,22 +162,21 @@ def test_027(args, case, driver, current_try):
 
 
 def test_028(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'scene index')
+    ViewportSteps.click_tab(driver, 'scene index')
     ViewportSteps.search_scene_element(driver, "CupCRed_1")
     ViewportSteps.click_scene(driver)
-    sleep(8)
+    sleep(2)
 
 
 def test_029(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'menu')
+    ViewportSteps.click_tab(driver, 'menu')
     CommonSteps.select_menu_item(driver, 'Home')
     ViewportSteps.project_view(driver)
-    sleep(2)
     assert CommonSteps.element_exists(driver, ViewportLocators.DROP_FILE)
 
 
 def test_030(args, case, driver, current_try):
-    ViewportSteps.click_tab(driver, 2, 'menu')
+    ViewportSteps.click_tab(driver, 'menu')
     CommonSteps.select_menu_item(driver, 'Home')
     ViewportSteps.project_view(driver)
     case["scene_path"] = "Sphere\\SphereRS.usda"

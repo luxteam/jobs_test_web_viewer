@@ -76,16 +76,16 @@ def test_011(args, case, driver, current_try):
     LibrarySteps.click_library_tab(driver, 2)
     search = utils.find_by_xpath(LibraryLocators.SEARCH_MATERIAL, driver)
     search.click()
-    sleep(2)
     search.send_keys(Keys.CONTROL + "a")
     search.send_keys("Gold")
-    sleep(2)
+    sleep(1)
 
     # apply material
     pyautogui.moveTo(820, 760) # Gold material coordinates (second in list)
     pyautogui.dragTo(810, 420, 2, button='left') # Object coordinates
-    sleep(2)
+    sleep(0.5)
     LibrarySteps.click_library_tab(driver, 30)
+    sleep(2)
 
 def test_012(args, case, driver, current_try):
     rotate_scene(driver)
@@ -93,10 +93,10 @@ def test_012(args, case, driver, current_try):
     
     LibrarySteps.click_library_tab(driver, 2)
     utils.choose_material("Gold", driver)
-    sleep(30)
+    sleep(0.5)
 
     utils.choose_material("Aluminum", driver)
-    sleep(3)
+    sleep(0.5)
     LibrarySteps.click_library_tab(driver, 30)
 
 def test_013(args, case, driver, current_try):
@@ -107,7 +107,6 @@ def test_013(args, case, driver, current_try):
     PropertiesSteps.set(driver, "move", "X", "-1")
     PropertiesSteps.set(driver, "rotate", "Y", "-10")
     PropertiesSteps.set(driver, "scale", "Z", "0.5")
-    sleep(30)
 
 
 def rotate_scene(driver):
@@ -126,4 +125,3 @@ def rotate_scene(driver):
     for i in range(30):
         pyautogui.scroll(1000)
 
-    sleep(30)
